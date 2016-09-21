@@ -3,6 +3,7 @@
 
 \usepackage[stable]{footmisc}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \usepackage{txfonts}
 %\usepackage{hyperref}
 \usepackage{natbib}
@@ -13,21 +14,27 @@
 \newcommand{\ergA}{$\rm{erg\,cm^{-2}\,s^{-1}\,\AA^{-1}}$} 
 \newcommand{\erg}{$\rm{erg\,cm^{-2}\,s^{-1}}$} 
 \newcommand{\kms}{$\rm{km\,s^{-1}}\,$}
-\newcommand{\hb}{H$\beta$} 
-\newcommand{\ha}{H$\alpha$}
-\newcommand{\hg}{H$\gamma$} 
-\newcommand{\hi}{\mbox{H\,{\sc i}}} 
-\newcommand{\oi}{[\ion{O}{2}]} 
-\newcommand{\sii}{[\ion{S}{2}]} 
-\newcommand{\oii}{[\ion{O}{2}]} 
-\newcommand{\oiii}{[\ion{O}{3}]}
-\newcommand{\nii}{[\ion{N}{2}]} 
-\newcommand{\hii}{$\rm{H}_2$}
+
 \newcommand{\griz}{$g' r' i' z'$}
 \newcommand{\JHK}{$JHK_{\rm{s}}$}
 \newcommand{\gK}{$g' r' i' z' JHK_{\rm{s}}$}
 \newcommand{\Msun}{$M_\odot$}
-
+\newcommand{\lya}{Ly$\alpha$} 
+\newcommand{\lyb}{Ly$\beta$} 
+\newcommand{\hb}{H$\beta$} 
+\newcommand{\ha}{H$\alpha$} 
+\newcommand{\oi}{[\ion{O}{1}]} 
+\newcommand{\sii}{[\ion{S}{2}]} 
+\newcommand{\oii}{[\ion{O}{2}]$\lambda$3727} 
+\newcommand{\oiii}{[\ion{O}{3}]$\lambda$5007}
+\newcommand{\nii}{[\ion{N}{2}]} 
+\newcommand{\feii}{\ion{Fe}{2}} 
+\newcommand{\civ}{\ion{C}{4}} 
+\newcommand{\cii}{\ion{C}{2}}
+\newcommand{\mgii}{\ion{Mg}{2}} 
+\newcommand{\hi}{\ion{H}{1}} 
+\newcommand{\ali}{\ion{Al}{1}} 
+\newcommand{\SIii}{\ion{Si}{2}} 
 \begin{document}
 	
 	\title{\vspace{-0.5cm}The X-shooter GTO sample of GRB afterglow and host Galaxy spectra}
@@ -38,6 +45,7 @@
 		J.~Selsing\altaffilmark{1}, 
 		D.~Malesani\altaffilmark{1}, 
 		P.~Goldoni\altaffilmark{14}, 
+		T.~Kr\"{u}hler\altaffilmark{1}, 
 		J.~P.~U. Fynbo\altaffilmark{1}, 
 		A.~de~Ugarte~Postigo\altaffilmark{11}, 
 		J.~Japelj\altaffilmark{20},
@@ -49,7 +57,6 @@
 		O.~E.~Hartoog\altaffilmark{6},
 		J.~Hjorth\altaffilmark{1}, 
 		P.~Jakobsson\altaffilmark{5}, 
-		T.~Kr\"{u}hler\altaffilmark{1}, 
 		A.~Levan,
 		A.~Melandri,
 		S.~Piranomonte \altaffilmark{7},
@@ -230,47 +237,73 @@
 		\tablenotetext{5}{ADC malfunction during observation}
 		\tablenotetext{6}{Short burst}
 		\tablerefs{
-			(1) \citet{Antonio090313}; (2) This work ; (3) Skuladottir (2010);
-			(4) \citet{Valerio090926A}; (5) \citet{Klaas091018}; (6) \citet{Vergani091127,Cobb091127}; 
-			(7) \citet{christina100219A}; (8) \citet{Buffano} ; (9) de Ugarte Postigo et al. ;
-			(10) \citet{Haartog100901A}; (11) \citet{Sparre101219B}; (12) \citet{Sparre111008A};
-			(13) \citet{Levanultralong}; (14) D'Elia et al., submitted; (15) \citet{SchulzeSNGRB};
-			(16) \citet{Kruehler120815A}; (17} \citet{friis121024A}
+			(1) \citet{DeUgartePostigo2010}; (2) This work ; (3) Skuladottir (2010);
+			(4) \citet{DElia2010}; (5) \citet{Wiersema2012}; (6) \citet{Vergani2011, Cobb2010}; 
+			(7) \citet{Thone2013}; (8) \citet{Bufano2011} ; (9) \citet{DeUgartePostigo2011} ;
+			(10) \citet{Hartoog2013}; (11) \citet{Sparre2011}; (12) \citet{Sparre2014};
+			(13) \citet{Levan2014}; (14) \citet{DElia2014}; (15) \citet{Schulze2014};
+			(16) \citet{Kruhler2013}; (17} \citet{Friis2015}
 	\end{deluxetable*}
 	%-------------------------END TABLE---------------------------------------
 	
 	\section{Results}
 	
 	\subsection{Spectral resolution}
-	The afterglow spectra described in this paper are obtained in Target-of-Opportunity (override) mode.
-	In most cases there is therefore little possibility to tweak slit widths to the seeing at the time of observations
-	(i.e. to optimise spectral resolution and signal to noise), and almost all our data is therefore taken with a fixed
-	set of slit widths and binning, described above. In a fair number of cases, the seeing full width at half maximum (FWHM) 
-	is considerably smaller than the silt width, and the delivered spectral resolution will then be determined by the seeing rather 
-	than slit width, as afterglows are point sources (this is evidently not the case for extended sources, e.g for host galaxies).
-	The delivered resolution for slit width dominated spectra post-reduction and extraction can easily be determined 
-	from the bright sky emission lines. For afterglow spectra with very high signal to noise, the delivered spectral resolution 
-	can at times be determined from the science data themselves. However, in the presence of multiple velocity components in 
-	absorption, other forms of line broadening, and a lack of lines at some redshifts, this is difficult to do at poorer signal to noise ratios
-	(the majority of spectra in our sample). A broad starting value for the expect resolution will help fitting of these spectra, and can be important
-	in upper limit determination, and for this reason we construct a aim to construct a crude relation between the seeing and the delivered
-	resolution at our slit width, binning, and reduction pipeline settings.  
-	To this end we use observations of telluric standard stars that are taken with identical instrument settings as our afterglow spectra, usually just after 
-	the science data, as part of the ESO X-shooter calibration plan. These spectra have been reduced together with the afterglow spectra, using identical
-	pipeline settings with the same version of the pipeline.
-	First we fit a Gaussian function in the spatial direction of the trace of the standard star at 792 nm (i.e. in the VIS arm). 
-	After this, we fit a series of  20 telluric absorption lines in the telluric standard star spectra with Gaussians, taking care to select transitions 
-	that are not almost-resolved multiples, should be intrinsically unresolved, and are in areas with well defined continuum flux.  We pick 34 
-	telluric standard stars spanning a range of DIMM seeing values, with the majority between $0.5-1.5 arcsec$. The resulting distribution of 
-	spectral FWHM (km/s) as a function of spatial FWHM at 792 nm is fairly well described by a linear relation $a + b*x$, with $x$ the spatial FWHM in pixels (with
-	0.15 arc sec per pixel),  $a= 21.4 \pm 1.3$ km/s, $b=1.4 \pm 0.2$. We use this linear relation as a 
-	way to estimate the spectral resolution for medium to poor signal to noise afterglow spectra in the VIS arm. To extend this to the UVB and NIR arm, we measured
-	a series of lines in NIR arm spectra of a subset of 19 sources used for the VIS arm above, and find that the resulting distribution is consistent with 
-	a simple scaling of the VIS arm relation by the ratio of resolutions of the NIR and VIS arm for unresolved, slit filling, sources as given on the ESO instrument website.
-	The UVB arm contains no suitable absorption lines to use, and we therefore use a scaled value as in the NIR arm.
-	While this simple method is not terribly accurate (for one, the spatial profile of the trace is not a perfect Gaussian), but it gives a sufficiently accurate estimate for the analysis of these poor signal to noise science spectra. 
+	The afterglow spectra described in this paper are obtained in
+	Target-of-Opportunity (override) mode.
+	In most cases there is therefore little possibility to tweak slit widths to the
+	seeing at the time of observations (i.e. to optimise spectral resolution and
+	signal to noise), and almost all our data is therefore taken with a fixed set
+	of slit widths and binning, described above.
+	In a fair number of cases, the seeing full width at half maximum (FWHM) is
+	considerably smaller than the silt width, and the delivered spectral resolution
+	will then be determined by the seeing rather than slit width, as afterglows are
+	point sources (this is evidently not the case for extended sources, e.g for
+	host galaxies).
+	The delivered resolution for slit width dominated spectra post-reduction and
+	extraction can easily be determined from the bright sky emission lines.
+	For afterglow spectra with very high signal to noise, the delivered spectral
+	resolution can at times be determined from the science data themselves.
+	However, in the presence of multiple velocity components in absorption, other
+	forms of line broadening, and a lack of lines at some redshifts, this is
+	difficult to do at poorer signal to noise ratios (the majority of spectra in
+	our sample).
+	A broad starting value for the expect resolution will help fitting of these
+	spectra, and can be important in upper limit determination, and for this reason
+	we construct a aim to construct a crude relation between the seeing and the
+	delivered resolution at our slit width, binning, and reduction pipeline
+	settings.
+	To this end we use observations of telluric standard stars that are taken with
+	identical instrument settings as our afterglow spectra, usually just after the
+	science data, as part of the ESO X-shooter calibration plan.
+	These spectra have been reduced together with the afterglow spectra, using
+	identical pipeline settings with the same version of the pipeline.
+	First we fit a Gaussian function in the spatial direction of the trace of the
+	standard star at 792 nm (i.e. in the VIS arm).
+	After this, we fit a series of  20 telluric absorption lines in the telluric
+	standard star spectra with Gaussians, taking care to select transitions that
+	are not almost-resolved multiples, should be intrinsically unresolved, and are
+	in areas with well defined continuum flux.
+	We pick 34 telluric standard stars spanning a range of DIMM seeing values, with
+	the majority between $0.5-1.5 arcsec$.
+	The resulting distribution of spectral FWHM (km/s) as a function of spatial
+	FWHM at 792 nm is fairly well described by a linear relation $a + b*x$, with
+	$x$ the spatial FWHM in pixels (with 0.15 arc sec per pixel),  $a= 21.4 \pm
+	1.3$ km/s, $b=1.4 \pm 0.2$.
+	We use this linear relation as a way to estimate the spectral resolution for
+	medium to poor signal to noise afterglow spectra in the VIS arm.
+	To extend this to the UVB and NIR arm, we measured a series of lines in NIR arm
+	spectra of a subset of 19 sources used for the VIS arm above, and find that the
+	resulting distribution is consistent with a simple scaling of the VIS arm
+	relation by the ratio of resolutions of the NIR and VIS arm for unresolved,
+	slit filling, sources as given on the ESO instrument website.
+	The UVB arm contains no suitable absorption lines to use, and we therefore use
+	a scaled value as in the NIR arm.
+	While this simple method is not terribly accurate (for one, the spatial profile
+	of the trace is not a perfect Gaussian), but it gives a sufficiently accurate
+	estimate for the analysis of these poor signal to noise science spectra.
 	
-	
+
 %	\begin{figure}
 %		%\vspace{11pc}   
 %		%\includegraphics[width=10cm]{060218/6273fig1.ps}
@@ -347,7 +380,15 @@
 	
 	\subsection{GRB090313}
 	
-	
+	\subsection{GRB120327A (z = 2.813)}
+	The data presented here also formed the basis of GCN \#
+	13134\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/13134.gcn3}} and is published
+	in \citet{DElia2014}.
+	Consisting of two observations, 2.13 hrs and 29.98 hrs after the burst,
+	continuum is visible in all arms for both.
+	Absorption features from Ly-limit, \lya, \cii/\cii$^*$, \SIii/\SIii$^*$, \ali,
+	\feii ~and \mgii ~are detected at a consistent redshift, $z = 2.813$.
+
 	
 \end{document}
 
