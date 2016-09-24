@@ -97,3 +97,15 @@ ENV/
 *.bbl
 
 *.aux
+
+*.gz
+
+*.aux
+
+*.bbl
+
+*.blg
+
+*.out
+
+*.gz
