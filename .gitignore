@@ -92,20 +92,11 @@ ENV/
 
 *.out
 
-*.blg
-
-*.bbl
-
 *.aux
 
-*.gz
-
-*.aux
-
-*.bbl
+*.bib
 
 *.blg
 
 *.out
 
-*.gz
