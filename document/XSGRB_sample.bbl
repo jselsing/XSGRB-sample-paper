@@ -66,6 +66,19 @@ Friis, M., {De Cia}, A., Kr??hler, T., {et~al.} 2015, Mon. Not. R. Astron.
 Hartoog, O.~E., Wiersema, K., Vreeswijk, P.~M., {et~al.} 2013, Mon. Not. R.
   Astron. Soc., 430, 2739
 
+\bibitem[{Hartoog {et~al.}(2015)Hartoog, Malesani, Fynbo, Goto, Kr{\"{u}}hler,
+  Vreeswijk, {De Cia}, Xu, M{\o}ller, Covino, D'Elia, Flores, Goldoni, Hjorth,
+  Jakobsson, Krogager, Kaper, Ledoux, Levan, Milvang-Jensen, Sollerman, Sparre,
+  Tagliaferri, Tanvir, {de Ugarte Postigo}, Vergani, Wiersema, Datson, Salinas,
+  Mikkelsen, \& Aghanim}]{Hartoog2015}
+Hartoog, O.~E., Malesani, D., Fynbo, J. P.~U., {et~al.} 2015, Astron.
+  Astrophys., 580, A139
+
+\bibitem[{Jones {et~al.}(2013)Jones, Noll, Kausch, Szyszka, \&
+  Kimeswenger}]{Jones2013}
+Jones, A., Noll, S., Kausch, W., Szyszka, C., \& Kimeswenger, S. 2013, Astron.
+  Astrophys., 560, A91
+
 \bibitem[{Kr{\"{u}}hler {et~al.}(2013)Kr{\"{u}}hler, Ledoux, Fynbo, Vreeswijk,
   Schmidl, Malesani, Christensen, {De Cia}, Hjorth, Jakobsson, Kann, Kaper,
   Vergani, Afonso, Covino, {de Ugarte Postigo}, D'Elia, Filgas, Goldoni,
@@ -74,6 +87,16 @@ Hartoog, O.~E., Wiersema, K., Vreeswijk, P.~M., {et~al.} 2013, Mon. Not. R.
   Wiersema, Wijers, \& Xu}]{Kruhler2013}
 Kr{\"{u}}hler, T., Ledoux, C., Fynbo, J. P.~U., {et~al.} 2013, Astron.
   Astrophys., 557, A18
+
+\bibitem[{Kr{\"{u}}hler {et~al.}(2015)Kr{\"{u}}hler, Malesani, Fynbo, Hartoog,
+  Hjorth, Jakobsson, Perley, Rossi, Schady, Schulze, Tanvir, Vergani, Wiersema,
+  Afonso, Bolmer, Cano, Covino, D'Elia, {de Ugarte Postigo}, Filgas, Friis,
+  Graham, Greiner, Goldoni, Gomboc, Hammer, Japelj, Kann, Kaper, Klose, Levan,
+  Leloudas, Milvang-Jensen, {Nicuesa Guelbenzu}, Palazzi, Pian, Piranomonte,
+  S{\'{a}}nchez-Ram{\'{i}}rez, Savaglio, Selsing, Tagliaferri, Vreeswijk,
+  Watson, \& Xu}]{Kruhler2015}
+Kr{\"{u}}hler, T., Malesani, D., Fynbo, J. P.~U., {et~al.} 2015, Astron.
+  Astrophys., 581, A125
 
 \bibitem[{Levan {et~al.}(2014)Levan, Tanvir, Starling, Wiersema, Page, Perley,
   Schulze, Wynn, Chornock, Hjorth, Cenko, Fruchter, O'Brien, Brown,
@@ -84,6 +107,10 @@ Kr{\"{u}}hler, T., Ledoux, C., Fynbo, J. P.~U., {et~al.} 2013, Astron.
   Zauderer}]{Levan2014}
 Levan, A.~J., Tanvir, N.~R., Starling, R. L.~C., {et~al.} 2014, Astrophys. J.,
   781, 13
+
+\bibitem[{Noll {et~al.}(2012)Noll, Kausch, Barden, Jones, Szyszka, Kimeswenger,
+  \& Vinther}]{Noll2012}
+Noll, S., Kausch, W., Barden, M., {et~al.} 2012, Astron. Astrophys., 543, A92
 
 \bibitem[{Schulze {et~al.}(2014)Schulze, Malesani, Cucchiara, Tanvir,
   Kr{\"{u}}hler, Postigo, \& Leloudas}]{Schulze2014}
