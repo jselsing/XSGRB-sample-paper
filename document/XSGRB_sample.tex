@@ -413,6 +413,14 @@
 	
 	\section{Reduction scheme}
 
+
+	In cases where multiple traces are visible in the slit, additional components
+	for the profile are used in the optimal extraction. The additional components
+	share the PSF parameters and in cases where the additional component is an
+	extended object, the fits have been inspected to ensure that the additional
+	component does now skew the fit towards a broader PSF. The additional
+	components are not used for the weights.
+
 	Additionally, the wavelength solution for all bursts have been re-calibrated. Using a synthetic sky spectrum \citep{Noll2012, Jones2013}, a first refinement of the wavelength solution have been obtained by cross-correlating with the observed sky. 
 	
 	
@@ -477,14 +485,12 @@
 	estimate for the analysis of these poor signal to noise science spectra.
 	
 
-%	\begin{figure}
-%		%\vspace{11pc}   
-%		%\includegraphics[width=10cm]{060218/6273fig1.ps}
-%		\centerline{\includegraphics[width=8cm]{Resolution/resolution_paper.eps}}
-%		\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric absorption lines in the VIS spectra, as a function of the FWHM of a Gaussian fit onto the trace in spatial direction at  792 nm. The lower horizontal axis is in units pixels, the top axis in arc seconds. The red datapoints show a subsample of NIR spectra.
-%			The grey line shows a linear fit to the VIS datapoints. }
-%		\label{fig:res}
-%	\end{figure}
+	\begin{figure}
+		\centerline{\includegraphics[width=8cm]{figures/resolution_paper.eps}}
+		\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric absorption lines in the VIS spectra, as a function of the FWHM of a Gaussian fit onto the trace in spatial direction at  792 nm. The lower horizontal axis is in units pixels, the top axis in arc seconds. The red datapoints show a subsample of NIR spectra.
+			The grey line shows a linear fit to the VIS datapoints. }
+		\label{fig:res}
+	\end{figure}
 	
 	\subsection{Correction for offsets in the wavelength calibration}    
 	
@@ -710,14 +716,14 @@
 	coverage of X-shooter.  Subsequent observations taken 16 and 37 days after the
 	trigger shows the fading spectral signature of a SN, SN2010ma.
 
-	\subsection{GRB120118B (z =	2.943)}
+	\subsection{GRB120118B (z = 2.943)}
 	The data presented here also formed the basis of GCN \#
 	14225\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/14225.gcn3}}, but is not
 	published otherwise. This late-time observation of the host of GRB120118B
 	consists of 3.6 ks exposures and contains emission lines belonging to \oii and
 	\oiii at $z =	2.943$, suggested to be redshift of the host.
 
-	\subsection{GRB120119A (z =	1.728)}
+	\subsection{GRB120119A (z = 1.728)}
 	The data presented here has not been published before. Three epochs of
 	observations have been obtained, the first two immediately after the burst, and
 	the last one long after the afterglow had faded. Starting 1.4 hours after the
@@ -729,13 +735,36 @@
 	GRB in which emission lines from \hb~and \ha~are found at the redshift of the
 	host, confirming the association of the absorption line system and the host.
 	
-	\subsection{GRB120211A (z =	2.346)}
+	\subsection{GRB120211A (z = 2.346)}
 	The data presented here has been published in \citet{Kruhler2015}. Two
 	observations of the host of GRB120211A has been obtained, starting 2013.02.17,
 	$> 1 year$ after the burst has faded. A redshift for this object has been
 	reported by \citet{Kruhler2015} and the features seen by those authors are
 	reproduced in these reductions, confirming $z =	2.346$.
-	
+
+	\subsection{GRB120224A (z = 1.10 NEW!!!)}
+	The data presented here has formed the basis of GCN \#
+	12991\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/12991.gcn3}}, and has also
+	been published in \citet{Kruhler2015}. Starting 19.8 hours after the GRB
+	trigger, a total exposure time of 2.4 ks reveals a faint continuum, starting at
+	$\sim$ 7000 \AA~and extending all the way through 25000 \AA. We detect a $\sim
+	2 \sigma$ emission line which, if interpreted as \ha, gives $z = 1.10$,
+	supporting the redshift reported by \citet{Kruhler2015}.
+
+	\subsection{GRB120311 (z = 0.350 NEW!!!)}
+	The data presented here has formed the basis of GCN \#
+	12991\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/12991.gcn3}}, but is not
+	published otherwise. Starting just before twilight, 3.65 hours after the burst,
+	a faint afterglow continuum is detected at all wavelengths. Due to the
+	faintness of the afterglow, no absorption features are discernible superposed
+	on the continuum. Displaced from the afterglow continuum by 1\farc4, emission
+	lines belonging to \hb, \oiii~and \ha~are detected at $z = 0.350$. The line
+	belonging to \ha~shows some extended emission toward the afterglow continuum.
+	The angular distance between the two sources correspond to a projected distance
+	in the host plane of 6 kpc, posing a potential problem for the host redshift,
+	unless the GRB ocurred in a merging system. The extended emission in \ha,
+	supports this interpretation. This burst is not apart of the statistical sample.
+
 	\subsection{GRB120327A (z = 2.813)}
 	The data presented here also formed the basis of GCN \#
 	13134\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/13134.gcn3}} and is published
@@ -744,6 +773,20 @@
 	both visits. We detect absorption features from Ly-limit, \lya, \cii/\cii$^*$,
 	\SIii/\SIii$^*$, \ali, \feii ~and \mgii ~are detected at a consistent redshift,
 	$z = 2.813$.
+
+	\subsection{GRB120404A (z = 2.876)}
+	The data presented here has formed the basis of GCN \#
+	13227\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/13227.gcn3}}, but is not published otherwise. 9.6 ks integration, starting 15.7 hours after the \textit{Swift}-trigger reveals a low-intensity afterglow continuum on which absorption from \lya is detected in two distinct regions at redshifts $z=2.876$ and $z=.255$. These absorption systems are confirmed by ionic absorption features at both of these redshifts. 
+	
+	
+	\subsection{GRB120422A (z = 0.283)}
+	The data presented here also formed the basis of GCN \#
+	13257\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/13257.gcn3}} and is published in \citet{Schulze2014}. A GRB-SN, this burst has been followed up multiple times. The data presented here only contain the first epoch in which the afterglow is still visible and before the rise of SN2012bz. Starting 16.5 hours after the burst, 4.8 ks integration time captures both the host and the burst in emission. A blue afterglow continuum is detected at all wavelengths covered by X-shooter, on which \mgii absorption at $z = 0.283$ is found. Offset by 1\farc75, the host is clearly detected at a consistent redshift with a rich emission line spectrum, the lines extending towards to burst.  
+
+	\subsection{GRB120712A (z = 4.175)}
+	The data presented here also formed the basis of GCN \#
+	13460\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/13460.gcn3}} and is not
+	published elsewhere. 4.8 ks integration time, starting 10.5 hours after the BAT trigger, shows a bright afterglow continuum starting at $\sim$ 4720 \AA, signifying the onset of the Lyman alpha forest, for a GRB located at $z = 4.175$. Absorption features from \lya, \feii, \mgii~and \SIii~are readily detected at a consistent redshift. 
 
     \subsection{GRB130408A (z = 3.758)}
 	The data presented here also formed the basis of GCN \#
