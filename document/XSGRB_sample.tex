@@ -63,8 +63,8 @@
 	\author{
 		J.~Selsing\altaffilmark{1}, 
 		D.~Malesani\altaffilmark{1}, 
-		P.~Goldoni\altaffilmark{14}, 
 		T.~Kr\"{u}hler\altaffilmark{1}, 
+		P.~Goldoni\altaffilmark{14}, 
 		J.~P.~U. Fynbo\altaffilmark{1}, 
 		A.~de~Ugarte~Postigo\altaffilmark{11}, 
 		J.~Japelj\altaffilmark{20},
@@ -409,11 +409,14 @@
 
 	A significant fraction of the bursts presented here \todo[inline]{Insert exact number} have already had their hosts investigated in \citet{Kruhler2015}, for which extractions of the hosts exist. The focus of the data presented here are on the afterglows themselves and in the absence of a clear afterglow, the host. We will not, however, investigate the hosts. 
 
+
+	We simultaneously want to minimize any biases against astrophysical conditions while at the same time maximizing likelihood of observations. By restricting the selection criteria to conditions local to Galaxy.
+
 	\cleardoublepage
 
 	
 	\section{Observations}
-
+	
 
 	
 	\subsection{RRM observations} \label{RRM}
@@ -434,9 +437,8 @@
 	
 	Both a multiplicative and an additive offset has been tested, but in terms of $\chi^2$, the model with only a multiplicative offset is preferred. 
 	
-	
-	\section{Results}
-	\input{tables/burst_overview.tex}	
+
+
 	\subsection{Spectral resolution}
 	The afterglow spectra described in this paper are obtained in
 	Target-of-Opportunity (override) mode.
@@ -492,7 +494,7 @@
 	of the trace is not a perfect Gaussian), but it gives a sufficiently accurate
 	estimate for the analysis of these poor signal to noise science spectra.
 	
-
+	
 	\begin{figure}
 		\centerline{\includegraphics[width=8cm]{figures/resolution_paper.eps}}
 		\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric absorption lines in the VIS spectra, as a function of the FWHM of a Gaussian fit onto the trace in spatial direction at  792 nm. The lower horizontal axis is in units pixels, the top axis in arc seconds. The red datapoints show a subsample of NIR spectra.
@@ -523,11 +525,57 @@
 	expected positions under IDL using the MPFIT software (Markwardt, 2009, Astronomical Society of the Pacific Conference Series, Vol. 411, ADASS XVII, ed. D.A. Bohlender, D. Durand, \& P. Dowler, 251) and we compared the result to the tabulated values.
 	The resulting offsets, which were smaller than 0.1 \AA~in the UVB and VIS data
 	and smaller than 0.5 \AA~in the NIR spectra, were applied to the corresponding spectra.
+
+	
+	\section{Results}
+	\input{tables/burst_overview.tex}	
+	
+	\subsection{Complete sample}	
+	
+	
+	\subsection{Follow-up timing and afterglow brightness}
+	This sections should contain a plot og the follow-up delay and the acquisition image brightness at the time of observations. 
+	
+	\subsection{Properties of rejected triggers}
+	How many bursts have been excluded due to particularities in the follow-up attempt. Visitor, Weather, technical issues.  	
+	
+	\subsection{On the nature of triggered GRBs without detected optical afterglow.}
+	This should include observations where the acquisition image has been taken, but observations were discontinued due to non-detection. What are the X-ray properties of these bursts?
+	
 	
 	\subsection{Redshifts}
-%	\subsection{Notes on Individual objects}
+	
+	\subsubsection{Afterglow-based redshifts}
+	
+	\subsubsection{Emissionline-based redshifts}	
+	Redshift completeness
+	
+	\subsection{Hydrogen column densities}
+	
+	\subsubsection{Comparison to X-ray determined columns}	
+
 	
 	\section{Discussion}
+	
+	\subsection{Comparison to previous samples.}	
+	This should also include a discussion of dark bursts. 
+	Cuchiara. BAT6 (Salvaterra), TOUGH
+	
+		
+	\subsection{Comparison to previous samples.}		
+	
+	
+	\subsection{X-ray column densities vs. optically derived ones}	
+		
+	\subsection{Why is the HI column truncated?}
+	
+	What is the expected transmission for a high-column HI, where the hydrogen primarily will be in the form of H2? 
+	
+	
+	
+	
+	\section{Conclusion}
+	
 	
 	\begin{acknowledgements}
 		JPUF, BMJ and DX acknowledge support from the ERC-StG grant EGGS-278202.  The
