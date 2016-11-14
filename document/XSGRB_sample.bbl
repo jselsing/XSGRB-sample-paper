@@ -1,6 +1,10 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{Buchner {et~al.}(2016)Buchner, Schulze, \& Bauer}]{Buchner2016}
+Buchner, J., Schulze, S., \& Bauer, F.~E. 2016, Mon. Not. R. Astron. Soc.,
+  stw2423
+
 \bibitem[{Bufano {et~al.}(2012)Bufano, Pian, Sollerman, Benetti, Pignata,
   Valenti, Covino, D'Avanzo, Malesani, Cappellaro, {Della Valle}, Fynbo,
   Hjorth, Mazzali, Reichart, Starling, Turatto, Vergani, Wiersema, Amati,
@@ -52,6 +56,11 @@ D'Elia, V., Fynbo, J. P.~U., Goldoni, P., {et~al.} 2014, Astron. Astrophys.,
   Kelson, Birk, Murphy, Servillat, \& Anglada}]{Fong2013}
 Fong, W., Berger, E., Chornock, R., {et~al.} 2013, Astrophys. J., 769, 56
 
+\bibitem[{Freudling {et~al.}(2013)Freudling, Romaniello, Bramich, Ballester,
+  Forchi, Garc{\'{i}}a-Dabl{\'{o}}, Moehler, \& Neeser}]{Freudling2013}
+Freudling, W., Romaniello, M., Bramich, D.~M., {et~al.} 2013, Astron.
+  Astrophys., 559, A96
+
 \bibitem[{Friis {et~al.}(2015)Friis, {De Cia}, Kruhler, Fynbo, Ledoux,
   Vreeswijk, Watson, Malesani, Gorosabel, Starling, Jakobsson, Varela,
   Wiersema, Drachmann, Trotter, Thone, {de Ugarte Postigo}, D'Elia, Elliott,
@@ -59,6 +68,15 @@ Fong, W., Berger, E., Chornock, R., {et~al.} 2013, Astrophys. J., 769, 56
   Reichart, Schulze, Sudilovsky, Tanvir, \& Vergani}]{Friis2015}
 Friis, M., {De Cia}, A., Kruhler, T., {et~al.} 2015, Mon. Not. R. Astron. Soc.,
   451, 167
+
+\bibitem[{Fynbo {et~al.}(2009)Fynbo, Jakobsson, Prochaska, Malesani, Ledoux,
+  Postigo, Nardini, Vreeswijk, Wiersema, Hjorth, Sollerman, Chen, Thoene,
+  Bjoernsson, Bloom, Castro-Tirado, Christensen, {De Cia}, Fruchter, Gorosabel,
+  Graham, Jaunsen, Jensen, Kann, Kouveliotou, Levan, Maund, Masetti,
+  Milvang-Jensen, Palazzi, Perley, Pian, Rol, Schady, Starling, Tanvir, Watson,
+  Xu, Augusteijn, Grundahl, Telting, \& Quirion}]{Fynbo2009}
+Fynbo, J. P.~U., Jakobsson, P., Prochaska, J.~X., {et~al.} 2009, Astrophys. J.
+  Suppl. Ser., 185, 175
 
 \bibitem[{Fynbo {et~al.}(2014)Fynbo, Kr{\"{u}}hler, Leighly, Ledoux, Vreeswijk,
   Schulze, Noterdaeme, Watson, Wijers, Bolmer, Cano, Christensen, Covino, Elia,
@@ -68,6 +86,16 @@ Friis, M., {De Cia}, A., Kruhler, T., {et~al.} 2015, Mon. Not. R. Astron. Soc.,
   Zafar}]{Fynbo2014}
 Fynbo, J. P.~U., Kr{\"{u}}hler, T., Leighly, K., {et~al.} 2014, Astron.
   Astrophys., 12, 1
+
+\bibitem[{Goldoni {et~al.}(2006)Goldoni, Royer, Fran{\c{c}}ois, Horrobin,
+  Blanc, Vernet, Modigliani, \& Larsen}]{Goldoni2006}
+Goldoni, P., Royer, F., Fran{\c{c}}ois, P., {et~al.} 2006, Ground-based
+  Airborne Instrum. Astron. Ed. by McLean, 6269, 80
+
+\bibitem[{Hamuy {et~al.}(1994)Hamuy, Suntzeff, Heathcote, Walker, Gigoux, \&
+  Phillips}]{Hamuy1994}
+Hamuy, M., Suntzeff, N.~B., Heathcote, S.~R., {et~al.} 1994, Publ. Astron. Soc.
+  Pacific, 106, 566
 
 \bibitem[{Hartoog {et~al.}(2013)Hartoog, Wiersema, Vreeswijk, Kaper, Tanvir,
   Savaglio, Berger, Chornock, Covino, D'Elia, Flores, Fynbo, Goldoni, Gomboc,
@@ -117,6 +145,12 @@ Kr{\"{u}}hler, T., Malesani, D., Fynbo, J. P.~U., {et~al.} 2015, Astron.
 Levan, A.~J., Tanvir, N.~R., Starling, R. L.~C., {et~al.} 2014, Astrophys. J.,
   781, 13
 
+\bibitem[{Modigliani {et~al.}(2010)Modigliani, Goldoni, Royer, Haigron,
+  Guglielmi, Fran{\c{c}}ois, Horrobin, Bristow, Vernet, Moehler, Kerber,
+  Ballester, Mason, \& Christensen}]{Modigliani2010}
+Modigliani, A., Goldoni, P., Royer, F., {et~al.} 2010, SPIE Astron. Telesc. +
+  Instrum., 7737, 773728
+
 \bibitem[{Noll {et~al.}(2012)Noll, Kausch, Barden, Jones, Szyszka, Kimeswenger,
   \& Vinther}]{Noll2012}
 Noll, S., Kausch, W., Barden, M., {et~al.} 2012, Astron. Astrophys., 543, A92
@@ -158,6 +192,9 @@ Starling, R. L.~C., Wiersema, K., Levan, A.~J., {et~al.} 2011, Mon. Not. R.
 Thone, C.~C., Fynbo, J. P.~U., Goldoni, P., {et~al.} 2013, Mon. Not. R. Astron.
   Soc., 428, 3590
 
+\bibitem[{van Dokkum(2001)}]{VanDokkum2001}
+van Dokkum, P.~G. 2001, Publ. Astron. Soc. Pacific, 113, 1420
+
 \bibitem[{Vergani {et~al.}(2011)Vergani, Flores, Covino, Fugazza, Gorosabel,
   Levan, Puech, Salvaterra, Tello, {de Ugarte Postigo}, D'Avanzo, D'Elia,
   Fern{\'{a}}ndez, Fynbo, Ghirlanda, Jel{\'{i}}nek, Lundgren, Malesani,
@@ -167,6 +204,28 @@ Thone, C.~C., Fynbo, J. P.~U., Goldoni, P., {et~al.} 2013, Mon. Not. R. Astron.
   Wijers}]{Vergani2011}
 Vergani, S.~D., Flores, H., Covino, S., {et~al.} 2011, Astron. Astrophys., 535,
   A127
+
+\bibitem[{Vernet {et~al.}(2009)Vernet, Kerber, Mainieri, Rauch, Saitta,
+  D'Odorico, Bohlin, Ivanov, Lidman, Mason, Smette, Walsh, Fosbury, Goldoni,
+  Groot, Hammer, Kaper, Horrobin, Kjaergaard-Rasmussen, \& Royer}]{Vernet2010}
+Vernet, J., Kerber, F., Mainieri, V., {et~al.} 2009, Proc. Int. Astron. Union,
+  5, 535
+
+\bibitem[{Vernet {et~al.}(2011)Vernet, Dekker, D'Odorico, Kaper, Kjaergaard,
+  Hammer, Randich, Zerbi, Groot, Hjorth, Guinouard, Navarro, Adolfse, Albers,
+  Amans, Andersen, Andersen, Binetruy, Bristow, Castillo, Chemla, Christensen,
+  Conconi, Conzelmann, Dam, {De Caprio}, {De Ugarte Postigo}, Delabre, {Di
+  Marcantonio}, Downing, Elswijk, Finger, Fischer, Flores, Fran{\c{c}}ois,
+  Goldoni, Guglielmi, Haigron, Hanenburg, Hendriks, Horrobin, Horville, Jessen,
+  Kerber, Kern, Kiekebusch, Kleszcz, Klougart, Kragt, Larsen, Lizon, Lucuix,
+  Mainieri, Manuputy, Martayan, Mason, Mazzoleni, Michaelsen, Modigliani,
+  Moehler, M{\o}ller, {Norup S{\o}rensen}, N{\o}rregaard, P{\'{e}}roux, Patat,
+  Pena, Pragt, Reinero, Rigal, Riva, Roelfsema, Royer, Sacco, Santin,
+  Schoenmaker, Spano, Sweers, {Ter Horst}, Tintori, Tromp, van Dael, van~der
+  Vliet, Venema, Vidali, Vinther, Vola, Winters, Wistisen, Wulterkens, \&
+  Zacchei}]{Vernet2011}
+Vernet, J., Dekker, H., D'Odorico, S., {et~al.} 2011, Astron. Astrophys., 536,
+  A105
 
 \bibitem[{Wiersema {et~al.}(2012)Wiersema, Curran, Kr??hler, Melandri, Rol,
   Starling, Tanvir, van~der Horst, Covino, Fynbo, Goldoni, Gorosabel, Hjorth,
