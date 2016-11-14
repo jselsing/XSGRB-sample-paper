@@ -155,8 +155,9 @@ sample is still limited by low-number statistics.
 
 \keywords{Gamma-ray burst: individual: GRB~120815A --- galaxies: high-redshift --- ISM: molecules --- dust, extinction }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Only after observing more than 12000 damped Lyman-$\alpha$ absorbers (DLAs)
 towards about 10$^5$ QSOs have 5 systems with 
@@ -383,10 +384,14 @@ of short bursts is of key importance for the next generation of gravitational
 wave experiments, as they are the likely EM counterparts to their
 primary targets.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sample selection criteria and observations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sample selection criteria} \label{samplecrit}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Being of transient nature, it is difficult to impose strong sample selection
 criteria on GRBs, without hampering the follow-up effort. Many natural follow-up
 restrictions exists from already, being it weather conditions, pointing
@@ -422,14 +427,24 @@ We simultaneously want to minimize any biases against astrophysical conditions
 while at the same time maximizing likelihood of observations. By restricting
 the selection criteria to conditions local to Galaxy.
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Follow-up procedure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{RRM observations} \label{RRM}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The rapid-response mode is 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Observations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 All the observations in this sample has been carried out using the
 cross-dispersed echelle spectrograph, X-shooter \citep{Vernet2011}, mounted on
 two of the four Unit Telescopes at ESO/VLT, UT2 (Kueyen) and UT3 (Melipal)
@@ -485,9 +500,15 @@ slit width. We discuss this in Sect. \ref{resolution}.
 
 \todo{ADC discussion}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data processing}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In this section we describe how the final data products are produced. 
+In this section we describe how the final data products are produced and
+subsequently post-processed. All post-processing scripts developed for this
+dataset are made publicly available at
+\url{https://github.com/jselsing/XSGRB_reduction_scripts}, along with
+instructions of use.
 
 Before any reductions are done, the raw object images are run through the
 cosmic-ray removal algorithm \citep{VanDokkum2001} implementation,
@@ -517,14 +538,9 @@ resolution is a lower limit, by choosing a sampling of 0.2 \AA/pixel, we ensure
 that the bluest part of neither of the arms have a sampling lower than the
 Nyquist sampling rate of 2 pixels per resolution FWHM.
 
-
-
-
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Post-processing} \label{postproc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 For a typical observation, each of the exposures in the nodding sequence has
 been reduced as single observation and then subsequently combined to form a
@@ -547,53 +563,45 @@ two, subtracting the two from each other, keeping the WCS static. This amounts
 to the regular nodding reduction, only we can reject outliers and weight by the
 averaged inverse variance map.
 
+By STARE reducing all observations we additionally get a spectrum of the sky,
+which we can use to calibrate the wavelength solution in Sect. \ref{wavecal}.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Correction for offsets in the wavelength calibration}    \label{wavecal}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Additionally, the wavelength solution for all bursts have been re-calibrated. Using a synthetic sky spectrum \citep{Noll2012, Jones2013}, a first refinement of the wavelength solution have been obtained by cross-correlating with the observed sky. 
-Both a multiplicative and an additive offset has been tested, but in terms of $\chi^2$, the model with only a multiplicative offset is preferred. 
+X-shooter, being installed at the VLT Cassegrain focus is  prone to flexures
+during operations. The flexures modify the projection of the slit on the
+detector with respect to the one obtained in daytime calibration. This requires a
+modification of the wavelength solution in order to process correctly the
+night-time data. Part of this correction is performed by the pipeline using the
+frames taken during X-shooter Active Flexure Compensation procedure
+\footnote{X-shooter User Manual available at
+	https://www.eso.org/sci/facilities/paranal/instruments/xshooter/doc.html}.
 
+The remaining offset is corrected by cross-correlation with a synthetic sky
+spectrum \citep{Noll2012, Jones2013}. To get the correct seeing PSF with which
+to convolve the synthetic sky an initial refinement of the wavelength solution
+have been obtained by cross-correlating the observed sky with an unconvolved
+synthetic sky. This preliminary wavelength calibration is applied to the
+observed sky. The synthetic spectrum is then convolved with an increasing seeing
+PSF and the width that minimizes $\chi^2$ with the updated observed sky is
+chosen to be the effective sky-PSF. Using the synthetic sky with the matched
+resolution, a final wavelength calibration can then be calculated by
+cross-correlating the observed sky with the correctly broadened sky spectrum, as
+a function of a velocity offset. Both a multiplicative and an additive offset to
+the wavelength calibration has been tested, but in terms of $\chi^2$, the model
+with only a multiplicative offset is preferred.
 
-X-shooter, being installed at the VLT Cassegrain focus is  prone to
-flexures during operations. The flexures modify the projection of the slit
-on the detector with respect to the one obtained in daytime calibration. 
-This require a modification of the wavelength solution in order to
-process correctly the night-time data. Part of this correction
-is performed by the pipeline using the frames taken
-during X-shooter Active Flexure Compensation procedure
-\footnote{X-shooter User Manual available at https://www.eso.org/sci/facilities/paranal/instruments/xshooter/doc.html}
-We corrected the remaining part using as a reference the sky
-emission lines present in the observed data.
-
-
-
-
-For every afterglow observation we reduced one frame individually in STARE mode without
-sky subtraction obtaining $\sim$ 100 sky spectra. The sky line list compiled at ESO for
-the E-ELT
-study\footnote{http://www.eso.org/sci/facilities/eelt/science/drm/tech\_data/data/optical\_ir\_sky\_lines.dat}
-from the work of (Hanuschik, 2003, A\&A, 407, 1157) and (Rousselot et al. (2000, A\&A, 354, 1134), was used as a reference.
-From this list, we selected a subset of bright and isolated lines. In the case of the OH doublets, unresolved at X-shooter resolution, we took as line position the average between the blue and red components. To find the offsets of the spectra, we fitted gaussians near the
-expected positions under IDL using the MPFIT software (Markwardt, 2009, Astronomical Society of the Pacific Conference Series, Vol. 411, ADASS XVII, ed. D.A. Bohlender, D. Durand, \& P. Dowler, 251) and we compared the result to the tabulated values.
 The resulting offsets, which were smaller than 0.1 \AA~in the UVB and VIS data
-and smaller than 0.5 \AA~in the NIR spectra, were applied to the corresponding spectra.
+and smaller than 0.5 \AA~in the NIR spectra, but changing over short period of
+time were applied to the corresponding spectra.
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Spectral extraction}    \label{extract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -605,7 +613,10 @@ component does now skew the fit towards a broader PSF. The additional
 components are not used for the weights.
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Spectral resolution} \label{resolution}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 The afterglow spectra described in this paper are obtained in
 Target-of-Opportunity (override) mode.
 In most cases there is therefore little possibility to tweak slit widths to the
@@ -669,47 +680,74 @@ estimate for the analysis of these poor signal to noise science spectra.
 \end{figure}
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \input{tables/burst_overview.tex}	
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Complete sample}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Follow-up timing and afterglow brightness}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 This sections should contain a plot og the follow-up delay and the acquisition image brightness at the time of observations. 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Properties of rejected triggers} \label{badbursts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 How many bursts have been excluded due to particularities in the follow-up attempt. Visitor, Weather, technical issues.  	
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{On the nature of triggered GRBs without detected optical afterglow.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 This should include observations where the acquisition image has been taken, but observations were discontinued due to non-detection. What are the X-ray properties of these bursts?
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Redshifts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Afterglow-based redshifts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Emissionline-based redshifts}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Redshift completeness
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Hydrogen column densities}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison to previous samples.}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 This should also include a discussion of dark bursts. 
 Cuchiara. BAT6 (Salvaterra), TOUGH
 
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 \subsection{Comparison to previous samples.}		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{X-ray column densities vs. optically derived ones}	
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
 \begin{figure}
 	\centerline{\includegraphics[width=10cm]{figures/OAXR_NH_sphere.pdf}}
 	\caption{Optically derived HI column densities vs. X-ray derived ones taken from \citet{Buchner2016}. The colors of the points reflect the redshift of the burst. Circles mark the column densities published in \citet{Fynbo2009} and squares mark the ones derived as part of the sample presented here. Overplot in blue is the 1:1 correspondence, expected if the conditions local to the GRBs are similar to the local ISM abundances. If the metallicity is lower at the GRB site, the point move upwards in the plot. }
@@ -718,15 +756,19 @@ Cuchiara. BAT6 (Salvaterra), TOUGH
 	
 	
 	
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Why is the HI column truncated?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 What is the expected transmission for a high-column HI, where the hydrogen primarily will be in the form of H2? Number of bursts with detected H2 and their HI column density. Rahmati Schaye, Krongold Prochaska. 
 
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 
 \begin{acknowledgements}
