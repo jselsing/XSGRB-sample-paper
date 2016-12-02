@@ -1,14 +1,42 @@
-\documentclass[iop, twocolappendix, numberedappendix, tighten, appendixfloats]{emulateapj}
-\citestyle{apj}
+%                                                                 aa.dem
+% AA vers. 8.2, LaTeX class for Astronomy & Astrophysics
+% demonstration file
+%                                                       (c) EDP Sciences
+%-----------------------------------------------------------------------
+%
+%\documentclass[referee]{aa} % for a referee version
+%\documentclass[onecolumn]{aa} % for a paper on 1 column  
+%\documentclass[longauth]{aa} % for the long lists of affiliations 
+%\documentclass[rnote]{aa} % for the research notes
+%\documentclass[letter]{aa} % for the letters 
+%\documentclass[bibyear]{aa} % if the references are not structured 
+% according to the author-year natbib style
 
-\usepackage[stable]{footmisc}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{txfonts}
-%\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{aa}    %% Astronomy & Astrophysics style class aa.cls v8.2
+%\documentclass[referee]{aa} 
+
+\usepackage{graphicx,url,twoopt,natbib}
+\usepackage[varg]{txfonts}           %% A&A font choice
+
+\usepackage{pdfcomment}              %% for popup acronym meanings
+\usepackage{acronym}                 %% for popup acronym meanings
+
+
+
+\usepackage{url}
+\usepackage{color,hyperref}
+\definecolor{linkcolor}{rgb}{0,0,0.7}
+\hypersetup{colorlinks=true,
+	linkcolor=linkcolor, 
+	citecolor=linkcolor,
+	filecolor=linkcolor, 
+	urlcolor=linkcolor}
+
 \usepackage{natbib}
-\bibpunct[, ]{(}{)}{;}{a}{}{,}
-%\bibliographystyle{./bibtex/apj}
+
+\bibliographystyle{aa}
+\bibpunct{(}{)}{;}{a}{}{,}    %% natbib cite format used by A&A and ApJ
 
 
 \newcommand{\farc}{\hbox{$.\!\!^{\prime\prime}$}} 
@@ -62,82 +90,93 @@
 \begin{document}
 	
 \title{\vspace{-0.5cm}The X-shooter GTO sample of GRB afterglow and host Galaxy spectra}
-\altaffiltext{$^{\dag}$}{Based on observations collected at the European Southern Observatory, Paranal, 
-	Chile, Program ID: 084.A-0260, 085.A-009, 086.A-0073, 087.A-0055.}
+\thanks{Based on observations collected at the European Southern Observatory, Paranal, 
+	Chile, Program ID: 098.A-0055, 097.A-0036, 096.A-0079, 095.B-0811(B), 
+	095.A-0045, 094.A-0134, 093.A-0069, 092.A-0124, 0091.C-0934, 090.A-0088,
+	089.A-0067, 088.A-0051, 087.A-0055, 086.A-0073, 085.A-0009 and 084.A-0260}
+
+\titlerunning{XSGRB sample}
+
+
 
 \author{
-	J.~Selsing\altaffilmark{1}, 
-	D.~Malesani\altaffilmark{1}, 
-	T.~Kr\"{u}hler\altaffilmark{1}, 
-	P.~Goldoni\altaffilmark{14}, 
-	J.~P.~U. Fynbo\altaffilmark{1}, 
-	A.~de~Ugarte~Postigo\altaffilmark{11}, 
-	J.~Japelj\altaffilmark{20},
+	J.~Selsing\inst{1}, 
+	D.~Malesani\inst{1}, 
+	T.~Kr\"{u}hler\inst{1}, 
+	P.~Goldoni\inst{14}, 
+	J.~P.~U. Fynbo\inst{1}, 
+	A.~de~Ugarte~Postigo\inst{11}, 
+	J.~Japelj\inst{20},
 	P.~D'Avanzo,
 	Z.~Cano,
-	S.~Covino\altaffilmark{10}, 
-	V.~D'Elia\altaffilmark{7, 12}, 
+	S.~Covino\inst{10}, 
+	V.~D'Elia\inst{7, 12}, 
 	H.~Flores,
-	O.~E.~Hartoog\altaffilmark{6},
-	J.~Hjorth\altaffilmark{1}, 
-	P.~Jakobsson\altaffilmark{5}, 
+	O.~E.~Hartoog\inst{6},
+	J.~Hjorth\inst{1}, 
+	P.~Jakobsson\inst{5}, 
 	A.~Levan,
 	A.~Melandri,
-	S.~Piranomonte \altaffilmark{7},
-	R.~S\'anchez-Ram\'irez\altaffilmark{11},
-	S.~Schulze\altaffilmark{17, 18}, 
-	N.~R.~Tanvir\altaffilmark{19},
+	S.~Piranomonte \inst{7},
+	R.~S\'anchez-Ram\'irez\inst{11},
+	S.~Schulze\inst{17, 18}, 
+	N.~R.~Tanvir\inst{19},
 	C.~Th{\"o}ne,
-	S.~D.~Vergani\altaffilmark{7, 8},
-	P.~M.~Vreeswijk\altaffilmark{3}, 
-	D.~J.~Watson\altaffilmark{1},
-	K.~Wiersema\altaffilmark{19},
-	D.~Xu\altaffilmark{1}
-	L.~Christensen\altaffilmark{1},
-	A.~De~Cia\altaffilmark{3}, 
-	L.~Kaper\altaffilmark{6}, 
+	S.~D.~Vergani\inst{7, 8},
+	P.~M.~Vreeswijk\inst{3}, 
+	D.~J.~Watson\inst{1},
+	K.~Wiersema\inst{19},
+	D.~Xu\inst{1}
+	L.~Christensen\inst{1},
+	A.~De~Cia\inst{3}, 
+	L.~Kaper\inst{6}, 
 	L.~A.~Antonelli,
 	F.~Fiore,
 	A.~Gomboc,
 	P.~Groot,
 	F.~Hammer,
-	C.~Ledoux\altaffilmark{2}, 
+	C.~Ledoux\inst{2}, 
 	E.~Maiorano,
-	B.~Milvang-Jensen\altaffilmark{1}, 
+	B.~Milvang-Jensen\inst{1}, 
 	E.~Palazzi,
 	E.~Pian,
 	J.~Schaye,
-	G.~Tagliaferri\altaffilmark{7},
-	R.~A.~M.~J.~Wijers\altaffilmark{6}
+	G.~Tagliaferri\inst{7},
+	R.~A.~M.~J.~Wijers\inst{6}
 }
 
-\altaffiltext{1}{Dark Cosmology Centre, Niels Bohr Institute, University of Copenhagen, Juliane Maries Vej 30, 2100 K\o benhavn \O, Denmark}
-\altaffiltext{2}{European Southern Observatory, Alonso de C\'{o}rdova 3107, Vitacura, Casilla 19001, Santiago 19, Chile}
-\altaffiltext{3}{Department of Particle Physics and Astrophysics, Faculty of Physics, Weizmann Institute of Science, Rehovot 76100, Israel}
-\altaffiltext{4}{Th\"uringer Landessternwarte Tautenburg, Sternwarte 5, 07778 Tautenburg, Germany}
-\altaffiltext{5}{Centre for Astrophysics and Cosmology, Science Institute, University of Iceland, Dunhagi 5, IS-107 Reykjavik, Iceland}
-\altaffiltext{6}{Astronomical Institute Anton Pannekoek, University of Amsterdam, Science Park 904, NL-1098 XH Amsterdam, the Netherlands}
-\altaffiltext{7}{INAF-Osservatorio Astronomico di Roma, Via Frascati 33, I-00040 Monteporzio Catone, Italy}
-\altaffiltext{8}{GEPI-Observatoire de Paris, CNRS UMR 8111, Univ. Paris-Diderot, 5 Place Jules Janssen - 92190 Meudon, France}
-\altaffiltext{9}{American River College, Physics and Astronomy Dpt., 4700 College Oak Drive, Sacramento, CA 95841, USA}
-\altaffiltext{10}{INAF, Osservatorio Astronomico di Brera, Via E. Bianchi 46, I-23807 Merate, Italy}
-\altaffiltext{11}{Instituto de Astrof\'{\i}sica de Andaluc\'{\i}a (IAA-CSIC), Glorieta de la Astronom\'{\i}a s/n, 18008, Granada, Spain}
-\altaffiltext{12}{ASI-Science Data Centre, Via Galileo Galilei, I-00044 Frascati, Italy}
-\altaffiltext{13}{Institute of Experimental and Applied Physics, Czech Technical University in Prague, Horska 3a/22, 128 00 Prague 2, Czech Republic}
-\altaffiltext{14}{APC, Astroparticules et Cosmologie, Universite Paris Diderot, CNRS/
-	IN2P3, CEA/Irfu, Observatoire de Paris, Sorbonne Paris Cite, 10, Rue Alice Domon et L
-	eonie Duquet, 75205 Paris Cedex 13, France}
-\altaffiltext{15}{Max-Planck-Institut f\"{u}r extraterrestrische Physik, Giessenbachs
-	tra\ss e, 85748 Garching, Germany}
-\altaffiltext{16}{Universit\`a degli studi di Milano-Bicocca, Piazza della Scienza 3,
-	20126, Milano, Italy}
-\altaffiltext{17}{Pontificia Universidad Cat\'{o}lica de Chile, Departamento de Astro
-	nom\'{\i}a y Astrof\'{\i}sica, Casilla 306, Santiago 22, Chile}
-\altaffiltext{18}{Millennium Center for Supernova Science}
-\altaffiltext{19}{Department of Physics and Astronomy, University ofLeicester, University Road, Leicester, LE1 7RH, UK}
-\altaffiltext{20}{University of Ljubljana,Department of Physics,Faculty of Mathematics \& Physics,SI}\
+\authorrunning{Selsing et al.}
 
-\begin{abstract}
+\institute{Dark Cosmology Centre, Niels Bohr Institute, University of Copenhagen, Juliane Maries Vej 30, 2100 K\o benhavn \O, Denmark
+\and European Southern Observatory, Alonso de C\'{o}rdova 3107, Vitacura, Casilla 19001, Santiago 19, Chile
+\and Department of Particle Physics and Astrophysics, Faculty of Physics, Weizmann Institute of Science, Rehovot 76100, Israel
+\and Th\"uringer Landessternwarte Tautenburg, Sternwarte 5, 07778 Tautenburg, Germany
+\and Centre for Astrophysics and Cosmology, Science Institute, University of Iceland, Dunhagi 5, IS-107 Reykjavik, Iceland
+\and Astronomical Institute Anton Pannekoek, University of Amsterdam, Science Park 904, NL-1098 XH Amsterdam, the Netherlands
+\and INAF-Osservatorio Astronomico di Roma, Via Frascati 33, I-00040 Monteporzio Catone, Italy
+\and GEPI-Observatoire de Paris, CNRS UMR 8111, Univ. Paris-Diderot, 5 Place Jules Janssen - 92190 Meudon, France
+\and American River College, Physics and Astronomy Dpt., 4700 College Oak Drive, Sacramento, CA 95841, USA
+\and INAF, Osservatorio Astronomico di Brera, Via E. Bianchi 46, I-23807 Merate, Italy
+\and Instituto de Astrof\'{\i}sica de Andaluc\'{\i}a (IAA-CSIC), Glorieta de la Astronom\'{\i}a s/n, 18008, Granada, Spain
+\and ASI-Science Data Centre, Via Galileo Galilei, I-00044 Frascati, Italy
+\and Institute of Experimental and Applied Physics, Czech Technical University in Prague, Horska 3a/22, 128 00 Prague 2, Czech Republic
+\and APC, Astroparticules et Cosmologie, Universite Paris Diderot, CNRS/
+	IN2P3, CEA/Irfu, Observatoire de Paris, Sorbonne Paris Cite, 10, Rue Alice Domon et L
+	eonie Duquet, 75205 Paris Cedex 13, France
+\and Max-Planck-Institut f\"{u}r extraterrestrische Physik, Giessenbachs
+	tra\ss e, 85748 Garching, Germany
+\and Universit\`a degli studi di Milano-Bicocca, Piazza della Scienza 3,
+	20126, Milano, Italy
+\and Pontificia Universidad Cat\'{o}lica de Chile, Departamento de Astro
+	nom\'{\i}a y Astrof\'{\i}sica, Casilla 306, Santiago 22, Chile
+\and Millennium Center for Supernova Science
+\and Department of Physics and Astronomy, University ofLeicester, University Road, Leicester, LE1 7RH, UK
+\and University of Ljubljana,Department of Physics,Faculty of Mathematics \& Physics,SI}
+
+\date{Received/ accepted}
+
+
+\abstract{
 The {\it Swift} satellite allows us to use gamma-ray bursts (GRBs) to peer into 
 the hearts of star forming galaxies through cosmic time. Our open
 collaboration, representing most of the active ESO member researchers in this
@@ -151,12 +190,15 @@ the redshift range 1.7--5.9) and 4 secure detections of H$_2$ or CH molecular
 absorption. Such information is extremely difficult to obtain by other means.
 In terms of studying the spread and redshift evolution in gas-phase properties, the
 sample is still limited by low-number statistics. 
-\end{abstract}
+}
 
 \keywords{Gamma-ray burst: individual: GRB~120815A --- galaxies: high-redshift --- ISM: molecules --- dust, extinction }
 
-\section{Introduction}
+\maketitle
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Only after observing more than 12000 damped Lyman-$\alpha$ absorbers (DLAs)
 towards about 10$^5$ QSOs have 5 systems with 
@@ -383,10 +425,14 @@ of short bursts is of key importance for the next generation of gravitational
 wave experiments, as they are the likely EM counterparts to their
 primary targets.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sample selection criteria and observations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sample selection criteria} \label{samplecrit}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Being of transient nature, it is difficult to impose strong sample selection
 criteria on GRBs, without hampering the follow-up effort. Many natural follow-up
 restrictions exists from already, being it weather conditions, pointing
@@ -406,7 +452,7 @@ defining the sample.}
 	\item GRB triggered onboard by Swift.
 	\item Galactic $A_V \lesssim 0.5$ mag.
 	\item XRT started observing within 10 minutes since the GRB; an XRT position must be distributed within 12 hr.
-	\item The target must be visible for at least 60 min at least 30° above horizon, with the Sun below -12°.
+	\item The target must be visible for at least 60 minutes at least 30 degrees above the horizon, with the Sun below -12.
 	\item No bright closeby stars.
 	
 \end{enumerate}
@@ -422,14 +468,24 @@ We simultaneously want to minimize any biases against astrophysical conditions
 while at the same time maximizing likelihood of observations. By restricting
 the selection criteria to conditions local to Galaxy.
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Follow-up procedure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{RRM observations} \label{RRM}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The rapid-response mode is 
 
 
-\subsection{Observations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Observations} \label{obs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 All the observations in this sample has been carried out using the
 cross-dispersed echelle spectrograph, X-shooter \citep{Vernet2011}, mounted on
 two of the four Unit Telescopes at ESO/VLT, UT2 (Kueyen) and UT3 (Melipal)
@@ -485,9 +541,15 @@ slit width. We discuss this in Sect. \ref{resolution}.
 
 \todo{ADC discussion}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data processing}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In this section we describe how the final data products are produced. 
+In this section we describe how the final data products are produced and
+subsequently post-processed. All post-processing scripts developed for this
+dataset are made publicly available at
+\url{https://github.com/jselsing/XSGRB_reduction_scripts}, along with
+instructions of use.
 
 Before any reductions are done, the raw object images are run through the
 cosmic-ray removal algorithm \citep{VanDokkum2001} implementation,
@@ -517,14 +579,9 @@ resolution is a lower limit, by choosing a sampling of 0.2 \AA/pixel, we ensure
 that the bluest part of neither of the arms have a sampling lower than the
 Nyquist sampling rate of 2 pixels per resolution FWHM.
 
-
-
-
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Post-processing} \label{postproc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 For a typical observation, each of the exposures in the nodding sequence has
 been reduced as single observation and then subsequently combined to form a
@@ -547,65 +604,151 @@ two, subtracting the two from each other, keeping the WCS static. This amounts
 to the regular nodding reduction, only we can reject outliers and weight by the
 averaged inverse variance map.
 
+By STARE reducing all observations we additionally get a spectrum of the sky,
+which we can use to calibrate the wavelength solution in Sect. \ref{wavecal}.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Correction for offsets in the wavelength calibration}    \label{wavecal}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Additionally, the wavelength solution for all bursts have been re-calibrated. Using a synthetic sky spectrum \citep{Noll2012, Jones2013}, a first refinement of the wavelength solution have been obtained by cross-correlating with the observed sky. 
-Both a multiplicative and an additive offset has been tested, but in terms of $\chi^2$, the model with only a multiplicative offset is preferred. 
+X-shooter, being installed at the VLT Cassegrain focus is  prone to flexures
+during operations. The flexures modify the projection of the slit on the
+detector with respect to the one obtained in daytime calibration. This requires a
+modification of the wavelength solution in order to process correctly the
+night-time data. Part of this correction is performed by the pipeline using the
+frames taken during X-shooter Active Flexure Compensation procedure
+\footnote{X-shooter User Manual available at
+	https://www.eso.org/sci/facilities/paranal/instruments/xshooter/doc.html}.
 
+The remaining offset is corrected by cross-correlation with a synthetic sky
+spectrum \citep{Noll2012, Jones2013} after the continuum, estimated as the mode
+of all flux values, has been subtrated. To get the correct seeing PSF with which
+to convolve the synthetic sky an initial refinement of the wavelength solution
+have been obtained by cross-correlating the observed sky with an unconvolved
+synthetic sky. This preliminary wavelength calibration is applied to the
+observed sky. The synthetic spectrum is then convolved with an increasing seeing
+PSF and the width that minimizes $\chi^2$ with the updated observed sky is
+chosen to be the effective sky-PSF. Using the synthetic sky with the matched
+resolution, a final wavelength calibration can then be calculated by
+cross-correlating the observed sky with the correctly broadened sky spectrum, as
+a function of a velocity offset. Both a multiplicative and an additive offset to
+the wavelength calibration has been tested, but in terms of $\chi^2$, the model
+with only a multiplicative offset is preferred.
 
-X-shooter, being installed at the VLT Cassegrain focus is  prone to
-flexures during operations. The flexures modify the projection of the slit
-on the detector with respect to the one obtained in daytime calibration. 
-This require a modification of the wavelength solution in order to
-process correctly the night-time data. Part of this correction
-is performed by the pipeline using the frames taken
-during X-shooter Active Flexure Compensation procedure
-\footnote{X-shooter User Manual available at https://www.eso.org/sci/facilities/paranal/instruments/xshooter/doc.html}
-We corrected the remaining part using as a reference the sky
-emission lines present in the observed data.
-
-
-
-
-For every afterglow observation we reduced one frame individually in STARE mode without
-sky subtraction obtaining $\sim$ 100 sky spectra. The sky line list compiled at ESO for
-the E-ELT
-study\footnote{http://www.eso.org/sci/facilities/eelt/science/drm/tech\_data/data/optical\_ir\_sky\_lines.dat}
-from the work of (Hanuschik, 2003, A\&A, 407, 1157) and (Rousselot et al. (2000, A\&A, 354, 1134), was used as a reference.
-From this list, we selected a subset of bright and isolated lines. In the case of the OH doublets, unresolved at X-shooter resolution, we took as line position the average between the blue and red components. To find the offsets of the spectra, we fitted gaussians near the
-expected positions under IDL using the MPFIT software (Markwardt, 2009, Astronomical Society of the Pacific Conference Series, Vol. 411, ADASS XVII, ed. D.A. Bohlender, D. Durand, \& P. Dowler, 251) and we compared the result to the tabulated values.
 The resulting offsets, which were smaller than 0.1 \AA~in the UVB and VIS data
-and smaller than 0.5 \AA~in the NIR spectra, were applied to the corresponding spectra.
+and smaller than 0.5 \AA~in the NIR spectra, but changing over short period of
+time were applied to the corresponding spectra.
 
+Using the convolved synthetic sky, the $\gtrsim 3 \sigma$ sky brightness pixels
+have been added to the bad pixel map to avoid the cores of the brightest
+sky-lines.
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Spectral extraction}    \label{extract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+To extract the afterglow spectrum from the rectified 2D-image, several
+techniques have been employed based on the brightness of the afterglow and the
+complexity of the objects entering the slit. Due to the malfunctioning ADC, see
+Sect. \ref{obs}, the spectral trace moves across the slit as a function of
+wavelength for a large fraction of the bursts observed meaning that using a
+single aperture for the spectral extraction is inadequate due to the large
+amount of background that would then enter the slit. To optimally select the
+extraction regions we therefore need to model the trace position.
 
+To get the shape and the position of the spectral PSF as a function of location
+on the image, we need to chose a model which can represent how the light falls
+on the slit. We know from \citet{Trujillo2001} that the Moffat function
+\citep{Moffat1969} adequately describes an imaging PSF due to atmospheric
+turbulence, but due to the aberrations in the dispersion elements and the
+rectification process, the PSF we are trying to model different from this
+profile. To allow for flexibility in the model, we have chosen the Voigt
+function as a model for the spectral PSF and we describe how this is evaluated
+in App. \ref{voigt}. Since additionally, the host galaxy could also have a
+contribution the image profile, this choice allows for the required freedom if
+additional flux is in the wings of the profile.
+
+To guide the guess position of the trace on the slit as a function of
+wavelength, we have used the analytic prescription for the trace position
+described in \citet{Filippenko1982}, where the header keywords of the
+observations have been queried for the ambient conditions which controls the
+degree to which the trace moves.
+
+Based on the signal-to-noise of the afterglow continuum, the 2D-image has been
+binned down in the spectral direction to a number of elements that allows for an
+accurate tracing of the PSF, typically 200 bins for moderate signal-to-noise.
+For each of the bins and using the guess position, the spectral PSF has been fit
+using the unweighted chi-squared minimization algorithm implemented in
+\texttt{scipy.optimize.curve\_fit} \citep{scipy}. Since we know that the trace
+varies slowly as a function of wavelength, we have then fitted a low-order
+polynomial to the fit parameters as a function of wavelength, which allows us to
+evaluate the spectral PSF at all wavelengths and this way accurately model the
+entire spectral PSF.
+
+Equipped with a model for how the light falls on the entire image, we can then
+employ the optimal extraction algorithm \cite{Horne1986}, which weights the
+extraction aperture by the spectral profile, or alternatively sum all pixels
+within 1 FWHM of the modeled profile. Where possible, we have used the optimal
+extraction. In cases where the trace is very weak, even in the binned images, an
+aperture has been selected manually which covers emission lines, if present, and
+when nothing is immediately visible, the entire nodding window. The error- and
+bad pixel maps are in all cases propagated throughout the extraction.
 
 In cases where multiple traces are visible in the slit, additional components
 for the profile are used in the optimal extraction. The additional components
-share the PSF parameters and in cases where the additional component is an
+do not share the PSF parameters and in cases where the additional component is an
 extended object, the fits have been inspected to ensure that the additional
-component does now skew the fit towards a broader PSF. The additional
+component does now skew the fit towards a different PSF. The additional
 components are not used for the weights.
 
+The spectra are corrected for galactic extinction using the E(B-V) value from
+the dust maps of \citet{Schlegel1998} with the update in
+\citet{Schlafly2011}\footnote{Queried from
+	http://irsa.ipac.caltech.edu/applications/DUST/index.html using
+	\citet{astroquery}}, and the extinction curve by \cite{Cardelli1989} with a
+total to selective extinction $R_V = 3.1$. The wavelengths of the extracted
+1D-spectra are moved to vacuum, moved to the barycentric frame, and the
+wavelength recalibration described in Sect. \ref{wavecal} is applied. Pixels
+with pixel-to-pixel variation large than $50 \sigma$ are added to the bad pixel
+map.
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Telluric correction} \label{tell_corr}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+For all earth-based telescopes the light of interest has to pass through Earths
+atmosphere, where the atmospheric content and conditions make an imprint on the
+received spectrum. These telluric features can be calculated in a multitude of
+ways and we employ a prioritized list of methods here, depending on the
+availability of the different method. Since the observation are often taken at
+odd times under varying conditions, this prioritized list ensures that we are
+always doing the optimal correction.
+
+The highest priority method is using the GRB afterglow continuum itself, where
+the atmospheric conditions have directly been imprinted on the spectrum. The
+telluric features can directly be fit with an atmospheric model
+\citep{Smette2015, Kausch2015}, which can then be to correct for the absorption.
+The requirement here is that the afterglow continuum spectrum has a
+signal-to-noise higher than a value of 10.
+
+If the afterglow is not sufficiently bright, telluric standard stars observed
+close in the time to the GRB can be used as a proxy for the atmospheric
+condition during the GRB observation. Here we employ the telluric correction
+method that has been developed in \citet{Selsing2015}, where a library of
+synthetic templates is fit to the observed telluric standard.
+
+In the last case, where the object is neither bright enough, or there for some
+reason have not been observed a telluric standard, we rely on the synthetic sky
+model by \citep{Noll2012, Jones2013} for which we generate a synthetic
+transmission spectrum, which we then use, where the ambient parameters for the
+observations have been used.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Spectral resolution} \label{resolution}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 The afterglow spectra described in this paper are obtained in
 Target-of-Opportunity (override) mode.
 In most cases there is therefore little possibility to tweak slit widths to the
@@ -669,47 +812,74 @@ estimate for the analysis of these poor signal to noise science spectra.
 \end{figure}
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
-\input{tables/burst_overview.tex}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%\input{tables/burst_overview.tex}	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Complete sample}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Follow-up timing and afterglow brightness}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 This sections should contain a plot og the follow-up delay and the acquisition image brightness at the time of observations. 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Properties of rejected triggers} \label{badbursts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 How many bursts have been excluded due to particularities in the follow-up attempt. Visitor, Weather, technical issues.  	
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{On the nature of triggered GRBs without detected optical afterglow.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 This should include observations where the acquisition image has been taken, but observations were discontinued due to non-detection. What are the X-ray properties of these bursts?
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Redshifts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Afterglow-based redshifts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Emissionline-based redshifts}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Redshift completeness
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Hydrogen column densities}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison to previous samples.}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 This should also include a discussion of dark bursts. 
 Cuchiara. BAT6 (Salvaterra), TOUGH
 
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 \subsection{Comparison to previous samples.}		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{X-ray column densities vs. optically derived ones}	
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
 \begin{figure}
 	\centerline{\includegraphics[width=10cm]{figures/OAXR_NH_sphere.pdf}}
 	\caption{Optically derived HI column densities vs. X-ray derived ones taken from \citet{Buchner2016}. The colors of the points reflect the redshift of the burst. Circles mark the column densities published in \citet{Fynbo2009} and squares mark the ones derived as part of the sample presented here. Overplot in blue is the 1:1 correspondence, expected if the conditions local to the GRBs are similar to the local ISM abundances. If the metallicity is lower at the GRB site, the point move upwards in the plot. }
@@ -718,16 +888,17 @@ Cuchiara. BAT6 (Salvaterra), TOUGH
 	
 	
 	
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Why is the HI column truncated?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 What is the expected transmission for a high-column HI, where the hydrogen primarily will be in the form of H2? Number of bursts with detected H2 and their HI column density. Rahmati Schaye, Krongold Prochaska. 
 
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{acknowledgements}
 	JPUF, BMJ and DX acknowledge support from the ERC-StG grant EGGS-278202.  The
@@ -739,30 +910,56 @@ What is the expected transmission for a high-column HI, where the hydrogen prima
 	{\it Swift} Science Data Centre at the University of Leicester.  Finally, we
 	acknowledge expert support from the ESO staff at the Paranal and La Silla
 	observatories in obtaining these target of opportunity data.
-	
+
 \end{acknowledgements}
 
-\def\aj{AJ}
-\def\araa{ARA\&A}
-\def\apj{ApJ}
-\def\apjl{ApJL}
-\def\apjs{ApJS}
-\def\apss{Ap\&SS}
-\def\aap{A\&A}
-\def\aapr{A\&A~Rev.}
-\def\aaps{A\&AS}
-\def\mnras{MNRAS}
-\def\nat{Nature}
-\def\pasp{PASP}
-\def\aplett{Astrophys.~Lett.}
-
-\bibliographystyle{apj}
 \bibliography{XSGRB_sample}
-%\bibliography{thebib}
-
 
 \newpage
 \appendix
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{The complex error function and the Voigt profile} \label{voigt}
+When modeling the spectral PSF, we need to evaluate the Voigt-profile. The Voigt profile, which is the convolution of the Gaussian and Lorentzian profiles, can, centered at zero, be written as \citep{pagnini2010} 
+\begin{equation} 
+\begin{split}
+V(\lambda,\sigma, \gamma)  
+& = G(\lambda, \sigma)  \otimes L(\lambda, \gamma) \\
+& = \int_{-\infty}^{\infty} G(\xi, \sigma) L(\lambda - \xi, \gamma) d\xi \\
+& = \int_{-\infty}^{\infty} \frac{1}{\sqrt{2 \pi} \sigma} e^{- \left( \frac{\xi}{\sqrt{2} \sigma}  \right)^2 } \frac{1}{\gamma \pi} \frac{\gamma^2}{(\lambda - \xi)^2 + \gamma^2} d\xi \\
+& = \frac{\gamma}{\sqrt{2} \sigma} \frac{1}{ \pi^{3/2}}   \int_{-\infty}^{\infty} \frac{e^{- \left( \frac{\xi}{\sqrt{2} \sigma}  \right)^2 }}{(\lambda - \xi)^2 + \gamma^2}.
+\end{split}
+\end{equation}
+We can by making the following substitution, $\xi = \sqrt{2} \sigma$ and $d\xi = \sqrt{2} \sigma dt$, write it as
+\begin{equation} 
+\begin{split}
+V(\lambda,\sigma, \gamma)  
+& =  \frac{\sqrt{2} \sigma}{ \sqrt{{\pi}}} \frac{\frac{\gamma}{\sqrt{2} \sigma}}{\pi}  \int_{-\infty}^{\infty} \frac{e^{- t^2 }}{(\lambda - \sqrt{2} \sigma t)^2 + \gamma^2} dt \\
+& = \frac{1}{\sqrt{2 \pi} \sigma}  \frac{\frac{\gamma}{\sqrt{2} \sigma}}{\pi}  \int_{-\infty}^{\infty} \frac{e^{- t^2 }}{\left(\frac{\lambda}{\sqrt{2} \sigma} -  t\right)^2 + \left(\frac{\gamma}{\sqrt{2} \sigma}\right)^2} dt.	
+\end{split}
+\end{equation}
+This form of the convolution is closely related to the complex probability function \citep{letchworth2007, abrarov2015a},
+\begin{equation} 
+\begin{split}
+W(z)  
+& = \frac{i}{\pi} \int_{-\infty}^{\infty} \frac{e^{-t^2}}{z - t}  
+\end{split}
+\end{equation}
+for any complex argument, $z = x + iy$. The complex probability function can be expressed as a sum of a real an imaginary part \citep{benner1995, abrarov2015b},
+\begin{equation} 
+\begin{split}
+W(x, y)  
+& = K(x, y) + i L(x, y) \\
+& = \frac{y}{\pi}  \int_{-\infty}^{\infty} \frac{e^{- t^2 }}{(x -  t)^2 +y^2} dt  + \frac{i}{\pi}  \int_{-\infty}^{\infty} \frac{(x - t)e^{- t^2 }}{(x -  t)^2 +y^2} dt,
+\end{split}
+\end{equation}
+where is the real part, $\mathtt{Re}[W(x, y)] =  \sqrt{2 \pi} \sigma V(\lambda,\sigma, \gamma)$ if $x = \frac{\lambda}{\sqrt{2} \sigma}$ and $y = \frac{\gamma}{\sqrt{2} \sigma}$, which can be obtained by using the complex argument, $z = \frac{\lambda + i\gamma}{\sqrt{2} \sigma}$, in the complex probability function. If $\mathtt{Im}[z] \geq 0$, which is always guaranteed for the width of a spectral profile, the complex probability function equals the complex error function. The complex error function has numerous, fast, numerical approximations where in this work we use the \texttt{scipy.special.wofz} \citep{scipy} implementation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 \section{Notes on Individual objects}
 
