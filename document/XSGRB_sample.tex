@@ -22,8 +22,6 @@
 \usepackage{pdfcomment}              %% for popup acronym meanings
 \usepackage{acronym}                 %% for popup acronym meanings
 
-
-
 \usepackage{url}
 \usepackage{color,hyperref}
 \definecolor{linkcolor}{rgb}{0,0,0.7}
@@ -35,52 +33,11 @@
 
 \usepackage{natbib}
 
-\bibliographystyle{aa}
+\bibliographystyle{mnras}
 \bibpunct{(}{)}{;}{a}{}{,}    %% natbib cite format used by A&A and ApJ
 
-
-\newcommand{\farc}{\hbox{$.\!\!^{\prime\prime}$}} 
-\newcommand{\ergA}{$\rm{erg\,cm^{-2}\,s^{-1}\,\AA^{-1}}$} 
-\newcommand{\erg}{$\rm{erg\,cm^{-2}\,s^{-1}}$} 
-\newcommand{\kms}{$\rm{km\,s^{-1}}\,$}
-
-\newcommand{\griz}{$g' r' i' z'$}
-\newcommand{\JHK}{$JHK_{\rm{s}}$}
-\newcommand{\gK}{$g' r' i' z' JHK_{\rm{s}}$}
-\newcommand{\Msun}{$M_\odot$}
-\newcommand{\lya}{Ly$\alpha$} 
-\newcommand{\lyb}{Ly$\beta$} 
-\newcommand{\lyg}{Ly$\gamma$} 
-\newcommand{\hb}{H$\beta$} 
-\newcommand{\ha}{H$\alpha$} 
-\newcommand{\hg}{H$\gamma$} 
-\newcommand{\hi}{\ion{H}{1}} 
-\newcommand{\hei}{[\ion{He}{1}]} 
-\newcommand{\oi}{[\ion{O}{1}]} 
-\newcommand{\sii}{[\ion{S}{2}]} 
-\newcommand{\siii}{[\ion{S}{3}]} 
-\newcommand{\oii}{[\ion{O}{2}]} 
-\newcommand{\oiii}{[\ion{O}{3}]}
-\newcommand{\nii}{[\ion{N}{2}]} 
-\newcommand{\nv}{[\ion{N}{5}]} 
-\newcommand{\neiii}{[\ion{Ne}{3}]} 
-\newcommand{\NIii}{[\ion{Ni}{2}]} 
-\newcommand{\feii}{\ion{Fe}{2}} 
-\newcommand{\civ}{\ion{C}{4}} 
-\newcommand{\cii}{\ion{C}{2}}
-\newcommand{\mgi}{\ion{Mg}{1}} 
-\newcommand{\mgii}{\ion{Mg}{2}} 
-\newcommand{\ali}{\ion{Al}{1}} 
-\newcommand{\alii}{\ion{Al}{2}} 
-\newcommand{\aliii}{\ion{Al}{3}} 
-\newcommand{\SIii}{\ion{Si}{2}} 
-\newcommand{\SIiv}{\ion{Si}{4}} 
-\newcommand{\znii}{\ion{Zn}{2}} 
-\newcommand{\crii}{\ion{Cr}{2}} 
-\newcommand{\mnii}{\ion{Mn}{2}} 
-\newcommand{\tiii}{\ion{Ti}{2}} 
-\newcommand{\caii}{\ion{Ca}{2}} 
-
+% Manually specified definitions
+\input{definitions.tex}
 
 \usepackage{xcolor}
 \newcommand\todo[1]{\textcolor{red}{(#1)}}
@@ -426,7 +383,7 @@ wave experiments, as they are the likely EM counterparts to their
 primary targets.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Sample selection criteria and observations}
+\section{Sample selection criteria and observations}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -516,7 +473,7 @@ The ultraviolet blue(UVB) arm covering 3000 - 5500 \AA, the visual(VIS) arm
 covering 5500 - 10200 \AA, and the near-infrared()NIR) arm covering 10200 -
 24800 \AA~ with the possibility of applying a k-band
 blocking filter cutting the coverage of the NIR arm at 10200 - 21000 \AA.
-
+\\
 
 \todo{ABBA}
 
@@ -538,8 +495,12 @@ describe how slitlosses were corrected for in Sect. \ref{postproc}.
 For accurate measurements of velocity widths, a precise instrumental resolution
 is required and this becomes better when the delivered seeing is better than the
 slit width. We discuss this in Sect. \ref{resolution}.
-
+\\
 \todo{ADC discussion}
+
+
+We list the overview of all the observations in Tab. \ref{tab:sample_overview}.
+\input{tables/burst_overview.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data processing}
@@ -718,7 +679,7 @@ map.
 \subsection{Telluric correction} \label{tell_corr}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-For all earth-based telescopes the light of interest has to pass through Earths
+For all earth-based telescopes, the light of interest has to pass through Earths
 atmosphere, where the atmospheric content and conditions make an imprint on the
 received spectrum. These telluric features can be calculated in a multitude of
 ways and we employ a prioritized list of methods here, depending on the
@@ -729,7 +690,7 @@ always doing the optimal correction.
 The highest priority method is using the GRB afterglow continuum itself, where
 the atmospheric conditions have directly been imprinted on the spectrum. The
 telluric features can directly be fit with an atmospheric model
-\citep{Smette2015, Kausch2015}, which can then be to correct for the absorption.
+\citep{Smette2015, Kausch2015}, which can then be used to correct for the absorption. The accuracy of the correction depends on the 
 The requirement here is that the afterglow continuum spectrum has a
 signal-to-noise higher than a value of 10.
 
@@ -803,7 +764,6 @@ While this simple method is not terribly accurate (for one, the spatial profile
 of the trace is not a perfect Gaussian), but it gives a sufficiently accurate
 estimate for the analysis of these poor signal to noise science spectra.
 
-
 \begin{figure}
 	\centerline{\includegraphics[width=8cm]{figures/resolution_paper.eps}}
 	\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric absorption lines in the VIS spectra, as a function of the FWHM of a Gaussian fit onto the trace in spatial direction at  792 nm. The lower horizontal axis is in units pixels, the top axis in arc seconds. The red datapoints show a subsample of NIR spectra.
@@ -815,8 +775,6 @@ estimate for the analysis of these poor signal to noise science spectra.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\input{tables/burst_overview.tex}	
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Complete sample}	
@@ -860,6 +818,72 @@ Redshift completeness
 \subsection{Hydrogen column densities}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+Because the locations of GRBs are associated with the most intensely starforming
+regions \citep{Hogg1999, Bloom2002, Fruchter2006}, the GRB afterglow light has
+to propagate through the large amounts of hydrogen fueling the star formation.
+Because a significant fraction of the hydrogen has not been ionized yet, the
+optical depth at the wavelength of \lya~is very high, saturating at the line
+center. This causes a strong absorption system to appear in the afterglow
+continuum. For bursts with $z \gtrsim 1.7$, the position of \lya~moves into the
+spectroscopic coverage of X-shooter, meaning that we are able to detect this
+absorption trough due to \lya.
+
+Due of the stochastic nature of the \lya-forest, the blue wing of the Lyman
+alpha absorption line is randomly superposed with forest systems, making it
+notoriously difficult to model. Similarly so, the red wing has got the ISM
+signatures imprinted on it, especially strong absorption due to \SIii~which can
+exhibit significant velocity structure. Along with instrumental effects, the
+generative model for the data that we would use in a likelihood-based analysis
+would be almost boundless in complexity, making formal fitting of the column
+densities unfeasible.
+
+Using an analytic approximation to an absorption line profile and it's
+dependence on the column density \citep{TepperGarcia2006}, we overplot a
+synthetic absorption line with a specified column density on our observed
+spectrum. By tuning the value of the hydrogen column density until the synthetic
+absorption line matches the spectrum, we can thereby infer the actual column
+density of the GRB sight line in a manual way. In a similar fashion, the errors
+on the hydrogen column can be inferred. We show the results of this procedure
+for all bursts where possible in Fig. \ref{fig:HI1} and the inferred hydrogen
+column densities in Tab. \ref{tab:HI}
+
+\input{tables/HI_columns.tex}
+
+
+\begin{figure*}
+	\centering
+	\includegraphics[page=1, width=16cm]{figures/HI_measurements.pdf}
+	\caption{ Measurements of the hydrogen column-densities for all bursts with a clear Lyman alpha absorption system. In solid black is shown the spectrum with black dotted giving the corresponding 1-$\sigma$ error. Black dashed shows zero flux density. The solid red line is the absorption of column density equal to the value presented in Tab. \ref{HI_tab} with the 1-$\sigma$ interval shown with dashed lines.}
+	\label{fig:HI1}
+\end{figure*}
+
+\begin{figure*}
+	\centering
+	\includegraphics[page=2, width=16cm]{figures/HI_measurements.pdf}
+	\caption{Same as Fig. \ref{fig:HI1}}
+	\label{fig:HI2}
+\end{figure*}
+
+\begin{figure*}
+	\centering
+	\includegraphics[page=3, width=16cm]{figures/HI_measurements.pdf}
+	\caption{Same as Fig. \ref{fig:HI1}}
+	\label{fig:HI3}
+\end{figure*}
+
+\begin{figure*}
+	\centering
+	\includegraphics[page=4, width=16cm]{figures/HI_measurements.pdf}
+	\caption{Same as Fig. \ref{fig:HI1}}
+	\label{fig:HI4}
+\end{figure*}
+
+\begin{figure*}
+	\centering
+	\includegraphics[page=5, width=16cm]{figures/HI_measurements.pdf}
+	\caption{Same as Fig. \ref{fig:HI1}}
+	\label{fig:HI5}
+\end{figure*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
@@ -876,15 +900,15 @@ Cuchiara. BAT6 (Salvaterra), TOUGH
 \subsection{Comparison to previous samples.}		
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{X-ray column densities vs. optically derived ones}	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-
-\begin{figure}
-	\centerline{\includegraphics[width=10cm]{figures/OAXR_NH_sphere.pdf}}
-	\caption{Optically derived HI column densities vs. X-ray derived ones taken from \citet{Buchner2016}. The colors of the points reflect the redshift of the burst. Circles mark the column densities published in \citet{Fynbo2009} and squares mark the ones derived as part of the sample presented here. Overplot in blue is the 1:1 correspondence, expected if the conditions local to the GRBs are similar to the local ISM abundances. If the metallicity is lower at the GRB site, the point move upwards in the plot. }
-	\label{fig:OAXR}
-\end{figure}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{X-ray column densities vs. optically derived ones}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%
+%\begin{figure}
+%	\centerline{\includegraphics[width=10cm]{figures/OAXR_NH_sphere.pdf}}
+%	\caption{Optically derived HI column densities vs. X-ray derived ones taken from \citet{Buchner2016}. The colors of the points reflect the redshift of the burst. Circles mark the column densities published in \citet{Fynbo2009} and squares mark the ones derived as part of the sample presented here. Overplot in blue is the 1:1 correspondence, expected if the conditions local to the GRBs are similar to the local ISM abundances. If the metallicity is lower at the GRB site, the point move upwards in the plot. }
+%	\label{fig:OAXR}
+%\end{figure}	
 	
 	
 	
@@ -1031,7 +1055,7 @@ $z=2.465$.
 \subsection{GRB100425A (z=1.1755)}
 The data presented here also formed the basis of GCN \#
 10684\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/10684.gcn3}} and is used in
-\citet{Skuladottir2010}, but not published elsewhere. Observations started 4
+Skuladottir (2010), but not published elsewhere. Observations started 4
 hours after the \textit{Swift} trigger, totaling 2.4 ks. Absorption features
 from \mgii~and \feii~in the afterglow continuum are detected at $z=1.1755$.
 

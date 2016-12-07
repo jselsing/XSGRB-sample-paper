@@ -1,247 +1,265 @@
-\begin{thebibliography}{43}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
-\bibitem[{Abrarov \& Quine(2015{\natexlab{a}})}]{abrarov2015b}
-Abrarov, S.~M. \& Quine, B.~M. 2015{\natexlab{a}}, J. Math. Res., 7, 163
+\bibitem[\protect\citeauthoryear{Abrarov \& Quine}{Abrarov \&
+  Quine}{2015a}]{abrarov2015a}
+Abrarov S.~M.,  Quine B.~M.,  2015a, \mn@doi [J. Math. Res.]
+  {10.5539/jmr.v7n1p44}, 7, 44
 
-\bibitem[{Abrarov \& Quine(2015{\natexlab{b}})}]{abrarov2015a}
-Abrarov, S.~M. \& Quine, B.~M. 2015{\natexlab{b}}, J. Math. Res., 7, 44
+\bibitem[\protect\citeauthoryear{Abrarov \& Quine}{Abrarov \&
+  Quine}{2015b}]{abrarov2015b}
+Abrarov S.~M.,  Quine B.~M.,  2015b, \mn@doi [J. Math. Res.]
+  {10.5539/jmr.v7n2p163}, 7, 163
 
-\bibitem[{Benner {et~al.}(1995)Benner, Rinsland, Devi, Smith, \&
-  Atkins}]{benner1995}
-Benner, D.~C., Rinsland, C.~P., Devi, V.~M., Smith, M. A.~H., \& Atkins, D.
-  1995, J. Quant. Spectrosc. Radiat. Transf., 53, 705
+\bibitem[\protect\citeauthoryear{Benner, Rinsland, Devi, Smith  \&
+  Atkins}{Benner et~al.}{1995}]{benner1995}
+Benner D.~C.,  Rinsland C.~P.,  Devi V.~M.,  Smith M. A.~H.,   Atkins D.,
+  1995, \mn@doi [JQSRT] {10.1016/0022-4073(95)00015-D}, 53, 705
 
-\bibitem[{Buchner {et~al.}(2016)Buchner, Schulze, \& Bauer}]{Buchner2016}
-Buchner, J., Schulze, S., \& Bauer, F.~E. 2016, Mon. Not. R. Astron. Soc.,
-  stw2423
+\bibitem[\protect\citeauthoryear{Bloom, Kulkarni  \& Djorgovski}{Bloom
+  et~al.}{2002}]{Bloom2002}
+Bloom J.~S.,  Kulkarni S.~R.,   Djorgovski S.~G.,  2002, \mn@doi [AJ]
+  {10.1086/338893}, 123, 1111
 
-\bibitem[{Bufano {et~al.}(2012)Bufano, Pian, Sollerman, Benetti, Pignata,
-  Valenti, Covino, D'Avanzo, Malesani, Cappellaro, {Della Valle}, Fynbo,
-  Hjorth, Mazzali, Reichart, Starling, Turatto, Vergani, Wiersema, Amati,
-  Bersier, Campana, Cano, Castro-Tirado, Chincarini, D'Elia, {de Ugarte
-  Postigo}, Deng, Ferrero, Filippenko, Goldoni, Gorosabel, Greiner, Hammer,
-  Jakobsson, Kaper, Kawabata, Klose, Levan, Maeda, Masetti, Milvang-Jensen,
-  Mirabel, M{\o}ller, Nomoto, Palazzi, Piranomonte, Salvaterra, Stratta,
-  Tagliaferri, Tanaka, Tanvir, \& Wijers}]{Bufano2012}
-Bufano, F., Pian, E., Sollerman, J., {et~al.} 2012, Astrophys. J., 753, 67
+\bibitem[\protect\citeauthoryear{Bufano et~al.,}{Bufano
+  et~al.}{2012}]{Bufano2012}
+Bufano F.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/753/1/67}, 753, 67
 
-\bibitem[{Cardelli {et~al.}(1989)Cardelli, Clayton, \& Mathis}]{Cardelli1989}
-Cardelli, J.~a., Clayton, G.~C., \& Mathis, J.~S. 1989, Astrophys. J., 345, 245
+\bibitem[\protect\citeauthoryear{Cardelli, Clayton  \& Mathis}{Cardelli
+  et~al.}{1989}]{Cardelli1989}
+Cardelli J.~a.,  Clayton G.~C.,   Mathis J.~S.,  1989, \mn@doi [ApJ]
+  {10.1086/167900}, 345, 245
 
-\bibitem[{{De Ugarte Postigo} {et~al.}(2011){De Ugarte Postigo}, Th??ne,
-  Goldoni, \& Fynbo}]{DeUgartePostigo2011}
-{De Ugarte Postigo}, A., Th??ne, C.~C., Goldoni, P., \& Fynbo, J. P.~U. 2011,
-  Astron. Nachrichten, 332, 297
+\bibitem[\protect\citeauthoryear{Cobb, Bloom, Perley, Morgan, Cenko  \&
+  Filippenko}{Cobb et~al.}{2010}]{Cobb2010}
+Cobb B.~E.,  Bloom J.~S.,  Perley D.~A.,  Morgan A.~N.,  Cenko S.~B.,
+  Filippenko A.~V.,  2010, \mn@doi [ApJ] {10.1088/2041-8205/718/2/L150}, 718,
+  L150
 
-\bibitem[{D'Elia {et~al.}(2014)D'Elia, Fynbo, Goldoni, Covino, {de Ugarte
-  Postigo}, Ledoux, Calura, Gorosabel, Malesani, Matteucci,
-  S{\'{a}}nchez-Ram{\'{i}}rez, Savaglio, Castro-Tirado, Hartoog, Kaper,
-  Mu{\~{n}}oz-Darias, Pian, Piranomonte, Tagliaferri, Tanvir, Vergani, Watson,
-  \& Xu}]{DElia2014}
-D'Elia, V., Fynbo, J. P.~U., Goldoni, P., {et~al.} 2014, Astron. Astrophys.,
-  564, A38
+\bibitem[\protect\citeauthoryear{D'Elia \& Stratta}{D'Elia \&
+  Stratta}{2011}]{DElia2011}
+D'Elia V.,  Stratta G.,  2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201116505},
+  532, A48
 
-\bibitem[{D'Elia \& Stratta(2011)}]{DElia2011}
-D'Elia, V. \& Stratta, G. 2011, Astron. Astrophys., 532, A48
+\bibitem[\protect\citeauthoryear{D'Elia et~al.,}{D'Elia
+  et~al.}{2010}]{DElia2010}
+D'Elia V.,  et~al., 2010, \mn@doi [A{\&}A] {10.1051/0004-6361/201015216}, 523,
+  A36
 
-\bibitem[{Filippenko(1982)}]{Filippenko1982}
-Filippenko, A.~V. 1982, Publ. Astron. Soc. Pacific, 94, 715
+\bibitem[\protect\citeauthoryear{D'Elia et~al.,}{D'Elia
+  et~al.}{2014}]{DElia2014}
+D'Elia V.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201323057}, 564,
+  A38
 
-\bibitem[{Fong {et~al.}(2013)Fong, Berger, Chornock, Margutti, Levan, Tanvir,
-  Tunnicliffe, Czekala, Fox, Perley, Cenko, Zauderer, Laskar, Persson, Monson,
-  Kelson, Birk, Murphy, Servillat, \& Anglada}]{Fong2013}
-Fong, W., Berger, E., Chornock, R., {et~al.} 2013, Astrophys. J., 769, 56
+\bibitem[\protect\citeauthoryear{{De Ugarte Postigo}, Th{\"{o}}ne, Goldoni  \&
+  Fynbo}{{De Ugarte Postigo} et~al.}{2011}]{DeUgartePostigo2011}
+{De Ugarte Postigo} A.,  Th{\"{o}}ne C.~C.,  Goldoni P.,   Fynbo J. P.~U.,
+  2011, \mn@doi [AN] {10.1002/asna.201111540}, 332, 297
 
-\bibitem[{Freudling {et~al.}(2013)Freudling, Romaniello, Bramich, Ballester,
-  Forchi, Garc{\'{i}}a-Dabl{\'{o}}, Moehler, \& Neeser}]{Freudling2013}
-Freudling, W., Romaniello, M., Bramich, D.~M., {et~al.} 2013, Astron.
-  Astrophys., 559, A96
+\bibitem[\protect\citeauthoryear{Filippenko}{Filippenko}{1982}]{Filippenko1982}
+Filippenko A.~V.,  1982, \mn@doi [PASP] {10.1086/131052}, 94, 715
 
-\bibitem[{Friis {et~al.}(2015)Friis, {De Cia}, Kruhler, Fynbo, Ledoux,
-  Vreeswijk, Watson, Malesani, Gorosabel, Starling, Jakobsson, Varela,
-  Wiersema, Drachmann, Trotter, Thone, {de Ugarte Postigo}, D'Elia, Elliott,
-  Maturi, Goldoni, Greiner, Haislip, Kaper, Knust, LaCluyze, Milvang-Jensen,
-  Reichart, Schulze, Sudilovsky, Tanvir, \& Vergani}]{Friis2015}
-Friis, M., {De Cia}, A., Kruhler, T., {et~al.} 2015, Mon. Not. R. Astron. Soc.,
-  451, 167
+\bibitem[\protect\citeauthoryear{Fong et~al.,}{Fong et~al.}{2013}]{Fong2013}
+Fong W.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/769/1/56}, 769, 56
 
-\bibitem[{Fynbo {et~al.}(2009)Fynbo, Jakobsson, Prochaska, Malesani, Ledoux,
-  Postigo, Nardini, Vreeswijk, Wiersema, Hjorth, Sollerman, Chen, Thoene,
-  Bjoernsson, Bloom, Castro-Tirado, Christensen, {De Cia}, Fruchter, Gorosabel,
-  Graham, Jaunsen, Jensen, Kann, Kouveliotou, Levan, Maund, Masetti,
-  Milvang-Jensen, Palazzi, Perley, Pian, Rol, Schady, Starling, Tanvir, Watson,
-  Xu, Augusteijn, Grundahl, Telting, \& Quirion}]{Fynbo2009}
-Fynbo, J. P.~U., Jakobsson, P., Prochaska, J.~X., {et~al.} 2009, Astrophys. J.
-  Suppl. Ser., 185, 175
+\bibitem[\protect\citeauthoryear{Freudling, Romaniello, Bramich, Ballester,
+  Forchi, Garc{\'{i}}a-Dabl{\'{o}}, Moehler  \& Neeser}{Freudling
+  et~al.}{2013}]{Freudling2013}
+Freudling W.,  Romaniello M.,  Bramich D.~M.,  Ballester P.,  Forchi V.,
+  Garc{\'{i}}a-Dabl{\'{o}} C.~E.,  Moehler S.,   Neeser M.~J.,  2013, \mn@doi
+  [A{\&}A] {10.1051/0004-6361/201322494}, 559, A96
 
-\bibitem[{Fynbo {et~al.}(2014)Fynbo, Kr{\"{u}}hler, Leighly, Ledoux, Vreeswijk,
-  Schulze, Noterdaeme, Watson, Wijers, Bolmer, Cano, Christensen, Covino, Elia,
-  Flores, Friis, Goldoni, Greiner, Hammer, Hjorth, Jakobsson, Japelj, Kaper,
-  Klose, Knust, Leloudas, Levan, Malesani, M{\o}ller, A, Oates, Pian, Schady,
-  Sparre, Tagliaferri, Tanvir, Th{\"{o}}ne, A, Vergani, Wiersema, Xu, \&
-  Zafar}]{Fynbo2014}
-Fynbo, J. P.~U., Kr{\"{u}}hler, T., Leighly, K., {et~al.} 2014, Astron.
-  Astrophys., 12, 1
+\bibitem[\protect\citeauthoryear{Friis et~al.,}{Friis et~al.}{2015}]{Friis2015}
+Friis M.,  et~al., 2015, \mn@doi [MNRAS] {10.1093/mnras/stv960}, 451, 167
 
-\bibitem[{Ginsburg {et~al.}(????)Ginsburg, Parikh, Woillez, Groener, Liedtke,
-  Sipocz, Robitaille, Deil, Svoboda, Tollerud, Persson, Adamginsburg,
-  S{\'{e}}guin-Charbonneau, Armstrong, Mirocha, Droettboom, James-allen,
-  Moolekamp, Egeland, Singer, Barbary, Grollier, Shiga, G{\"{u}}nther, Parejko,
-  Booker, Rol, Edward, Miller, \& Willett}]{astroquery}
-Ginsburg, A., Parikh, M., Woillez, J., {et~al.} ????
+\bibitem[\protect\citeauthoryear{Fruchter et~al.,}{Fruchter
+  et~al.}{2006}]{Fruchter2006}
+Fruchter A.~S.,  et~al., 2006, \mn@doi [Natur] {10.1038/nature04787}, 441, 463
 
-\bibitem[{Goldoni {et~al.}(2006)Goldoni, Royer, Fran{\c{c}}ois, Horrobin,
-  Blanc, Vernet, Modigliani, \& Larsen}]{Goldoni2006}
-Goldoni, P., Royer, F., Fran{\c{c}}ois, P., {et~al.} 2006, Ground-based
-  Airborne Instrum. Astron. Ed. by McLean, 6269, 80
+\bibitem[\protect\citeauthoryear{Fynbo et~al.,}{Fynbo et~al.}{2014}]{Fynbo2014}
+Fynbo J. P.~U.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201424726},
+  12, 1
 
-\bibitem[{Hamuy {et~al.}(1994)Hamuy, Suntzeff, Heathcote, Walker, Gigoux, \&
-  Phillips}]{Hamuy1994}
-Hamuy, M., Suntzeff, N.~B., Heathcote, S.~R., {et~al.} 1994, Publ. Astron. Soc.
-  Pacific, 106, 566
+\bibitem[\protect\citeauthoryear{Ginsburg et~al.,}{Ginsburg
+  et~al.}{2016}]{astroquery}
+Ginsburg A.,  et~al., 2016, astroquery v0.3.1, \mn@doi{10.5281/ZENODO.44961},
+  \url {https://github.com/astropy/astroquery}
 
-\bibitem[{Hartoog {et~al.}(2015)Hartoog, Malesani, Fynbo, Goto, Kr{\"{u}}hler,
-  Vreeswijk, {De Cia}, Xu, M{\o}ller, Covino, D'Elia, Flores, Goldoni, Hjorth,
-  Jakobsson, Krogager, Kaper, Ledoux, Levan, Milvang-Jensen, Sollerman, Sparre,
-  Tagliaferri, Tanvir, {de Ugarte Postigo}, Vergani, Wiersema, Datson, Salinas,
-  Mikkelsen, \& Aghanim}]{Hartoog2015}
-Hartoog, O.~E., Malesani, D., Fynbo, J. P.~U., {et~al.} 2015, Astron.
-  Astrophys., 580, A139
+\bibitem[\protect\citeauthoryear{Goldoni, Royer, Fran{\c{c}}ois, Horrobin,
+  Blanc, Vernet, Modigliani  \& Larsen}{Goldoni et~al.}{2006}]{Goldoni2006}
+Goldoni P.,  Royer F.,  Fran{\c{c}}ois P.,  Horrobin M.,  Blanc G.,  Vernet J.,
+   Modigliani A.,   Larsen J.,  2006, \mn@doi [Ground-based Airborne Instrum.
+  Astron. Ed. by McLean] {10.1117/12.669986}, 6269, 80
 
-\bibitem[{Hartoog {et~al.}(2013)Hartoog, Wiersema, Vreeswijk, Kaper, Tanvir,
-  Savaglio, Berger, Chornock, Covino, D'Elia, Flores, Fynbo, Goldoni, Gomboc,
-  Melandri, Pozanenko, Schaye, Postigo, \& Wijers}]{Hartoog2013}
-Hartoog, O.~E., Wiersema, K., Vreeswijk, P.~M., {et~al.} 2013, Mon. Not. R.
-  Astron. Soc., 430, 2739
+\bibitem[\protect\citeauthoryear{Hamuy, Suntzeff, Heathcote, Walker, Gigoux  \&
+  Phillips}{Hamuy et~al.}{1994}]{Hamuy1994}
+Hamuy M.,  Suntzeff N.~B.,  Heathcote S.~R.,  Walker A.~R.,  Gigoux P.,
+  Phillips M.~M.,  1994, \mn@doi [PASP] {10.1086/133417}, 106, 566
 
-\bibitem[{Horne(1986)}]{Horne1986}
-Horne, K. 1986, Publ. Astron. Soc. Pacific, 98, 609
+\bibitem[\protect\citeauthoryear{Hartoog et~al.,}{Hartoog
+  et~al.}{2013}]{Hartoog2013}
+Hartoog O.~E.,  et~al., 2013, \mn@doi [MNRAS] {10.1093/mnras/stt078}, 430, 2739
 
-\bibitem[{Jones {et~al.}(2013)Jones, Noll, Kausch, Szyszka, \&
-  Kimeswenger}]{Jones2013}
-Jones, A., Noll, S., Kausch, W., Szyszka, C., \& Kimeswenger, S. 2013, Astron.
-  Astrophys., 560, A91
+\bibitem[\protect\citeauthoryear{Hartoog et~al.,}{Hartoog
+  et~al.}{2015}]{Hartoog2015}
+Hartoog O.~E.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201425001},
+  580, A139
 
-\bibitem[{Jones {et~al.}(2001)Jones, Oliphant, \& Peterson}]{scipy}
-Jones, E., Oliphant, T., \& Peterson, P. 2001, {SciPy: Open source scientific
-  tools for Python}
+\bibitem[\protect\citeauthoryear{Hogg \& Fruchter}{Hogg \&
+  Fruchter}{1999}]{Hogg1999}
+Hogg D.~W.,  Fruchter A.~S.,  1999, \mn@doi [ApJ] {10.1086/307457}, 520, 54
 
-\bibitem[{Kausch {et~al.}(2015)Kausch, Noll, Smette, Kimeswenger, Barden,
-  Szyszka, Jones, Sana, Horst, \& Kerber}]{Kausch2015}
-Kausch, W., Noll, S., Smette, A., {et~al.} 2015, Astron. Astrophys., 576, A78
+\bibitem[\protect\citeauthoryear{Horne}{Horne}{1986}]{Horne1986}
+Horne K.,  1986, \mn@doi [PASP] {10.1086/131801}, 98, 609
 
-\bibitem[{Kr{\"{u}}hler {et~al.}(2013)Kr{\"{u}}hler, Ledoux, Fynbo, Vreeswijk,
-  Schmidl, Malesani, Christensen, {De Cia}, Hjorth, Jakobsson, Kann, Kaper,
-  Vergani, Afonso, Covino, {de Ugarte Postigo}, D'Elia, Filgas, Goldoni,
-  Greiner, Hartoog, Milvang-Jensen, Nardini, Piranomonte, Rossi,
-  Sanchez-Ramirez, Schady, Schulze, Sudilovsky, Tanvir, Tagliaferri, Watson,
-  Wiersema, Wijers, \& Xu}]{Kruhler2013}
-Kr{\"{u}}hler, T., Ledoux, C., Fynbo, J. P.~U., {et~al.} 2013, Astron.
-  Astrophys., 557, A18
+\bibitem[\protect\citeauthoryear{Jones, Oliphant  \& Peterson}{Jones
+  et~al.}{2001}]{scipy}
+Jones E.,  Oliphant T.,   Peterson P.,  2001, {SciPy: Open source scientific
+  tools for Python}, \url {http://www.scipy.org/}
 
-\bibitem[{Kr{\"{u}}hler {et~al.}(2015)Kr{\"{u}}hler, Malesani, Fynbo, Hartoog,
-  Hjorth, Jakobsson, Perley, Rossi, Schady, Schulze, Tanvir, Vergani, Wiersema,
-  Afonso, Bolmer, Cano, Covino, D'Elia, {de Ugarte Postigo}, Filgas, Friis,
-  Graham, Greiner, Goldoni, Gomboc, Hammer, Japelj, Kann, Kaper, Klose, Levan,
-  Leloudas, Milvang-Jensen, {Nicuesa Guelbenzu}, Palazzi, Pian, Piranomonte,
-  S{\'{a}}nchez-Ram{\'{i}}rez, Savaglio, Selsing, Tagliaferri, Vreeswijk,
-  Watson, \& Xu}]{Kruhler2015}
-Kr{\"{u}}hler, T., Malesani, D., Fynbo, J. P.~U., {et~al.} 2015, Astron.
-  Astrophys., 581, A125
+\bibitem[\protect\citeauthoryear{Jones, Noll, Kausch, Szyszka  \&
+  Kimeswenger}{Jones et~al.}{2013}]{Jones2013}
+Jones A.,  Noll S.,  Kausch W.,  Szyszka C.,   Kimeswenger S.,  2013, \mn@doi
+  [A{\&}A] {10.1051/0004-6361/201322433}, 560, A91
 
-\bibitem[{Letchworth \& Benner(2007)}]{letchworth2007}
-Letchworth, K.~L. \& Benner, D.~C. 2007, J. Quant. Spectrosc. Radiat. Transf.,
-  107, 173
+\bibitem[\protect\citeauthoryear{Kausch et~al.,}{Kausch
+  et~al.}{2015}]{Kausch2015}
+Kausch W.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201423909}, 576,
+  A78
 
-\bibitem[{Modigliani {et~al.}(2010)Modigliani, Goldoni, Royer, Haigron,
-  Guglielmi, Fran{\c{c}}ois, Horrobin, Bristow, Vernet, Moehler, Kerber,
-  Ballester, Mason, \& Christensen}]{Modigliani2010}
-Modigliani, A., Goldoni, P., Royer, F., {et~al.} 2010, SPIE Astron. Telesc. +
-  Instrum., 7737, 773728
+\bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
+  et~al.}{2013}]{Kruhler2013}
+Kr{\"{u}}hler T.,  et~al., 2013, \mn@doi [A{\&}A]
+  {10.1051/0004-6361/201321772}, 557, A18
 
-\bibitem[{Moffat(1969)}]{Moffat1969}
-Moffat, A. F.~J. 1969, Astron. Astrophys., 3, 455
+\bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
+  et~al.}{2015}]{Kruhler2015}
+Kr{\"{u}}hler T.,  et~al., 2015, \mn@doi [A{\&}A]
+  {10.1051/0004-6361/201425561}, 581, A125
 
-\bibitem[{Noll {et~al.}(2012)Noll, Kausch, Barden, Jones, Szyszka, Kimeswenger,
-  \& Vinther}]{Noll2012}
-Noll, S., Kausch, W., Barden, M., {et~al.} 2012, Astron. Astrophys., 543, A92
+\bibitem[\protect\citeauthoryear{Letchworth \& Benner}{Letchworth \&
+  Benner}{2007}]{letchworth2007}
+Letchworth K.~L.,  Benner D.~C.,  2007, \mn@doi [JQSRT]
+  {10.1016/j.jqsrt.2007.01.052}, 107, 173
 
-\bibitem[{Pagnini \& Mainardi(2010)}]{pagnini2010}
-Pagnini, G. \& Mainardi, F. 2010, J. Comput. Appl. Math., 233, 1590
+\bibitem[\protect\citeauthoryear{Levan et~al.,}{Levan et~al.}{2014}]{Levan2014}
+Levan A.~J.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/781/1/13}, 781, 13
 
-\bibitem[{Schlafly \& Finkbeiner(2011)}]{Schlafly2011}
-Schlafly, E.~F. \& Finkbeiner, D.~P. 2011, Astrophys. J., 737, 103
+\bibitem[\protect\citeauthoryear{Modigliani et~al.,}{Modigliani
+  et~al.}{2010}]{Modigliani2010}
+Modigliani A.,  et~al., 2010, \mn@doi [SPIE Astron. Telesc. + Instrum.]
+  {10.1117/12.857211}, 7737, 773728
 
-\bibitem[{Schlegel {et~al.}(1998)Schlegel, Finkbeiner, \& Davis}]{Schlegel1998}
-Schlegel, D.~J., Finkbeiner, D.~P., \& Davis, M. 1998, Astrophys. J., 500, 525
+\bibitem[\protect\citeauthoryear{Moffat}{Moffat}{1969}]{Moffat1969}
+Moffat A. F.~J.,  1969, \mn@doi [A{\&}A] {10.1017/CBO9781107415324.004}, 3, 455
 
-\bibitem[{Schulze {et~al.}(2014)Schulze, Malesani, Cucchiara, Tanvir,
-  Kr{\"{u}}hler, Postigo, \& Leloudas}]{Schulze2014}
-Schulze, S., Malesani, D., Cucchiara, A., {et~al.} 2014, Astron. Astrophys.,
-  102, 1
+\bibitem[\protect\citeauthoryear{Noll, Kausch, Barden, Jones, Szyszka,
+  Kimeswenger  \& Vinther}{Noll et~al.}{2012}]{Noll2012}
+Noll S.,  Kausch W.,  Barden M.,  Jones A.~M.,  Szyszka C.,  Kimeswenger S.,
+  Vinther J.,  2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201219040}, 543, A92
 
-\bibitem[{Selsing {et~al.}(2015)Selsing, Fynbo, Christensen, \&
-  Krogager}]{Selsing2015}
-Selsing, J., Fynbo, J. P.~U., Christensen, L., \& Krogager, J.-K. 2015, Astron.
-  Astrophys., 87, 14
+\bibitem[\protect\citeauthoryear{Pagnini \& Mainardi}{Pagnini \&
+  Mainardi}{2010}]{pagnini2010}
+Pagnini G.,  Mainardi F.,  2010, \mn@doi [JCoAM] {10.1016/j.cam.2008.04.040},
+  233, 1590
 
-\bibitem[{Smette {et~al.}(2015)Smette, Sana, Noll, Horst, Kausch, Kimeswenger,
-  Barden, Szyszka, Jones, Gallenne, Vinther, Ballester, \& Taylor}]{Smette2015}
-Smette, A., Sana, H., Noll, S., {et~al.} 2015, Astron. Astrophys., 576, A77
+\bibitem[\protect\citeauthoryear{Schlafly \& Finkbeiner}{Schlafly \&
+  Finkbeiner}{2011}]{Schlafly2011}
+Schlafly E.~F.,  Finkbeiner D.~P.,  2011, \mn@doi [ApJ]
+  {10.1088/0004-637X/737/2/103}, 737, 103
 
-\bibitem[{Sparre {et~al.}(2011)Sparre, Sollerman, Fynbo, Malesani, Goldoni, {de
-  Ugarte Postigo}, Covino, D'Elia, Flores, Hammer, Hjorth, Jakobsson, Kaper,
-  Leloudas, Levan, Milvang-Jensen, Schulze, Tagliaferri, Tanvir, Watson,
-  Wiersema, \& Wijers}]{Sparre2011}
-Sparre, M., Sollerman, J., Fynbo, J. P.~U., {et~al.} 2011, Astrophys. J., 735,
-  L24
+\bibitem[\protect\citeauthoryear{Schlegel, Finkbeiner  \& Davis}{Schlegel
+  et~al.}{1998}]{Schlegel1998}
+Schlegel D.~J.,  Finkbeiner D.~P.,   Davis M.,  1998, \mn@doi [ApJ]
+  {10.1086/305772}, 500, 525
 
-\bibitem[{Starling {et~al.}(2011)Starling, Wiersema, Levan, Sakamoto, Bersier,
-  Goldoni, Oates, Rowlinson, Campana, Sollerman, Tanvir, Malesani, Fynbo,
-  Covino, D'Avanzo, O'Brien, Page, Osborne, Vergani, Barthelmy, Burrows, Cano,
-  Curran, {De Pasquale}, D'Elia, Evans, Flores, Fruchter, Garnavich, Gehrels,
-  Gorosabel, Hjorth, Holland, van~der Horst, Hurkett, Jakobsson, Kamble,
-  Kouveliotou, Kuin, Kaper, Mazzali, Nugent, Pian, Stamatikos, Th{\"{o}}ne, \&
-  Woosley}]{Starling2011}
-Starling, R. L.~C., Wiersema, K., Levan, A.~J., {et~al.} 2011, Mon. Not. R.
-  Astron. Soc., 411, 2792
+\bibitem[\protect\citeauthoryear{Schulze, Malesani, Cucchiara, Tanvir,
+  Kr{\"{u}}hler, Postigo  \& Leloudas}{Schulze et~al.}{2014}]{Schulze2014}
+Schulze S.,  Malesani D.,  Cucchiara A.,  Tanvir N.~R.,  Kr{\"{u}}hler T.,
+  Postigo A. D.~U.,   Leloudas G.,  2014, \mn@doi [A{\&}A]
+  {10.1051/0004-6361/201423387}, 102, 1
 
-\bibitem[{Thone {et~al.}(2013)Thone, Fynbo, Goldoni, de~Ugarte, Campana,
-  Vergani, Covino, Kruhler, Kaper, Tanvir, Zafar, D'Elia, Gorosabel, Greiner,
-  Groot, Hammer, Jakobsson, Klose, Levan, Milvang-Jensen, Nicuesa, Palazzi,
-  Piranomonte, Tagliaferri, Watson, Wiersema, \& Wijers}]{Thone2013}
-Thone, C.~C., Fynbo, J. P.~U., Goldoni, P., {et~al.} 2013, Mon. Not. R. Astron.
-  Soc., 428, 3590
+\bibitem[\protect\citeauthoryear{Selsing, Fynbo, Christensen  \&
+  Krogager}{Selsing et~al.}{2015}]{Selsing2015}
+Selsing J.,  Fynbo J. P.~U.,  Christensen L.,   Krogager J.-K.,  2015, \mn@doi
+  [A{\&}A] {10.1051/0004-6361/201527096}, 87, 14
 
-\bibitem[{Trujillo {et~al.}(2001)Trujillo, Aguerri, Cepa, \&
-  Guti{\'{e}}rrez}]{Trujillo2001}
-Trujillo, I., Aguerri, J. A.~L., Cepa, J., \& Guti{\'{e}}rrez, C.~M. 2001, Mon.
-  Not. R. Astron. Soc., 328, 977
+\bibitem[\protect\citeauthoryear{Smette et~al.,}{Smette
+  et~al.}{2015}]{Smette2015}
+Smette A.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201423932}, 576,
+  A77
 
-\bibitem[{van Dokkum(2001)}]{VanDokkum2001}
-van Dokkum, P.~G. 2001, Publ. Astron. Soc. Pacific, 113, 1420
+\bibitem[\protect\citeauthoryear{Sparre et~al.,}{Sparre
+  et~al.}{2011}]{Sparre2011}
+Sparre M.,  et~al., 2011, \mn@doi [ApJ] {10.1088/2041-8205/735/1/L24}, 735, L24
 
-\bibitem[{Vernet {et~al.}(2011)Vernet, Dekker, D'Odorico, Kaper, Kjaergaard,
-  Hammer, Randich, Zerbi, Groot, Hjorth, Guinouard, Navarro, Adolfse, Albers,
-  Amans, Andersen, Andersen, Binetruy, Bristow, Castillo, Chemla, Christensen,
-  Conconi, Conzelmann, Dam, {De Caprio}, {De Ugarte Postigo}, Delabre, {Di
-  Marcantonio}, Downing, Elswijk, Finger, Fischer, Flores, Fran{\c{c}}ois,
-  Goldoni, Guglielmi, Haigron, Hanenburg, Hendriks, Horrobin, Horville, Jessen,
-  Kerber, Kern, Kiekebusch, Kleszcz, Klougart, Kragt, Larsen, Lizon, Lucuix,
-  Mainieri, Manuputy, Martayan, Mason, Mazzoleni, Michaelsen, Modigliani,
-  Moehler, M{\o}ller, {Norup S{\o}rensen}, N{\o}rregaard, P{\'{e}}roux, Patat,
-  Pena, Pragt, Reinero, Rigal, Riva, Roelfsema, Royer, Sacco, Santin,
-  Schoenmaker, Spano, Sweers, {Ter Horst}, Tintori, Tromp, van Dael, van~der
-  Vliet, Venema, Vidali, Vinther, Vola, Winters, Wistisen, Wulterkens, \&
-  Zacchei}]{Vernet2011}
-Vernet, J., Dekker, H., D'Odorico, S., {et~al.} 2011, Astron. Astrophys., 536,
+\bibitem[\protect\citeauthoryear{Sparre et~al.,}{Sparre
+  et~al.}{2014}]{Sparre2014}
+Sparre M.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/785/2/150}, 785, 150
+
+\bibitem[\protect\citeauthoryear{Starling et~al.,}{Starling
+  et~al.}{2011}]{Starling2011}
+Starling R. L.~C.,  et~al., 2011, \mn@doi [MNRAS]
+  {10.1111/j.1365-2966.2010.17879.x}, 411, 2792
+
+\bibitem[\protect\citeauthoryear{{Tepper Garc{\'{i}}a}}{{Tepper
+  Garc{\'{i}}a}}{2006}]{TepperGarcia2006}
+{Tepper Garc{\'{i}}a} T.,  2006, \mn@doi [MNRAS]
+  {10.1111/j.1365-2966.2006.10450.x}, 369, 2025
+
+\bibitem[\protect\citeauthoryear{Th{\"{o}}ne et~al.,}{Th{\"{o}}ne
+  et~al.}{2013}]{Thone2013}
+Th{\"{o}}ne C.~C.,  et~al., 2013, \mn@doi [MNRAS] {10.1093/mnras/sts303}, 428,
+  3590
+
+\bibitem[\protect\citeauthoryear{Trujillo, Aguerri, Cepa  \&
+  Guti{\'{e}}rrez}{Trujillo et~al.}{2001}]{Trujillo2001}
+Trujillo I.,  Aguerri J. A.~L.,  Cepa J.,   Guti{\'{e}}rrez C.~M.,  2001,
+  \mn@doi [MNRAS] {10.1046/j.1365-8711.2001.04937.x}, 328, 977
+
+\bibitem[\protect\citeauthoryear{Vergani et~al.,}{Vergani
+  et~al.}{2011}]{Vergani2011}
+Vergani S.~D.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201117726},
+  535, A127
+
+\bibitem[\protect\citeauthoryear{Vernet et~al.,}{Vernet
+  et~al.}{2009}]{Vernet2010}
+Vernet J.,  et~al., 2009, \mn@doi [Proc. Int. Astron. Union]
+  {10.1017/S1743921310010574}, 5, 535
+
+\bibitem[\protect\citeauthoryear{Vernet et~al.,}{Vernet
+  et~al.}{2011}]{Vernet2011}
+Vernet J.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201117752}, 536,
   A105
 
-\bibitem[{Vernet {et~al.}(2009)Vernet, Kerber, Mainieri, Rauch, Saitta,
-  D'Odorico, Bohlin, Ivanov, Lidman, Mason, Smette, Walsh, Fosbury, Goldoni,
-  Groot, Hammer, Kaper, Horrobin, Kjaergaard-Rasmussen, \& Royer}]{Vernet2010}
-Vernet, J., Kerber, F., Mainieri, V., {et~al.} 2009, Proc. Int. Astron. Union,
-  5, 535
+\bibitem[\protect\citeauthoryear{Wiersema et~al.,}{Wiersema
+  et~al.}{2012}]{Wiersema2012}
+Wiersema K.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2012.20943.x},
+  426, 2
 
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo} et~al.,}{{de Ugarte
+  Postigo} et~al.}{2010}]{DeUgartePostigo2010}
+{de Ugarte Postigo} A.,  et~al., 2010, \mn@doi [A{\&}A]
+  {10.1051/0004-6361/200913113}, 513, A42
+
+\bibitem[\protect\citeauthoryear{van Dokkum}{van Dokkum}{2001}]{VanDokkum2001}
+van Dokkum P.~G.,  2001, \mn@doi [PASP] {10.1086/323894}, 113, 1420
+
+\makeatother
 \end{thebibliography}
