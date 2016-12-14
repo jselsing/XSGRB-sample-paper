@@ -44,7 +44,7 @@ GRB111008A    4.989     8.5     21          4.6
 GRB111008A    4.989     20.1    22          4.6
 GRB111107A    2.893     5.3     21.5        1.998
 GRB111117A    1.3       38      nan         nan
-GRB111123A    3.151     12.2    >24         nan
+GRB111123A    3.151     12.2    24         nan
 GRB111123A    3.151     nan     nan         nan
 GRB111129A    nan       nan     nan         nan
 GRB111209A    0.677     17.7    20.1        nan
