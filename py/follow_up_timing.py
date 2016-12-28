@@ -4,6 +4,7 @@
 from __future__ import division, print_function
 
 from astropy.io import fits
+import pandas as pd
 import matplotlib.pyplot as pl
 import seaborn; seaborn.set_style('ticks')
 import numpy as np
@@ -15,7 +16,7 @@ params = {
    'legend.fontsize': 10,
    'xtick.labelsize': 10,
    'ytick.labelsize': 10,
-   'text.usetex': True,
+   'text.usetex': False,
    'figure.figsize': [4.5, 4.5]
    }
 matplotlib.rcParams.update(params)
@@ -29,62 +30,81 @@ def main():
 
 
     # Read in burst list
-    burst_table = np.array([[ii, kk, ll, pp, tt] for ii, kk, ll, pp, tt in np.genfromtxt("../data/burst_list.dat", dtype=None)])
+    # burst_table = np.array([[ii, kk, ll, pp, tt] for ii, kk, ll, pp, tt in np.genfromtxt("../data/burst_list.dat", dtype=None)])
+    burst_table = pd.read_csv("../data/Burst list - CSV_observed.csv")
 
-    name, z, delay, mag = burst_table[:, 0], burst_table[:, 1].astype(float), burst_table[:, 2].astype(float), burst_table[:, 3].astype(float)
+    name, z, delay, mag = burst_table["GRB"].values, burst_table["z"].values, burst_table["Follow-up delay"].values, burst_table["Acquisition mag"].values
+
+    idx_limits = ~(mag == ">24")
+    magnondet = 24 * (~idx_limits).astype("int")
+
+    delay_sort = np.argsort(delay)
+    sorted_delay = delay[delay_sort]
+    sorted_z = z[delay_sort]
+    fractional_completeness = (1 - np.cumsum(np.isnan(sorted_z).astype("int"))/len(sorted_z))*100
+    print(len(sorted_z), np.sum(np.isnan(sorted_z).astype("int")))
+    print(fractional_completeness[-1])
+    exit()
+    idx_hasz = ~np.isnan(z)
 
     # Plot
-    fig, ax = pl.subplots()
+    fig, ax1 = pl.subplots()
 
     cmap = pl.get_cmap("plasma")
+    # With redshift and acq mag
+    sc = ax1.scatter(delay[idx_hasz & idx_limits], mag[idx_hasz & idx_limits], c=z[idx_hasz & idx_limits], cmap=cmap, s=25)
+    # Without redshift and with acq mag
+    ax1.scatter(delay[~idx_hasz & idx_limits], mag[~idx_hasz & idx_limits], color="black", s=25)
+    # With redshift, but without acq mag
+    ax1.scatter(delay[idx_hasz & ~idx_limits], magnondet[idx_hasz & ~idx_limits], c=z[idx_hasz & ~idx_limits], cmap=cmap, s=125, marker=u'$\u2193$')
+    # No redshift and without acq mag
+    ax1.scatter(delay[~idx_hasz & ~idx_limits], magnondet[~idx_hasz & ~idx_limits], color="black", s=125, marker=u'$\u2193$')
 
-    sc = ax.scatter(delay, mag, c=z, cmap=cmap, s=25)
-
-    # a, b, c = ax.errorbar(nH, OA_nH, xerr=nH_std, yerr=OA_nHe, fmt="none", marker=None, mew=0, alpha=0.5, lw=0.5)
-    # e_color = clb.to_rgba(OA_z)
-    # c[0].set_color(e_color)
-    # c[1].set_color(e_color)
-
-    # from matplotlib.patches import Ellipse
-    # for jj in np.arange(1, 2):
-    #     for ii, (kk, ll) in enumerate(zip(nH, OA_nH)):
-    #         ax.add_artist(Ellipse((kk, ll), 2*jj*nH_std[ii], 2*jj*OA_nHe[ii], fill=False, linestyle='dashed', lw = 0.5, alpha = 1.0/(2.0*jj) , color=cmap(OA_z[ii]/max(OA_z))))
-
-
-    # for ii, txt in enumerate(names):
-    #     ax.annotate(txt, (nH[ii], OA_nH[ii]), size="x-small")
+    ax2 = pl.twinx()
+    ax2.plot(sorted_delay, fractional_completeness)
 
 
-    # ax.annotate(r"Z/Z$_\odot$ = 1", xy=(20, 20.5), rotation=50)
-    ax.spines['top'].set_visible(False)
-    # ax.spines['right'].set_visible(False)
-    # ax.spines['left'].set_visible(False)
-    ax.get_xaxis().tick_bottom()
-    ax.get_yaxis().tick_left()
-    ax.tick_params(axis='x', direction='out')
-    ax.tick_params(axis='y', direction='out')
+
+    ax1.spines['top'].set_visible(False)
+    ax2.spines['top'].set_visible(False)
+    ax2.spines['right'].set_visible(False)
+    ax2.spines['left'].set_visible(False)
+    ax2.spines['bottom'].set_visible(False)
+    ax1.get_xaxis().tick_bottom()
+    ax1.get_yaxis().tick_left()
+    ax1.tick_params(axis='x', direction='out')
+    ax1.tick_params(axis='y', direction='out')
+    ax2.tick_params(axis='y', direction='out')
     # offset the spines
-    for spine in ax.spines.values():
+    for spine in ax1.spines.values():
+        spine.set_position(('outward', 3))
+    for spine in ax2.spines.values():
         spine.set_position(('outward', 3))
     # put the grid behind
-    ax.set_axisbelow(True)
+    ax1.set_axisbelow(True)
+    ax2.set_axisbelow(True)
 
     # ax.set_xlim((19.5, 23))
-    ax.set_xlim((0.05, 110))
-    ax.set_xlabel(r"Follow-up delay [hours]")
-    ax.set_ylabel(r"Acquisition camera magnitude [r-band]")
+    ax1.set_xlim((0.05, 110))
+    ax2.set_ylim((70, 105))
+    ax2.set_yticks([75, 80, 85, 90, 95, 100])
+    ax1.set_xlabel(r"Follow-up delay [hours]")
+    ax1.set_ylabel(r"Acquisition camera magnitude [r-band]")
+    ax2.set_ylabel(r"Redshift completeness [%]")
 
-    pl.gca().invert_yaxis()
-    ax.semilogx()
+    ax1.invert_yaxis()
+    ax1.semilogx()
     pl.tight_layout()
-    ax.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
+    ax1.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
     #create a colorbar axis
-    cax, kw = matplotlib.colorbar.make_axes(ax, location='top')
+    cax, kw = matplotlib.colorbar.make_axes(ax2, location='top')
+    clb = pl.colorbar(sc, orientation="horizontal", cax=cax, ticks=[0, 1, 2, 3, 4, 5, 6])
+    cax, kw = matplotlib.colorbar.make_axes(ax1, location='top')
     clb = pl.colorbar(sc, orientation="horizontal", cax=cax, ticks=[0, 1, 2, 3, 4, 5, 6])
     clb.ax.set_title("Redshift")
     # pl.show()
     pl.savefig("../document/figures/timing.pdf", dpi="figure")
-
+    pl.show()
 
 if __name__ == '__main__':
     main()

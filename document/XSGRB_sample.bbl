@@ -72,6 +72,10 @@ D'Elia V.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201323057}, 564,
 {De Ugarte Postigo} A.,  Th{\"{o}}ne C.~C.,  Goldoni P.,   Fynbo J. P.~U.,
   2011, \mn@doi [AN] {10.1002/asna.201111540}, 332, 297
 
+\bibitem[\protect\citeauthoryear{Evans et~al.,}{Evans et~al.}{2009}]{Evans2009}
+Evans P.~A.,  et~al., 2009, \mn@doi [MNRAS] {10.1111/j.1365-2966.2009.14913.x},
+  397, 1177
+
 \bibitem[\protect\citeauthoryear{Filippenko}{Filippenko}{1982}]{Filippenko1982}
 Filippenko A.~V.,  1982, \mn@doi [PASP] {10.1086/131052}, 94, 715
 
@@ -99,6 +103,11 @@ Fynbo J. P.~U.,  et~al., 2009, \mn@doi [ApJS] {10.1088/0067-0049/185/2/526},
 \bibitem[\protect\citeauthoryear{Fynbo et~al.,}{Fynbo et~al.}{2014}]{Fynbo2014}
 Fynbo J. P.~U.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201424726},
   12, 1
+
+\bibitem[\protect\citeauthoryear{Gehrels, Ramirez-Ruiz  \& Fox}{Gehrels
+  et~al.}{2009}]{Gehrels2009}
+Gehrels N.,  Ramirez-Ruiz E.,   Fox D.,  2009, \mn@doi [ARA{\&}A]
+  {10.1146/annurev.astro.46.060407.145147}, 47, 567
 
 \bibitem[\protect\citeauthoryear{Ginsburg et~al.,}{Ginsburg
   et~al.}{2016}]{astroquery}
@@ -157,6 +166,11 @@ Jones A.,  Noll S.,  Kausch W.,  Szyszka C.,   Kimeswenger S.,  2013, \mn@doi
 Kausch W.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201423909}, 576,
   A78
 
+\bibitem[\protect\citeauthoryear{Kocevski \& Petrosian}{Kocevski \&
+  Petrosian}{2013}]{Kocevski2013}
+Kocevski D.,  Petrosian V.,  2013, \mn@doi [ApJ] {10.1088/0004-637X/765/2/116},
+  765, 116
+
 \bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
   et~al.}{2013}]{Kruhler2013}
 Kr{\"{u}}hler T.,  et~al., 2013, \mn@doi [A{\&}A]
@@ -174,6 +188,14 @@ Letchworth K.~L.,  Benner D.~C.,  2007, \mn@doi [JQSRT]
 
 \bibitem[\protect\citeauthoryear{Levan et~al.,}{Levan et~al.}{2014}]{Levan2014}
 Levan A.~J.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/781/1/13}, 781, 13
+
+\bibitem[\protect\citeauthoryear{Lien et~al.,}{Lien et~al.}{2016}]{Lien2016}
+Lien A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/829/1/7}, 829, 7
+
+\bibitem[\protect\citeauthoryear{Littlejohns, Tanvir, Willingale, Evans,
+  O'Brien  \& Levan}{Littlejohns et~al.}{2013}]{Littlejohns2013a}
+Littlejohns O.~M.,  Tanvir N.~R.,  Willingale R.,  Evans P.~A.,  O'Brien P.~T.,
+    Levan A.~J.,  2013, \mn@doi [MNRAS] {10.1093/mnras/stt1841}, 436, 3640
 
 \bibitem[\protect\citeauthoryear{McGuire et~al.,}{McGuire
   et~al.}{2016}]{McGuire2016}
@@ -197,6 +219,10 @@ Noll S.,  Kausch W.,  Barden M.,  Jones A.~M.,  Szyszka C.,  Kimeswenger S.,
   et~al.}{2012}]{Noterdaeme2012}
 Noterdaeme P.,  et~al., 2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201220259},
   547, L1
+
+\bibitem[\protect\citeauthoryear{Nousek et~al.,}{Nousek
+  et~al.}{2006}]{Nousek2006}
+Nousek J.~A.,  et~al., 2006, \mn@doi [ApJ] {10.1086/500724}, 642, 389
 
 \bibitem[\protect\citeauthoryear{Pagnini \& Mainardi}{Pagnini \&
   Mainardi}{2010}]{pagnini2010}
@@ -294,6 +320,16 @@ Th{\"{o}}ne C.~C.,  et~al., 2013, \mn@doi [MNRAS] {10.1093/mnras/sts303}, 428,
   Guti{\'{e}}rrez}{Trujillo et~al.}{2001}]{Trujillo2001}
 Trujillo I.,  Aguerri J. A.~L.,  Cepa J.,   Guti{\'{e}}rrez C.~M.,  2001,
   \mn@doi [MNRAS] {10.1046/j.1365-8711.2001.04937.x}, 328, 977
+
+\bibitem[\protect\citeauthoryear{Turpin, Heussaff, Dezalay, Atteia, Klotz  \&
+  Dornic}{Turpin et~al.}{2016}]{Turpin2016}
+Turpin D.,  Heussaff V.,  Dezalay J.-P.,  Atteia J.-L.,  Klotz A.,   Dornic D.,
+   2016, \mn@doi [ApJ] {10.3847/0004-637X/831/1/28}, 831, 28
+
+\bibitem[\protect\citeauthoryear{Vecchio, Dainotti  \& Ostrowski}{Vecchio
+  et~al.}{2016}]{Vecchio2016}
+Vecchio R.~D.,  Dainotti M.~G.,   Ostrowski M.,  2016, \mn@doi [ApJ]
+  {10.3847/0004-637X/828/1/36}, 828, 36
 
 \bibitem[\protect\citeauthoryear{Vergani et~al.,}{Vergani
   et~al.}{2011}]{Vergani2011}

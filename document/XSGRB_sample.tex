@@ -370,6 +370,7 @@ primary targets.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sample selection criteria} \label{samplecrit}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Being of transient nature, it is difficult to impose strong sample selection
 criteria on GRBs, without hampering the follow-up effort. Many natural follow-up
 restrictions exists from already, being it weather conditions, pointing
@@ -382,7 +383,7 @@ selection of bursts, while allowing for a high success-rate
 
 \footnote{Note that in the P84 proposal the criteria have
 been stated a bit differently, the visibility constraint being replaced by a
-declination + Sun angle constraint. The above criteria are however those
+declination + Sun angle constraint. The below criteria are however those
 defining the sample.}
 
 \begin{enumerate}
@@ -395,7 +396,7 @@ defining the sample.}
 \end{enumerate}
 
 
-A significant fraction of the bursts presented here \todo{Insert exact
+A fraction of the bursts presented here \todo{Insert exact
 number} have already had their hosts investigated in \citet{Kruhler2015}, for
 which extractions of the hosts exist. The focus of the data presented here are
 on the afterglows themselves and in the absence of a clear afterglow, the host.
@@ -423,18 +424,22 @@ The rapid-response mode is
 \subsection{Observations} \label{obs}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-All the observations in this sample has been carried out using the
-cross-dispersed echelle spectrograph, X-shooter \citep{Vernet2011}, mounted on
-two of the four Unit Telescopes at ESO/VLT, UT2 (Kueyen) and UT3 (Melipal)
-during the duration of this follow-up campaign, which covers the entire lifetime
-of X-shooter. Observations have been carried out from the ESO period P84
-through P98 under the following programme IDs: 098.A-0055, 097.A-0036, 096.A-0079,
-095.A-0045, 094.A-0134, 093.A-0069, 092.A-0124, 0091.C-0934, 090.A-0088,
-089.A-0067, 088.A-0051, 087.A-0055, 086.A-0073, 085.A-0009 and 084.A-0260. 
+Observations in this sample has been carried out using the cross-dispersed
+echelle spectrograph, X-shooter \citep{Vernet2011}, mounted on two of the four
+Unit Telescopes at ESO/VLT, UT2 (Kueyen) and UT3 (Melipal) during the duration
+of this follow-up campaign, which covers the entire lifetime of X-shooter.
+Observations have been carried out from the ESO period P84 through P98 under the
+following programme IDs: 098.A-0055, 097.A-0036, 096.A-0079, 095.A-0045,
+094.A-0134, 093.A-0069, 092.A-0124, 0091.C-0934, 090.A-0088, 089.A-0067,
+088.A-0051, 087.A-0055, 086.A-0073, 085.A-0009 and 084.A-0260. A few additional
+bursts, not a part of the \textit{statistical sample}, have been included from
+092.D-0056(A) (PI: Rau), 092.D-0633(E) (PI: Greiner), and Levan under
+095.B-0811(B) (PI: Levan). This sample represents \textit{all} GRBs that have
+ever been followed up by X-shooter.
 
 The first GRB followed up is GRB090313, observed 15th of March 2009, which was
 while X-shooter was mounted on UT3 during the commissioning of the instrument.
-The bursts observed during the commisioning period is not a part of our
+The bursts observed during the commissioning period is not a part of our
 statistical sample, but are nonetheless published as part of the bursts observed
 by the X-shooter GRB team. The first burst observed after science verification
 was completed when X-shooter was moved to UT2 is GRB091018 which thereby
@@ -446,13 +451,12 @@ effect is included in Sect. \ref{badbursts}.
 
 X-shooter can cover the spectral wavelength region from 3000 \AA~to 24800 \AA~in
 a single exposure, by splitting the light in three separate spectroscopic arms
-using dichroics.
-This way each arm work as a separate instrument, each functioning as its own
-echelle spectrograph.
-The ultraviolet blue(UVB) arm covering 3000 - 5500 \AA, the visual(VIS) arm
-covering 5500 - 10200 \AA, and the near-infrared()NIR) arm covering 10200 -
-24800 \AA~ with the possibility of applying a k-band
-blocking filter cutting the coverage of the NIR arm at 10200 - 21000 \AA.
+using dichroics. This way each arm work as a separate instrument, each
+functioning as its own echelle spectrograph. The ultraviolet blue(UVB) arm
+covering 3000 - 5500 \AA, the visual(VIS) arm covering 5500 - 10200 \AA, and the
+near-infrared()NIR) arm covering 10200 - 24800 \AA~ with the possibility of
+applying a k-band blocking filter cutting the coverage of the NIR arm at 10200 -
+21000 \AA.
 \\
 
 \todo{ABBA}
@@ -756,29 +760,116 @@ estimate for the analysis of these poor signal to noise science spectra.
 \section{Results}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In this section we describe the efficiency of the follow-up effort and the characteristics of the observed bursts. We also assess the degree to which the sample obtained is complete. 
-
+In this section we describe the efficiency of the follow-up effort and the
+characteristics of the observed bursts. We also assess the degree to which the
+sample obtained is complete. An important note is that here we present
+\textit{all} GRBs that have ever been observed with X-shooter, while only a
+subset of these constitute our \textit{statistical} sample. The statistical
+sample is based on the selection criteria described in Sect. \ref{samplecrit}
+and should represent an unbiased sample of the underlying, parent GRB
+population. Single bursts outside the sample criteria have been followed up on
+the basis of the curiosity of their light curve or their brightness, but is not
+discussed as part of the investigation of the GRB population. A prime example of
+a burst outside the statistical sample is GRB161023A with it's rich
+spectrum containing 11 intervening absorption systems and pending further analysis. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Follow-up timing and afterglow brightness}
+\subsection{Follow-up timing and afterglow brightness} \label{timing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-A rapid follow-up is essential for the accurate designation of GRB the origin. The redshift determination of burst where the host is not easily 
+Redshift determination of bursts where the host is too faint for a spectroscopic
+redshift relies on the absorption spectrum imprinted on the GRB afterglow
+continuum, which again depends on the afterglow brightness at time of follow-up.
+Because the afterglow rapidly fades \citep{Nousek2006, Vecchio2016}\todo{Better references} a rapid
+follow-up is essential for the accurate designation of the GRB host \todo{Get
+reference}. In Fig. \ref{fig:timing} we plot the follow-up delay from the BAT
+trigger to the start of the spectroscopic observation. Visible as the
+shortest delays are the bursts observed in RRM-mode in which where the fastest follow-up
+between BAT trigger and start of spectroscopic observations is for the short, $z = 1.717$, GRB160410A which was
+followed up only 8.4 minutes after the BAT trigger.
 
 
 \begin{figure}
 	\centerline{\includegraphics[width=8cm]{figures/timing.pdf}}
-	\caption{Follow-up timing and afterglow magnitude at the start of observation. The points have been colored based on the redshift of the corresponding burst. }
+	\caption{Follow-up timing and afterglow magnitude at the start of observation.
+	The points have been colored based on the redshift of the corresponding burst.
+	Points with black faces does not have a redshift determination and downarrows
+	indicate a non-detection in the acquisition image. In blue is shown the
+	fractional redshift completess as a function of delay-time.}
 	\label{fig:timing}
 \end{figure}
+
+To illustrate the effect of redshift completeness loss due to late follow-up, we
+overplot the redshift completeness fraction over the delay time. Visible is the
+increasing fraction of GRBs without a good redshift determination for increasing
+delays. That the redshift completeness of the bursts we have followed up are $>$
+90 percent \todo{Get number}, shows the ability of VLT/X-shooter to successfully
+get redshifts. Not shown in the figure is an additional 12 \todo{Get number}
+bursts that we have redshift determinations from late-time host observations
+with delay-times longer than $\sim$10 days.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sample completeness}	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Based on the sample criteria specified in Sect. \ref{samplecrit}, a total of 152 \todo{Get number} bursts has been triggered by \textit{Swift} in the period since the comissioning of VLT/X-shooter in \todo{Get date}. This constitutes the \textit{statistical sample}.  
+Based on the sample criteria specified in Sect. \ref{samplecrit}, a total of 158
+\todo{Get number} bursts has been triggered by \textit{Swift} in the period
+since the commissioning of VLT/X-shooter in \todo{Insert date}. This sample
+constitutes the \textit{statistical sample} on which we will try to address the
+GRB population properties. Of this sample, 86 \todo{Get number} have been
+spectroscopically followed up with X-shooter. In order to assess whether our
+sample criteria and the subset of bursts followed up represent the underlying
+parent population of GRB, we compare some intrinsic GRB properties of our sample
+to the full sample of GRBs followed up by \textit{Swift}. Under the assumption
+that \textit{Swift} randomly samples the underlying GRB population, if the
+sample statistics of our subsample are similar to the \textit{Swift}-sample, we
+can assume that the population properties should be conserved. There is some
+evidence that the burst duration does not scale with redshift as expected
+through time-dilation\citep{Kocevski2013, Littlejohns2013a}, pointing towards
+that we could be missing an increasing fraction of the bursts at higher
+redshifts, but \citet{Lien2016} argues that we should only be missing the bright
+"short" GRBs", but to the degree that \textit{Swift} is complete, we can test if
+the sample presented here is complete. We show the comparison between the burst
+properties in Fig. \ref{fig:swift_complete}.
+
+
+\begin{figure*}
+	\centerline{\includegraphics[width=18cm]{figures/completeness_BAT.pdf}}
+	\caption{Comparison between bursts properties of all bursts observed with
+	\textit{Swift}, the properties of the ones that fullfill the sample criteria
+	specified in Sect. \ref{samplecrit}, and the subset that has been observed as
+	part of the statistical sample. The left plot shows the fluence in 15-150 keV
+	as observed by BAT. The middle panel shows the 0.3 - 10 keV flux, 11 hours
+	after the bursts as measured by XRT. Based on the XRT spectrum,
+	\citep{Evans2009}, a hydrogen column density has been inferred which we show in
+	the right most panel.}
+	\label{fig:swift_complete}
+\end{figure*}
+
+Using the observational characteristics of the 1244 \todo{Get number} bursts
+observed by \textit{Swift} to date \cite{Gehrels2009}, and the X-ray derived
+hydrogen column densities \citep{Evans2009}, we can quantify the degree to which
+our sample is biased against the overall \textit{Swift} sample. The values are
+queried from then Three main samples are of interest to compare to assess the
+completenessof the follow-up campaign; the full \textit{Swift} sample consisting
+of all the burst observed by \textit{Swift} (1), the burst that fulfill the
+selection criteria imposed in Sect. \ref{samplecrit} (2), and the bursts
+actually followed up with X-shooter (3).
+
+\input{tables/sample_properties.tex}
+
+Using a
+2-sided Kolmogorov-Smirnov (KS), we can assess the degree to which the null that
+the two distribution are drawn from the same distribution can be rejected.
+
+\begin{figure}
+	\centerline{\includegraphics[width=9cm]{figures/p_values.pdf}}
+	\caption{Relational graph shown the .}
+	\label{fig:p_values}
+\end{figure}
+
 
 
 
@@ -789,14 +880,49 @@ Based on the sample criteria specified in Sect. \ref{samplecrit}, a total of 152
 How many bursts have been excluded due to particularities in the follow-up attempt. Visitor, Weather, technical issues.  	
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{On the nature of triggered GRBs without detected optical afterglow.}
+\subsection{The nature of triggered GRBs without detected optical afterglow.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-This should include observations where the acquisition image has been taken, but observations were discontinued due to non-detection. What are the X-ray properties of these bursts?
+This should include observations where the acquisition image has been taken, but
+observations were discontinued due to non-detection. What are the X-ray
+properties of these bursts?
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{On the redshift distribution of GRBs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Because the redshift completeness of our statistical sample is  54 percent
+\todo{Get number}, making inference of the underlying redshift distribution of
+GRBs is difficult. Because a large fraction of the bursts for which we were
+unable to secure a redshift are missing due to terrestrial reasons, see Sect.
+\ref{badbursts}, imposing additional unbiasing cuts on the sample can increase
+the redshift completeness at the cost of sample size. As long as the cuts we
+impose are not selective in terms of the burst properties, the sample properties
+stay the same. The first cut we try is telescope availability such as bad
+weather, visitor rejected the TOO, or unavailability of the instrument. Because
+telescope availability is independent on the burst properties, by cutting away
+these from our sample, the underlying redshift distribution should be conserved.
+By trimming away the 30 bursts \todo{Get number} that can be rejected due to
+telescope availability, the redshift completeness increases to 63 percent
+\todo{Get number}. As is shown in Sect. \ref{timing}, the redshift completeness
+decreases with increasing follow-up delay, we can additionally increase the
+redshift completeness by imposing cuts on the follow-up delay. Our ability to
+rapidly follow up a burst is also not dependent on the burst properties and
+therefore we can additionally cut delays longer than 24 hours (all burst in the
+sample are in principle observable within 24 hours).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Redshifts}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The biased introduced in the redshift distribution by the increased ability to
+secure redshift of optically brighter bursts has been investigated by
+\citet{Turpin2016} which find that we systematically find redshift for longer
+GRBs. Additionally only the brightest GRBs are seen above redshift $z \gtrsim
+1$. \todo{Additional text}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Afterglow-based redshifts}
@@ -827,7 +953,7 @@ Due of the stochastic nature of the \lya-forest, the blue wing of the Lyman
 alpha absorption line is randomly superposed with forest systems, along with
 strong absorption from \mnii~and \SIiii, making it notoriously difficult to
 model. Additionally, Similarly so, the red wing has got the ISM signatures
-imprinted on it, especially strong absorption due to \SIii, \sii and \nv~which
+imprinted on it, especially strong absorption due to \SIii, \sii~and \nv~which
 can exhibit significant velocity structure. Along with instrumental effects, the
 generative model for the data that we would use in a likelihood-based analysis
 would be almost boundless in complexity, making formal fitting of the column
@@ -1056,7 +1182,7 @@ The unambiguous redshift of the host, $z=0.624$, is found from the simultaneous
 detection of emission features belonging to nebular lines, including \hi, \oii,
 \oiii, \neiii, \nii, \sii, \siii, and \hei~as well as absorption features due
 to the presence of \znii, \crii, \feii, \mnii, \mgii, \mgi, \tiii, and \caii,
-all at a consistent redshift. Temporal evolution of the fine-structure lines
+all at a consistent redshift. Temporal evolution of the fine structure lines
 belonging to \feii$^*$ is found between the epochs.
 
 \subsection{GRB100424A (z=2.465)}
@@ -1339,7 +1465,7 @@ detected across the entire spectral coverage of X-shooter, with a multitude of
 absorption lines superposed. Absorption features from the host at $z = 2.358$
 include a DLA as well as metal absorption lines from \nv, \sii, \SIii, \oi,
 \civ, \SIiv, \feii, \alii, \aliii, \mnii, \mgii, and \mgi. Additionally
-fine-structure lines from \NIii and \feii are exited local to the GRB.
+fine structure lines from \NIii and \feii are exited local to the GRB.
 Intervening systems are found at $z = 1.539$, $z = 1.693$, and $z = 2.00$.
 
 
@@ -1353,7 +1479,7 @@ system at $z = 3.929$. Absorption from high-column density hydrogen leaves very
 prominent absorption features in the form of \lya, \lyb, and \lyg, visible in
 the Lyman alpha forest. Metal absorption lines arising from \feii, \NIii,
 \SIii, \sii, \alii, \aliii, \cii, \oi, \civ, and \znii~are all detected along
-with the corresponding fine-structure lines from (\feii$^*$, \SIii$^*$,
+with the corresponding fine structure lines from (\feii$^*$, \SIii$^*$,
 \oi$^*$, \oi$^**$, \cii$^*$), securely anchoring the redshift of the host.
 
 
@@ -1372,7 +1498,7 @@ The data presented here also formed the basis of GCN \#
 in \citet{Friis2015}. Also rapid, starting 1.8 hours after the \textit{Swift}
 trigger, a bright afterglow continuum is visible across all arms. A broad
 absorption feature from Lyman alpha, along with narrow lines from \civ, \SIii,
-\SIiv, \feii, \sii, and \alii, as well as fine-structure lines associated with
+\SIiv, \feii, \sii, and \alii, as well as fine structure lines associated with
 \SIii$^*$ are all detected at $z = 2.300$, securely setting it as the redshift
 of the GRB.
 
