@@ -67,10 +67,19 @@ D'Elia V.,  et~al., 2010, \mn@doi [A{\&}A] {10.1051/0004-6361/201015216}, 523,
 D'Elia V.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201323057}, 564,
   A38
 
+\bibitem[\protect\citeauthoryear{{De Pasquale} et~al.,}{{De Pasquale}
+  et~al.}{2003}]{DePasquale2003}
+{De Pasquale} M.,  et~al., 2003, \mn@doi [ApJ] {10.1086/375854}, 592, 1018
+
 \bibitem[\protect\citeauthoryear{{De Ugarte Postigo}, Th{\"{o}}ne, Goldoni  \&
   Fynbo}{{De Ugarte Postigo} et~al.}{2011}]{DeUgartePostigo2011}
 {De Ugarte Postigo} A.,  Th{\"{o}}ne C.~C.,  Goldoni P.,   Fynbo J. P.~U.,
   2011, \mn@doi [AN] {10.1002/asna.201111540}, 332, 297
+
+\bibitem[\protect\citeauthoryear{Djorgovski, Frail, Kulkarni, Bloom, Odewahn
+  \& Diercks}{Djorgovski et~al.}{2001}]{Djorgovski2001}
+Djorgovski S.~G.,  Frail D.~A.,  Kulkarni S.~R.,  Bloom J.~S.,  Odewahn S.~C.,
+   Diercks A.,  2001, \mn@doi [ApJ] {10.1086/323845}, 562, 654
 
 \bibitem[\protect\citeauthoryear{Evans et~al.,}{Evans et~al.}{2009}]{Evans2009}
 Evans P.~A.,  et~al., 2009, \mn@doi [MNRAS] {10.1111/j.1365-2966.2009.14913.x},
@@ -96,6 +105,10 @@ Friis M.,  et~al., 2015, \mn@doi [MNRAS] {10.1093/mnras/stv960}, 451, 167
   et~al.}{2006}]{Fruchter2006}
 Fruchter A.~S.,  et~al., 2006, \mn@doi [Natur] {10.1038/nature04787}, 441, 463
 
+\bibitem[\protect\citeauthoryear{Fynbo et~al.,}{Fynbo et~al.}{2001}]{Fynbo2001}
+Fynbo J.~U.,  et~al., 2001, \mn@doi [A{\&}A] {10.1051/0004-6361:20010112}, 369,
+  373
+
 \bibitem[\protect\citeauthoryear{Fynbo et~al.,}{Fynbo et~al.}{2009}]{Fynbo2009}
 Fynbo J. P.~U.,  et~al., 2009, \mn@doi [ApJS] {10.1088/0067-0049/185/2/526},
   185, 175
@@ -120,6 +133,14 @@ Goldoni P.,  Royer F.,  Fran{\c{c}}ois P.,  Horrobin M.,  Blanc G.,  Vernet J.,
    Modigliani A.,   Larsen J.,  2006, \mn@doi [Ground-based Airborne Instrum.
   Astron. Ed. by McLean] {10.1117/12.669986}, 6269, 80
 
+\bibitem[\protect\citeauthoryear{Greiner et~al.,}{Greiner
+  et~al.}{2011}]{Greiner2011}
+Greiner J.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201015458}, 526,
+  A30
+
+\bibitem[\protect\citeauthoryear{Groot et~al.,}{Groot et~al.}{1998}]{Groot1998}
+Groot P.~J.,  et~al., 1998, \mn@doi [ApJ] {10.1086/311125}, 493, L27
+
 \bibitem[\protect\citeauthoryear{Hamuy, Suntzeff, Heathcote, Walker, Gigoux  \&
   Phillips}{Hamuy et~al.}{1994}]{Hamuy1994}
 Hamuy M.,  Suntzeff N.~B.,  Heathcote S.~R.,  Walker A.~R.,  Gigoux P.,
@@ -134,12 +155,22 @@ Hartoog O.~E.,  et~al., 2013, \mn@doi [MNRAS] {10.1093/mnras/stt078}, 430, 2739
 Hartoog O.~E.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201425001},
   580, A139
 
+\bibitem[\protect\citeauthoryear{Hjorth et~al.,}{Hjorth
+  et~al.}{2012}]{Hjorth2012}
+Hjorth J.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/756/2/187}, 756, 187
+
 \bibitem[\protect\citeauthoryear{Hogg \& Fruchter}{Hogg \&
   Fruchter}{1999}]{Hogg1999}
 Hogg D.~W.,  Fruchter A.~S.,  1999, \mn@doi [ApJ] {10.1086/307457}, 520, 54
 
 \bibitem[\protect\citeauthoryear{Horne}{Horne}{1986}]{Horne1986}
 Horne K.,  1986, \mn@doi [PASP] {10.1086/131801}, 98, 609
+
+\bibitem[\protect\citeauthoryear{Jakobsson, Hjorth, Fynbo, Watson, Pedersen,
+  Bj{\"{o}}rnsson  \& Gorosabel}{Jakobsson et~al.}{2004}]{Jakobsson2004}
+Jakobsson P.,  Hjorth J.,  Fynbo J. P.~U.,  Watson D.,  Pedersen K.,
+  Bj{\"{o}}rnsson G.,   Gorosabel J.,  2004, \mn@doi [ApJ] {10.1086/427089},
+  617, L21
 
 \bibitem[\protect\citeauthoryear{Jakobsson et~al.,}{Jakobsson
   et~al.}{2006}]{Jakobsson2006}
@@ -172,6 +203,11 @@ Kocevski D.,  Petrosian V.,  2013, \mn@doi [ApJ] {10.1088/0004-637X/765/2/116},
   765, 116
 
 \bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
+  et~al.}{2011}]{Kruhler2011}
+Kr{\"{u}}hler T.,  et~al., 2011, \mn@doi [A{\&}A]
+  {10.1051/0004-6361/201117428}, 534, A108
+
+\bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
   et~al.}{2013}]{Kruhler2013}
 Kr{\"{u}}hler T.,  et~al., 2013, \mn@doi [A{\&}A]
   {10.1051/0004-6361/201321772}, 557, A18
@@ -202,6 +238,11 @@ Littlejohns O.~M.,  Tanvir N.~R.,  Willingale R.,  Evans P.~A.,  O'Brien P.~T.,
 McGuire J. T.~W.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/825/2/135},
   825, 135
 
+\bibitem[\protect\citeauthoryear{Melandri et~al.,}{Melandri
+  et~al.}{2012}]{Melandri2012}
+Melandri A.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2011.20398.x},
+  421, 1265
+
 \bibitem[\protect\citeauthoryear{Modigliani et~al.,}{Modigliani
   et~al.}{2010}]{Modigliani2010}
 Modigliani A.,  et~al., 2010, \mn@doi [SPIE Astron. Telesc. + Instrum.]
@@ -230,6 +271,21 @@ Pagnini G.,  Mainardi F.,  2010, \mn@doi [JCoAM] {10.1016/j.cam.2008.04.040},
   233, 1590
 
 \bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
+  et~al.}{2009}]{Perley2009}
+Perley D.~A.,  et~al., 2009, \mn@doi [AJ] {10.1088/0004-6256/138/6/1690}, 138,
+  1690
+
+\bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
+  et~al.}{2013}]{Perley2013b}
+Perley D.~A.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/778/2/128}, 778,
+  128
+
+\bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
+  et~al.}{2015}]{Perley2015b}
+Perley D.~A.,  et~al., 2015, \mn@doi [ApJ] {10.1088/0004-637X/801/2/102}, 801,
+  102
+
+\bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
   et~al.}{2016}]{Perley2016}
 Perley D.~A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/817/1/7}, 817, 7
 
@@ -242,6 +298,10 @@ Rafelski M.,  Neeleman M.,  Fumagalli M.,  Wolfe A.~M.,   Prochaska J.~X.,
   Ellis}{2012}]{Robertson2012}
 Robertson B.~E.,  Ellis R.~S.,  2012, \mn@doi [ApJ]
   {10.1088/0004-637X/744/2/95}, 744, 95
+
+\bibitem[\protect\citeauthoryear{Rossi et~al.,}{Rossi et~al.}{2012}]{Rossi2012}
+Rossi A.,  et~al., 2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201117201}, 545,
+  A77
 
 \bibitem[\protect\citeauthoryear{Salvaterra, Campana, Chincarini, Tagliaferri
   \& Covino}{Salvaterra et~al.}{2007}]{Salvaterra2007}
@@ -358,6 +418,13 @@ Wiersema K.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2012.20943.x},
 
 \bibitem[\protect\citeauthoryear{van Dokkum}{van Dokkum}{2001}]{VanDokkum2001}
 van Dokkum P.~G.,  2001, \mn@doi [PASP] {10.1086/323894}, 113, 1420
+
+\bibitem[\protect\citeauthoryear{van~der Horst, Kouveliotou, Gehrels, Rol,
+  Wijers, Cannizzo, Racusin  \& Burrows}{van~der Horst
+  et~al.}{2009}]{VanderHorst2009}
+van~der Horst A.~J.,  Kouveliotou C.,  Gehrels N.,  Rol E.,  Wijers R. A.
+  M.~J.,  Cannizzo J.~K.,  Racusin J.,   Burrows D.~N.,  2009, \mn@doi [ApJ]
+  {10.1088/0004-637X/699/2/1087}, 699, 1087
 
 \makeatother
 \end{thebibliography}

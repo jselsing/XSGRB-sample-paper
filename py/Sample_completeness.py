@@ -133,7 +133,7 @@ def main():
     print(len(HI_o[~np.isnan(HI_o)]))
     l, m, h = np.percentile(np.log10(1e21*HI_o), [16, 50, 84])
     print(m, m - l, h - m)
-    exit()
+    # exit()
 
     for ax in (ax1, ax2, ax3):
         ax.spines['top'].set_visible(False)
