@@ -69,9 +69,9 @@ def main():
 
 
     # BAT fluence
-    sns.distplot(np.log10(1e-7*BAT), ax=ax1, kde=True)
-    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=True)
-    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=True)
+    sns.distplot(np.log10(1e-7*BAT), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
     print(len(BAT[~np.isnan(BAT)]))
     l, m, h = np.percentile(np.log10(1e-7*BAT), [16, 50, 84])
     print(m, m - l, h - m)
@@ -90,9 +90,9 @@ def main():
 
 
     # XRT flux
-    sns.distplot(np.log10(1e-11*XRT), ax=ax2, kde=True)
-    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=True)
-    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=True)
+    sns.distplot(np.log10(1e-11*XRT), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
 
 
 
@@ -115,9 +115,9 @@ def main():
 
 
     # HI column
-    sns.distplot(np.log10(1e21*HI), ax=ax3, kde=True)
-    sns.distplot(np.log10(1e21*HI_s), ax=ax3, kde=True)
-    sns.distplot(np.log10(1e21*HI_o), ax=ax3, kde=True)
+    sns.distplot(np.log10(1e21*HI), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e21*HI_s), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e21*HI_o), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
 
 
 
@@ -148,6 +148,7 @@ def main():
 
         # put the grid behind
         ax.set_axisbelow(True)
+        # ax.set_ylim(0, 1)
 
 
 

@@ -37,6 +37,11 @@ Benner D.~C.,  Rinsland C.~P.,  Devi V.~M.,  Smith M. A.~H.,   Atkins D.,
 Bloom J.~S.,  Kulkarni S.~R.,   Djorgovski S.~G.,  2002, \mn@doi [AJ]
   {10.1086/338893}, 123, 1111
 
+\bibitem[\protect\citeauthoryear{Buchner, Schulze  \& Bauer}{Buchner
+  et~al.}{2016}]{Buchner2016}
+Buchner J.,  Schulze S.,   Bauer F.~E.,  2016, \mn@doi [MNRAS]
+  {10.1093/mnras/stw2423}, p. stw2423
+
 \bibitem[\protect\citeauthoryear{Bufano et~al.,}{Bufano
   et~al.}{2012}]{Bufano2012}
 Bufano F.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/753/1/67}, 753, 67
@@ -257,7 +262,7 @@ Noll S.,  Kausch W.,  Barden M.,  Jones A.~M.,  Szyszka C.,  Kimeswenger S.,
   Vinther J.,  2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201219040}, 543, A92
 
 \bibitem[\protect\citeauthoryear{Noterdaeme et~al.,}{Noterdaeme
-  et~al.}{2012}]{Noterdaeme2012}
+  et~al.}{2012}]{Noterdaeme2012b}
 Noterdaeme P.,  et~al., 2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201220259},
   547, L1
 
@@ -288,6 +293,11 @@ Perley D.~A.,  et~al., 2015, \mn@doi [ApJ] {10.1088/0004-637X/801/2/102}, 801,
 \bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
   et~al.}{2016}]{Perley2016}
 Perley D.~A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/817/1/7}, 817, 7
+
+\bibitem[\protect\citeauthoryear{Prochaska, Chen, Dessauges-Zavadsky  \&
+  Bloom}{Prochaska et~al.}{2007}]{Prochaska2007}
+Prochaska J.~X.,  Chen H.-W.,  Dessauges-Zavadsky M.,   Bloom J.~S.,  2007,
+  \mn@doi [ApJ] {10.1086/520042}, 666, 267
 
 \bibitem[\protect\citeauthoryear{Rafelski, Neeleman, Fumagalli, Wolfe  \&
   Prochaska}{Rafelski et~al.}{2014}]{Rafelski2014}
