@@ -51,17 +51,23 @@ def main():
     XRT_o = XRT[observed == "Yes"]
     HI_o = HI[observed == "Yes"]
 
+    BAT_c = BAT[observed == "No"]
+    XRT_c = XRT[observed == "No"]
+    HI_c = HI[observed == "No"]
+
     swift_table = pd.read_table("../data/grb_table_1482495106.txt", delimiter="\t", dtype=None)
     name_s, BAT_s, XRT_s, HI_s = swift_table["GRB"].values, swift_table["BAT Fluence (15-150 keV) [10^-7 erg/cm^2]"].values, swift_table["XRT 11 Hour Flux (0.3-10 keV) [10^-11 erg/cm^2/s]"].values, swift_table["XRT Column Density (NH) [10^21 cm^-2]"].values
-    print(len(name_s))
-    BAT_s = filt_nan(BAT_s)
-    XRT_s = filt_nan(XRT_s)
-    HI_s = filt_nan(HI_s)
+    # Exclude sample bursts
+    idx = [ii for ii, kk in enumerate(name_s) if kk not in name]
+
+    BAT_s = filt_nan(BAT_s[idx])
+    XRT_s = filt_nan(XRT_s[idx])
+    HI_s = filt_nan(HI_s[idx])
 
 
-    BAT, BAT_o, BAT_s = BAT[(BAT > 0)], BAT_o[(BAT_o > 0)], BAT_s[(BAT_s > 0)]
-    XRT, XRT_o, XRT_s = XRT[(XRT > 0)], XRT_o[(XRT_o > 0)], XRT_s[(XRT_s > 0)]
-    HI, HI_o, HI_s = HI[(HI > 0)], HI_o[(HI_o > 0)], HI_s[(HI_s > 0)]
+    BAT_c, BAT_o, BAT_s = BAT_c[(BAT_c > 0)], BAT_o[(BAT_o > 0)], BAT_s[(BAT_s > 0)]
+    XRT_c, XRT_o, XRT_s = XRT_c[(XRT_c > 0)], XRT_o[(XRT_o > 0)], XRT_s[(XRT_s > 0)]
+    HI_c, HI_o, HI_s = HI_c[(HI_c > 0)], HI_o[(HI_o > 0)], HI_s[(HI_s > 0)]
 
     # Plot
     fig, (ax1, ax2, ax3) = pl.subplots(ncols=3)
@@ -69,11 +75,11 @@ def main():
 
 
     # BAT fluence
-    sns.distplot(np.log10(1e-7*BAT), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
     sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
     sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
-    print(len(BAT[~np.isnan(BAT)]))
-    l, m, h = np.percentile(np.log10(1e-7*BAT), [16, 50, 84])
+    print(len(BAT_c[~np.isnan(BAT_c)]))
+    l, m, h = np.percentile(np.log10(1e-7*BAT_c), [16, 50, 84])
     print(m, m - l, h - m)
     print(len(BAT_o[~np.isnan(BAT_o)]))
     l, m, h = np.percentile(np.log10(1e-7*BAT_o), [16, 50, 84])
@@ -82,26 +88,26 @@ def main():
     l, m, h = np.percentile(np.log10(1e-7*BAT_s), [16, 50, 84])
     print(m, m - l, h - m)
 
-    print(stats.ks_2samp(BAT_s[~np.isnan(BAT_s)], BAT)[1])
-    print(stats.ks_2samp(BAT, BAT_o)[1])
+    print(stats.ks_2samp(BAT_s[~np.isnan(BAT_s)], BAT_c)[1])
+    print(stats.ks_2samp(BAT_c, BAT_o)[1])
     print(stats.ks_2samp(BAT_s[~np.isnan(BAT_s)], BAT_o)[1])
 
 
 
 
     # XRT flux
-    sns.distplot(np.log10(1e-11*XRT), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
     sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
     sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
 
 
 
-    print(stats.ks_2samp(XRT_s[~np.isnan(XRT_s)], XRT)[1])
-    print(stats.ks_2samp(XRT, XRT_o)[1])
+    print(stats.ks_2samp(XRT_s[~np.isnan(XRT_s)], XRT_c)[1])
+    print(stats.ks_2samp(XRT_c, XRT_o)[1])
     print(stats.ks_2samp(XRT_s[~np.isnan(XRT_s)], XRT_o)[1])
 
-    print(len(XRT[~np.isnan(XRT)]))
-    l, m, h = np.percentile(np.log10(1e-11*XRT), [16, 50, 84])
+    print(len(XRT_c[~np.isnan(XRT_c)]))
+    l, m, h = np.percentile(np.log10(1e-11*XRT_c), [16, 50, 84])
     print(m, m - l, h - m)
 
     print(len(XRT_s[~np.isnan(XRT_s)]))
@@ -115,17 +121,18 @@ def main():
 
 
     # HI column
-    sns.distplot(np.log10(1e21*HI), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e21*HI_c), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
     sns.distplot(np.log10(1e21*HI_s), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
     sns.distplot(np.log10(1e21*HI_o), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
 
 
 
-    print(stats.ks_2samp(HI_s[~np.isnan(HI_s)], HI)[1])
-    print(stats.ks_2samp(HI, HI_o)[1])
+    print(stats.ks_2samp(HI_s[~np.isnan(HI_s)], HI_c)[1])
+    print(stats.ks_2samp(HI_c, HI_o)[1])
     print(stats.ks_2samp(HI_s[~np.isnan(HI_s)], HI_o)[1])
-    print(len(HI[~np.isnan(HI)]))
-    l, m, h = np.percentile(np.log10(1e21*HI), [16, 50, 84])
+
+    print(len(HI_c[~np.isnan(HI_c)]))
+    l, m, h = np.percentile(np.log10(1e21*HI_c), [16, 50, 84])
     print(m, m - l, h - m)
     print(len(HI_s[~np.isnan(HI_s)]))
     l, m, h = np.percentile(np.log10(1e21*HI_s), [16, 50, 84])

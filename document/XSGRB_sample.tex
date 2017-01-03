@@ -24,7 +24,7 @@
 
 \usepackage{url}
 \usepackage{color,hyperref}
-\definecolor{linkcolor}{rgb}{0,0,0.7}
+\definecolor{linkcolor}{rgb}{0,0.3,0.7}
 \hypersetup{colorlinks=true,
 	linkcolor=linkcolor, 
 	citecolor=linkcolor,
@@ -40,9 +40,7 @@
 \input{definitions.tex}
 
 \usepackage{xcolor}
-\newcommand\todo[1]{\textcolor{red}{(#1)}}
-
-
+\newcommand\todo[1]{\textbf{(#1)}}
 
 \begin{document}
 	
@@ -159,7 +157,7 @@ Only after observing more than 12000 damped Lyman-$\alpha$ absorbers (DLAs)
 towards about 10$^5$ QSOs have 5 systems with
 $\log({N_\mathrm{HI}/\mathrm{cm^{-2}}}) > 22$ been identified
 \citep{Noterdaeme2012b}. Long GRB afterglow spectra, by contrast, reveal such
-systems in the majority of cases \citep{Jakobsson2006, Fynbo2009}. Whereas DLAs
+systems in the majority of cases \citep{Jakobsson2006a, Fynbo2009}. Whereas DLAs
 towards QSOs are mostly limited to $1.8\lesssim z \lesssim 5$ due to the
 atmospheric  UV-cutoff and increasing Lyman-blanketing at increasing redshifts
 \citep[e.g.,][]{Rafelski2014}, GRBs allow us to see into the hearts of
@@ -179,7 +177,7 @@ There are several unanswered but fundamental questions that must be addressed in
 order to exploit the full potential of GRBs as cosmological probes. More than
 50\% of the \textit{Swift} bursts with measured redshift are at $z > 2$, and
 5--10\% are expected to be above $z=5$ \citep{Salvaterra2007,
-	Salvaterra2012,Jakobsson2012, Perley2016}. A high redshift completeness is
+	Salvaterra2012,Jakobsson2012, Perley2016a}. A high redshift completeness is
 crucial for our understanding of the link between the number density of GRBs per
 unit redshift and the global star-formation history of the Universe, as measured
 by other means \citep[UV, FIR, sub-mm, see][]{Robertson2012}. The detection of
@@ -348,7 +346,7 @@ importance for the next generation of gravitational wave experiments, as they
 are the likely EM counterparts to their primary targets.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Sample selection criteria}
+\section{Sample selection criteria and follow-up}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -358,44 +356,96 @@ are the likely EM counterparts to their primary targets.
 
 Being of transient nature, it is difficult to impose strong sample selection
 criteria on GRBs, without hampering the follow-up effort. Many natural follow-up
-restrictions exists from already, being it weather conditions, pointing
-restrictions of the telescope or poorly localized bursts as reported by the
-\textit{Swift}-telescope. To maximize the return of the follow-up campaign
-we have chosen a few selection criteria that attempts to provide an unbiased
-selection of bursts, while allowing for a high success-rate 
+restrictions exists already, being it weather conditions, pointing restrictions
+of the telescope or poorly localized bursts as reported by the alerting
+telescope. To maximize the return of the follow-up campaign we have chosen a few
+selection criteria that attempts to provide an unbiased selection of bursts,
+while allowing for a high follow-up success rate. The importance of defining
+unbiasing selection criteria has been highlighted previously
+\citep{Salvaterra2012, Hjorth2012, Vergani2015, Perley2016a}, when trying to
+address the specific underlying distribution functions such as the redshift
+distribution, host metallicity distribution, or brightness distribution. When
+investigating a specific distribution function, a high degree of
+\textit{completeness} is desired meaning that in terms of the parameter of
+interest, the largest possible fraction of targets in the sample has
+determinations of that parameter \citep{Perley2016b}.
 
+We simultaneously want to minimize any biases against astrophysical conditions
+while at the same time maximizing likelihood of observations allowing us to
+obtain a higher degree of observing completeness. By restricting the selection
+criteria to conditions local to Galaxy and therefore irrespective of intrinsic
+GRB properties, the hope is that the sample collect represents the underlying
+distribution of GRBs in a fair way while at the same time, additional unbiasing
+cuts can be imposed that can improve the follow-up success. The selection
+criteria used here is based on previous successes \cite{Jakobsson2006b,
+	Fynbo2009, Hjorth2012}, which has shown to represent the underlying distribution
+to a high degree. We test the degree of completeness in Sect.
+\ref{completeness}.
 
-
-\footnote{Note that in the P84 proposal the criteria have
-been stated a bit differently, the visibility constraint being replaced by a
-declination + Sun angle constraint. The below criteria are however those
-defining the sample.}
+The selection criteria are defined as follows:
 
 \begin{enumerate}
 	\item GRB triggered onboard by Swift.
-	\item Galactic $A_V \lesssim 0.5$ mag.
 	\item XRT started observing within 10 minutes since the GRB; an XRT position must be distributed within 12 hr.
 	\item The target must be visible for at least 60 minutes at least 30 degrees above the horizon, with the Sun below -12.
+	\footnote{Note that in the P84 proposal the criteria have
+	been stated a bit differently, the visibility constraint being replaced by a
+	declination + Sun angle constraint. The below criteria are however those
+	defining the sample.}
 	\item No bright closeby stars.
-	
+	\item Galactic $A_V \lesssim 0.5$ mag.
 \end{enumerate}
 
+Because our ability to observe GRB afterglows is strongly correlated with the
+rapidness and precision of the target positions delivered by the triggering
+facilities, by selecting only bursts that have been triggered on board the
+\textit{Swift} space telescope \cite{Gehrels2004}, by the Burst Alert Telescope
+(BAT) \citep{Barthelmy2005}, we start out with a homogeneously selected sample
+where burst characteristics are delivered immediately, allowing for an informed
+follow-up strategy. Despite the complexity of the triggering mechanism on board
+\textit{Swift} \citep{Band2006}, attempts at inferring properties of the
+underlying cosmic GRB population based on the detection thresholds and
+triggering algorithms have been made \citep{Lien2014, Graff2016} and thereby by
+restricting the follow-up effort to bursts detected by \textit{Swift}, the
+limitations of the parent sample is well studied.
 
-A fraction of the bursts presented here \todo{Insert exact
-number} have already had their hosts investigated in \citet{Kruhler2015}, for
-which extractions of the hosts exist. The focus of the data presented here are
-on the afterglows themselves and in the absence of a clear afterglow, the host.
-We will not, however, investigate the hosts.
+Because the localization accuracy of BAT is 1 - 4 arcminutes
+\citep{Barthelmy2005}, we additionally require an X-ray position from the X-ray
+Telescope (XRT) \citep{Burrows2005} to be distributed to the GCN network
+\citep{Barthelmy2000} with 10 hours and to account for observing constraints on
+\textit{Swift} that XRT began observations within 10 minutes. The additional
+rapidness requirement of the XRT follow-up means that the number of detected
+X-ray afterglows for BAT triggers is 100 percent \citep{Burrows2007}. The
+\textit{Swift} constraints on the GRB follow-up means that the sample presented
+here inherits the \textit{Swift} sample properties, except the additional XRT
+constraint. Because the XRT completeness is very high\citep{Burrows2007}, this
+should change the parent sample significantly. This issue is addressed again in
+Sect. \ref{completeness}.
 
-We simultaneously want to minimize any biases against astrophysical conditions
-while at the same time maximizing likelihood of observations. By restricting
-the selection criteria to conditions local to Galaxy.
+To allow for observability we additionally require that the GRB is visible
+(duh!) from the telescope site at Cerro Paranal, Antofagasta, Región de
+Antofagasta, Chile, for a least 1 hour allowing time for the spectroscopic
+observations to completed. Since the GRB population is isotropically distributed
+seen from Earth and that GRB properties does not depend on position on the sky
+\citep{Briggs1996}, this cut does not influence our ability to sample the
+underlying GRB population. The same arguments applies to the requirement that
+there are no nearby bright stars, which is additionally supplemented by the
+requirement what the galactic dust content does not exert an extinction higher
+than $A_V \lesssim 0.5$ mag based on the extinction maps by
+\citet{Schlegel1998}. Because of  isotropy, these additional cuts should not
+influence the optical properties of the bursts themselves, only our ability to
+successfully secure observations that allows us to investigate the spectroscopic
+properties of GRBs.
+
+We address the succesfullness of these criteria and the actual follow-up effort
+in representing the full \textit{Swift} sample ion Sect. \ref{completeness}.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Follow-up procedure}
+\subsection{Follow-up procedure and practicalities}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\todo{Will be written by Daniele?}
 
 
 
@@ -492,10 +542,14 @@ We list the overview of all the observations in Tab. \ref{tab:sample_overview}.
 the night sky in Fig. \ref{fig:skymap}. The central zone of avoidance due to
 high galactic extinction cutoff is visible with an apparent isotropic
 distribution of the bursts away from the galactic center except in the upper
-right corner, where Earth casts a shadow as seen from the telescope.
+right corner, where Earth casts a shadow on the sky as seen from the telescope.
 
 
-
+A fraction of the bursts presented here \todo{Insert exact
+number} have already had their hosts investigated in \citet{Kruhler2015}, for
+which extractions of the hosts exist. The focus of the data presented here are
+on the afterglows themselves and in the absence of a clear afterglow, the host.
+We will not, however, investigate the hosts.
 
 
 
@@ -709,6 +763,15 @@ observations have been used.
 \subsection{Spectral resolution} \label{resolution}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\begin{figure}
+	\centerline{\includegraphics[width=8cm]{figures/resolution_paper.eps}}
+	\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric absorption lines in the VIS spectra, as a function of the FWHM of a Gaussian fit onto the trace in spatial direction at  792 nm. The lower horizontal axis is in units pixels, the top axis in arc seconds. The red datapoints show a subsample of NIR spectra.
+		The grey line shows a linear fit to the VIS datapoints. }
+	\label{fig:res}
+\end{figure}
+
+
 The afterglow spectra described in this paper are obtained in
 Target-of-Opportunity (override) mode.
 In most cases there is therefore little possibility to tweak slit widths to the
@@ -762,13 +825,6 @@ a scaled value as in the NIR arm.
 While this simple method is not terribly accurate (for one, the spatial profile
 of the trace is not a perfect Gaussian), but it gives a sufficiently accurate
 estimate for the analysis of these poor signal to noise science spectra.
-
-\begin{figure}
-	\centerline{\includegraphics[width=8cm]{figures/resolution_paper.eps}}
-	\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric absorption lines in the VIS spectra, as a function of the FWHM of a Gaussian fit onto the trace in spatial direction at  792 nm. The lower horizontal axis is in units pixels, the top axis in arc seconds. The red datapoints show a subsample of NIR spectra.
-		The grey line shows a linear fit to the VIS datapoints. }
-	\label{fig:res}
-\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -905,14 +961,19 @@ a small number of low column densities($\log(N_H) \lesssim 19 \mathrm{cm}^2$)
 bursts.
 
 \begin{figure}
-	\centerline{\includegraphics[width=9cm]{figures/p_values.pdf}}
-	\caption{Relational graph shown the .}
+	\centerline{\includegraphics[width=9cm]{figures/XSGRB_p_values.pdf}}
+	\caption{Relational graph shown the respective p-values that the different
+	sample are drawn from the same underlying distribution. The arrows represent
+	the comparison with each of the p-values are listed next to. Only in the HI
+	column density distribution is there mild evidence against the null, but the
+	discrepancy is mainly driven by a relatively larger fractional contribution
+	from low-column hosts.}
 	\label{fig:p_values}
 \end{figure}
 
 We therefore conclude that the sample presented here, to a high degree
 represents the intrinsic properties of the GRBs in the full \textit{Swift} sample.
-
+\todo{This doesn't quite feel exhaustive? Is there a better way of addressing the issue of completeness}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Properties of rejected triggers} \label{badbursts}

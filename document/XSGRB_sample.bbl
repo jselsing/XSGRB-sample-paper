@@ -27,6 +27,19 @@ Abrarov S.~M.,  Quine B.~M.,  2015a, \mn@doi [J. Math. Res.]
 Abrarov S.~M.,  Quine B.~M.,  2015b, \mn@doi [J. Math. Res.]
   {10.5539/jmr.v7n2p163}, 7, 163
 
+\bibitem[\protect\citeauthoryear{Band}{Band}{2006}]{Band2006}
+Band D.~L.,  2006, \mn@doi [ApJ] {10.1086/503326}, 644, 378
+
+\bibitem[\protect\citeauthoryear{Barthelmy}{Barthelmy}{2000}]{Barthelmy2000}
+Barthelmy S.~D.,  2000, in AIP Conf. Proc.. AIP, pp 731--735,
+  \mn@doi{10.1063/1.1361631}, \url
+  {http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.1361631}
+
+\bibitem[\protect\citeauthoryear{Barthelmy et~al.,}{Barthelmy
+  et~al.}{2005}]{Barthelmy2005}
+Barthelmy S.~D.,  et~al., 2005, \mn@doi [SSRv] {10.1007/s11214-005-5096-3},
+  120, 143
+
 \bibitem[\protect\citeauthoryear{Benner, Rinsland, Devi, Smith  \&
   Atkins}{Benner et~al.}{1995}]{benner1995}
 Benner D.~C.,  Rinsland C.~P.,  Devi V.~M.,  Smith M. A.~H.,   Atkins D.,
@@ -37,6 +50,10 @@ Benner D.~C.,  Rinsland C.~P.,  Devi V.~M.,  Smith M. A.~H.,   Atkins D.,
 Bloom J.~S.,  Kulkarni S.~R.,   Djorgovski S.~G.,  2002, \mn@doi [AJ]
   {10.1086/338893}, 123, 1111
 
+\bibitem[\protect\citeauthoryear{Briggs et~al.,}{Briggs
+  et~al.}{1996}]{Briggs1996}
+Briggs M.~S.,  et~al., 1996, \mn@doi [ApJ] {10.1086/176867}, 459, 40
+
 \bibitem[\protect\citeauthoryear{Buchner, Schulze  \& Bauer}{Buchner
   et~al.}{2016}]{Buchner2016}
 Buchner J.,  Schulze S.,   Bauer F.~E.,  2016, \mn@doi [MNRAS]
@@ -45,6 +62,20 @@ Buchner J.,  Schulze S.,   Bauer F.~E.,  2016, \mn@doi [MNRAS]
 \bibitem[\protect\citeauthoryear{Bufano et~al.,}{Bufano
   et~al.}{2012}]{Bufano2012}
 Bufano F.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/753/1/67}, 753, 67
+
+\bibitem[\protect\citeauthoryear{Burrows et~al.,}{Burrows
+  et~al.}{2005}]{Burrows2005}
+Burrows D.~N.,  et~al., 2005, \mn@doi [SSRv] {10.1007/s11214-005-5097-2}, 120,
+  165
+
+\bibitem[\protect\citeauthoryear{Burrows et~al.,}{Burrows
+  et~al.}{2007}]{Burrows2007}
+Burrows D.~N.,  et~al., 2007, in Siegmund O. H.~W.,  ed.,  Vol. 6686, Soc.
+  Photo-Optical Instrum. Eng. Conf. Ser.. International Society for Optics and
+  Photonics, p. 668607 (\mn@eprint {arXiv} {0803.1844}),
+  \mn@doi{10.1117/12.735130}, \url
+  {http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.735130
+  http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1322398{\%}5Cnhttp://arxiv.org/abs/0803.1844{\%}5Cnhttp://proceedings.spiedigitallibrary.org/proceeding.aspx?arti}
 
 \bibitem[\protect\citeauthoryear{Cardelli, Clayton  \& Mathis}{Cardelli
   et~al.}{1989}]{Cardelli1989}
@@ -122,6 +153,10 @@ Fynbo J. P.~U.,  et~al., 2009, \mn@doi [ApJS] {10.1088/0067-0049/185/2/526},
 Fynbo J. P.~U.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201424726},
   12, 1
 
+\bibitem[\protect\citeauthoryear{Gehrels et~al.,}{Gehrels
+  et~al.}{2004}]{Gehrels2004}
+Gehrels N.,  et~al., 2004, \mn@doi [ApJ] {10.1086/422091}, 611, 1005
+
 \bibitem[\protect\citeauthoryear{Gehrels, Ramirez-Ruiz  \& Fox}{Gehrels
   et~al.}{2009}]{Gehrels2009}
 Gehrels N.,  Ramirez-Ruiz E.,   Fox D.,  2009, \mn@doi [ARA{\&}A]
@@ -137,6 +172,11 @@ Ginsburg A.,  et~al., 2016, astroquery v0.3.1, \mn@doi{10.5281/ZENODO.44961},
 Goldoni P.,  Royer F.,  Fran{\c{c}}ois P.,  Horrobin M.,  Blanc G.,  Vernet J.,
    Modigliani A.,   Larsen J.,  2006, \mn@doi [Ground-based Airborne Instrum.
   Astron. Ed. by McLean] {10.1117/12.669986}, 6269, 80
+
+\bibitem[\protect\citeauthoryear{Graff, Lien, Baker  \& Sakamoto}{Graff
+  et~al.}{2016}]{Graff2016}
+Graff P.~B.,  Lien A.~Y.,  Baker J.~G.,   Sakamoto T.,  2016, \mn@doi [ApJ]
+  {10.3847/0004-637X/818/1/55}, 818, 55
 
 \bibitem[\protect\citeauthoryear{Greiner et~al.,}{Greiner
   et~al.}{2011}]{Greiner2011}
@@ -178,8 +218,13 @@ Jakobsson P.,  Hjorth J.,  Fynbo J. P.~U.,  Watson D.,  Pedersen K.,
   617, L21
 
 \bibitem[\protect\citeauthoryear{Jakobsson et~al.,}{Jakobsson
-  et~al.}{2006}]{Jakobsson2006}
-Jakobsson P.,  et~al., 2006, \mn@doi [A{\&}A] {10.1051/0004-6361:20066405},
+  et~al.}{2006a}]{Jakobsson2006b}
+Jakobsson P.,  et~al., 2006a, \mn@doi [A{\&}A] {10.1051/0004-6361:20054287},
+  447, 897
+
+\bibitem[\protect\citeauthoryear{Jakobsson et~al.,}{Jakobsson
+  et~al.}{2006b}]{Jakobsson2006a}
+Jakobsson P.,  et~al., 2006b, \mn@doi [A{\&}A] {10.1051/0004-6361:20066405},
   460, L13
 
 \bibitem[\protect\citeauthoryear{Jakobsson et~al.,}{Jakobsson
@@ -229,6 +274,12 @@ Letchworth K.~L.,  Benner D.~C.,  2007, \mn@doi [JQSRT]
 
 \bibitem[\protect\citeauthoryear{Levan et~al.,}{Levan et~al.}{2014}]{Levan2014}
 Levan A.~J.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/781/1/13}, 781, 13
+
+\bibitem[\protect\citeauthoryear{Lien, Sakamoto, Gehrels, Palmer, Barthelmy,
+  Graziani  \& Cannizzo}{Lien et~al.}{2014}]{Lien2014}
+Lien A.,  Sakamoto T.,  Gehrels N.,  Palmer D.~M.,  Barthelmy S.~D.,  Graziani
+  C.,   Cannizzo J.~K.,  2014, \mn@doi [ApJ] {10.1088/0004-637X/783/1/24}, 783,
+  24
 
 \bibitem[\protect\citeauthoryear{Lien et~al.,}{Lien et~al.}{2016}]{Lien2016}
 Lien A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/829/1/7}, 829, 7
@@ -290,9 +341,14 @@ Perley D.~A.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/778/2/128}, 778,
 Perley D.~A.,  et~al., 2015, \mn@doi [ApJ] {10.1088/0004-637X/801/2/102}, 801,
   102
 
+\bibitem[\protect\citeauthoryear{Perley, Niino, Tanvir, Vergani  \&
+  Fynbo}{Perley et~al.}{2016a}]{Perley2016a}
+Perley D.~A.,  Niino Y.,  Tanvir N.~R.,  Vergani S.~D.,   Fynbo J. P.~U.,
+  2016a, \mn@doi [SSRv] {10.1007/s11214-016-0237-4}, 202, 111
+
 \bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
-  et~al.}{2016}]{Perley2016}
-Perley D.~A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/817/1/7}, 817, 7
+  et~al.}{2016b}]{Perley2016b}
+Perley D.~A.,  et~al., 2016b, \mn@doi [ApJ] {10.3847/0004-637X/817/1/8}, 817, 8
 
 \bibitem[\protect\citeauthoryear{Prochaska, Chen, Dessauges-Zavadsky  \&
   Bloom}{Prochaska et~al.}{2007}]{Prochaska2007}
@@ -405,6 +461,11 @@ Vecchio R.~D.,  Dainotti M.~G.,   Ostrowski M.,  2016, \mn@doi [ApJ]
   et~al.}{2011}]{Vergani2011}
 Vergani S.~D.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201117726},
   535, A127
+
+\bibitem[\protect\citeauthoryear{Vergani et~al.,}{Vergani
+  et~al.}{2015}]{Vergani2015}
+Vergani S.~D.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201425013},
+  581, A102
 
 \bibitem[\protect\citeauthoryear{Vernet et~al.,}{Vernet
   et~al.}{2009}]{Vernet2010}
