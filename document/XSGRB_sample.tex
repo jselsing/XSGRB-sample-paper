@@ -44,11 +44,11 @@
 
 \begin{document}
 	
-\title{XSGRB - The X-shooter GRB afterglow sample}
+\title{XSGRB - The X-shooter GRB afterglow sample
 \thanks{Based on observations collected at the European Southern Observatory, Paranal, 
 	Chile, Program ID: 098.A-0055, 097.A-0036, 096.A-0079, 095.B-0811(B), 
 	095.A-0045, 094.A-0134, 093.A-0069, 092.A-0124, 0091.C-0934, 090.A-0088,
-	089.A-0067, 088.A-0051, 087.A-0055, 086.A-0073, 085.A-0009 and 084.A-0260}
+	089.A-0067, 088.A-0051, 087.A-0055, 086.A-0073, 085.A-0009 and 084.A-0260}}
 
 \titlerunning{The X-shooter sample of GRBs}
 
@@ -199,7 +199,7 @@ From March 2005 to March 2016 there have been about 350 {\it Swift} bursts
 complying with our sample selection criteria (see ``Immediate objective''), and
 about half of them have measured redshifts. Among the latter subset, the team
 proposing these observations has measured about two thirds of the redshifts,
-mainly with FORS1/2 and X-shooter (see Fynbo et al.\ 2009, ApJS, 185, 526; 
+mainly with FORS1/2 and X-shooter \citep[see][]{Fynbo2009, Jakobsson2012, Kruhler2012}(see Fynbo et al.\ 2009, ApJS, 185, 526; 
 Jakobsson et al.\ 2012, ApJ, 752, 62; Kr\"uhler et al.\ 2012, ApJ, 758, 46). Our
 current aim is to build a sample superior to our previous low-resolution survey
 (Fynbo et al.\ 2009, ApJS, 185, 526), both in terms of quantity and  quality of
@@ -460,7 +460,7 @@ The rapid-response mode is
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\begin{figure*}[!ht]
+\begin{figure*}
 	\centerline{\includegraphics{figures/skymap.pdf}}
 	\caption{Mollweide projection in galactic coordinates of the full sky showing
 		the positions on the sky of the bursts presented in this work. The empty
@@ -764,7 +764,7 @@ observations have been used.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\begin{figure}
+\begin{figure}[!ht]
 	\centerline{\includegraphics[width=8cm]{figures/resolution_paper.eps}}
 	\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric absorption lines in the VIS spectra, as a function of the FWHM of a Gaussian fit onto the trace in spatial direction at  792 nm. The lower horizontal axis is in units pixels, the top axis in arc seconds. The red datapoints show a subsample of NIR spectra.
 		The grey line shows a linear fit to the VIS datapoints. }
@@ -923,13 +923,14 @@ Using the observational characteristics of the 1244 \todo{Get number} bursts
 observed by \textit{Swift} to date \cite{Gehrels2009}, and the X-ray derived
 hydrogen column densities \citep{Evans2009}, we can quantify the degree to which
 our sample is biased against the overall \textit{Swift} sample in terms of
-intrinsic GRB properties. The values are queried from the online
-\textit{Swift} database maintained\footnote{http://swift.gsfc.nasa.gov/archive/grb\_table/}.
+intrinsic GRB properties. The values are queried from the online \textit{Swift}
+database maintained\footnote{http://swift.gsfc.nasa.gov/archive/grb\_table/}.
 Three main samples are of interest to compare to assess the completeness of the
 follow-up campaign; the full \textit{Swift} sample consisting of all the bursts
-observed by \textit{Swift} (1), the burst that fulfill the selection criteria
-imposed in Sect. \ref{samplecrit} (2), and the bursts actually followed up with
-X-shooter (3).
+observed by \textit{Swift}, excluding the bursts entering our sample (1), the
+burst that fulfill the selection criteria imposed in Sect. \ref{samplecrit}, but
+has not been followed up (2), and the bursts actually followed up with X-shooter
+(3).
 
 \input{tables/sample_properties.tex}
 
@@ -989,28 +990,83 @@ trigger, or bad weather at the observing site. Because this cut is irrespective
 of the GRB properties, it is not expected that this should change sample
 properties. Addressing whether this cut introduces a bias in the followed sample
 is not trivial, but in terms of intrinsic GRB properties, the sample
-distributions does not change by much, as shown in Sect. \ref{completeness}.
+distributions does not change significantly, as shown in Sect. \ref{completeness}.
 \todo{Should this be quantified somehow?}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{The nature of triggered GRBs without detected optical afterglow.}
+\subsection{Sample darkness}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-A subset of all GRBs exhibit no detectable or very faint optical afterglow \citep{Groot1998,
-	Djorgovski2001, Fynbo2001}, which had been parametrized in term of "darkness"
-\citep{Jakobsson2004, VanderHorst2009}. The X-ray properties of this subset has
-previously been investigated \citep{DePasquale2003, Melandri2012}, finding a
-slightly higher X-ray luminosity compared to the optically brights bursts
-combined with similar prompt characteristics. This indicates along with
-investigations of host galaxy extinction \citep{Greiner2011, Kruhler2011, Hjorth2012}, that the
+A subset of all GRBs exhibit no detectable or very faint optical afterglow
+\citep{Groot1998, Djorgovski2001, Fynbo2001}, which had been parametrized in
+term of "darkness" \citep{Jakobsson2004, VanderHorst2009}. The X-ray properties
+of this subset has previously been investigated \citep{DePasquale2003,
+	Melandri2012}, finding a slightly higher X-ray luminosity compared to the
+optically brights bursts combined with similar prompt characteristics pointing
+towards a denser circumburst material. This indicates along with investigations
+of host galaxy extinction \citep{Greiner2011, Kruhler2011, Hjorth2012}, that the
 extinction of the optical afterglow is primarily driven by the presence of dust,
-local to the burst \todo{Local dust reference}. 
+local to the burst \todo{Local dust reference}. Because the dust content of a
+galaxy is correlated with the gas amount \citep{Bohlin1978, Guver2009}, we
+expect the X-ray derived column densities for the bursts without an optical
+afterglow to be higher than the ones without.
 
-Because we only follow up targets with either a clear afterglow or counterpart, correctly associating a galaxy with a burst when there is no optical afterglow is more difficult. 
+For all bursts with follow-up within 100 hours we can calculate the
+"darkness"-parameter, $\beta_{OX}$ \citep{Milvang-Jensen2012}. This required the
+simultaneous measurement of the X-ray flux density and the optical flux density
+which is in practice never possible. We use the measured acquisition camera
+magnitude reported in Tab. \ref{tab:sample_overview} to get the optical flux
+density at the beginning of the spectroscopic integration. Because we know the
+delay between the follow-up and the \textit{Swift} trigger, we can use the
+measured XRT burst lightcurve \citep{Evans2007,
+	Evans2009}\footnote{http://www.swift.ac.uk/xrt\_curves/trigger\_numer/flux.qdp}
+to infer the corresponding X-ray flux density. This is done by either linearly
+interpolating between temporally neighboring XRT measurements of by
+extrapolating the last few X-ray data points to the spectroscopic delay. When
+the afterglow is not detected in the acquisition camera, an upper limit of $> 24$
+mags is used, which propagates into an upper limit on $\beta_{OX}$.
 
-This should include observations where the acquisition image has been taken, but
-observations were discontinued due to non-detection. What are the X-ray
-properties of these bursts?
+In Fig. \ref{fig:betaOX} we compare the $\beta_{OX}$ - $N_H$ distribution with
+the one presented in \citet{Fynbo2009}. We have replaced limits with values,
+meaning that we artificially bias the distribution towards higher
+$\beta_{OX}$-values because darker bursts naturally fainter in the optical
+making the fraction of non-detections higher for lower $\beta_{OX}$. We
+marginally confirm the result by \citet{Fynbo2009} that dark bursts $\beta_{OX}
+< 0.5$) have slightly higher X-ray derived column densities, by calculating the
+median, 14th, and 86th percentile of the distributions arising by separating the
+sample at $\beta_{OX} = 0.5$. For bursts with $\beta_{OX} \geq 0.5$ we find
+$\log(N_H) = 21.4_{-1.0}^{+0.7}$, whereas for $\beta_{OX} < 0.5$ we find
+$21.8_{-0.9}^{+0.5}$, meaning that the median value for dark bursts is higher,
+but with a great deal of overlap. A 2-sided KS test fails to reject the null
+that they are drawn from the same distribution with $p = 0.43$, meaning there is
+no clear evidence for a discrepancy.
+
+\begin{figure}
+	\centerline{\includegraphics[width=9cm]{figures/betaOX.pdf}}
+	\caption{Optical extinction relative to X-ray against X-ray derived hydrogen
+	column densities. In red is shown the sample presented in \citet{Fynbo2009}
+	where is lines indicate the kernel density estimate of the distribution where
+	limits have been replaced with values. Darker colors represented denser points.
+	The correcspoing marginal distributions are shown. In blue is the points for
+	the bursts presented here along with the marginal histograms. Limits on
+	$\beta_{OX}$ is shown by downwards facing arrows.}
+	\label{fig:betaOX}
+\end{figure}
+
+Because we only follow up targets with either a clear afterglow or counterpart,
+correctly associating a galaxy with a burst when there is no detected optical afterglow
+is more difficult, meaning that we should not have attempted follow-up for a
+larger fraction of bursts with no optical afterglow. The X-ray properties for
+the followed sample does not differ signicantly from the statistical sample, as
+shown in Sect. \ref{completeness}. Using the table maintained by
+Greiner\footnote{http://www.mpe.mpg.de/~jcg/grbgen.html} \todo{How to reference
+this}, we can see how the pressence of an optical afterglow affects the
+follow-up statistics. 50.5 percent of all \textit{Swift}-detected bursts do not
+have an detected optical afterglow, but this number also includes bursts where
+no optical telescopes were available, so is a lower limit. For the bursts
+entering our statistical sample, this number is 27 percent
+
+Since \textit{all} GRBs should have an optical afterglow, the presence of an optical afterglow is more a statement about the sensitivity than optical properties of the bursts. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1064,25 +1120,6 @@ Redshift completeness
 \subsection{Hydrogen column densities}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\begin{figure}
-	\centering
-	\includegraphics[width=9cm]{figures/NH_dist.pdf}
-	\caption{Distributions of DLA hydrogen column densities for DLAs found in
-	quasar absorption lines, from \citep{Noterdaeme2012b} in blue. Overplot in green is the kernel density estimate
-	is the similar distribution, only for DLAs in GRB sightlines. Values are taken
-	from the compilation in Tanvir2017 et al. (in prep)\citet{Tanvir2017}, along
-	with the new values presented in this sample. The marginal distributions for
-	the two distribution are also shown, where the different environments probed
-	are clearly visible in the hydrogen column densities, as previously also noted
-	in \citet{Fynbo2009}}
-	\label{fig:NH_dist}
-\end{figure}
-
-
-
-
-
 Because the locations of GRBs are associated with the most intensely starforming
 regions \citep{Hogg1999, Bloom2002, Fruchter2006}, the GRB afterglow light has
 to propagate through the large amounts of hydrogen fueling the star formation.
@@ -1115,47 +1152,6 @@ column densities in Tab. \ref{tab:HI}
 
 \input{tables/HI_columns.tex}
 
-
-\begin{figure*}
-	\centering
-	\includegraphics[page=1, width=16cm]{figures/HI_measurements.pdf}
-	\caption{Measurements of the hydrogen column-densities for all bursts with a
-	clear Lyman alpha absorption system. In solid black is shown the spectrum with
-	black dotted giving the corresponding 1-$\sigma$ error. Black dashed shows zero
-	flux density. The solid red line is the absorption of column density equal to
-	the value presented in Tab. \ref{HI_tab} with the 1-$\sigma$ interval shown
-	with dashed lines.}
-	\label{fig:HI1}
-\end{figure*}
-
-\begin{figure*}
-	\centering
-	\includegraphics[page=2, width=16cm]{figures/HI_measurements.pdf}
-	\caption*{Fig. \ref{fig:HI1}. continued.}
-	\label{fig:HI2}
-\end{figure*}
-
-\begin{figure*}
-	\centering
-	\includegraphics[page=3, width=16cm]{figures/HI_measurements.pdf}
-	\caption*{Fig. \ref{fig:HI1}. continued.}
-	\label{fig:HI3}
-\end{figure*}
-
-\begin{figure*}
-	\centering
-	\includegraphics[page=4, width=16cm]{figures/HI_measurements.pdf}
-	\caption*{Fig. \ref{fig:HI1}. continued.}
-	\label{fig:HI4}
-\end{figure*}
-
-\begin{figure*}
-	\centering
-	\includegraphics[page=5, width=16cm]{figures/HI_measurements.pdf}
-	\caption*{Fig. \ref{fig:HI1}. continued.}
-	\label{fig:HI5}
-\end{figure*}
-
 In a similar manner to how the X-ray derived column densities was used to assess
 the sample completeness in Sect. \ref{completeness}, we addresses the same
 question in terms of the optically derived hydrogen column densities. Using the
@@ -1182,6 +1178,19 @@ in the host. The N$_H$ distribution has also be used the infer the position of
 the gas in host \cite{Buchner2016} where a galaxy-wide gas reservoir is
 preferred.
 
+\begin{figure}
+	\centering
+	\includegraphics[width=9cm]{figures/NH_dist.pdf}
+	\caption{Distributions of DLA hydrogen column densities for DLAs found in
+		quasar absorption lines, from \citep{Noterdaeme2012b} in blue. Overplot in green is the kernel density estimate
+		is the similar distribution, only for DLAs in GRB sightlines. Values are taken
+		from the compilation in Tanvir2017 et al. (in prep)\citet{Tanvir2017}, along
+		with the new values presented in this sample. The marginal distributions for
+		the two distribution are also shown, where the different environments probed
+		are clearly visible in the hydrogen column densities, as previously also noted
+		in \citet{Fynbo2009}}
+	\label{fig:NH_dist}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1219,6 +1228,10 @@ What is the expected transmission for a high-column HI, where the hydrogen prima
 \section{Conclusion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
+
+
 \begin{acknowledgements}
 	JPUF, BMJ and DX acknowledge support from the ERC-StG grant EGGS-278202.  The
 	Dark Cosmology Centre is funded by the Danish National Research Foundation.  TK
@@ -1230,12 +1243,59 @@ What is the expected transmission for a high-column HI, where the hydrogen prima
 	acknowledge expert support from the ESO staff at the Paranal and La Silla
 	observatories in obtaining these target of opportunity data.
 
+
+This work made use of data supplied by the UK Swift Science Data Centre at the University of Leicester.
 \end{acknowledgements}
 
 \bibliographystyle{mnras}
 \bibliography{XSGRB_sample}
 
-\newpage
+
+\clearpage
+
+\begin{figure*}[!h]
+	\centering
+	\includegraphics[page=1, width=16cm]{figures/HI_measurements.pdf}
+	\caption{Measurements of the hydrogen column-densities for all bursts with a
+		clear Lyman alpha absorption system. In solid black is shown the spectrum with
+		black dotted giving the corresponding 1-$\sigma$ error. Black dashed shows zero
+		flux density. The solid red line is the absorption of column density equal to
+		the value presented in Tab. \ref{tab:HI} with the 1-$\sigma$ interval shown
+		with dashed lines.}
+	\label{fig:HI1}
+\end{figure*}
+\clearpage
+\begin{figure*}[!h]
+	\centering
+	\includegraphics[page=2, width=16cm]{figures/HI_measurements.pdf}
+	\caption*{Fig. \ref{fig:HI1}. continued.}
+	\label{fig:HI2}
+\end{figure*}
+\clearpage
+\begin{figure*}[!h]
+	\centering
+	\includegraphics[page=3, width=16cm]{figures/HI_measurements.pdf}
+	\caption*{Fig. \ref{fig:HI1}. continued.}
+	\label{fig:HI3}
+\end{figure*}
+\clearpage
+\begin{figure*}[!h]
+	\centering
+	\includegraphics[page=4, width=16cm]{figures/HI_measurements.pdf}
+	\caption*{Fig. \ref{fig:HI1}. continued.}
+	\label{fig:HI4}
+\end{figure*}
+\clearpage
+\begin{figure*}[!h]
+	\centering
+	\includegraphics[page=5, width=16cm]{figures/HI_measurements.pdf}
+	\caption*{Fig. \ref{fig:HI1}. continued.}
+	\label{fig:HI5}
+\end{figure*}
+\clearpage
+
+
+
 \appendix
 
 
@@ -1279,27 +1339,73 @@ where is the real part, $\mathtt{Re}[W(x, y)] =  \sqrt{2 \pi} \sigma V(\lambda,\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
 \section{Notes on Individual objects}
 
 \subsection{GRB090313 (z = 3.373)}
-
+The first GRB ever observed with X-shooter, during the commissioning of the
+instrument, this data formed the basis of GCN
+\#9015\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/9015.gcn3}} and is published
+in \citet{DeUgartePostigo2010}. Due to the lingering brightness of GRB090313,
+6.9 ks spectroscopic integration starting 45 hours after the BAT trigger reveals
+a wealth of absorption features superposed on the afterglow continuum at a
+common redshift of $z = 3.373$. Two intervening systems at $z = 1.959$ and $z =
+1.800$ is identified based on strong \mgii-absorption. Because this burst is
+observed before the instrument is science-verified, it does not enter into the
+statistical sample.
 
 \subsection{GRB090530 (z = 1.266)}
-
+Observed during paranalization of the instrument, this data forms the basis of
+GCN \#15571\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/15571.gcn3}}, but is not
+published elsewhere. Observations began 20.6 hours after the BAT trigger and 4.8
+ks spectroscopic integration in all three arms reveals the absorption signature
+for a host at $z = 1.266$ from the detection of \mgii, \mgi, \SIii, \feii,
+\aliii. Because this burst is observed before the instrument is
+science-verified, it does not enter into the statistical sample.
 
 \subsection{GRB090809 (z = 2.737)}
-
+Observed during the first science verification period and was used for GCN
+\#9761\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/9761.gcn3}} and is
+additionally used as the basis for the master thesis by \'Asa Sk\'ulad\'ottir
+(2010). 7.2 ks integration starting 10.2 hours after the GRB trigger notice
+yields the clear afterglow continuum in all arms from with Lyman Limit located
+in the beginning of the UVB coverage. The simultaneous detection of absorption
+lines identified as \lya, \SIii, \oi, \SIi$^*$, \SIiv, \civ, \feii, \alii,
+\aliii and \mgii at $z = 2.737$ sets it as the redshift of the GRB. Because this burst is observed before the instrument is
+science-verified, it does not enter into the statistical sample.
 
 \subsection{GRB090926 (z = 2.106)}
-
+Starting during the second science verification period, this dataset forms the
+basis of GCN \#9942\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/9942.gcn3}} and
+is additionally published in \citet{DElia2010}. Spectroscopic integration
+started 22 hours after the BAT trigger and from the acquistion camera the
+optical afterglow has R = 17.9 mag (vega) at the beginning of the observations
+which causes a very continuum to be seen in all arms. An absorption trough due
+to \lya is clearly visible along with numerous metal resonance lines \civ,
+\SIii, \SIii$^*$ \feii, \mgii, all at $z = 2.106$, marks this as the redshift of
+the GRB. Because this burst is observed before the instrument is
+science-verified, it does not enter into the statistical sample.
 
 \subsection{GRB091018 (z = 0.971)}
+The first burst observed during normal operation after science verification was
+completed and there is the first burst that enter the statistical sample. This
+data is the basis for GCN \#
+10042\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/10042.gcn3}} and is published
+in \citet{Wiersema2012}. With a bright afterglow and a rapid follow-up, this
+spectrum is of pristine quality. The afterglow continuum is bright throughout
+all spectroscopic arms which allows the ready detection of \alii, \aliii, \feii,
+\mnii, \mgii, \mgi, and \caii al located at $z = 0.971$, setting is as the
+redshift of the host.
 
-
-\subsection{GRB091127 (z = 0.49)}
-
+\subsection{GRB091127 (z = 0.490)}
+Obtained 4 days after the burst trigger, this data forms the basis for GCN \#
+10233\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/10233.gcn3}} and is published
+in \citet{Vergani2011}. Due to the late follow-up and a nearby moon, the S/N of
+the afterglow continuum is poor especially in the UVB arm, why no clear
+absorption lines are detected against the afterglow continuum, although see
+\citet{Vergani2011} which report a tentative detection of \mgii. Emission lines
+from the underlying host is clearly visible with lines from \oii, \hb, \oiii,
+and \ha~all at $z = 0.490$. This bursts is additionally associated with
+SN2009nz.
 
 \subsection{GRB100205A  (z = na)}
 Observed 3 days after the \textit{Swift} trigger. No afterglow or host detected
@@ -1312,7 +1418,7 @@ The data presented here also formed the basis of GCN \#
 10441\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/10441.gcn3}} and is published
 in \citet{Thone2013}. Observations started 12.5 hours after the \textit{Swift}
 trigger and has a total exposure time of 4.8 ks. Absorption features, including
-those of \lya, from a multitude of ions are detected against the afterglow
+those of \lya~and from a multitude of ions are detected against the afterglow
 continuum at $z = 4.667$. Additionally, absorption from an intervening system
 is found at $z = 2.181$.
 

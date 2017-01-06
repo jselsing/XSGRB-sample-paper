@@ -50,6 +50,11 @@ Benner D.~C.,  Rinsland C.~P.,  Devi V.~M.,  Smith M. A.~H.,   Atkins D.,
 Bloom J.~S.,  Kulkarni S.~R.,   Djorgovski S.~G.,  2002, \mn@doi [AJ]
   {10.1086/338893}, 123, 1111
 
+\bibitem[\protect\citeauthoryear{Bohlin, Savage  \& Drake}{Bohlin
+  et~al.}{1978}]{Bohlin1978}
+Bohlin R.~C.,  Savage B.~D.,   Drake J.~F.,  1978, \mn@doi [ApJ]
+  {10.1086/156357}, 224, 132
+
 \bibitem[\protect\citeauthoryear{Briggs et~al.,}{Briggs
   et~al.}{1996}]{Briggs1996}
 Briggs M.~S.,  et~al., 1996, \mn@doi [ApJ] {10.1086/176867}, 459, 40
@@ -70,12 +75,8 @@ Burrows D.~N.,  et~al., 2005, \mn@doi [SSRv] {10.1007/s11214-005-5097-2}, 120,
 
 \bibitem[\protect\citeauthoryear{Burrows et~al.,}{Burrows
   et~al.}{2007}]{Burrows2007}
-Burrows D.~N.,  et~al., 2007, in Siegmund O. H.~W.,  ed.,  Vol. 6686, Soc.
-  Photo-Optical Instrum. Eng. Conf. Ser.. International Society for Optics and
-  Photonics, p. 668607 (\mn@eprint {arXiv} {0803.1844}),
-  \mn@doi{10.1117/12.735130}, \url
-  {http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.735130
-  http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1322398{\%}5Cnhttp://arxiv.org/abs/0803.1844{\%}5Cnhttp://proceedings.spiedigitallibrary.org/proceeding.aspx?arti}
+Burrows D.~N.,  et~al., 2007, in SPIE Conf. Ser.. International Society for
+  Optics and Photonics, p. 668607, \mn@doi{10.1117/12.735130}
 
 \bibitem[\protect\citeauthoryear{Cardelli, Clayton  \& Mathis}{Cardelli
   et~al.}{1989}]{Cardelli1989}
@@ -116,6 +117,10 @@ D'Elia V.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201323057}, 564,
   \& Diercks}{Djorgovski et~al.}{2001}]{Djorgovski2001}
 Djorgovski S.~G.,  Frail D.~A.,  Kulkarni S.~R.,  Bloom J.~S.,  Odewahn S.~C.,
    Diercks A.,  2001, \mn@doi [ApJ] {10.1086/323845}, 562, 654
+
+\bibitem[\protect\citeauthoryear{Evans et~al.,}{Evans et~al.}{2007}]{Evans2007}
+Evans P.~A.,  et~al., 2007, \mn@doi [A{\&}A] {10.1051/0004-6361:20077530}, 469,
+  379
 
 \bibitem[\protect\citeauthoryear{Evans et~al.,}{Evans et~al.}{2009}]{Evans2009}
 Evans P.~A.,  et~al., 2009, \mn@doi [MNRAS] {10.1111/j.1365-2966.2009.14913.x},
@@ -185,6 +190,11 @@ Greiner J.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201015458}, 526,
 
 \bibitem[\protect\citeauthoryear{Groot et~al.,}{Groot et~al.}{1998}]{Groot1998}
 Groot P.~J.,  et~al., 1998, \mn@doi [ApJ] {10.1086/311125}, 493, L27
+
+\bibitem[\protect\citeauthoryear{G{\"{u}}ver \& {\"{O}}zel}{G{\"{u}}ver \&
+  {\"{O}}zel}{2009}]{Guver2009}
+G{\"{u}}ver T.,  {\"{O}}zel F.,  2009, \mn@doi [MNRAS]
+  {10.1111/j.1365-2966.2009.15598.x}, 400, 2050
 
 \bibitem[\protect\citeauthoryear{Hamuy, Suntzeff, Heathcote, Walker, Gigoux  \&
   Phillips}{Hamuy et~al.}{1994}]{Hamuy1994}
@@ -258,6 +268,11 @@ Kr{\"{u}}hler T.,  et~al., 2011, \mn@doi [A{\&}A]
   {10.1051/0004-6361/201117428}, 534, A108
 
 \bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
+  et~al.}{2012}]{Kruhler2012}
+Kr{\"{u}}hler T.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/758/1/46},
+  758, 46
+
+\bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
   et~al.}{2013}]{Kruhler2013}
 Kr{\"{u}}hler T.,  et~al., 2013, \mn@doi [A{\&}A]
   {10.1051/0004-6361/201321772}, 557, A18
@@ -298,6 +313,11 @@ McGuire J. T.~W.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/825/2/135},
   et~al.}{2012}]{Melandri2012}
 Melandri A.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2011.20398.x},
   421, 1265
+
+\bibitem[\protect\citeauthoryear{Milvang-Jensen et~al.,}{Milvang-Jensen
+  et~al.}{2012}]{Milvang-Jensen2012}
+Milvang-Jensen B.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/756/1/25},
+  756, 25
 
 \bibitem[\protect\citeauthoryear{Modigliani et~al.,}{Modigliani
   et~al.}{2010}]{Modigliani2010}
@@ -341,10 +361,9 @@ Perley D.~A.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/778/2/128}, 778,
 Perley D.~A.,  et~al., 2015, \mn@doi [ApJ] {10.1088/0004-637X/801/2/102}, 801,
   102
 
-\bibitem[\protect\citeauthoryear{Perley, Niino, Tanvir, Vergani  \&
-  Fynbo}{Perley et~al.}{2016a}]{Perley2016a}
-Perley D.~A.,  Niino Y.,  Tanvir N.~R.,  Vergani S.~D.,   Fynbo J. P.~U.,
-  2016a, \mn@doi [SSRv] {10.1007/s11214-016-0237-4}, 202, 111
+\bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
+  et~al.}{2016a}]{Perley2016a}
+Perley D.~A.,  et~al., 2016a, \mn@doi [ApJ] {10.3847/0004-637X/817/1/7}, 817, 7
 
 \bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
   et~al.}{2016b}]{Perley2016b}
