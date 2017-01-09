@@ -94,7 +94,7 @@ def main():
     XRT_not = np.log10(1e-11*filt_nan(XRT_s[idx_not]))
     HI_not = np.log10(1e21*filt_nan(HI_s[idx_not]))
 
-    idx = [ii for ii, kk in enumerate(name_g) if kk in name]
+    idx = [ii for ii, kk in enumerate(name_g) if kk in name_o]
     name_g_ot = name_g[idx][(OT[idx] == "y") & (inst[idx] == "Swift")]
     name_g_not = name_g[idx][~(OT[idx] == "y") & (inst[idx] == "Swift")]
 

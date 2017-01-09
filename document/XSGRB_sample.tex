@@ -130,19 +130,26 @@
 
 
 \abstract{
-The {\it Swift} satellite allows us to use gamma-ray bursts (GRBs) to peer into 
-the hearts of star forming galaxies through cosmic time. Our open
-collaboration, representing most of the active ESO member researchers in this
-field, seeks to build a public legacy sample of GRB X-shooter spectroscopy
-while {\it Swift} continues to fly. We propose to continue our programme to target
-all suitably observable GRB afterglows (up to 15 bursts per semester), with the
-primary goal of producing a well-defined, homogeneous, statistically useful
-sample. To date, our spectroscopy covers a redshift range from 0.059 to about
-8, with more than 20 robust metallicity measurements from absorption lines (over 
-the redshift range 1.7--5.9) and 4 secure detections of H$_2$ or CH molecular
-absorption. Such information is extremely difficult to obtain by other means.
-In terms of studying the spread and redshift evolution in gas-phase properties, the
-sample is still limited by low-number statistics. 
+In this work we present the spectra of \textit{all} $\gamma$-ray bursts (GRBs)
+afterglows that have \textit{ever} been observed at the VLT/X-shooter. This
+totals 137 spectroscopic observation of 118 individual bursts, of which
+redshifts have been secured for 91 \% covering a redshift range from 0.059 to
+$\sim$ 8.5. Based on a set of unbiasing selection criteria, the follow-up effort
+has been guided by the \textit{Swift}-telescope to produce a homogeneous sample
+of afterglows for 86 spectra, representing the underlying \textit{Swift} GRB population.
+We here provide a public release of all the spectra, including continuum
+estimates and telluric corrections. We provide an assessment of the degree of
+completeness with respect to the parent GRB population, in terms of the X-ray
+properties of the bursts in the sample and find that the sample presented here
+can not be significantly distinguished from the \textit{Swift} sample.
+For all bursts (39) for which it is possible, we provide a measurement of the
+optically derived hydrogen column density, increasing the total number of
+published HI column densities by $\sim$ 50 \% and characterize the distribution
+compared with literature values.
+We constrain the fraction of dark burst to be 27\% - 42\% and confirm previous
+results that higher optical darkness has increased X-ray excess
+absorption.
+%This dataset provides a unique possibility to study the ISM across cosmic time.
 }
 
 \keywords{Gamma-ray burst: individual: GRB~120815A --- galaxies: high-redshift --- ISM: molecules --- dust, extinction }
@@ -153,197 +160,202 @@ sample is still limited by low-number statistics.
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Only after observing more than 12000 damped Lyman-$\alpha$ absorbers (DLAs)
-towards about 10$^5$ QSOs have 5 systems with
-$\log({N_\mathrm{HI}/\mathrm{cm^{-2}}}) > 22$ been identified
-\citep{Noterdaeme2012b}. Long GRB afterglow spectra, by contrast, reveal such
-systems in the majority of cases \citep{Jakobsson2006a, Fynbo2009}. Whereas DLAs
-towards QSOs are mostly limited to $1.8\lesssim z \lesssim 5$ due to the
-atmospheric  UV-cutoff and increasing Lyman-blanketing at increasing redshifts
-\citep[e.g.,][]{Rafelski2014}, GRBs allow us to see into the hearts of
-star-forming galaxies over the full history of cosmic star formation from $z
-\approx 0$ to $z > 8$ \citep[e.g.,][]{Tanvir2009, Salvaterra2009,
-	Jakobsson2012}. With afterglow spectroscopy (throughout the electromagnetic
-spectrum from X-rays to the sub-mm) we can hence characterize the properties of
-star-forming galaxies over cosmic history in terms of  redshifts, metallicities,
-molecular contents, ISM temperatures, UV-flux densities, etc.. This is, however,
-only possible as long as there are satellites in orbit that rapidly and
-accurately locate GRBs. The currently operating \textit{Swift} satellite,
-launched in 2004 and still fully-functioning, allows for very efficient
-follow-up observations of GRBs due to its unprecedented rate, speed and
-precision of localisations.
+For a brief moment, the energy output of a $\gamma$-ray burst (GRB) can rival
+that of the stellar light integrated over the entirety of the observable
+universe \citep{Kumar2015}. Bright across the entire electromagnetic spectrum,
+the following afterglow makes possible the exploration of the intervening space,
+otherwise dark. Since the discovery of the first $\gamma$-ray counterparts
+nearly two decades ago\citep{Costa1997a, VanParadijs1997, Djorgovski1997,
+	Frail1997}, significant advances in the understanding of the underlying
+phenomenology and potential usage has been made.
 
-There are several unanswered but fundamental questions that must be addressed in
-order to exploit the full potential of GRBs as cosmological probes. More than
-50\% of the \textit{Swift} bursts with measured redshift are at $z > 2$, and
-5--10\% are expected to be above $z=5$ \citep{Salvaterra2007,
-	Salvaterra2012,Jakobsson2012, Perley2016a}. A high redshift completeness is
-crucial for our understanding of the link between the number density of GRBs per
-unit redshift and the global star-formation history of the Universe, as measured
-by other means \citep[UV, FIR, sub-mm, see][]{Robertson2012}. The detection of
-GRBs at $z > 6$ shows that GRBs have become competitive as a tool to identifying
-galaxies at the highest redshifts and unsurpassed in providing detailed
-abundance information via absorption line spectroscopy \citep{Tanvir2012,
-	McGuire2016}.
+Categorized on the basis of their duration and spectral hardness, two main classes of GRBs exist, long and short \citep{Kouveliotou1993}. Now thoroughly established, the connection between long GRBs and supernovae (SNe) \citep{Galama1998, Hjorth2003a, Stanek2003, Woosley2006c} and the association of the location of long GRBs with the most star-forming regions in their host galaxies \citep{Fruchter2006, Svensson2010a}, make a stellar origin a likely explanation for the progenitor system. The seeming metal aversion \citep{Graham2013, Kruhler2015, Perley2016b} in selection of host at low redshift along with theoretical single-progenitor models preferring more pristine starting conditions \citep{Woosley2006d}, paints a picture where the core of a rapidly spinning, massive star undergoes gravitational collapse, although a certain degree of binarity \citep{Fryer2005, Podsiadlowski2010} in the progenitor population is required to explain the host metallicity distribution to super solar values \citep{Niino2011}. The driving engine in short GRBs have been established as the merger of two compact objects \citep{Metzger2010} through the detection of an associated kilonova \citep{Tanvir2013, Berger2013a}.
 
-\smallskip
+ see \citet{Levan2016} for recent review. 
 
-%The sample of short GRBs with redshifts remains too small and too
-%incomplete to really
-%constrain their redshift distribution (Guetta \& Piran 2006, A\&A, 453, 823;
-%Salvaterra et al.\ 2008, MNRAS, 388, 6) making it of extreme importance to
-%enlarge as far as possible the number of known redshifts for this class of
-%sources.
 
-From March 2005 to March 2016 there have been about 350 {\it Swift} bursts
-complying with our sample selection criteria (see ``Immediate objective''), and
-about half of them have measured redshifts. Among the latter subset, the team
-proposing these observations has measured about two thirds of the redshifts,
-mainly with FORS1/2 and X-shooter \citep[see][]{Fynbo2009, Jakobsson2012, Kruhler2012}(see Fynbo et al.\ 2009, ApJS, 185, 526; 
-Jakobsson et al.\ 2012, ApJ, 752, 62; Kr\"uhler et al.\ 2012, ApJ, 758, 46). Our
-current aim is to build a sample superior to our previous low-resolution survey
-(Fynbo et al.\ 2009, ApJS, 185, 526), both in terms of quantity and  quality of
-the spectra. Our program started as guaranteed time observations during periods
-84-91, and we have continued in open time since then.
 
-%In P84 we started the X-shooter legacy survey in GTO time. Our aim is to  build
-%a sample of GRBs superior to our previous  low-resolution  survey, Fynbo et
-% al.\
-%2009, ApJS, 185, 526) both in terms of quantity and  quality of the spectra.
-% The
-%last period of GTO time on the survey was P90 (plus 6 hr of leftover GTO time
-%in  P91) and for P92 a proposal like this was  accepted for continuation of the
-%program in open time (concerning P93 see box 8).
 
-\smallskip
 
-X-shooter is in many ways the ideal GRB follow-up instrument and indeed GRB
-follow-up was one of the primary science cases behind the instrument design and
-implementation. Our program secures general purpose GRB afterglow spectroscopic
-follow-up that adds strong legacy value to the \textit{Swift} GRB sample. Due to
-the wide wavelength range of X-shooter with the same observation cover molecular
-H$_2$ absorption near the atmospheric cut-off and all the strong emission lines
-from the host in the NIR arm (e.g., Friis et al., 2015, MNRAS, 451, 167). In
-general, the wide wavelength coverage ensures that we always have features on
-which to base a redshift measurement as long as the afterglow is brighter than
-about 23 mag in either the $R$- or $z$-band. Frequently, emission lines are also
-detected from the underlying host, which also provide further information such
-as SFR and metallicity (the top right panel in Fig.~1 shows an example). Only
-for 7 out of more than 70 secured spectra could we not measure a redshift. With
-the X-shooter survey we provide {\bf metallicity measurements} for about 30\%
-(Voigt-profile fits) of the $z>1.7$ events. So far we have measured
-metallicities for more than 20 GRB afterglows with X-shooter. With the wide
-wavelength coverage of X-shooter we can study important chemical species as
-Zn\,\textsc{ii}, Cr\,\textsc{ii} and $\alpha$ elements over a much wider
-redshift range than what is possible with other instruments. As an example, we
-have measured a metallicity of $0.1 Z_\odot$ for GRB\,100219A at $z=4.669$
-(Th{\"o}ne et al.\ 2013, MNRAS, 428, 3590), $0.02Z_\odot$ for GRB\,111008A at
-$z=4.991$ (Sparre et al.\ 2014, ApJ, 785, 150) and $0.05Z_\odot$ for the
-$z=5.9125$ GRB\,130606A (Hartoog et al.\ 2015, A\&A, 580, 139). Reconciling the
-abundance patterns of GRB absorbers, other types of absorbers, QSO DLAs in
-particular, and old stars in the Local Group is an important long-term goal (see
-also Sparre et al.\ 2014, ApJ, 785, 150). Metallicities are also measured from
-host emission lines (Kr{\"u}hler et al.\ 2015, A\&A, 581, A125). GRB
-spectroscopy also allows us to determine the dust content of their environments,
-both through analysis of the depletion pattern and through measurement of the
-associated extinction (Japelj et al.\ 2015, A\&A, 451, 2050). This allows us to
-quantify the dust-to-metals ratio and its evolution with redshift (e.g., De Cia
-et al.\ 2013, A\&A, 560, 88; Zafar \& Watson 2013, A\&A, 560, 26). %Moreover,
-% GRB
-%afterglows allow investigation of random foreground absorbers, complementing
-%QSO sightline studies (e.g., Schulze et
-%al.\ 2012, A\&A, 546, 20).
 
-%In Fynbo et al. (2009, ApJS, 185,
-%526), we compare the host-galaxy HI
-%column density and metallicity (most of which has been measured by our group)
-%with a sample of damped \lya\ systems (DLAs) along QSO sightlines. We show that
-%most GRB-DLAs have a much larger column than QSO-DLAs.  The difference in
-%column density and metallicity for GRB and QSO sightlines shows that the total
-%cross-section for environments like those of GRBs must be less than a few
-%percent of the total cross-section for QSO-DLAs, and suggests that GRB
-%sightlines probe regions with high gas density.
-
-%The issue of production and {\bf release of Lyman continuum radiation} is
-%currently not fully understood, but the evidence suggests that star-forming
-%galaxies are dominating, in particular at the highest redshifts (e.g., Bianchi
-%et al.\ 2001, A\&A, 376, 1; Chen et al.\ 2007, ApJ, 667, L25). Also here
-%X-shooter spectroscopy will allow major progress due to the excellent blue
-%sensitivity.
-
-%GRB afterglows can probe dust in high-redshift star-forming galaxies
-%including exploring the {\bf 2175~\AA{} extinction bump}
-%(El\'iasd\'ottir et al.\ 2009, ApJ, 697, 1725; Zafar et al.\ 2011, A\&A,
-%732, 143).
-%Due to the broad wavelength  coverage we can do
-%this more accurately and over a broader range of redshifts with X-shooter.
-
-\smallskip
-
-We will also determine the frequency and properties of {\bf molecular
-	absorption} towards GRB absorbers. Molecular gas is a key element to catalyze
-the process of star formation, but prior to our program H$_2$ had been detected
-just in two cases (tentatively in Fynbo et al.\ 2006, A\&A, 451, L47; securely
-in Prochaska et al.\ 2009, ApJ, 691, L27). With our X-shooter program we have
-found three more systems (Kr\"uhler et al.\ 2013, A\&A, 557, 18; D'Elia et al.\
-2014, A\&A, 564, 38; Friis et al.\, 2015, MNRAS, 451, 167). We are currently
-analysing more of our spectra for less obvious molecular absorption and we
-expect to find more (a dedicated sample paper is addressing this issue).
-
-\vspace{0.2cm} A natural question to ask is: {\bf how long should this work
-	continue?} Our view is that we need to keep observing the afterglows as long as
-we have \textit{Swift} in operation. Also note that the program is still
-producing many papers and provides data for many theses (Box 9 and 10).
-\textit{Swift} is currently funded until 2018, but is likely to get more
-extensions given its overwhelming success. As mentioned above GRBs allow us to
-probe star-forming galaxies that are almost impossible to study in other ways
-both in terms of redshifts, galaxy luminosity function, and regions within
-galaxies. After 7 periods we have secured seven spectra of $z>4$ GRBs, of which
-three were of sufficient quality to allow abundance measurements (Th\"one et
-al.\ 2013, Sparre et al.\ 2014, Hartoog et al.\ 2015). GRBs offer the only way
-to derive chemical abundances for the gas phase of central, actively
-star-forming regions of high-$z$ galaxies. The program also maintains a very
-high discovery potential where we occasionally find something completely
-unexpected that provides interesting clues to puzzles in other fields, e.g.
-extinction of type Ia supernovae (Fynbo et al.\ 2014, A\&A, 572, 12). Each of
-these spectra are like precious jewels – it is a type of observation that can
-never be repeated and a class of sightlines that can only be studied while we
-have operating GRB satellites.
-
-It is also worth adding that we have build up a rather unique team spread over
-Europe from Granada to Reykjavik, which by now has reached a point where the
-distribution of night shifts, the scientific exploitation of the data is
-efficient and where we are open to all new members who wish to participate. As
-mentioned all data are public immediately.
-
-{\bf For all of these reasons, we need to keep building up the sample of GRB
-	afterglow spectra now as we may have to wait many years before a mission like
-	\textit{Swift} becomes available again.}
-
-A significant proportion of GRBs lack a bright optical afterglow (``{\bf dark
-	bursts}'', e.g., Jakobsson et al.\ 2004, ApJ, 617, L21; Melandri et al.\ 2012,
-MNRAS, 421, 1265). Some of these are at the highest redshifts ($z > 6$) and
-their observer-frame optical emission is absorbed by the IGM. The majority,
-however, suffer from large dust obscuration (e.g., Perley et al. 2009, AJ, 138,
-1690; Greiner et al.\ 2011, A\&A, 526, 30). Identifying such GRBs is important
-for constraining the fraction of obscured star formation. In both cases, NIR
-emission is expected. X-shooter can adequately study these objects, provided
-that a NIR counterpart is timely identified, for which we have the dedicated
-HAWKI run D.
-
-The detection of {\bf absorption line variability} can reveal the burst
-influence on the surrounding medium and in turn the absorber distance from the
-burst and its metallicity (Vreeswijk et al.\ 2007, A\&A 468, 83; D'Elia et al.\
-2009, ApJ, 694, 332; Th\"one et al.\ 2011, MNRAS, 414, 479; De Cia et al.\ 2012,
-A\&A, 545, 64; Hartoog et al.\ 2013). {\bf Short GRBs} originate in a
-substantially different environment compared to long GRBs. Short GRBs may be
-related to the merging of compact binaries and the coalescence time can be long
-enough to allow the progenitor system to move far away from the star formation
-site (Belczynski et al.\ 2002, ApJ, 571, 147). Up to now, however, no spectrum
-with a sufficient signal-to-noise ratio of a short GRB afterglow has been
-secured. A knowledge of the redshift distribution of short bursts is of key
-importance for the next generation of gravitational wave experiments, as they
-are the likely EM counterparts to their primary targets.
+%Only after observing more than 12000 damped Lyman-$\alpha$ absorbers (DLAs)
+%towards about 10$^5$ QSOs have 5 systems with
+%$\log({N_\mathrm{HI}/\mathrm{cm^{-2}}}) > 22$ been identified
+%\citep{Noterdaeme2012b}. Long GRB afterglow spectra, by contrast, reveal such
+%systems in the majority of cases \citep{Jakobsson2006a, Fynbo2009}. Whereas DLAs
+%towards QSOs are mostly limited to $1.8\lesssim z \lesssim 5$ due to the
+%atmospheric  UV-cutoff and increasing Lyman-blanketing at increasing redshifts
+%\citep[e.g.,][]{Rafelski2014}, GRBs allow us to see into the hearts of
+%star-forming galaxies over the full history of cosmic star formation from $z
+%\approx 0$ to $z > 8$ \citep[e.g.,][]{Tanvir2009, Salvaterra2009,
+%	Jakobsson2012}. With afterglow spectroscopy (throughout the electromagnetic
+%spectrum from X-rays to the sub-mm) we can hence characterize the properties of
+%star-forming galaxies over cosmic history in terms of  redshifts, metallicities,
+%molecular contents, ISM temperatures, UV-flux densities, etc.. 
+%
+%
+%This is, however,
+%only possible as long as there are satellites in orbit that rapidly and
+%accurately locate GRBs. The currently operating \textit{Swift} satellite,
+%launched in 2004 and still fully-functioning, allows for very efficient
+%follow-up observations of GRBs due to its unprecedented rate, speed and
+%precision of localisations.
+%
+%There are several unanswered but fundamental questions that must be addressed in
+%order to exploit the full potential of GRBs as cosmological probes. More than
+%50\% of the \textit{Swift} bursts with measured redshift are at $z > 2$, and
+%5--10\% are expected to be above $z=5$ \citep{Salvaterra2007,
+%	Salvaterra2012,Jakobsson2012, Perley2016a}. A high redshift completeness is
+%crucial for our understanding of the link between the number density of GRBs per
+%unit redshift and the global star-formation history of the Universe, as measured
+%by other means \citep[UV, FIR, sub-mm, see][]{Robertson2012}. The detection of
+%GRBs at $z > 6$ shows that GRBs have become competitive as a tool to identifying
+%galaxies at the highest redshifts and unsurpassed in providing detailed
+%abundance information via absorption line spectroscopy \citep{Tanvir2012,
+%	McGuire2016}.
+%
+%\smallskip
+%
+%%The sample of short GRBs with redshifts remains too small and too
+%%incomplete to really
+%%constrain their redshift distribution (Guetta \& Piran 2006, A\&A, 453, 823;
+%%Salvaterra et al.\ 2008, MNRAS, 388, 6) making it of extreme importance to
+%%enlarge as far as possible the number of known redshifts for this class of
+%%sources.
+%
+%From March 2005 to March 2016 there have been about 350 {\it Swift} bursts
+%complying with our sample selection criteria, and
+%about half of them have measured redshifts. Among the latter subset, the team
+%proposing these observations has measured about two thirds of the redshifts,
+%mainly with FORS1/2 and X-shooter \citep[see][]{Fynbo2009, Jakobsson2012, Kruhler2012}. Our
+%current aim is to build a sample superior to our previous low-resolution survey
+%\citep{Fynbo2009}, both in terms of quantity and  quality of
+%the spectra. 
+%
+%Due to
+%the wide wavelength range of X-shooter with the same observation cover molecular
+%H$_2$ absorption near the atmospheric cut-off and all the strong emission lines
+%from the host in the NIR arm \citep[e.g.,][]{Friis2015}. In
+%general, the wide wavelength coverage ensures that we always have features on
+%which to base a redshift measurement as long as the afterglow is brighter than
+%about 23 mag in either the $R$- or $z$-band. Frequently, emission lines are also
+%detected from the underlying host, which also provide further information such
+%as SFR and metallicity (the top right panel in Fig.~1 shows an example). Only
+%for 7 out of more than 70 secured spectra could we not measure a redshift. With
+%the X-shooter survey we provide {\bf metallicity measurements} for about 30\%
+%(Voigt-profile fits) of the $z>1.7$ events. So far we have measured
+%metallicities for more than 20 GRB afterglows with X-shooter. With the wide
+%wavelength coverage of X-shooter we can study important chemical species as
+%Zn\,\textsc{ii}, Cr\,\textsc{ii} and $\alpha$ elements over a much wider
+%redshift range than what is possible with other instruments. As an example, we
+%have measured a metallicity of $0.1 Z_\odot$ for GRB\,100219A at $z=4.669$
+%(Th{\"o}ne et al.\ 2013, MNRAS, 428, 3590), $0.02Z_\odot$ for GRB\,111008A at
+%$z=4.991$ (Sparre et al.\ 2014, ApJ, 785, 150) and $0.05Z_\odot$ for the
+%$z=5.9125$ GRB\,130606A (Hartoog et al.\ 2015, A\&A, 580, 139). Reconciling the
+%abundance patterns of GRB absorbers, other types of absorbers, QSO DLAs in
+%particular, and old stars in the Local Group is an important long-term goal (see
+%also Sparre et al.\ 2014, ApJ, 785, 150). Metallicities are also measured from
+%host emission lines (Kr{\"u}hler et al.\ 2015, A\&A, 581, A125). GRB
+%spectroscopy also allows us to determine the dust content of their environments,
+%both through analysis of the depletion pattern and through measurement of the
+%associated extinction (Japelj et al.\ 2015, A\&A, 451, 2050). This allows us to
+%quantify the dust-to-metals ratio and its evolution with redshift (e.g., De Cia
+%et al.\ 2013, A\&A, 560, 88; Zafar \& Watson 2013, A\&A, 560, 26). %Moreover,
+%% GRB
+%%afterglows allow investigation of random foreground absorbers, complementing
+%%QSO sightline studies (e.g., Schulze et
+%%al.\ 2012, A\&A, 546, 20).
+%
+%%In Fynbo et al. (2009, ApJS, 185,
+%%526), we compare the host-galaxy HI
+%%column density and metallicity (most of which has been measured by our group)
+%%with a sample of damped \lya\ systems (DLAs) along QSO sightlines. We show that
+%%most GRB-DLAs have a much larger column than QSO-DLAs.  The difference in
+%%column density and metallicity for GRB and QSO sightlines shows that the total
+%%cross-section for environments like those of GRBs must be less than a few
+%%percent of the total cross-section for QSO-DLAs, and suggests that GRB
+%%sightlines probe regions with high gas density.
+%
+%%The issue of production and {\bf release of Lyman continuum radiation} is
+%%currently not fully understood, but the evidence suggests that star-forming
+%%galaxies are dominating, in particular at the highest redshifts (e.g., Bianchi
+%%et al.\ 2001, A\&A, 376, 1; Chen et al.\ 2007, ApJ, 667, L25). Also here
+%%X-shooter spectroscopy will allow major progress due to the excellent blue
+%%sensitivity.
+%
+%%GRB afterglows can probe dust in high-redshift star-forming galaxies
+%%including exploring the {\bf 2175~\AA{} extinction bump}
+%%(El\'iasd\'ottir et al.\ 2009, ApJ, 697, 1725; Zafar et al.\ 2011, A\&A,
+%%732, 143).
+%%Due to the broad wavelength  coverage we can do
+%%this more accurately and over a broader range of redshifts with X-shooter.
+%
+%\smallskip
+%
+%We will also determine the frequency and properties of {\bf molecular
+%	absorption} towards GRB absorbers. Molecular gas is a key element to catalyze
+%the process of star formation, but prior to our program H$_2$ had been detected
+%just in two cases (tentatively in Fynbo et al.\ 2006, A\&A, 451, L47; securely
+%in Prochaska et al.\ 2009, ApJ, 691, L27). With our X-shooter program we have
+%found three more systems (Kr\"uhler et al.\ 2013, A\&A, 557, 18; D'Elia et al.\
+%2014, A\&A, 564, 38; Friis et al.\, 2015, MNRAS, 451, 167). We are currently
+%analysing more of our spectra for less obvious molecular absorption and we
+%expect to find more (a dedicated sample paper is addressing this issue).
+%
+%\vspace{0.2cm} A natural question to ask is: {\bf how long should this work
+%	continue?} Our view is that we need to keep observing the afterglows as long as
+%we have \textit{Swift} in operation. Also note that the program is still
+%producing many papers and provides data for many theses (Box 9 and 10).
+%\textit{Swift} is currently funded until 2018, but is likely to get more
+%extensions given its overwhelming success. As mentioned above GRBs allow us to
+%probe star-forming galaxies that are almost impossible to study in other ways
+%both in terms of redshifts, galaxy luminosity function, and regions within
+%galaxies. After 7 periods we have secured seven spectra of $z>4$ GRBs, of which
+%three were of sufficient quality to allow abundance measurements (Th\"one et
+%al.\ 2013, Sparre et al.\ 2014, Hartoog et al.\ 2015). GRBs offer the only way
+%to derive chemical abundances for the gas phase of central, actively
+%star-forming regions of high-$z$ galaxies. The program also maintains a very
+%high discovery potential where we occasionally find something completely
+%unexpected that provides interesting clues to puzzles in other fields, e.g.
+%extinction of type Ia supernovae (Fynbo et al.\ 2014, A\&A, 572, 12). Each of
+%these spectra are like precious jewels – it is a type of observation that can
+%never be repeated and a class of sightlines that can only be studied while we
+%have operating GRB satellites.
+%
+%It is also worth adding that we have build up a rather unique team spread over
+%Europe from Granada to Reykjavik, which by now has reached a point where the
+%distribution of night shifts, the scientific exploitation of the data is
+%efficient and where we are open to all new members who wish to participate. As
+%mentioned all data are public immediately.
+%
+%{\bf For all of these reasons, we need to keep building up the sample of GRB
+%	afterglow spectra now as we may have to wait many years before a mission like
+%	\textit{Swift} becomes available again.}
+%
+%A significant proportion of GRBs lack a bright optical afterglow (``{\bf dark
+%	bursts}'', e.g., Jakobsson et al.\ 2004, ApJ, 617, L21; Melandri et al.\ 2012,
+%MNRAS, 421, 1265). Some of these are at the highest redshifts ($z > 6$) and
+%their observer-frame optical emission is absorbed by the IGM. The majority,
+%however, suffer from large dust obscuration (e.g., Perley et al. 2009, AJ, 138,
+%1690; Greiner et al.\ 2011, A\&A, 526, 30). Identifying such GRBs is important
+%for constraining the fraction of obscured star formation. In both cases, NIR
+%emission is expected. X-shooter can adequately study these objects, provided
+%that a NIR counterpart is timely identified, for which we have the dedicated
+%HAWKI run D.
+%
+%The detection of {\bf absorption line variability} can reveal the burst
+%influence on the surrounding medium and in turn the absorber distance from the
+%burst and its metallicity (Vreeswijk et al.\ 2007, A\&A 468, 83; D'Elia et al.\
+%2009, ApJ, 694, 332; Th\"one et al.\ 2011, MNRAS, 414, 479; De Cia et al.\ 2012,
+%A\&A, 545, 64; Hartoog et al.\ 2013). {\bf Short GRBs} originate in a
+%substantially different environment compared to long GRBs. Short GRBs may be
+%related to the merging of compact binaries and the coalescence time can be long
+%enough to allow the progenitor system to move far away from the star formation
+%site (Belczynski et al.\ 2002, ApJ, 571, 147). Up to now, however, no spectrum
+%with a sufficient signal-to-noise ratio of a short GRB afterglow has been
+%secured. A knowledge of the redshift distribution of short bursts is of key
+%importance for the next generation of gravitational wave experiments, as they
+%are the likely EM counterparts to their primary targets.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Sample selection criteria and follow-up}
@@ -1054,19 +1066,26 @@ no clear evidence for a discrepancy.
 \end{figure}
 
 Because we only follow up targets with either a clear afterglow or counterpart,
-correctly associating a galaxy with a burst when there is no detected optical afterglow
-is more difficult, meaning that we should not have attempted follow-up for a
-larger fraction of bursts with no optical afterglow. The X-ray properties for
-the followed sample does not differ signicantly from the statistical sample, as
-shown in Sect. \ref{completeness}. Using the table maintained by
-Greiner\footnote{http://www.mpe.mpg.de/~jcg/grbgen.html} \todo{How to reference
-this}, we can see how the pressence of an optical afterglow affects the
-follow-up statistics. 50.5 percent of all \textit{Swift}-detected bursts do not
-have an detected optical afterglow, but this number also includes bursts where
-no optical telescopes were available, so is a lower limit. For the bursts
-entering our statistical sample, this number is 27 percent
+correctly associating a galaxy with a burst when there is no detected optical
+afterglow is more difficult, see \citet{Levesque2010} and \citet{Perley2017} for
+a recent example. Because the presence of optical transient is highly dependent
+on the "darkness", we expect that the $\beta_{OX}$ sample is biased against dark
+bursts. The larger relative fraction of upper limits for increased darkness is
+visible both in the sample presented here and the one in \citet{Fynbo2009}. The
+X-ray properties for the followed sample does not differ signicantly from the
+statistical sample, as shown in Sect. \ref{completeness}. Using the table
+maintained by Greiner\footnote{http://www.mpe.mpg.de/~jcg/grbgen.html} \todo{How
+to reference this}, we can see how the presence of an optical afterglow affects
+the follow-up statistics. 50.5 percent of all \textit{Swift}-detected bursts do
+not have an detected optical afterglow, but this number also includes bursts
+where no optical telescopes were available, so is a lower limit. For the bursts
+entering our statistical sample, this number is $\sim$ 27 percent, close to the
+maximum fraction of dark bursts \citep{Melandri2012}. Of the subsample (3) that
+have actually been attempted, this number is $\sim$ 18 percent, confirming that
+we are indeed biased against bursts with an optical afterglow in the
+spectroscopic sample.
 
-Since \textit{all} GRBs should have an optical afterglow, the presence of an optical afterglow is more a statement about the sensitivity than optical properties of the bursts. 
+Since \textit{all} GRBs should have an optical afterglow, the presence of an optical afterglow is more a statement about the sensitivity than optical properties of the bursts. \todo{Daniele, help.}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
