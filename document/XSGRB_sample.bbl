@@ -17,6 +17,11 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{Abbott et~al.,}{Abbott
+  et~al.}{2016}]{Abbott2016a}
+Abbott B.~P.,  et~al., 2016, \mn@doi [Phys. Rev. Lett.]
+  {10.1103/PhysRevLett.116.061102}, 116, 061102
+
 \bibitem[\protect\citeauthoryear{Abrarov \& Quine}{Abrarov \&
   Quine}{2015a}]{abrarov2015a}
 Abrarov S.~M.,  Quine B.~M.,  2015a, \mn@doi [J. Math. Res.]
@@ -345,6 +350,11 @@ Lien A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/829/1/7}, 829, 7
 Littlejohns O.~M.,  Tanvir N.~R.,  Willingale R.,  Evans P.~A.,  O'Brien P.~T.,
     Levan A.~J.,  2013, \mn@doi [MNRAS] {10.1093/mnras/stt1841}, 436, 3640
 
+\bibitem[\protect\citeauthoryear{L{\'{o}}pez et~al.,}{L{\'{o}}pez
+  et~al.}{2016}]{Lopez2016}
+L{\'{o}}pez S.,  et~al., 2016, \mn@doi [A{\&}A] {10.1051/0004-6361/201628161},
+  594, A91
+
 \bibitem[\protect\citeauthoryear{Melandri et~al.,}{Melandri
   et~al.}{2012}]{Melandri2012}
 Melandri A.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2011.20398.x},
@@ -484,6 +494,12 @@ Starling R. L.~C.,  et~al., 2011, \mn@doi [MNRAS]
   Strolger}{Svensson et~al.}{2010}]{Svensson2010a}
 Svensson K.~M.,  Levan A.~J.,  Tanvir N.~R.,  Fruchter A.~S.,   Strolger L.-G.,
    2010, \mn@doi [MNRAS] {10.1111/j.1365-2966.2010.16442.x}, 405, 57
+
+\bibitem[\protect\citeauthoryear{Tanvir, Levan, Fruchter, Hjorth, Hounsell,
+  Wiersema  \& Tunnicliffe}{Tanvir et~al.}{2013}]{Tanvir2013a}
+Tanvir N.~R.,  Levan A.~J.,  Fruchter A.~S.,  Hjorth J.,  Hounsell R.~A.,
+  Wiersema K.,   Tunnicliffe R.~L.,  2013, \mn@doi [Natur]
+  {10.1038/nature12505}, 500, 547
 
 \bibitem[\protect\citeauthoryear{{Tepper Garc{\'{i}}a}}{{Tepper
   Garc{\'{i}}a}}{2006}]{TepperGarcia2006}
