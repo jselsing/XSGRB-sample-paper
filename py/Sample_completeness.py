@@ -9,8 +9,9 @@ import matplotlib.pyplot as pl
 import seaborn as sns; sns.set_style('ticks')
 import numpy as np
 from scipy import stats
-import matplotlib
+import matplotlib as mpl
 from matplotlib.ticker import FormatStrFormatter
+
 params = {
    'axes.labelsize': 10,
    'font.size': 10,
@@ -20,7 +21,7 @@ params = {
    'text.usetex': False,
    'figure.figsize': [9, 4.5]
    }
-matplotlib.rcParams.update(params)
+mpl.rcParams.update(params)
 
 def filt_nan(input_array):
     """

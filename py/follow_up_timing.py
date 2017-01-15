@@ -6,20 +6,20 @@ from __future__ import division, print_function
 from astropy.io import fits
 import pandas as pd
 import matplotlib.pyplot as pl
-import seaborn; seaborn.set_style('ticks')
+import seaborn as sns; sns.set_style('ticks')
 import numpy as np
-import matplotlib
+import matplotlib as mpl
 from matplotlib.ticker import FormatStrFormatter
 params = {
-   'axes.labelsize': 10,
-   'font.size': 10,
-   'legend.fontsize': 10,
-   'xtick.labelsize': 10,
-   'ytick.labelsize': 10,
+   'axes.labelsize': 12,
+   'font.size': 12,
+   'legend.fontsize': 12,
+   'xtick.labelsize': 12,
+   'ytick.labelsize': 12,
    'text.usetex': False,
-   'figure.figsize': [4.5, 4.5]
+   'figure.figsize': [6, 6]
    }
-matplotlib.rcParams.update(params)
+mpl.rcParams.update(params)
 
 
 
@@ -34,6 +34,12 @@ def main():
     burst_table = pd.read_csv("../data/Burst list - CSV_observed.csv")
 
     name, z, delay, mag = burst_table["GRB"].values, burst_table["z"].values, burst_table["Follow-up delay"].values, burst_table["Acquisition mag"].values
+    for ii, ll in enumerate(mag):
+        # print(ll)
+        if "R" in str(ll):
+            print(ll)
+            mag[ii] = float(ll.split("=")[1]) + 0.21
+
 
     idx_limits = ~(mag == ">24")
     magnondet = 24 * (~idx_limits).astype("int")
@@ -42,15 +48,19 @@ def main():
     sorted_delay = delay[delay_sort]
     sorted_z = z[delay_sort]
     fractional_completeness = (1 - np.cumsum(np.isnan(sorted_z).astype("int"))/len(sorted_z))*100
-    print(len(sorted_z), np.sum(np.isnan(sorted_z).astype("int")))
-    print(fractional_completeness[-1])
-    exit()
+    # print(len(sorted_z), np.sum(np.isnan(sorted_z).astype("int")))
+    # print(fractional_completeness[-1])
+    # exit()
     idx_hasz = ~np.isnan(z)
 
     # Plot
     fig, ax1 = pl.subplots()
 
-    cmap = pl.get_cmap("plasma")
+    color = sns.color_palette()[0]
+    color_rgb = mpl.colors.colorConverter.to_rgb(color)
+    colors = [sns.set_hls_values(color_rgb, l=l) for l in np.linspace(1, 0, 12)]
+    cmap = sns.blend_palette(colors, as_cmap=True)
+    # cmap = pl.get_cmap("plasma")
     # With redshift and acq mag
     sc = ax1.scatter(delay[idx_hasz & idx_limits], mag[idx_hasz & idx_limits], c=z[idx_hasz & idx_limits], cmap=cmap, s=25)
     # Without redshift and with acq mag
@@ -61,7 +71,7 @@ def main():
     ax1.scatter(delay[~idx_hasz & ~idx_limits], magnondet[~idx_hasz & ~idx_limits], color="black", s=125, marker=u'$\u2193$')
 
     ax2 = pl.twinx()
-    ax2.plot(sorted_delay, fractional_completeness)
+    ax2.plot(sorted_delay, fractional_completeness, color=sns.color_palette()[2])
 
 
 
@@ -97,9 +107,9 @@ def main():
     pl.tight_layout()
     ax1.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
     #create a colorbar axis
-    cax, kw = matplotlib.colorbar.make_axes(ax2, location='top')
+    cax, kw = mpl.colorbar.make_axes(ax2, location='top')
     clb = pl.colorbar(sc, orientation="horizontal", cax=cax, ticks=[0, 1, 2, 3, 4, 5, 6])
-    cax, kw = matplotlib.colorbar.make_axes(ax1, location='top')
+    cax, kw = mpl.colorbar.make_axes(ax1, location='top')
     clb = pl.colorbar(sc, orientation="horizontal", cax=cax, ticks=[0, 1, 2, 3, 4, 5, 6])
     clb.ax.set_title("Redshift")
     # pl.show()

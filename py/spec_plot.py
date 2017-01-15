@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as pl
 import seaborn as sns; sns.set_style('ticks')
 import numpy as np
-from scipy import stats, signal
+from scipy import stats, signal, interpolate
 import matplotlib as mpl
 
 params = {
@@ -33,6 +33,20 @@ def main():
     error = data[:, 2]
     n_elem = len(wl)
 
+    # Get linelist
+    import lineid_plot
+    fit_line_positions = np.genfromtxt("../data/grblines_Christensen2011.dat", dtype=None)
+    # fit_line_positions = np.genfromtxt("../data/grblines.dat", dtype=None)
+    linelist = []
+    linenames = []
+    for n in fit_line_positions:
+        linelist.append(float(n[0]))
+        linenames.append(str(n[1]))
+    linelist = np.array(linelist)
+    linenames = np.array(linenames)
+    # Redshifts of systems
+    z = [2.300]
+    ls = ["dashed"]
     # Make plot
     n_axes = 7
     fig, (ax1, ax2, ax3, ax4, ax5, ax6, ax7) = pl.subplots(n_axes, 1)
@@ -41,6 +55,15 @@ def main():
 
         cut = slice(int(np.round(n_elem*(ii/n_axes))), int(np.round(n_elem*(ii/n_axes + 1/n_axes))))
         ax.plot(wl[cut], flux[cut], color="black", lw=0.5, linestyle="steps-mid", rasterized=True, zorder=2)
+        interp = interpolate.interp1d(wl[cut], signal.medfilt(flux[cut], 11))
+        for oo, pp in enumerate(z):
+            idx = [ii for ii, kk in enumerate(linelist*(1 + pp)) if (kk > wl[cut][0] and kk < wl[cut][-1])]
+            # for aa, ss in zip(linelist[idx]*(1 + pp), linenames[idx]):
+                # ax.axvline(aa, ymin=interp(aa)/2, linestyle=ls[oo], color="black", alpha=0.7, lw=0.5)
+                # ax.text(aa, 1.5, ss)
+            lineid_plot.plot_line_ids(wl[cut], flux[cut], linelist[idx]*(1 + pp), linenames[idx], arrow_tip=1.2, box_loc=1.6, ax = ax)
+
+
         ax.plot(wl[cut][::10], signal.medfilt(error[cut][::10], 11), color=sns.color_palette()[0], alpha=0.9, zorder=1)
         ax.axhline(1, linestyle="dashed", color=sns.color_palette()[2], alpha=0.9, zorder=10)
         ax.axhline(0, linestyle="dotted", color="black", alpha=0.7)
@@ -57,7 +80,7 @@ def main():
     pl.tight_layout()
     pl.subplots_adjust(hspace=0.2)
     pl.savefig("../document/figures/GRB121024A.pdf", dpi="figure", rasterize=True)
-    # pl.show()
+    pl.show()
 
 if __name__ == '__main__':
     main()
