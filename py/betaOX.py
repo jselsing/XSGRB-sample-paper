@@ -86,7 +86,9 @@ def main():
 
     betaOX = betaOX[~mask][::-1]
     name = name[~mask][::-1]
-
+    for ii, kk in enumerate(betaOX):
+        print(name[ii], kk)
+    exit()
     fynbo_table = np.genfromtxt("../data/Fynbo2009betaOX.dat", dtype=None)
     f_name = fynbo_table[:, 0]
     fynbo_table[:, 1] = [ii.replace('<', '') for ii in fynbo_table[:, 1]]

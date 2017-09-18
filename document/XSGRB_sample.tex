@@ -490,11 +490,11 @@ distribution of the bursts away from the galactic center except in the upper
 right corner, where Earth casts a shadow on the sky as seen from the telescope.
 
 
-A fraction of the bursts presented here \todo{Insert exact
-number} have already had their hosts investigated in \citet{Kruhler2015}, for
-which extractions of the hosts exist. The focus of the data presented here are
-on the afterglows themselves and in the absence of a clear afterglow, the host.
-We will not, however, investigate the hosts.
+%A fraction of the bursts presented here \todo{Insert exact
+%number} have already had their hosts investigated in \citet{Kruhler2015}, for
+%which extractions of the hosts exist. The focus of the data presented here are
+%on the afterglows themselves and in the absence of a clear afterglow, the host.
+%We will not, however, investigate the hosts.
 
 
 
@@ -681,8 +681,8 @@ map.
 
 For all earth-based telescopes, the light of interest has to pass through Earths
 atmosphere, where the atmospheric content and conditions make an imprint on the
-received spectrum. These telluric features can be calculated in a multitude of
-ways and we employ a prioritized list of methods here, depending on the
+received spectrum. These telluric features can be corrected for in a multitude
+of ways. We employ a prioritized list of methods here, depending on the
 availability of the different method. Since the observation are often taken at
 odd times under varying conditions, this prioritized list ensures that we are
 always doing the optimal correction.
@@ -690,9 +690,10 @@ always doing the optimal correction.
 The highest priority method is using the GRB afterglow continuum itself, where
 the atmospheric conditions have directly been imprinted on the spectrum. The
 telluric features can directly be fit with an atmospheric model
-\citep{Smette2015, Kausch2015}, which can then be used to correct for the absorption. The accuracy of the correction depends on the 
-The requirement here is that the afterglow continuum spectrum has a
-signal-to-noise higher than a value of 10.
+\citep{Smette2015, Kausch2015}, which can then be used to correct for the
+absorption. The accuracy of the correction depends on the S/N for the target
+spectrum, where we have chosen the requirement that the afterglow continuum
+spectrum has a median signal-to-noise higher than a value of 10.
 
 If the afterglow is not sufficiently bright, telluric standard stars observed
 close in the time to the GRB can be used as a proxy for the atmospheric
@@ -1068,34 +1069,21 @@ By trimming away the 30 bursts \todo{Get number} that can be rejected due to
 telescope availability, the redshift completeness increases to 63 percent
 \todo{Get number}. 
 
-%As is shown in Sect. \ref{timing}, the redshift completeness
-%decreases with increasing follow-up delay, we can additionally increase the
-%redshift completeness by imposing cuts on the follow-up delay. Our ability to
-%rapidly follow up a burst is also not dependent on the burst properties and
-%therefore we can additionally cut delays longer than 24 hours (all burst in the
-%sample are in principle observable within 24 hours).
+As is shown in Sect. \ref{timing}, the redshift completeness
+decreases with increasing follow-up delay, we can additionally increase the
+redshift completeness by imposing cuts on the follow-up delay. Our ability to
+rapidly follow up a burst is also not dependent on the burst properties and
+therefore we can additionally cut delays longer than 24 hours (all burst in the
+sample are in principle observable within 24 hours). \todo{Unfinished section}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Redshifts}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The biased introduced in the redshift distribution by the increased ability to
 secure redshift of optically brighter bursts has been investigated by
 \citet{Turpin2016} which find that we systematically find redshift for longer
 GRBs. Additionally only the brightest GRBs are seen above redshift $z \gtrsim
-1$. \todo{Additional text}
+1$. \todo{Unfinished section}
 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Afterglow-based redshifts}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Emissionline-based redshifts}	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Redshift completeness
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1186,23 +1174,23 @@ preferred.
 This should also include a discussion of dark bursts. 
 Cuchiara. BAT6 (Salvaterra), TOUGH
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\subsection{X-ray column densities vs. optically derived ones}	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{X-ray column densities vs. optically derived ones (Remove section)}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 %
 %\begin{figure}
 %	\centerline{\includegraphics[width=10cm]{figures/OAXR_NH_sphere.pdf}}
 %	\caption{Optically derived HI column densities vs. X-ray derived ones taken from \citet{Buchner2016}. The colors of the points reflect the redshift of the burst. Circles mark the column densities published in \citet{Fynbo2009} and squares mark the ones derived as part of the sample presented here. Overplot in blue is the 1:1 correspondence, expected if the conditions local to the GRBs are similar to the local ISM abundances. If the metallicity is lower at the GRB site, the point move upwards in the plot. }
 %	\label{fig:OAXR}
 %\end{figure}	
-	
-	
-	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Why is the HI column truncated?}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-What is the expected transmission for a high-column HI, where the hydrogen primarily will be in the form of H2? Number of bursts with detected H2 and their HI column density. Rahmati Schaye, Krongold Prochaska. 
+%	
+%	
+%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Why is the HI column truncated? (Remove section)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%What is the expected transmission for a high-column HI, where the hydrogen primarily will be in the form of H2? Number of bursts with detected H2 and their HI column density. Rahmati Schaye, Krongold Prochaska. 
 
 
 
