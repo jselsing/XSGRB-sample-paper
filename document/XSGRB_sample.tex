@@ -313,13 +313,13 @@ is required and this becomes better when the delivered seeing is better than the
 slit width. We discuss this in Sect. \ref{resolution}.
 
 Due to mechanical issues, the atmospheric dispersion corrector (ADC) were
-disabled from 1st of August 2012. No bursts were affected by the failing ADC
-prior to disablement. To avoid chromatic slit losses due to atmospheric
-dispersion, all subsequent observations have been carried out at parallactic
-angle. A consequence of this is that for all observations following 1st of
-August 2012, the source moves across the spatial direction of the slit as a
-function of wavelength. This effect has been modeled in the extraction
-procedure, as described in \ref{extract}.
+disabled from 1st of August 2012. Only GRB~100728B was affected by the failing
+ADC prior to disablement, resulting in a lower-than-nominal throughput. To avoid
+chromatic slit losses due to atmospheric dispersion, all subsequent observations
+have been carried out at parallactic angle. A consequence of this is that for
+all observations following 1st of August 2012, the source moves across the
+spatial direction of the slit as a function of wavelength. This effect has been
+modeled in the extraction procedure, as described in \ref{extract}.
 
 We list the overview of all the observations in Tab. \ref{tab:sample_overview}.
 \input{tables/burst_overview.tex} and plot the positions off all the bursts on
@@ -556,6 +556,17 @@ observations have been used.
 \end{figure*}
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Continuum estimate} \label{continuum}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+We additionally provide an estimate of the continuum for all the spectra
+presented here. We have developed an algorithm that attempts to automatically
+find the continuum placement along with the error on the continuum estimate. For
+each arm,
+
+                                                                                           
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Spectral resolution} \label{resolution}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -627,6 +638,20 @@ estimate for the analysis of these poor signal to noise science spectra.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Science data products} \label{products}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+All the spectra are made available at
+\url{http://www.dark-cosmology.dk/~jselsing/XSGRB/} and additionally at , including the ones outside
+the statistical sample. This release includes both prompt afterglow observations
+as well as late time observations. An overview of all the spectra provided here
+are given in Table. \ref{sample_overview}. For each burst, each individual
+observation is provided in a separate reduction and in cases where observations
+have been repeated, a combined spectrum is also provided.  No attempt has been
+made to combine the arms, so for each observation, three spectra exists.
+
+
+We have
+adopted the following naming convention GRB*OB*.fits
+
 
 In this section we describe the data format. Similar to what is done in \citet{Lopez2016}
 
