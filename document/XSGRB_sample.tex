@@ -50,6 +50,7 @@
 	095.A-0045, 094.A-0134, 093.A-0069, 092.A-0124, 0091.C-0934, 090.A-0088,
 	089.A-0067, 088.A-0051, 087.A-0055, 086.A-0073, 085.A-0009 and 084.A-0260}}
 
+
 \titlerunning{The X-shooter sample of GRBs}
 
 \input{authorlist.tex}
@@ -89,43 +90,65 @@ results that larger optical darkness leads to increased X-ray absorption.
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+Gamma-Ray bursts (GRBs) are interesting as they provide the opportunity to
+derive new insights into a very wide range of topics in astrophysics. Examples
+range from small scale phenomena relating to the magnetars, properties of highly
+relativistic jets, hyper/supernova explosions, the interstellar medium, dust extinction
+curves, starburst galaxies, chemical and molecular abundances, escape of ionizing 
+radiation, the ionization state of the intergalactic medium, intervening
+absoption systems to standard candles in cosmology.  In that sense GRB research
+is very multidisciplinary. 
 
-GRBs are interesting as they provide the opportunity to derive new insights
-into a very wide range of topics in astrophysics. In that sense GRB
-research is very multidisciplinary. The {\it Swift} satellite \citep{Gehrels09}, 
-which was launched in 2004, has made
-it possible to harvest the great potential in using GRBs as probes of
-galaxies in the intergalactic medium, which was already hinted at by
-results from earlier missions.
-
-A crucial aspect of the great success of the {\it Swift} mission has been
-the extensive ground based follow-up observations of the afterglows and of
-the host galaxies of the GRBs. This work has involved a large community
-of researchers both inside and outside the official {\it Swift} team. This fruitful
-collaboration has been greatly facilitated by the open data access policy
-of the {\it Swift} mission.
+The {\it Swift} satellite \citep{Gehrels09}, which was launched in 2004, has
+made it possible to harvest much of the great potential in using GRBs as probes
+of galaxies in the intergalactic medium, which was already hinted at by results
+from earlier missions \citep[e.g.][]{Ricker04}.  A crucial aspect of the great
+success of the {\it Swift} mission has been the extensive ground based
+follow-up observations of the afterglows and of the host galaxies of the GRBs.
+This work has involved a large community of researchers both inside and outside
+the official {\it Swift} team. This fruitful collaboration has been greatly
+facilitated by the open data access policy of the {\it Swift} mission.
 
 In the beginning of the "{\it Swift} era" most of the follow-up spectroscopy
-was secured using low-resolution spectrographs (typically
-R=$\lambda/\Delta\lambda$$<$1000) \citep[e.g.][]{Fynbo2009}. For a handful of
-very bright afterglows high-resolution (typically R$>$20000) spectra were
-secured. 
+was secured using low-resolution spectrographs 
+\citep[typically
+R=$\lambda/\Delta\lambda$$<$1000, e.g.][]{Fynbo2009}. Low-resolution
+spectroscopy is powerful for a number of reasons, first of all is the ability
+to secure information for even very faint targets. This allows the measurements
+of a number of important parameters such as redshifts, spectral slopes,
+and extinction. For
+a handful of very bright afterglows high-resolution (typically R$>$20000)
+spectra were secured and for these events much more information about
+conditions inside the host galaxies were extracted 
+\citep[e.g.,][]{Fiore,Thoene07,Prochaska07,Vreejswijk07,CastroTirado2010}. 
 
-The X-shooter spectrograph \citep{Vernet2011} is the first of the 2nd generation
-instruments at the ESO Very Large Telescope (VLT). It is a high-throughput 
-echelle spectrograph
-covering the full spectra range from the UV atmospheric cutoff to the near-infrared
-(near-IR)
-K-band with three spectral arms (UVB, VIS, NIR). It was designed very much with
-transient source follow-up in mind as the fading luminosities of such sources 
-makes in urgent to secure as extensive coverage as possible in the shortest possible 
-time. At the same time the resolution was set to be in the range 4000--9000 in order
-to be able to get a large useful spectra range between the many sky-background
-emission lines in the red and near-IR.
+The X-shooter spectrograph \citep{Vernet2011} is the first of the 2nd
+generation instruments at the ESO Very Large Telescope (VLT). It is a
+high-throughput echelle spectrograph covering the full spectral range from the
+UV atmospheric cutoff around 300 nm to the near-infrared (near-IR) K-band 
+ending around 2500 nm with three spectral
+arms (UVB, VIS, NIR). It was designed very much with transient source follow-up
+in mind as the fading luminosities of such sources makes in urgent to secure as
+extensive coverage as possible in the shortest possible time. At the same time
+the resolution was set to be in the range 4000--9000 in order to be able to get
+a large useful spectral range between the many sky-background emission lines in
+the red and near-IR spectral ranges. In this paper we present the results
+of a dedicated effort over the years 2009 -- 2016 to use the X-shooter
+spectrograph to secure spectroscopic observations of
+afterglows and host galaxies of GRBs detected by {\it Swift}. 
+All data resulting from the survey are publicly availble in reduced form.
+
+The paper is organized in the following way: In Sect.~\ref{sample} we describe
+the sample including the sample selection criteria and the observational
+strategy.  In Sec.t~\ref{results} we describe the results of the survey, i.e.
+the efficiency of the follow-up effort and the characteristics of the observed
+bursts. We also here assess the completeness of the finally realized sample.
+Finally, we offer our conclusions in Sect.~\ref{conclusions}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Sample selection criteria and follow-up}
+\section{Sample selection criteria and observations}\label{sample}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -282,14 +305,14 @@ spectroscopic follow-up has been attempted with X-shooter. Various conditions
 can affect our ability to follow up a given burst, and a discussion of this
 effect is included in Sect. \ref{badbursts}.
 
-X-shooter can cover the spectral wavelength region from 3000 \AA~to 24800 \AA~in
-a single exposure, by splitting the light in three separate spectroscopic arms
-using dichroics. This way each arm work as a separate instrument, each
-functioning as its own echelle spectrograph. The ultraviolet blue(UVB) arm
-covering 3000 - 5500 \AA, the visual(VIS) arm covering 5500 - 10200 \AA, and the
-near-infrared()NIR) arm covering 10200 - 24800 \AA~ with the possibility of
-applying a k-band blocking filter cutting the coverage of the NIR arm at 10200 -
-21000 \AA. For all observations, a nod-and-shuffle observing scheme has been
+X-shooter can cover the spectral wavelength region from 300 nm to 2480 nm in a
+single exposure, by splitting the light in three separate spectroscopic arms
+using dichroics.  This way each arm work as a separate instrument, each
+functioning as its own echelle spectrograph.  The ultraviolet blue(UVB) arm
+covering 3000 - 550 nm, the visual(VIS) arm covering 550 - 1020 nm, and the
+near-infrared()NIR) arm covering 10200 - 2480 nm with the possibility of
+applying a k-band blocking filter cutting the coverage of the NIR arm at 1020 -
+2100 nm. For all observations, a nod-and-shuffle observing scheme has been
 employed, with a nodding throw of 5 \arcsec. The individual observations has
 been carried out in a standard ABBA pattern, which allows flexibility in the sky
 subtraction method for the different arms.
@@ -367,9 +390,9 @@ an initial subtracting the sky on the un-rectified image we ensure that bulk of
 the sky background is not redistributed by the rectification process.
 
 The image is rectified onto an equidistant grid with a dispersion sampling of
-0.2 \AA/pixel and a 0.16 "/pixel spatial sampling for the UVB and VIS arm and
-0.6 \AA/pixel with a 0.21 "/pixel in the NIR arm.  Because the tabulated
-resolution is a lower limit, by choosing a sampling of 0.2 \AA/pixel, we ensure
+0.02 nm/pixel and a 0.16 "/pixel spatial sampling for the UVB and VIS arm and
+0.06 nm/pixel with a 0.21 "/pixel in the NIR arm.  Because the tabulated
+resolution is a lower limit, by choosing a sampling of 0.02 nm/pixel, we ensure
 that the bluest part of neither of the arms have a sampling lower than the
 Nyquist sampling rate of 2 pixels per resolution FWHM.
 
@@ -430,8 +453,8 @@ a function of a velocity offset. Both a multiplicative and an additive offset to
 the wavelength calibration has been tested, but in terms of $\chi^2$, the model
 with only a multiplicative offset is preferred.
 
-The resulting offsets, which were smaller than 0.1 \AA~in the UVB and VIS data
-and smaller than 0.5 \AA~in the NIR spectra, but changing over short period of
+The resulting offsets, which were smaller than 0.01 nm in the UVB and VIS data
+and smaller than 0.05 nm in the NIR spectra, but changing over short period of
 time were applied to the corresponding spectra.
 
 Using the convolved synthetic sky, the $\gtrsim 3 \sigma$ sky brightness pixels
@@ -1113,6 +1136,77 @@ This work made use of data supplied by the UK Swift Science Data Centre at the U
 \clearpage
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion and conclusions}\label{conclusions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In this paper we have presented the results of a dedicated effort over the
+years 2009 -- 2016 to use the X-shooter spectrograph on the ESO-VLT to secure
+spectroscopic observations of afterglows and host galaxies of GRBs detected by
+{\it Swift}. This work was initiated by a consortium using Guaranteed Time on
+X-shooter, but over the years the project continuued in open time and the team
+was opened to include any researchers interested in contribution to this
+effort.
+
+The sample we present here include spectroscopic observations of 86 
+systems fulfilling our sample criteria of which 72 are afterglow spectra 
+and 14 are observations of the underlying host galaxies. 
+UPDATE THIS.
+All spectra have been made publicly available in the reduced form used
+in this paper.
+
+Our sample serves the purpose to further characterize the environments of GRBs
+that was also much advanced by the previous surveys based primarily on
+lower-resolution spectographs. The most striking result found is that GRBs
+typically are located behind very large column densities of neutral hydrogen.
+Only after observing more than 12000 damped Lyman-$\alpha$ absorbers (DLAs)
+towards about 10$^5$ quasars have a handful such systems with
+$\log({N_\mathrm{HI}/\mathrm{cm^{-2}}}) > 22$ been identified \citep[e.g., five
+in][]{Noterdaeme2012}. Long GRB afterglow spectra, by contrast, reveal such
+systems in the majority of cases \citep[][and this work]{Jakobsson2006,
+Fynbo2009,Cucchiara2015}.  With afterglow spectroscopy (throughout the electromagnetic
+spectrum from X-rays to the sub-mm) we hence characterize the properties of
+star-forming galaxies over cosmic history in terms of redshifts, metallicities,
+molecular contents, ISM temperatures, UV-flux densities, extinction curves,
+etc.  A number of independent papers have been published or submitted for
+publication focusing on many of these specific issues of our sample such as
+extinction curves [][see also
+\cite{Fynbo2014,Heintz2017}]\citep{Japelj2015,Zafar17}, emission lines from the
+underlying host galaxies \citep{Kruhler2015}, the frequency of intervening
+\ion{Mg}{ii} absorbers \citep{Christensen2017}, and escape of ionizing
+radiation \citep{Tanvir17}.
+
+It seems important to end this paper by stressing that the potential of 
+using GRB sightlines as probes is far from fully harvested. The sample of
+sightlines probed by our spectra is not representative for all GRB 
+sightlines as we have shown and consistent with earlier findings
+from samples based on low-resolution spectroscopy \citep[e.g.,][]{Fynbo2009}
+and from studies of complete samples of GRB host galaxies 
+\citep{Hjorth2012,Covinto2013,Perley2016}. 
+\cite{Kruhler2013} convincingly argue, that 
+very rich sightlines like that probed by the remarkable GRB\,080607 
+\citep{Prochaska09} are probably significantly more frequent than in the sightlines 
+sampled by our spectra. However, with current instrumentation these sightlines are
+out of reach except under very fortunate circumstances as in the case of 
+GRB\,080607 when the afterglow could be observed only a few minutes after the 
+burst with a 10-m class telescope. Observations of such sightlines with 
+X-shooter-like spectrographs on th enext generation of 20--40-m telescopes
+is likely to be very rewarding. 
+
+\begin{acknowledgements}
+*** We should add an ode to Neil Gehrels here ***.
+JPUF, BMJ and DX acknowledge support from the ERC-StG grant EGGS-278202.  The
+Dark Cosmology Centre is funded by the Danish National Research Foundation.  TK
+acknowledges support by the European Commission under the Marie Curie
+Intra-European Fellowship Programme in FP7.  AdUP acknowledges support by the
+European Commission under the Marie Curie Career Integration Grant programme
+(FP7-PEOPLE-2012-CIG 322307).  This work made use of data supplied by the UK
+{\it Swift} Science Data Centre at the University of Leicester.  Finally, we
+acknowledge expert support from the ESO staff at the Paranal and La Silla
+observatories in obtaining these target of opportunity data.
+
+\end{acknowledgements}
+
 
 \appendix
 
@@ -1456,7 +1550,7 @@ The data presented here has formed the basis of GCN \#
 12991\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/12991.gcn3}}, and has also
 been published in \citet{Kruhler2015}. Starting 19.8 hours after the GRB
 trigger, a total exposure time of 2.4 ks reveals a faint continuum, starting at
-$\sim$ 7000 \AA~and extending all the way through 25000 \AA. We detect a $\sim
+$\sim$ 700 nm~and extending all the way through 2500 nm. We detect a $\sim
 2 \sigma$ emission line which, if interpreted as \ha, gives $z = 1.10$,
 supporting the redshift reported by \citet{Kruhler2015}.
 
@@ -1509,7 +1603,7 @@ emission line spectrum, the lines extending towards to burst.
 The data presented here also formed the basis of GCN \#
 13460\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/13460.gcn3}} and is not
 published elsewhere. 4.8 ks integration time, starting 10.5 hours after the BAT
-trigger, shows a bright afterglow continuum starting at $\sim$ 4720 \AA,
+trigger, shows a bright afterglow continuum starting at $\sim$ 472 nm,
 signifying the onset of the Lyman alpha forest, for a GRB located at $z =
 4.175$. Absorption features from \lya, \feii, \mgii~and \SIii~are readily
 detected at a consistent redshift.
@@ -1552,10 +1646,10 @@ redshift of the GRB.
 A separate reduction of this burst has been published in \citet{Kruhler2015},
 but not otherwise. Starting 9 days after the burst trigger, this is host
 observation and does not contain any afterglow continuum. In 3.6 ks integration
-time, we detect a faint continuum visible from 4500 \AA~and all the way through
-21000 \AA, in contrast to what is found previously. The continuum from 4500 -
-6000 \AA is detected at very low significance. If the drop at 4500 \AA~is the
-Lyman limit, this fits with Lyman alpha at $\sim$ 6000 \AA, giving $z \sim
+time, we detect a faint continuum visible from 450 nm and all the way through
+2100 nm, in contrast to what is found previously. The continuum from 4500 -
+600 nm is detected at very low significance. If the drop at 450 nm is the
+Lyman limit, this fits with Lyman alpha at $\sim$ 600 nm, giving $z \sim
 3.9$. The absence of nebular lines if due to \oii~falling in a telluric
 absorption band and the rest being shifted out of the wavelength coverage.
 
@@ -1577,7 +1671,7 @@ The data presented here has formed the basis of GCN \#
 13730\footnote{\url{http://gcn.gsfc.nasa.gov/gcn3/13730.gcn3}}, but is not
 published otherwise. A very rapid follow-up, starting only 1.7 hours after the
 BAT trigger, this 1.2 ks observation captures a very bright afterglow
-continuum, starting at 4500 \AA, signifying the onset of the Lyman limit for a 
+continuum, starting at 450 nm, signifying the onset of the Lyman limit for a 
 system at $z = 3.929$. Absorption from high-column density hydrogen leaves very
 prominent absorption features in the form of \lya, \lyb, and \lyg, visible in
 the Lyman alpha forest. Metal absorption lines arising from \feii, \NIii,
@@ -1903,12 +1997,12 @@ detections.
 This data has not been published elsewhere. Observations for GRB161007A started
 323 hours after the burst trigger and contains the potential host. 4 x 600 seconds
 of observations reveals a faint continuum rising abruptly above the noise at
-$\sim$ 6850 \AA~and continuing through 21000 \AA. A very low significance
-continuum is detected at shorter wavelengths, down to $\sim$ 6000 \AA. If the
+$\sim$ 685 nm and continuing through 2100 nm. A very low significance
+continuum is detected at shorter wavelengths, down to $\sim$ 600 nm. If the
 host is located at $z \sim 4.6$, the drop in continuum flux is the Lyman alpha
 break and the absence of nebular emission lines is due to \oii being shifted
 out of the wavelength coverage. Alternatively, an early-type host at $z = 0.71$
-could exhibit the 4000 \AA break at 6000 \AA, but due to the preference of
+could exhibit the 400 nm break at 600 nm, but due to the preference of
 long-duration GRBs for star-forming galaxies, this is the least likely
 explanation, why we believe the high-z solution.
 
@@ -1920,7 +2014,7 @@ integration time captures the afterglow continuum across all three
 spectroscopic arms. A broad absorption trough due to Lyman alpha is visible,
 along with metal absorption features from \mgii, \SIii, \cii, \civ, \alii,
 \aliii, and	\feii, all at $z =2.823$. Similar to GRB140506 \citep{Fynbo2014}, a
-break in the continuum shape is detected bluewards of 6000\AA, possible
+break in the continuum shape is detected bluewards of 600 nm, possible
 signifying some anomalous form of extinction.
 
 
