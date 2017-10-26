@@ -1,0 +1,107 @@
+J/A+A/547/L1        SDSS-III DR9 DLA catalogue               (Noterdaeme+, 2012)
+================================================================================
+Column density distribution and cosmological mass density of neutral gas:
+Sloan Digital Sky Survey-III Data Release 9.
+    Noterdaeme P., Petitjean P., Carithers W. C., Paris I., Font-Ribera A.,
+    Bailey S., Aubourg E., Bizyaev D., Ebelke G., Finley H., Ge J.,
+    Malanushenko E., Malanushenko V., Miralda-Escude J., Myers A. D.,
+    Oravetz D., Pan K., Pieri M. M., Ross N. P., Schneider D. P., Simmons A.,
+    York D. G.
+   <Astron. Astrophys. 547, L1 (2012)>
+   =2012A&A...547L...1N
+================================================================================
+ADC_Keywords: QSOs ; Spectroscopy ; H I data; Redshifts ; Equivalent widths
+Keywords: cosmology: observations - quasar: absorption-lines -
+          galaxies: evolution
+
+Abstract:
+    We present a study of the column density distribution and cosmological
+    mass density of neutral gas from a survey of Damped Lyman-alpha
+    systems in the Sloan Digital Sky Survey III Data Release 9.
+
+Description:
+    Our sample of high redshift Damped Lyman-alpha systems (DLAs) and
+    sub-DLAs is presented along with associated metal equivalent widths
+    and/or upper-limits.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table3.dat    221    12081   Damped Lyman-alpha absorption systems with
+                             logN(HI)>=20
+--------------------------------------------------------------------------------
+
+See also:
+ J/MNRAS/354/L31 : SDSS DR2 QSO and DLA properties (Murphy+, 2004)
+ J/A+A/478/701   : SDSS quasars with DLA systems color excess (Vladilo+, 2008)
+ http://www.sdss.org : SDSS Home Page
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  2  I2    h       RAh       QSO Right ascension (J2000)
+   4-  5  I2    min     RAm       QSO Right ascension (J2000)
+   7- 11  F5.2  s       RAs       QSO Right ascension (J2000)
+      13  A1    ---     DE-       QSO Declination sign (J2000)
+  14- 15  I2    deg     DEd       QSO Declination (J2000)
+  17- 18  I2    arcmin  DEm       QSO Declination (J2000)
+  20- 24  F5.2  arcsec  DEs       QSO Declination (J2000)
+  26- 34  I9    ---     ThingID   SDSS ThingID identifier
+  36- 50  A15   ---     M-P-F     SDSS MJD-plate-fiber identifier
+  52- 56  F5.3  ---     zqso       QSO redshift
+  58- 62  F5.1  ---     CNR       Median continuum-to-noise ratio
+      67  I1    ---     fBAL      [0/1] Visual inspection BAL flag (1)
+  72- 74  I3    km/s    BI        Balnicity Index
+  76- 80  F5.3  ---     zabs      DLA redshift
+  83- 87  F5.2  [cm-2]  logNHI    HI column density
+      89  I1    ---     S         [0/1] Flag for statistical sample
+      91  A1    ---   l_W(1334)   Limit flag (3{sigma}) on W(1334) (2)
+  92- 95  F4.2  0.1nm   W(1334)   ? Rest equivalent width of CII(1334{AA})
+  97-100  F4.2  0.1nm e_W(1334)   ? Error/upper limit on W(1334)
+     102  A1    ---   l_W(1526)   Limit flag (3{sigma}) on W(1526) (2)
+ 103-106  F4.2  0.1nm   W(1526)   ? Rest equivalent width of SiII(1526{AA})
+ 108-111  F4.2  0.1nm e_W(1526)   ? Error/upper limit on W(1526)
+     113  A1    ---   l_W(1608)   Limit flag (3{sigma}) on W(1608) (2)
+ 114-117  F4.2  0.1nm   W(1608)   ? Rest equivalent width of FeII(1608{AA})
+ 119-122  F4.2  0.1nm e_W(1608)   ? Error/upper limit on W(1608)
+     124  A1    ---   l_W(1670)   Limit flag (3{sigma}) on W(1670) (2)
+ 125-128  F4.2  0.1nm   W(1670)   ? Rest equivalent width of AlII(1670{AA})
+ 130-133  F4.2  0.1nm e_W(1670)   ? Error/upper limit on W(1670)
+     135  A1    ---   l_W(2344)   Limit flag (3{sigma}) on W(2344) (2)
+ 136-139  F4.2  0.1nm   W(2344)   ? Rest equivalent width of FeII(2344{AA})
+ 141-144  F4.2  0.1nm e_W(2344)   ? Error/upper limit on W(2344)
+     146  A1    ---   l_W(2374)   Limit flag (3{sigma}) on W(2374) (2)
+ 147-150  F4.2  0.1nm   W(2374)   ? Rest equivalent width of FeII(2374{AA})
+ 152-155  F4.2  0.1nm e_W(2374)   ? Error/upper limit on W(2374)
+     157  A1    ---   l_W(2382)   Limit flag (3{sigma}) on W(2382) (2)
+ 158-161  F4.2  0.1nm   W(2382)   ? Rest equivalent width of FeII(2382{AA})
+ 163-166  F4.2  0.1nm e_W(2382)   ? Error/upper limit on W(2382)
+     168  A1    ---   l_W(2586)   Limit flag (3{sigma}) on W(2586) (2)
+ 169-172  F4.2  0.1nm   W(2586)   ? Rest equivalent width of FeII(2586{AA})
+ 174-177  F4.2  0.1nm e_W(2586)   ? Error/upper limit on W(2586)
+     179  A1    ---   l_W(2600)   Limit flag (3{sigma}) on W(2600) (2)
+ 180-183  F4.2  0.1nm   W(2600)   ? Rest equivalent width of FeII(2600{AA})
+ 185-188  F4.2  0.1nm e_W(2600)   ? Error/upper limit on W(2600)
+     190  A1    ---   l_W(2796)   Limit flag (3{sigma}) on W(2796) (2)
+ 191-194  F4.2  0.1nm   W(2796)   ? Rest equivalent width of MgII(2796{AA})
+ 196-199  F4.2  0.1nm e_W(2796)   ? Error/upper limit on W(2796)
+     201  A1    ---   l_W(2803)   Limit flag (3{sigma}) on W(2803) (2)
+ 202-205  F4.2  0.1nm   W(2803)   ? Rest equivalent width of MgII(2803{AA})
+ 207-210  F4.2  0.1nm e_W(2803)   ? Error/upper limit on W(2803)
+     212  A1    ---   l_W(2852)   Limit flag (3{sigma}) on W(2852) (2)
+ 213-216  F4.2  0.1nm   W(2852)   ? Rest equivalent width of MgI(2852{AA})
+ 218-221  F4.2  0.1nm e_W(2852)   ? Error/upper limit on W(2852))
+--------------------------------------------------------------------------------
+Note (1): 1 means that the QSO has been visually classified as BAL-QSO,
+           otherwise 0.
+Note (2): 3 {sigma} upper limit (derived from the local S/N).
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+     Pasquier Noterdaeme, noterdaeme(at)iap.fr
+
+================================================================================
+(End)   Pasquier Noterdaeme [IAP, France], Patricia Vannier [CDS]    11-Oct-2012

@@ -8,6 +8,8 @@ import matplotlib.pyplot as pl
 import seaborn; seaborn.set_style('ticks')
 import numpy as np
 import matplotlib
+import pandas as pd
+
 params = {
    'axes.labelsize': 8,
    'text.fontsize': 8,
@@ -25,10 +27,19 @@ def main():
     # Read in Buchner catalog
     grbcat = fits.open("../data/grbcat-annotated.fits")
     names = np.array(["".join(kk.split(" ")) for kk in grbcat[1].data.field("Name")])
+    nH, nH_l, hH_h, nH_std = grbcat[1].data.field("NH_sphere_mean"), grbcat[1].data.field("NH_sphere_hi"), grbcat[1].data.field("NH_sphere_lo"), grbcat[1].data.field("NH_sphere_std")
+    idz = np.where(names == "GRB111117A")[0]
 
+    print(names[idz], nH[idz], nH_l[idz], hH_h[idz], nH_std[idz])
+    exit()
     # Read in Optical afterglow (OA)
-    OA = np.array([[ii, kk, ll, pp] for ii, kk, ll, pp in np.genfromtxt("../data/HIcoulmns.dat", dtype=None)])
-
+    # OA = np.array([[ii, kk, ll, pp] for ii, kk, ll, pp in np.genfromtxt("../data/HIcoulmns.dat", dtype=None)])
+    # burst_table = pd.read_csv("../data/Burst list - HI columns.csv")
+    # OA_names, OA_z, OA_nH, OA_nHe, pub = np.array([ii[3:] for ii in burst_table["GRB"].values]), burst_table["z"].values, burst_table["N_H"].values, burst_table["N_H_err"].values, burst_table["Sample"].values
+    # XSGRB = (pub == "Selsing2017")
+    # print(np.sum((~XSGRB).astype("int")))
+    # print(len(OA_names))
+    # exit()
     # nH_tot = grbcat[1].data.field("NH_sphere_mean")
     # nH_tot = nH_tot[nH_tot != -99]
 
@@ -43,7 +54,7 @@ def main():
     idx_OA = [ii for ii, kk in enumerate(OA[:, 0]) if kk in names[idx]]
 
     # Cut parameters in overlap
-    OA_names, OA_z, OA_nH, OA_nHe = OA[idx_OA, 0], OA[idx_OA, 1].astype("float"), OA[idx_OA, 2].astype("float"), OA[idx_OA, 3].astype("float")
+    # OA_names, OA_z, OA_nH, OA_nHe = OA[idx_OA, 0], OA[idx_OA, 1].astype("float"), OA[idx_OA, 2].astype("float"), OA[idx_OA, 3].astype("float")
 
     names, t90, nH_gal, z = names[idx], grbcat[1].data.field("duration")[idx], grbcat[1].data.field("nhgal")[idx], grbcat[1].data.field("z")[idx]
     nH, nH_l, hH_h, nH_std = grbcat[1].data.field("NH_sphere_mean")[idx], grbcat[1].data.field("NH_sphere_hi")[idx], grbcat[1].data.field("NH_sphere_lo")[idx], grbcat[1].data.field("NH_sphere_std")[idx]
@@ -54,7 +65,7 @@ def main():
     # pl.step(np.sort(OA_nH), np.arange(np.sort(OA_nH).size)/len(OA_nH))
     # pl.show()
 
-    # exit()
+
 
 
 
