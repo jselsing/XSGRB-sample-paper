@@ -695,23 +695,43 @@ estimate for the analysis of these poor signal to noise science spectra.
 \subsection{Science data products} \label{products}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%All the raw data files along with the associated calibration files are available at the ESO archive \footnote{\url{http://archive.eso.org/wdb/wdb/eso/xshooter/form}}
+
 All the spectra are made available at
-\url{http://www.dark-cosmology.dk/~jselsing/XSGRB} and additionally at , including the ones outside
-the statistical sample. This release includes both prompt afterglow observations
-as well as late time observations. An overview of all the spectra provided here
-are given in Table. \ref{sample_overview}. For each burst, each individual
-observation is provided in a separate reduction and in cases where observations
-have been repeated, a combined spectrum is also provided.  No attempt has been
-made to join the arms, so for each observation, three spectra exists.
+\url{http://www.dark-cosmology.dk/~jselsing/XSGRB} and additionally through the
+ESO archive in the form of phase 3 material
+\footnote{\url{http://archive.eso.org/wdb/wdb/adp/phase3_main/form}}. This
+release includes the spectra of GRBs outside the statistical sample and includes
+both prompt afterglow observations as well as late time observations of the
+associated hosts and represents \textit{all} observations of GRBs and their
+hosts carried out by VLT/X-shooter from the commissioning of the instrument,
+\startdate, and until the end of the last period of the program 098.A-0055,
+\termdate and thus constitutes 8 years of GRB observations with VLT/X-shooter.
+An overview of all the spectra provided here are given in Table.
+\ref{sample_overview}. For each burst, each individual observation is provided
+in a separate reduction and in cases where observations have been repeated for
+an increased S/N or to follow the temporal evolution, a combined spectrum is
+also provided. No attempt has been made to join the spectroscopic arms, so for
+each observation, three spectra are provided in separate files.
 
+All spectra are released in the ESO Science Data Product (SDP) format
+\citep{Micol2016}, and formatted as binary FITS files. The naming convention is
+based on the GRB name and the observation number, and follow the scheme
+\texttt{GRBxxxxxxx\_OBxarm.fits}. For example, the visual arm of the third
+observation of GRB~151021A, observed in RRM mode (see Sect. \ref{RRM}), is named
+\texttt{GRB151021A\_OB3VIS.fits}.
 
-%We have
-%adopted the following naming convention GRB*OB*.fits
-%
-%
-%In this section we describe the data format. Similar to what is done in \citet{Lopez2016}
-%
-%
+Each file contains 7 columns with following contents and descriptions:
+\begin{itemize}
+	\item WAVE - Observed wavelength in vacuum, corrected for barycentric motion and drifts in the wavelength solution ($\mathrm{\AA}$).
+	\item FLUX - Observed flux density ($\mathrm{erg} \mathrm{s}^{-1} \mathrm{cm}^{-1} \mathrm{\AA}^{-1}$)
+	\item ERR - Associated flux density error ($\mathrm{erg} \mathrm{s}^{-1} \mathrm{cm}^{-1} \mathrm{\AA}^{-1}$)
+	\item QUAL - Bad pixel map, where a value different from zero indicates a bad pixel.
+	\item CONTINUUM - Continuum estimate based on Sect. \ref{continuum} ($\mathrm{erg} \mathrm{s}^{-1} \mathrm{cm}^{-1} \mathrm{\AA}^{-1}$)
+	\item CONTINUUM\_ERR - Relative error on the continuum estimate 
+	\item TELL\_CORR - Inverse transmission spectrum. Multiply FLUX and ERR column with this column to correct for telluric absorption. 
+\end{itemize}
+
 
 
 
@@ -775,7 +795,7 @@ with delay-times longer than $\sim$10 days.
 
 Based on the sample criteria specified in Sect. \ref{samplecrit}, a total of 158
 \todo{Get number} bursts has been triggered by \textit{Swift} in the period
-since the commissioning of VLT/X-shooter in November, 2009. This sample
+since the commissioning of VLT/X-shooter in March, 2009. This sample
 constitutes the \textit{statistical sample} on which we will try to address the
 GRB population properties. Of this sample, 86 \todo{Get number} have been
 spectroscopically followed up with X-shooter. In order to assess whether our
