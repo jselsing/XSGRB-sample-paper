@@ -20,8 +20,8 @@ params = {
    'figure.figsize': [6, 6]
    }
 mpl.rcParams.update(params)
-
-
+from astropy.cosmology import Planck15 as cosmo
+import astropy.units as u
 
 def main():
     """
@@ -34,6 +34,15 @@ def main():
     burst_table = pd.read_csv("../data/Burst list - CSV_observed.csv")
 
     name, z, delay, mag = burst_table["GRB"].values, burst_table["z"].values, burst_table["Follow-up delay"].values, burst_table["Acquisition mag"].values
+    
+
+
+
+    for kk, ll in list(zip(name, z)):
+        print(kk, cosmo.luminosity_distance(ll).to(u.cm))
+
+    exit()
+
     for ii, ll in enumerate(mag):
         # print(ll)
         if "R" in str(ll):

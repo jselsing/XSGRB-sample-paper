@@ -71,14 +71,14 @@ def main():
     HI_c, HI_o, HI_s = HI_c[(HI_c > 0)], HI_o[(HI_o > 0)], HI_s[(HI_s > 0)]
 
     # Plot
-    fig, (ax1, ax2) = pl.subplots(ncols=2)
+    fig, (ax1, ax2, ax3) = pl.subplots(ncols=3)
 
 
 
     # BAT fluence
-    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Full Swift sample")
-    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Complete sample")
-    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Observed sample")
+    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
     print(len(BAT_c[~np.isnan(BAT_c)]))
     l, m, h = np.percentile(np.log10(1e-7*BAT_c), [16, 50, 84])
     print(m, m - l, h - m)
@@ -97,9 +97,9 @@ def main():
 
 
     # XRT flux
-    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Full Swift sample")
-    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Complete sample")
-    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Observed sample")
+    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
 
 
 
@@ -122,9 +122,9 @@ def main():
 
 
     # HI column
-    # sns.distplot(np.log10(1e21*HI_c), ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
-    # sns.distplot(np.log10(1e21*HI_s), ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
-    # sns.distplot(np.log10(1e21*HI_o), ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e21*HI_c), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e21*HI_s), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
+    sns.distplot(np.log10(1e21*HI_o), ax=ax3, kde=False, norm_hist=False, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"})
 
 
 
@@ -143,7 +143,7 @@ def main():
     print(m, m - l, h - m)
     # exit()
 
-    for ax in (ax1, ax2):
+    for ax in (ax1, ax2, ax3):
         ax.spines['top'].set_visible(False)
         ax.get_xaxis().tick_bottom()
         ax.get_yaxis().tick_left()
@@ -162,18 +162,16 @@ def main():
 
     ax1.set_xlabel(r"log(15-150 keV Fluence) [erg/cm$^2$]")
     ax2.set_xlabel(r"log(0.3-10 keV Flux) [erg/cm$^2$/s]")
-    # ax3.set_xlabel(r"log(N$_H$) [cm$^2$]")
-    # ax1.set_ylabel(r"N")
+    ax3.set_xlabel(r"log(N$_H$) [cm$^2$]")
+    ax1.set_ylabel(r"N")
 
     ax2.set_xlim(-18, -9)
-    # ax3.set_xlim(18, 24)
+    ax3.set_xlim(18, 24)
     pl.tight_layout()
     ax1.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
 
 
     # pl.show()
-    ax1.legend(loc=2)
-    ax2.legend(loc=2)
     pl.savefig("../document/figures/completeness_BAT.pdf", dpi="figure")
     pl.show()
 
