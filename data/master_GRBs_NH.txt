@@ -1,4 +1,4 @@
-#GRB	Redshift	Ave_NH_PC	Ave_dNH_PC+	Ave_dNH_PC-
+# GRB	Redshift	Ave_NH_PC	Ave_dNH_PC+	Ave_dNH_PC-
 091018	0.971	0.24	+8.17E-2	-7.85E-2
 091029	2.752	0.58	+0.33	-0.31
 091109A	3.076	1.2	+1.1	-0.98

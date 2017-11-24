@@ -5,6 +5,7 @@ from __future__ import division, print_function
 
 from astropy.io import fits
 import pandas as pd
+import matplotlib; matplotlib.use('TkAgg')
 import matplotlib.pyplot as pl
 import seaborn as sns; sns.set_style('ticks')
 import numpy as np
@@ -72,6 +73,9 @@ def main():
     name = np.array([ii[3:] for ii in name])
     # print(name)
     acqmag = filt_nan(acqmag, fill_value=24)
+    idx_limit = (acqmag == 24)
+
+
     X_Fnu = filt_nan(X_Fnu)
     # Optical flux in microjansky
     O_Fnu = 10**((23.9 - acqmag)/2.5)
@@ -83,12 +87,13 @@ def main():
     betaOX = np.log10(O_Fnu/X_Fnu)/np.log10(X_nu0/O_nu0)
     # Mask bad values and reverse order
     mask = np.isnan(betaOX) | (sample == "No")
-
     betaOX = betaOX[~mask][::-1]
     name = name[~mask][::-1]
-    for ii, kk in enumerate(betaOX):
-        print(name[ii], kk)
-    exit()
+    idx_limit = idx_limit[~mask][::-1]
+
+    # for ii, kk in enumerate(betaOX):
+    #     print(name[ii], kk)
+    # exit()
     fynbo_table = np.genfromtxt("../data/Fynbo2009betaOX.dat", dtype=None)
     f_name = fynbo_table[:, 0]
     fynbo_table[:, 1] = [ii.replace('<', '') for ii in fynbo_table[:, 1]]
@@ -98,25 +103,43 @@ def main():
 
 
     # Get Swift HI values
-    swift_table = pd.read_table("../data/grb_table_1482495106.txt", delimiter="\t", dtype=None)
-    name_s, BAT_s, XRT_s, HI_s = swift_table["GRB"].values, swift_table["BAT Fluence (15-150 keV) [10^-7 erg/cm^2]"].values, swift_table["XRT 11 Hour Flux (0.3-10 keV) [10^-11 erg/cm^2/s]"].values, swift_table["XRT Column Density (NH) [10^21 cm^-2]"].values
+    swift_table = pd.read_table("../data/allSwiftGRBs_NH.txt", delimiter="\t", dtype=None)
+    name_s, z_s, HI_s, HI_sh, HI_sl = swift_table["#GRB"].values, swift_table["Redshift"].values, swift_table["Ave_NH_PC"].values, swift_table["Ave_dNH_PC+"].values, -1*swift_table["Ave_dNH_PC-"].values
 
     # Find values with betaOX
-    idx = [ii for ii, kk in enumerate(name_s) if kk in name]
-
+    idx = [ii for ii, kk in enumerate(name_s) if kk in name and ~np.isnan(z_s[ii])]
     idx_2 = [ii for ii, kk in enumerate(name) if kk in name_s[idx]]
-    f_idx = [ii for ii, kk in enumerate(name_s) if kk in f_name]
+    f_idx = [ii for ii, kk in enumerate(name_s) if kk in f_name and ~np.isnan(z_s[ii])]
     f_idx_2 = [ii for ii, kk in enumerate(f_name) if kk in name_s[f_idx]]
 
-    HI = np.log10(1e21*filt_nan(HI_s[idx], fill_value=0))
-    f_HI = np.log10(1e21*filt_nan(HI_s[f_idx], fill_value=0))
-
+    HI = np.log10(1e22*filt_nan(HI_s[idx], fill_value=0))
+    HIh = np.log10(1e22*filt_nan(HI_s[idx] + HI_sh[idx], fill_value=0))
+    HIl = np.log10(1e22*filt_nan(HI_s[idx] - HI_sl[idx], fill_value=0))
+    f_HI = np.log10(1e22*filt_nan(HI_s[f_idx], fill_value=0))
+    f_HI[np.isnan(f_HI)] = 0
 
     # Plot new values
     g = sns.JointGrid(x=HI, y=betaOX[idx_2], xlim = (19.5, 23), ylim = (0, 1.3), space=0)
     color = sns.color_palette()[0]
     g = g.plot_marginals(sns.distplot, hist=True, kde=False, norm_hist=True, color=color)
+    idx_limit = idx_limit[idx_2]
+    g.x = HI[~idx_limit]
+    g.y = betaOX[idx_2][~idx_limit]
     g = g.plot_joint(pl.scatter, color=color, label="This work")
+
+    g.x = HI[idx_limit]
+    g.y = betaOX[idx_2][idx_limit]
+    g = g.plot_joint(pl.scatter, color=color, marker=u'$\u2193$', s=150, lw=1.0)
+
+
+
+    for ii, kk in enumerate(HI):
+        g.y = np.array([betaOX[idx_2][ii], betaOX[idx_2][ii]])
+
+        g.x = np.array([HIl[ii], HIh[ii]])
+        g = g.plot_joint(pl.plot, color=color, lw=0.75)
+
+
     # Plot values from Fynbo et al. 2009
     color = sns.color_palette()[2]
     color_rgb = mpl.colors.colorConverter.to_rgb(color)
@@ -125,6 +148,9 @@ def main():
 
     g.x = f_HI
     g.y = f_betaOX[f_idx_2]
+
+    # print(f_betaOX[f_idx_2], f_HI)
+
     g = g.plot_marginals(sns.distplot, hist=False, color=color)
     g = g.plot_joint(sns.kdeplot, cmap=cmap, label="Fynbo et al. 2009")
     g.x = 1
@@ -152,7 +178,7 @@ def main():
     #Fraction of dark bursts
     print(len(HI[betaOX[idx_2] < 0.5])/(len(HI[betaOX[idx_2] < 0.5]) + len(HI[betaOX[idx_2] >= 0.5])))
     print(stats.ks_2samp(HI[betaOX[idx_2] < 0.5], HI[betaOX[idx_2] >= 0.5]))
-    exit()
+    # exit()
     # print(len(f_HI))
     # l, m, h = np.percentile(f_HI, [16, 50, 84])
     # print(m, m - l, h - m)
