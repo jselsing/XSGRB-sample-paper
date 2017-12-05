@@ -5,6 +5,8 @@ from __future__ import division, print_function
 
 from astropy.io import fits
 import pandas as pd
+import matplotlib; matplotlib.use('TkAgg')
+
 import matplotlib.pyplot as pl
 import seaborn as sns; sns.set_style('ticks')
 import numpy as np
@@ -30,18 +32,15 @@ def main():
 
 
     # Read in burst list
-    # burst_table = np.array([[ii, kk, ll, pp, tt] for ii, kk, ll, pp, tt in np.genfromtxt("../data/burst_list.dat", dtype=None)])
-    burst_table = pd.read_csv("../data/Burst list - CSV_observed.csv")
-
+    burst_table = pd.read_csv("../data/Burst list - observed.csv")
     name, z, delay, mag = burst_table["GRB"].values, burst_table["z"].values, burst_table["Follow-up delay"].values, burst_table["Acquisition mag"].values
-    
 
 
 
-    for kk, ll in list(zip(name, z)):
-        print(kk, cosmo.luminosity_distance(ll).to(u.cm))
 
-    exit()
+    # for kk, ll in list(zip(name, z)):
+    #     print(kk, cosmo.luminosity_distance(ll).to(u.cm))
+    # exit()
 
     for ii, ll in enumerate(mag):
         # print(ll)
@@ -56,6 +55,9 @@ def main():
     delay_sort = np.argsort(delay)
     sorted_delay = delay[delay_sort]
     sorted_z = z[delay_sort]
+    print(len(sorted_z))
+    print(sorted_z)
+    exit()
     fractional_completeness = (1 - np.cumsum(np.isnan(sorted_z).astype("int"))/len(sorted_z))*100
     # print(len(sorted_z), np.sum(np.isnan(sorted_z).astype("int")))
     # print(fractional_completeness[-1])
@@ -73,12 +75,11 @@ def main():
     # With redshift and acq mag
     sc = ax1.scatter(delay[idx_hasz & idx_limits], mag[idx_hasz & idx_limits], c=z[idx_hasz & idx_limits], cmap=cmap, s=25)
     # Without redshift and with acq mag
-    ax1.scatter(delay[~idx_hasz & idx_limits], mag[~idx_hasz & idx_limits], color="black", s=25)
+    ax1.scatter(delay[~idx_hasz & idx_limits], mag[~idx_hasz & idx_limits], color=sns.color_palette()[2], s=35, marker="x")
     # With redshift, but without acq mag
     ax1.scatter(delay[idx_hasz & ~idx_limits], magnondet[idx_hasz & ~idx_limits], c=z[idx_hasz & ~idx_limits], cmap=cmap, s=125, marker=u'$\u2193$')
     # No redshift and without acq mag
-    ax1.scatter(delay[~idx_hasz & ~idx_limits], magnondet[~idx_hasz & ~idx_limits], color="black", s=125, marker=u'$\u2193$')
-
+    ax1.scatter(delay[~idx_hasz & ~idx_limits], magnondet[~idx_hasz & ~idx_limits], color=sns.color_palette()[2], s=125, marker=u'$\u2193$')
     ax2 = pl.twinx()
     ax2.plot(sorted_delay, fractional_completeness, color=sns.color_palette()[2])
 
@@ -108,7 +109,7 @@ def main():
     ax2.set_ylim((70, 105))
     ax2.set_yticks([75, 80, 85, 90, 95, 100])
     ax1.set_xlabel(r"Follow-up delay [hours]")
-    ax1.set_ylabel(r"Acquisition camera magnitude [r-band]")
+    ax1.set_ylabel(r"Acquisition camera magnitude [$R, i$-band]")
     ax2.set_ylabel(r"Redshift completeness [%]")
 
     ax1.invert_yaxis()

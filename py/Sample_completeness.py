@@ -60,8 +60,8 @@ def main():
 
     swift_table = pd.read_table("../data/grb_table_1511519199.txt", delimiter="\t", dtype=None)
     name_s, BAT_s, XRT_s, HI_s = swift_table["GRB"].values, swift_table["BAT Fluence (15-150 keV) [10^-7 erg/cm^2]"].values, swift_table["XRT 11 Hour Flux (0.3-10 keV) [10^-11 erg/cm^2/s]"].values, swift_table["XRT Column Density (NH) [10^21 cm^-2]"].values
-    print(len(name_s))
-    exit()
+    # print(len(name_s))
+    # exit()
     # Exclude sample bursts
     idx = [ii for ii, kk in enumerate(name_s) if kk not in name]
 
@@ -203,9 +203,9 @@ def main():
 
 
 
-    ax1.set_xlabel(r"log(15-150 keV Fluence) [erg/cm$^2$]")
-    ax2.set_xlabel(r"log(0.3-10 keV Flux) [erg/cm$^2$/s]")
-    ax3.set_xlabel(r"log(N$_H$) [cm$^2$]")
+    ax1.set_xlabel(r"log(15-150 keV Fluence) [$\mathrm{erg}~\mathrm{cm}^{-2}$]")
+    ax2.set_xlabel(r"log(0.3-10 keV Flux) [$\mathrm{erg}~\mathrm{cm}^{-2}\mathrm{s}^{-1}$]")
+    ax3.set_xlabel(r"log($N_{\mathrm{HI,X}}$) [$\mathrm{cm}^{-2}$]")
     # ax1.set_ylabel(r"N")
 
     ax2.set_xlim(-18, -9)
