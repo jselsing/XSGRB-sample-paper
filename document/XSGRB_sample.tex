@@ -788,14 +788,16 @@ based on late-time host observations with delay times longer than $\sim$10 days.
 Based on the sample criteria specified in Sect. \ref{samplecrit}, a total of 158
 bursts have triggered \textit{Swift} in the period since the commissioning of
 VLT/X-shooter. This sample constitutes the \textit{statistical sample} from
-which we will derive statistical properties of the GRB population. From this
-sample, 90 GRBs have been spectroscopically followed up with X-shooter. In order
-to assess whether the subset of bursts followed up are representative of the
+which we will derive statistical properties of the GRB population. The redshift
+completeness of the full statistical sample is 60 per cent. We return to the
+question of redshift completeness in in Sect. \ref{redshift}. From this sample,
+90 GRBs have been spectroscopically followed up with X-shooter. In order to
+assess whether the subset of bursts followed up are representative of the
 underlying GRB parent population, we compare intrinsic properties of GRBs in our
 sample to GRBs in the full sample followed up by \textit{Swift}. We show the
 comparison between the BAT (15-150 keV) fluence, the XRT flux (0.3 - 10 keV) at
 11 hours, and the intrinsic X-ray derived equivalent hydrogen column density,
-$N_{\mathrm{HI,X}}$,  in Fig. \ref{fig:swift_complete}. For the latter, we can
+$N_{\mathrm{HI,X}}$, in Fig. \ref{fig:swift_complete}. For the latter, we can
 only use values of $N_{\mathrm{HI,X}}$ derived for bursts with a measured
 redshift, excluding $\sim 75$ per cent of the bursts. We return to this last
 point in Sect. \ref{darkness}.
@@ -858,19 +860,109 @@ sample. At least in terms of BAT fluence and X-ray afterglow flux at 11 hours.
 \subsection{Properties of rejected triggers} \label{badbursts}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-GRB follow-up requires the immediate availability of the telescope in order to
-successfully carry out spectroscopic observations. Out of the 158 bursts in the
-statistical sample, 32($\sim$ 20 percent) have not been observed due to
-conditions, not relating the GRB or afterglow properties. The reasons includes
-unavailability of the telescope due to technical maintenance such af mirror
-re-coating, a visitor rejecting the TOO trigger, or bad weather at the observing
-site. Because this cut is irrespective of the GRB properties, it is not expected
-that this should change sample properties. Removing all the bursts with
-terrestrial restrictions leaves 125 bursts, drastically improving the redshift
-completeness to 83 per cent. Addressing whether this cut introduces a bias in
-the followed sample is not trivial, but in terms of intrinsic GRB properties,
-the sample distributions does not change significantly, as shown in Sect.
-\ref{completeness}. \todo{Should this be quantified somehow?}
+Out of the 158 bursts in the statistical sample, 32($\sim$ 20 percent) have not
+been observed due to reasons unrelated to the GRB or afterglow properties. The
+reasons includes unavailability of the telescope due to technical maintenance
+(e.g., mirror re-coating), a visitor rejecting the TOO trigger, or bad weather.
+Because this cut is unrelated to the GRB properties, it will not change the
+statistical properties of the full sample. Removing all these bursts,
+drastically improves the redshift completeness from 60 per cent to 83 per cent.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{On the redshift distribution of GRBs} \label{redshift}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+One of the primary objectives of our follow-up campaign is to measure the
+redshift distribution for a well-defined, observationally unbiased and
+statistical useful sample of GRBs. The imposed selection criteria (see Sect.
+\ref{samplecrit}) ensures that the GRBs entering our homogenous sample is a good
+representation of the underlying population. The redshift distribution of such
+a sample holds valuable information about the occurance of GRBs through cosmic
+time, which can then be directly compared to the star-formation rate inferred
+from luminosity-selected samples of field galaxies.
+
+In Fig.~\ref{fig:z} we show the redshift distribution of all GRBs observed with
+X-shooter and for all the GRBs entering our sample. In the top panel we show a
+histogram of the two distributions and below we show the redshifts of the
+individual bursts as a function of GRB luminosity in the observed 15-150 keV
+band. To calculate the luminosity, $L_{\mathrm{BAT}}$, we follow a similar
+procedure as Lien(+16). We define this quantity as $L_{\mathrm{BAT}} =
+F_{\gamma}\,4 \pi\,d_L^2\,(1+z)^{-1}$, where $F_{\gamma}$ is the observed BAT
+fluence in the 15-150 keV band and $d_L$ is the luminosity distance to the
+burst at the given redshift. We clearly see a correlation between the minimum
+luminosity of the bursts and the redshift, mainly due to the Malmquist bias.
+The lower limit in luminosity of our sample as a function of redshift
+corresponds to a sensitivity of $10^{-7}$ erg cm$^{-2}$ s$^{-1}$ in the
+observed 15-150 keV band (contrary to the expected value of $10^{-8}$ erg
+cm$^{-2}$ s$^{-1}$; Swift/BAT+05). This is likely due to the more complex
+detection criteria defined by Swift \textbf{(expand by Daniele?)}. Due to the Malmquist
+bias the Swift luminosity detection limit is almost an order of magnitude
+brighter at $z=2$ than at $z=1$. At $z\geq4$ we are only able to observe GRBs
+that are hundred times brighter than the faintest bursts at $z=1$ and below.
+
+Except for the two intrinsically faintest bursts at $z\approx 1 - 1.5$, the
+statistical sample follows a constant lower limit in observed fluence as a
+function of redshift. This means that our selection is not biased at high
+redshifts except for the luminosity bias invoked by Swift. We find the
+following values for the redshift distribution. First for the statistical
+sample: $z_{\mathrm{avg}}=1.99$, $z_{\mathrm{med}}=1.64$, $z_{14\%}=0.60$ and
+$z_{86\%}=3.39$. For all GRBs observed with X-shooter we find
+$z_{\mathrm{avg}}=1.90$, $z_{\mathrm{med}}=1.52$, $z_{14\%}=0.55$ and
+$z_{86\%}=3.36$.
+
+
+
+Because the redshift completeness of our statistical sample is 60 per cent,
+making inference of the underlying redshift distribution of GRBs on this ample
+is difficult. Because a large fraction of the bursts for which we were unable to
+secure a redshift are missing due to terrestrial reasons, see Sect.
+\ref{badbursts}, imposing additional unbiasing cuts on the sample can increase
+the redshift completeness at the cost of sample size. As long as the cuts we
+impose are not selective in terms of the burst properties, the sample properties
+stay the same. The first cut we try is telescope availability such as bad
+weather, visitor rejected the TOO, or unavailability of the instrument. Because
+telescope availability is independent on the burst properties, by cutting away
+these from our sample, the underlying redshift distribution should be conserved.
+By trimming away the 33 bursts that can be rejected due to
+telescope availability, the redshift completeness increases to 83 percent.
+
+As is shown in Sect. \ref{timing}, the redshift completeness
+decreases with increasing follow-up delay, we can additionally increase the
+redshift completeness by imposing cuts on the follow-up delay. Our ability to
+rapidly follow up a burst is also not dependent on the burst properties and
+therefore we can additionally cut delays longer than 24 hours (all burst in the
+sample are in principle observable within 24 hours). \todo{Unfinished section}
+
+
+The biased introduced in the redshift distribution by the increased ability to
+secure redshift of optically brighter bursts has been investigated by
+\citet{Turpin2016} which find that we systematically find redshift for longer
+GRBs. Additionally only the brightest GRBs are seen above redshift $z \gtrsim
+1$. \todo{Unfinished section}
+
+
+\begin{figure*}
+	\centering
+	\includegraphics[width=16cm]{figures/XSGRB_zBATlum.pdf}
+	\caption{Redshift distribution as a function of intrinsic BAT $\gamma$-ray
+		luminosity, $L_{\gamma,\mathrm{int}}$. The latter quantity is defined as
+		$L_{\gamma,\mathrm{int}} = F_{\gamma,\mathrm{obs}}\,4 \pi\,d_L^2\,(1+z)^{-1}$,
+		where $F_{\gamma,\mathrm{obs}}$ is the observed BAT fluence in the 15-150 keV
+		band and $d_L$ is the luminosity distance at the given redshift. Blue star
+		symbols denote the statistical sample and black dots show all GRBs observed
+		with X-shooter and by \textit{Swift}/BAT. Overplotted as the red star symbols
+		for comparison are the GRB, quasar, and galaxy with the highest
+		spectroscopically confirmed redshifts, the latter two shown at arbitrary
+		$L_{\gamma,\mathrm{int}}$. The blue solid line represents the BAT sensitivity
+		of $10^{-8}$ erg cm$^{-2}$ s$^{-1}$ in the 15-150 keV band. The blue dashed
+		line marks an observed sensitivity of $10^{-7}$ erg cm$^{-2}$ s$^{-1}$, which
+		represents our sample limit out to $z\approx 8$. The estimated epoch of
+		reionization is shown by the black dot-dashed line, with the uncertainty shown
+		as the black dashed lines, from the most recent measurement by Planck+16.}
+	\label{fig:z}
+\end{figure*}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sample darkness} \label{darkness}
@@ -962,103 +1054,6 @@ afterglow or a clear counterpart are seen, which naively should be biased
 against dark bursts occurring in more obscured galaxies, which is shown to
 exhibit different galactic properties \citep{Perley2009, Kruhler2011, Rossi2012,
 	Perley2013b, Perley2015b}.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{On the redshift distribution of GRBs}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-% Text for redshift distribution section
-One of the primary objectives of our follow-up campaign is to measure the
-redshift distribution for a well-defined, observationally unbiased and
-statistical useful sample of GRBs. The imposed selection criteria (see Sect.
-\ref{samplecrit}) ensures that the GRBs entering our homogenous sample is a good
-representation of the underlying population. The redshift distribution of such
-a sample holds valuable information about the occurance of GRBs through cosmic
-time, which can then be directly compared to the star-formation rate inferred
-from luminosity-selected samples of field galaxies.
-
-In Fig.~\ref{fig:z} we show the redshift distribution of all GRBs observed with
-X-shooter and for all the GRBs entering our sample. In the top panel we show a
-histogram of the two distributions and below we show the redshifts of the
-individual bursts as a function of GRB luminosity in the observed 15-150 keV
-band. To calculate the luminosity, $L_{\mathrm{BAT}}$, we follow a similar
-procedure as Lien(+16). We define this quantity as $L_{\mathrm{BAT}} =
-F_{\gamma}\,4 \pi\,d_L^2\,(1+z)^{-1}$, where $F_{\gamma}$ is the observed BAT
-fluence in the 15-150 keV band and $d_L$ is the luminosity distance to the
-burst at the given redshift. We clearly see a correlation between the minimum
-luminosity of the bursts and the redshift, mainly due to the Malmquist bias.
-The lower limit in luminosity of our sample as a function of redshift
-corresponds to a sensitivity of $10^{-7}$ erg cm$^{-2}$ s$^{-1}$ in the
-observed 15-150 keV band (contrary to the expected value of $10^{-8}$ erg
-cm$^{-2}$ s$^{-1}$; Swift/BAT+05). This is likely due to the more complex
-detection criteria defined by Swift \textbf{(expand by Daniele?)}. Due to the Malmquist
-bias the Swift luminosity detection limit is almost an order of magnitude
-brighter at $z=2$ than at $z=1$. At $z\geq4$ we are only able to observe GRBs
-that are hundred times brighter than the faintest bursts at $z=1$ and below.
-
-Except for the two intrinsically faintest bursts at $z\approx 1 - 1.5$, the
-statistical sample follows a constant lower limit in observed fluence as a
-function of redshift. This means that our selection is not biased at high
-redshifts except for the luminosity bias invoked by Swift. We find the
-following values for the redshift distribution. First for the statistical
-sample: $z_{\mathrm{avg}}=1.99$, $z_{\mathrm{med}}=1.64$, $z_{14\%}=0.60$ and
-$z_{86\%}=3.39$. For all GRBs observed with X-shooter we find
-$z_{\mathrm{avg}}=1.90$, $z_{\mathrm{med}}=1.52$, $z_{14\%}=0.55$ and
-$z_{86\%}=3.36$.
-
-
-
-Because the redshift completeness of our statistical sample is 60 per cent,
-making inference of the underlying redshift distribution of GRBs on this ample
-is difficult. Because a large fraction of the bursts for which we were unable to
-secure a redshift are missing due to terrestrial reasons, see Sect.
-\ref{badbursts}, imposing additional unbiasing cuts on the sample can increase
-the redshift completeness at the cost of sample size. As long as the cuts we
-impose are not selective in terms of the burst properties, the sample properties
-stay the same. The first cut we try is telescope availability such as bad
-weather, visitor rejected the TOO, or unavailability of the instrument. Because
-telescope availability is independent on the burst properties, by cutting away
-these from our sample, the underlying redshift distribution should be conserved.
-By trimming away the 33 bursts that can be rejected due to
-telescope availability, the redshift completeness increases to 83 percent.
-
-As is shown in Sect. \ref{timing}, the redshift completeness
-decreases with increasing follow-up delay, we can additionally increase the
-redshift completeness by imposing cuts on the follow-up delay. Our ability to
-rapidly follow up a burst is also not dependent on the burst properties and
-therefore we can additionally cut delays longer than 24 hours (all burst in the
-sample are in principle observable within 24 hours). \todo{Unfinished section}
-
-
-The biased introduced in the redshift distribution by the increased ability to
-secure redshift of optically brighter bursts has been investigated by
-\citet{Turpin2016} which find that we systematically find redshift for longer
-GRBs. Additionally only the brightest GRBs are seen above redshift $z \gtrsim
-1$. \todo{Unfinished section}
-
-
-\begin{figure*}
-	\centering
-	\includegraphics[width=16cm]{figures/XSGRB_zBATlum.pdf}
-	\caption{Redshift distribution as a function of intrinsic BAT $\gamma$-ray
-		luminosity, $L_{\gamma,\mathrm{int}}$. The latter quantity is defined as
-		$L_{\gamma,\mathrm{int}} = F_{\gamma,\mathrm{obs}}\,4 \pi\,d_L^2\,(1+z)^{-1}$,
-		where $F_{\gamma,\mathrm{obs}}$ is the observed BAT fluence in the 15-150 keV
-		band and $d_L$ is the luminosity distance at the given redshift. Blue star
-		symbols denote the statistical sample and black dots show all GRBs observed
-		with X-shooter and by \textit{Swift}/BAT. Overplotted as the red star symbols
-		for comparison are the GRB, quasar, and galaxy with the highest
-		spectroscopically confirmed redshifts, the latter two shown at arbitrary
-		$L_{\gamma,\mathrm{int}}$. The blue solid line represents the BAT sensitivity
-		of $10^{-8}$ erg cm$^{-2}$ s$^{-1}$ in the 15-150 keV band. The blue dashed
-		line marks an observed sensitivity of $10^{-7}$ erg cm$^{-2}$ s$^{-1}$, which
-		represents our sample limit out to $z\approx 8$. The estimated epoch of
-		reionization is shown by the black dot-dashed line, with the uncertainty shown
-		as the black dashed lines, from the most recent measurement by Planck+16.}
-	\label{fig:z}
-\end{figure*}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
