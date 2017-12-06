@@ -271,6 +271,11 @@ Jakobsson P.,  Hjorth J.,  Fynbo J. P.~U.,  Watson D.,  Pedersen K.,
 Jakobsson P.,  et~al., 2006, \mn@doi [A{\&}A] {10.1051/0004-6361:20054287},
   447, 897
 
+\bibitem[\protect\citeauthoryear{Jakobsson et~al.,}{Jakobsson
+  et~al.}{2012}]{Jakobsson2012}
+Jakobsson P.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/752/1/62}, 752,
+  62
+
 \bibitem[\protect\citeauthoryear{Japelj et~al.,}{Japelj
   et~al.}{2015}]{Japelj2015}
 Japelj J.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201525665}, 579,
@@ -370,10 +375,6 @@ Noll S.,  Kausch W.,  Barden M.,  Jones A.~M.,  Szyszka C.,  Kimeswenger S.,
   et~al.}{2012}]{Noterdaeme2012b}
 Noterdaeme P.,  et~al., 2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201220259},
   547, L1
-
-\bibitem[\protect\citeauthoryear{Nousek et~al.,}{Nousek
-  et~al.}{2006}]{Nousek2006}
-Nousek J.~A.,  et~al., 2006, \mn@doi [ApJ] {10.1086/500724}, 642, 389
 
 \bibitem[\protect\citeauthoryear{Pagnini \& Mainardi}{Pagnini \&
   Mainardi}{2010}]{pagnini2010}
@@ -498,11 +499,6 @@ Trujillo I.,  Aguerri J. A.~L.,  Cepa J.,   Guti{\'{e}}rrez C.~M.,  2001,
   Dornic}{Turpin et~al.}{2016}]{Turpin2016}
 Turpin D.,  Heussaff V.,  Dezalay J.-P.,  Atteia J.-L.,  Klotz A.,   Dornic D.,
    2016, \mn@doi [ApJ] {10.3847/0004-637X/831/1/28}, 831, 28
-
-\bibitem[\protect\citeauthoryear{Vecchio, Dainotti  \& Ostrowski}{Vecchio
-  et~al.}{2016}]{Vecchio2016}
-Vecchio R.~D.,  Dainotti M.~G.,   Ostrowski M.,  2016, \mn@doi [ApJ]
-  {10.3847/0004-637X/828/1/36}, 828, 36
 
 \bibitem[\protect\citeauthoryear{Vergani et~al.,}{Vergani
   et~al.}{2011}]{Vergani2011}
