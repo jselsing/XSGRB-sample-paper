@@ -71,9 +71,26 @@ def main():
     # L_bat = np.array(L_bat)
 
 
-    
-    pl.scatter(z, np.log10(L_bat))
-    pl.show()
+    np.savetxt("../data/zbatl.dat", list(zip(z, np.log10(L_bat))))
+
+
+
+
+
+    L_bat = []
+    z = np.arange(0, 15, 0.01)
+    for ll in z:
+        dL = cosmo.luminosity_distance(ll).to(u.cm)
+        BAT_flu = 3 * 1e-8 * u.erg * u.cm**(-2)
+        L_bat.append(BAT_flu * 4 * np.pi * dL**2 / (1 + ll)/u.erg)
+    # L_bat = np.array(L_bat)
+
+
+    np.savetxt("../data/zbatlswift.dat", list(zip(z, np.log10(L_bat))))
+
+
+
+
 
 if __name__ == '__main__':
   main()
