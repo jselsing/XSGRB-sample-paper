@@ -71,6 +71,7 @@ def main():
     # L_bat = np.array(L_bat)
 
 
+    
     pl.scatter(z, np.log10(L_bat))
     pl.show()
 

@@ -172,8 +172,11 @@ def main():
 
     # print(stats.ks_2samp(HI, f_HI))
     # print(len(HI))
-    # l, m, h = np.percentile(HI[betaOX[idx_2] < 0.5], [16, 50, 84])
-    # print(m, m - l, h - m)
+
+    l, m, h = np.percentile(HI[betaOX[idx_2] >= 0.5], [16, 50, 84])
+    print(m, m - l, h - m)
+    l, m, h = np.percentile(HI[betaOX[idx_2] < 0.5], [16, 50, 84])
+    print(m, m - l, h - m)
 
     #Fraction of dark bursts
     print(len(HI[betaOX[idx_2] < 0.5])/(len(HI[betaOX[idx_2] < 0.5]) + len(HI[betaOX[idx_2] >= 0.5])))

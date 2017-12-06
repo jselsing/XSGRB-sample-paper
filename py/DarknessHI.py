@@ -98,10 +98,10 @@ def main():
     name_g_ot = name_g[idx][(OT[idx] == "y") & (inst[idx] == "Swift")]
     name_g_not = name_g[idx][~(OT[idx] == "y") & (inst[idx] == "Swift")]
 
-    print(idx)
+    # print(idx)
 
-    print((len(name_g_not))/(len(name_g_ot) + len(name_g_not)))
-    exit()
+    # print((len(name_g_not))/(len(name_g_ot) + len(name_g_not)))
+    # exit()
     print(len(BAT_ot))
     mask_ot = (BAT_ot > -8) & (BAT_ot < -3) & (HI_ot > 19) & (HI_ot < 24)
     g = sns.JointGrid(x=BAT_ot[mask_ot], y=HI_ot[mask_ot], xlim = (-8, -3), ylim = (19, 24), space=0)
