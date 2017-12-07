@@ -5,6 +5,7 @@ from __future__ import division, print_function
 
 from astropy.io import fits
 import pandas as pd
+import matplotlib; matplotlib.use('TkAgg')
 import matplotlib.pyplot as pl
 import healpy as hp
 import seaborn as sns; sns.set_style('ticks')
@@ -58,7 +59,7 @@ def main():
     burst_table = pd.read_csv("../data/Burst list - CSV_observed.csv")
     name_o = np.array([ii[3:] for ii in burst_table["GRB"].values])
     # Read in Swift table
-    swift_table = pd.read_table("../data/grb_table_1482495106.txt", delimiter="\t", dtype=None)
+    swift_table = pd.read_table("../data/grb_table_1511519199.txt", delimiter="\t", dtype=None)
     name_s, RA, DEC, redshift = swift_table["GRB"].values, pd.to_numeric(swift_table["BAT RA (J2000)"], errors='coerce').values, pd.to_numeric(swift_table["BAT Dec (J2000)"], errors='coerce').values, swift_table["Redshift"].values
 
     # Convert ra and dec to l, b
@@ -85,8 +86,10 @@ def main():
     l_z = l[mask_z]
     b_z = b[mask_z]
 
+
+    print(l_z, b_z)
     # Scatterplot with bursts position
-    hp.visufunc.projscatter(l_z, b_z, facecolors='none', marker = "*", s = 50, lonlat=True)
+    hp.visufunc.projscatter(l_z, b_z, facecolors='none', edgecolor="black", marker = "*", s = 50, lonlat=True)
 
     # Get indices of sample bursts and observed bursts
     idx = [ii for ii, kk in enumerate(name_s_z) if kk in name]

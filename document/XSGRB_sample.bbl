@@ -27,6 +27,10 @@ Abrarov S.~M.,  Quine B.~M.,  2015a, \mn@doi [J. Math. Res.]
 Abrarov S.~M.,  Quine B.~M.,  2015b, \mn@doi [J. Math. Res.]
   {10.5539/jmr.v7n2p163}, 7, 163
 
+\bibitem[\protect\citeauthoryear{Ba{\~{n}}ados et~al.,}{Ba{\~{n}}ados
+  et~al.}{2017}]{Banados2017}
+Ba{\~{n}}ados E.,  et~al., 2017, \mn@doi [Nature] {10.1038/nature25180}
+
 \bibitem[\protect\citeauthoryear{Band}{Band}{2006}]{Band2006}
 Band D.~L.,  2006, \mn@doi [ApJ] {10.1086/503326}, 644, 378
 
@@ -65,11 +69,6 @@ Bloom J.~S.,  Kulkarni S.~R.,   Djorgovski S.~G.,  2002, \mn@doi [AJ]
 \bibitem[\protect\citeauthoryear{Briggs et~al.,}{Briggs
   et~al.}{1996}]{Briggs1996}
 Briggs M.~S.,  et~al., 1996, \mn@doi [ApJ] {10.1086/176867}, 459, 40
-
-\bibitem[\protect\citeauthoryear{Buchner, Schulze  \& Bauer}{Buchner
-  et~al.}{2016}]{Buchner2016}
-Buchner J.,  Schulze S.,   Bauer F.~E.,  2016, \mn@doi [MNRAS]
-  {10.1093/mnras/stw2423}, p. stw2423
 
 \bibitem[\protect\citeauthoryear{Bufano et~al.,}{Bufano
   et~al.}{2012}]{Bufano2012}
@@ -151,6 +150,11 @@ D'Elia V.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201323057}, 564,
 {De Ugarte Postigo} A.,  Th{\"{o}}ne C.~C.,  Goldoni P.,   Fynbo J. P.~U.,
   2011, \mn@doi [AN] {10.1002/asna.201111540}, 332, 297
 
+\bibitem[\protect\citeauthoryear{Dessauges-Zavadsky, Chen, Prochaska, Bloom  \&
+  Barth}{Dessauges-Zavadsky et~al.}{2006}]{Dessauges-Zavadsky2006}
+Dessauges-Zavadsky M.,  Chen H.-W.,  Prochaska J.~X.,  Bloom J.~S.,   Barth
+  A.~J.,  2006, \mn@doi [ApJ] {10.1086/507949}, 648, L89
+
 \bibitem[\protect\citeauthoryear{Djorgovski, Frail, Kulkarni, Bloom, Odewahn
   \& Diercks}{Djorgovski et~al.}{2001}]{Djorgovski2001}
 Djorgovski S.~G.,  Frail D.~A.,  Kulkarni S.~R.,  Bloom J.~S.,  Odewahn S.~C.,
@@ -218,7 +222,7 @@ Ghirlanda G.,  2007, \mn@doi [R. Soc. London Philos. Trans. Ser. A]
 
 \bibitem[\protect\citeauthoryear{Ginsburg et~al.,}{Ginsburg
   et~al.}{2016}]{astroquery}
-Ginsburg A.,  et~al., 2016, astroquery v0.3.1, \mn@doi{10.5281/ZENODO.44961},
+Ginsburg A.,  et~al., 2016, {Astroquery V0.3.1}, \mn@doi{10.5281/ZENODO.44961},
   \url {https://github.com/astropy/astroquery}
 
 \bibitem[\protect\citeauthoryear{Goldoni, Royer, Fran{\c{c}}ois, Horrobin,
@@ -260,8 +264,12 @@ Heintz K.~E.,  et~al., 2017, \mn@doi [Astron. Astrophys. Vol. 601, id.A83, 10
   pp.] {10.1051/0004-6361/201730702}, 070318, 1
 
 \bibitem[\protect\citeauthoryear{Hjorth \& Bloom}{Hjorth \&
-  Bloom}{2011}]{Hjorth2012}
+  Bloom}{2011}]{HjorthBloom2012}
 Hjorth J.,  Bloom J.~S.,  2011, AIP Conf. Proc., p.~29
+
+\bibitem[\protect\citeauthoryear{Hjorth et~al.,}{Hjorth
+  et~al.}{2012}]{Hjorth2012}
+Hjorth J.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/756/2/187}, 756, 187
 
 \bibitem[\protect\citeauthoryear{Hogg \& Fruchter}{Hogg \&
   Fruchter}{1999}]{Hogg1999}
@@ -407,6 +415,10 @@ Noterdaeme P.,  et~al., 2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201220259},
 Nysewander M.,  Fruchter A.~S.,   Pe'er A.,  2009, \mn@doi [ApJ]
   {10.1088/0004-637X/701/1/824}, 701, 824
 
+\bibitem[\protect\citeauthoryear{Oesch et~al.,}{Oesch et~al.}{2016}]{Oesch2016}
+Oesch P.~A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/819/2/129}, 819,
+  129
+
 \bibitem[\protect\citeauthoryear{Pagnini \& Mainardi}{Pagnini \&
   Mainardi}{2010}]{pagnini2010}
 Pagnini G.,  Mainardi F.,  2010, \mn@doi [JCoAM] {10.1016/j.cam.2008.04.040},
@@ -477,9 +489,16 @@ Rossi A.,  et~al., 2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201117201}, 545,
   A77
 
 \bibitem[\protect\citeauthoryear{Salvaterra et~al.,}{Salvaterra
+  et~al.}{2009}]{Salvaterra2009a}
+Salvaterra R.,  et~al., 2009, \mn@doi [Nature] {10.1038/nature08445}, 461, 1258
+
+\bibitem[\protect\citeauthoryear{Salvaterra et~al.,}{Salvaterra
   et~al.}{2012}]{Salvaterra2012}
 Salvaterra R.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/749/1/68}, 749,
   68
+
+\bibitem[\protect\citeauthoryear{Savaglio}{Savaglio}{2006}]{Savaglio2006}
+Savaglio S.,  2006, \mn@doi [NJPh] {10.1088/1367-2630/8/9/195}, 8, 195
 
 \bibitem[\protect\citeauthoryear{Schlafly \& Finkbeiner}{Schlafly \&
   Finkbeiner}{2011}]{Schlafly2011}
@@ -519,6 +538,10 @@ Sparre M.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/785/2/150}, 785, 150
   et~al.}{2011}]{Starling2011}
 Starling R. L.~C.,  et~al., 2011, \mn@doi [MNRAS]
   {10.1111/j.1365-2966.2010.17879.x}, 411, 2792
+
+\bibitem[\protect\citeauthoryear{Tanvir et~al.,}{Tanvir
+  et~al.}{2009}]{Tanvir2009b}
+Tanvir N.~R.,  et~al., 2009, \mn@doi [Nature] {10.1038/nature08459}, 461, 1254
 
 \bibitem[\protect\citeauthoryear{{Tepper Garc{\'{i}}a}}{{Tepper
   Garc{\'{i}}a}}{2006}]{TepperGarcia2006}
@@ -569,6 +592,11 @@ Vernet J.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201117752}, 536,
   et~al.}{2007}]{Vreeswijk2007}
 Vreeswijk P.~M.,  et~al., 2007, \mn@doi [A{\&}A] {10.1051/0004-6361:20066780},
   468, 83
+
+\bibitem[\protect\citeauthoryear{Vreeswijk et~al.,}{Vreeswijk
+  et~al.}{2013}]{Vreeswijk2013}
+Vreeswijk P.~M.,  et~al., 2013, \mn@doi [A{\&}A] {10.1051/0004-6361/201219652},
+  549, A22
 
 \bibitem[\protect\citeauthoryear{Wiersema et~al.,}{Wiersema
   et~al.}{2012}]{Wiersema2012}
