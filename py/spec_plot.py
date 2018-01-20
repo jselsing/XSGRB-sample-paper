@@ -5,6 +5,7 @@ from __future__ import division, print_function
 
 from astropy.io import fits
 import pandas as pd
+import matplotlib; matplotlib.use('TkAgg')
 import matplotlib.pyplot as pl
 import seaborn as sns; sns.set_style('ticks')
 import numpy as np
@@ -12,12 +13,12 @@ from scipy import stats, signal, interpolate
 import matplotlib as mpl
 
 params = {
-   'axes.labelsize': 10,
-   'font.size': 10,
-   'legend.fontsize': 10,
-   'xtick.labelsize': 10,
-   'ytick.labelsize': 10,
-   'text.usetex': False,
+   'axes.labelsize': 14,
+   'font.size': 14,
+   'legend.fontsize': 14,
+   'xtick.labelsize': 14,
+   'ytick.labelsize': 14,
+   'text.usetex': True,
    'figure.figsize': [8.27, 11.7]
    }
 mpl.rcParams.update(params)
@@ -36,14 +37,15 @@ def main():
     # Get linelist
     import lineid_plot
     fit_line_positions = np.genfromtxt("../data/grblines_Christensen2011.dat", dtype=None)
-    # fit_line_positions = np.genfromtxt("../data/grblines.dat", dtype=None)
-    linelist = []
-    linenames = []
-    for n in fit_line_positions:
-        linelist.append(float(n[0]))
-        linenames.append(str(n[1]))
+
+    linelist = [0]*len(fit_line_positions)
+    linenames = [0]*len(fit_line_positions)
+    for ii, nn in enumerate(fit_line_positions):
+        linelist[ii] = float(nn[0])
+        linenames[ii] = nn[1].decode("utf-8")
     linelist = np.array(linelist)
     linenames = np.array(linenames)
+    # print(linenames)
     # Redshifts of systems
     z = [2.300]
     ls = ["dashed"]

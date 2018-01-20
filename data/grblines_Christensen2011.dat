@@ -1,88 +1,56 @@
 
-1025.7223 		$Ly\beta$
-1031.9261 		$OVI$
-1037.6167 		$OVI$  
-1215.6701 		$Ly\alpha$
-
-
-1259.5			$SII$
-1264.7			$SiII^{*}$
-1304.3			$SiII$
-
-1334.5			$CII$
-1335.7			$CII^{*}$
-
-
-1393.7			$SiIV$	
-1402.7			$SiIV$
-
-1526.7			$SiII$
-1533.4			$SiII^{*}$
-
-1548.2			$CIV$
-1550.7			$CIV$
-
-
-
-1636.3 			$Fe^{**}$
-1670.7			$AlII$
-
-
-
-2026.1			$ZnII$
-2056.3 			$CrII$
-2062.6			$ZnII$
-
-
-2344.21	  		$FeII$
-2345.001  		$FeII^{*}$
-
-
-
-
-2381.489  		$FeII^{*}$
-2382.77 		$FeII$
-
-2396.3559 		$FeII^{*}$ 
-
-
-2586.65			$FeII$
-2594.49 		$MnII$
-2600.17			$FeII$
-
-2606.46 		$MnII$
-
-
-2796.3			$MgII$
-2803.5			$MgII$
-
-2852.96 		$MgI$
-
-
-3934.777		$CaII$
-3969.591		$CaII$
-
-3727.092	    $[OII]$
-3729.875		$[OII]$
-
-
-4341.684		$H\gamma$
-4364.436        $[OIII]$
-4590.5464 		$[SI]$
-4687.02  		$HeII$
-4862.683 		$H\beta$
-4932.603 		$[OIII]$
-4960.295 		$[OIII]$
-5008.240  		$[OIII]$
-5209.49 		$MgH$
-5578.8874   	$[OI]$
-5756.240 		$[NII]$
-5891.5833 		$NaII$
-5897.5581 		$NaII$
-
-6529.04  		$[NII]$
-6549.85  		$[NII]$
-6564.61  		$H\alpha$
-6585.28   		$[NII]$
-6718.29   		$[SII]$
-6732.67   		$[SII]$
+1025.7223 		$\mathrm{Ly\beta}$
+1031.9261 		$\mathrm{O}\textsc{VI}$
+1037.6167 		$\mathrm{O}\textsc{VI}$
+1215.6701 		$\mathrm{Ly\alpha}$
+1259.5			$\mathrm{S}\textsc{II}$
+1264.7			$\mathrm{S}\textsc{iII}^{*}$
+1304.3			$\mathrm{S}\textsc{iII}$
+1334.5			$\mathrm{C}\textsc{II}$
+1335.7			$\mathrm{C}\textsc{II}^{*}$
+1393.7			$\mathrm{Si}\textsc{IV}$
+1402.7			$\mathrm{Si}\textsc{IV}$
+1526.7			$\mathrm{S}\textsc{iII}$
+1533.4			$\mathrm{S}\textsc{iII}^{*}$
+1548.2			$\mathrm{C}\textsc{IV}$
+1550.7			$\mathrm{C}\textsc{IV}$
+1636.3 			$\mathrm{Fe}^{**}$
+1670.7			$\mathrm{Al}\textsc{II}$
+2026.1			$\mathrm{Zn}\textsc{II}$
+2056.3 			$\mathrm{Cr}\textsc{II}$
+2062.6			$\mathrm{Zn}\textsc{II}$
+2344.21	  		$\mathrm{Fe}\textsc{II}$
+2345.001  		$\mathrm{Fe}\textsc{II}^{*}$
+2381.489  		$\mathrm{Fe}\textsc{II}^{*}$
+2382.77 		$\mathrm{Fe}\textsc{II}$
+2396.3559 		$\mathrm{Fe}\textsc{II}^{*}$ 
+2586.65			$\mathrm{Fe}\textsc{II}$
+2594.49 		$\mathrm{Mn}\textsc{II}$
+2600.17			$\mathrm{Fe}\textsc{II}$
+2606.46 		$\mathrm{Mn}\textsc{II}$
+2796.3			$\mathrm{Mg}\textsc{II}$
+2803.5			$\mathrm{Mg}\textsc{II}$
+2852.96 		$\mathrm{Mg}\textsc{I}$
+3934.777		$\mathrm{Ca}\textsc{II}$
+3969.591		$\mathrm{Ca}\textsc{II}$
+3727.092	    $[\mathrm{O}\textsc{II}]$
+3729.875		$[\mathrm{O}\textsc{II}]$
+4341.684		$\mathrm{H\gamma}$
+4364.436        $[\mathrm{O}\textsc{III}]$
+4590.5464 		$[\mathrm{S}\textsc{I}]$
+4687.02  		$\mathrm{He}\textsc{II}$
+4862.683 		$\mathrm{H\beta}$
+4932.603 		$[\mathrm{O}\textsc{III}]$
+4960.295 		$[\mathrm{O}\textsc{III}]$
+5008.240  		$[\mathrm{O}\textsc{III}]$
+5209.49 		$\mathrm{MgH}$
+5578.8874   	$[\mathrm{O}\textsc{I}]$
+5756.240 		$[\mathrm{N}\textsc{II}]$
+5891.5833 		$\mathrm{Na}\textsc{II}$
+5897.5581 		$\mathrm{Na}\textsc{II}$
+6529.04  		$[\mathrm{N}\textsc{II}]$
+6549.85  		$[\mathrm{N}\textsc{II}]$
+6564.61  		$\mathrm{H\alpha}$
+6585.28   		$[\mathrm{N}\textsc{II}]$
+6718.29   		$[\mathrm{S}\textsc{II}]$
+6732.67   		$[\mathrm{S}\textsc{II}]$

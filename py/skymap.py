@@ -48,7 +48,8 @@ def main():
     ebv_map = hp.read_map("../data/lambda_sfd_ebv.fits")
     A_Vmap = ebv_map*3.1
     A_Vmap[A_Vmap >= 0.5] = 0
-    ax = hp.mollview(A_Vmap, max=0.5, cbar=False, title="")
+    ax = hp.mollview(A_Vmap, max=0.5, title="")
+    # , cbar=False
     hp.graticule()
 
     # Overplot swift positions
@@ -87,7 +88,7 @@ def main():
     b_z = b[mask_z]
 
 
-    print(l_z, b_z)
+    # print(l_z, b_z)
     # Scatterplot with bursts position
     hp.visufunc.projscatter(l_z, b_z, facecolors='none', edgecolor="black", marker = "*", s = 50, lonlat=True)
 
@@ -106,7 +107,7 @@ def main():
     b_noz = b[mask_noz]
 
     # Scatterplot with bursts position
-    hp.visufunc.projscatter(l_noz, b_noz, facecolors='none', lonlat=True)
+    hp.visufunc.projscatter(l_noz, b_noz, facecolors='none', edgecolor="black", s = 30, lonlat=True)
 
     # Get indices of sample bursts and observed bursts
     idx = [ii for ii, kk in enumerate(name_s_noz) if kk in name]

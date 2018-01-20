@@ -27,6 +27,11 @@ Abrarov S.~M.,  Quine B.~M.,  2015a, \mn@doi [J. Math. Res.]
 Abrarov S.~M.,  Quine B.~M.,  2015b, \mn@doi [J. Math. Res.]
   {10.5539/jmr.v7n2p163}, 7, 163
 
+\bibitem[\protect\citeauthoryear{Axelsson et~al.,}{Axelsson
+  et~al.}{2012}]{Axelsson2012}
+Axelsson M.,  et~al., 2012, \mn@doi [Astrophys. J. Lett.]
+  {10.1088/2041-8205/757/2/L31}, 757, L31
+
 \bibitem[\protect\citeauthoryear{Ba{\~{n}}ados et~al.,}{Ba{\~{n}}ados
   et~al.}{2017}]{Banados2017}
 Ba{\~{n}}ados E.,  et~al., 2017, \mn@doi [Nature] {10.1038/nature25180}
@@ -60,6 +65,11 @@ Benner D.~C.,  Rinsland C.~P.,  Devi V.~M.,  Smith M. A.~H.,   Atkins D.,
   et~al.}{2003}]{Berger2003}
 Berger E.,  Kulkarni S.,   Frail D.,  2003, \mn@doi [ApJ] {10.1086/374892},
   590, 379
+
+\bibitem[\protect\citeauthoryear{Berger, Fong  \& Chornock}{Berger
+  et~al.}{2013}]{Berger2013a}
+Berger E.,  Fong W.,   Chornock R.,  2013, \mn@doi [ApJ]
+  {10.1088/2041-8205/774/2/L23}, 774, L23
 
 \bibitem[\protect\citeauthoryear{Bloom, Kulkarni  \& Djorgovski}{Bloom
   et~al.}{2002}]{Bloom2002}
@@ -241,6 +251,10 @@ Graff P.~B.,  Lien A.~Y.,  Baker J.~G.,   Sakamoto T.,  2016, \mn@doi [ApJ]
 Greiner J.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201015458}, 526,
   A30
 
+\bibitem[\protect\citeauthoryear{Greiner et~al.,}{Greiner
+  et~al.}{2015}]{Greiner2015}
+Greiner J.,  et~al., 2015, \mn@doi [Nature] {10.1038/nature14579}, 523, 189
+
 \bibitem[\protect\citeauthoryear{Groot et~al.,}{Groot et~al.}{1998}]{Groot1998}
 Groot P.~J.,  et~al., 1998, \mn@doi [ApJ] {10.1086/311125}, 493, L27
 
@@ -259,8 +273,17 @@ Hartoog O.~E.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201425001},
   580, A139
 
 \bibitem[\protect\citeauthoryear{Heintz et~al.,}{Heintz
-  et~al.}{2017}]{Heintz2017}
-Heintz K.~E.,  et~al., 2017, \mn@doi [Astron. Astrophys. Vol. 601, id.A83, 10
+  et~al.}{2017a}]{Heintz2017b}
+Heintz K.~E.,  et~al., 2017a, MNRAS, 000, 1
+
+\bibitem[\protect\citeauthoryear{Heintz et~al.,}{Heintz
+  et~al.}{2017b}]{Heintz2017a}
+Heintz K.~E.,  et~al., 2017b, \mn@doi [A{\&}A] {10.1051/0004-6361/201730702},
+  601, A83
+
+\bibitem[\protect\citeauthoryear{Heintz et~al.,}{Heintz
+  et~al.}{2017c}]{Heintz2017}
+Heintz K.~E.,  et~al., 2017c, \mn@doi [Astron. Astrophys. Vol. 601, id.A83, 10
   pp.] {10.1051/0004-6361/201730702}, 070318, 1
 
 \bibitem[\protect\citeauthoryear{Hjorth \& Bloom}{Hjorth \&
@@ -313,15 +336,13 @@ Jones E.,  Oliphant T.,   Peterson P.,  2001, {SciPy: Open source scientific
 Jones A.,  Noll S.,  Kausch W.,  Szyszka C.,   Kimeswenger S.,  2013, \mn@doi
   [A{\&}A] {10.1051/0004-6361/201322433}, 560, A91
 
+\bibitem[\protect\citeauthoryear{Kann et~al.,}{Kann et~al.}{2017}]{Kann2017}
+Kann D.~A.,  et~al., 2017, eprint arXiv:1706.00601
+
 \bibitem[\protect\citeauthoryear{Kausch et~al.,}{Kausch
   et~al.}{2015}]{Kausch2015}
 Kausch W.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201423909}, 576,
   A78
-
-\bibitem[\protect\citeauthoryear{Kocevski \& Petrosian}{Kocevski \&
-  Petrosian}{2013}]{Kocevski2013}
-Kocevski D.,  Petrosian V.,  2013, \mn@doi [ApJ] {10.1088/0004-637X/765/2/116},
-  765, 116
 
 \bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
   et~al.}{2011}]{Kruhler2011}
@@ -343,8 +364,8 @@ Kr{\"{u}}hler T.,  et~al., 2015, \mn@doi [A{\&}A]
 Letchworth K.~L.,  Benner D.~C.,  2007, \mn@doi [JQSRT]
   {10.1016/j.jqsrt.2007.01.052}, 107, 173
 
-\bibitem[\protect\citeauthoryear{Levan et~al.,}{Levan et~al.}{2014}]{Levan2014}
-Levan A.~J.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/781/1/13}, 781, 13
+\bibitem[\protect\citeauthoryear{Levan et~al.,}{Levan et~al.}{2013}]{Levan2013}
+Levan A.~J.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/781/1/13}, 781, 13
 
 \bibitem[\protect\citeauthoryear{Levesque, Kewley, Graham  \&
   Fruchter}{Levesque et~al.}{2010}]{Levesque2010}
@@ -360,11 +381,6 @@ Lien A.,  Sakamoto T.,  Gehrels N.,  Palmer D.~M.,  Barthelmy S.~D.,  Graziani
 \bibitem[\protect\citeauthoryear{Lien et~al.,}{Lien et~al.}{2016}]{Lien2016}
 Lien A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/829/1/7}, 829, 7
 
-\bibitem[\protect\citeauthoryear{Littlejohns, Tanvir, Willingale, Evans,
-  O'Brien  \& Levan}{Littlejohns et~al.}{2013}]{Littlejohns2013a}
-Littlejohns O.~M.,  Tanvir N.~R.,  Willingale R.,  Evans P.~A.,  O'Brien P.~T.,
-    Levan A.~J.,  2013, \mn@doi [MNRAS] {10.1093/mnras/stt1841}, 436, 3640
-
 \bibitem[\protect\citeauthoryear{L{\'{o}}pez et~al.,}{L{\'{o}}pez
   et~al.}{2016}]{Lopez2016}
 L{\'{o}}pez S.,  et~al., 2016, \mn@doi [A{\&}A] {10.1051/0004-6361/201628161},
@@ -379,6 +395,10 @@ Lyons N.,  O'Brien P.~T.,  Zhang B.,  Willingale R.,  Troja E.,   Starling
   et~al.}{2012}]{Melandri2012}
 Melandri A.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2011.20398.x},
   421, 1265
+
+\bibitem[\protect\citeauthoryear{Micha{\l}owski et~al.,}{Micha{\l}owski
+  et~al.}{2016}]{Michaowski2016}
+Micha{\l}owski M.~J.,  et~al., 2016, pp 1--16
 
 \bibitem[\protect\citeauthoryear{Micol, Arnaboldi, Delmotte, Mascetti  \&
   Retzlaff}{Micol et~al.}{2016}]{Micol2016}
@@ -497,6 +517,11 @@ Salvaterra R.,  et~al., 2009, \mn@doi [Nature] {10.1038/nature08445}, 461, 1258
 Salvaterra R.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/749/1/68}, 749,
   68
 
+\bibitem[\protect\citeauthoryear{S{\'{a}}nchez-Ram{\'{i}}rez
+  et~al.,}{S{\'{a}}nchez-Ram{\'{i}}rez et~al.}{2017}]{Sanchez-Ramirez2017}
+S{\'{a}}nchez-Ram{\'{i}}rez R.,  et~al., 2017, \mn@doi [MNRAS]
+  {10.1093/mnras/stw2608}, 464, 4624
+
 \bibitem[\protect\citeauthoryear{Savaglio}{Savaglio}{2006}]{Savaglio2006}
 Savaglio S.,  2006, \mn@doi [NJPh] {10.1088/1367-2630/8/9/195}, 8, 195
 
@@ -521,6 +546,10 @@ Schulze S.,  Malesani D.,  Cucchiara A.,  Tanvir N.~R.,  Kr{\"{u}}hler T.,
 Selsing J.,  Fynbo J. P.~U.,  Christensen L.,   Krogager J.-K.,  2015, \mn@doi
   [A{\&}A] {10.1051/0004-6361/201527096}, 87, 14
 
+\bibitem[\protect\citeauthoryear{Selsing et~al.,}{Selsing
+  et~al.}{2017}]{Selsing2017}
+Selsing J.,  et~al., 2017, pp~1--8
+
 \bibitem[\protect\citeauthoryear{Smette et~al.,}{Smette
   et~al.}{2015}]{Smette2015}
 Smette A.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201423932}, 576,
@@ -542,6 +571,12 @@ Starling R. L.~C.,  et~al., 2011, \mn@doi [MNRAS]
 \bibitem[\protect\citeauthoryear{Tanvir et~al.,}{Tanvir
   et~al.}{2009}]{Tanvir2009b}
 Tanvir N.~R.,  et~al., 2009, \mn@doi [Nature] {10.1038/nature08459}, 461, 1254
+
+\bibitem[\protect\citeauthoryear{Tanvir, Levan, Fruchter, Hjorth, Hounsell,
+  Wiersema  \& Tunnicliffe}{Tanvir et~al.}{2013}]{Tanvir2013a}
+Tanvir N.~R.,  Levan A.~J.,  Fruchter A.~S.,  Hjorth J.,  Hounsell R.~A.,
+  Wiersema K.,   Tunnicliffe R.~L.,  2013, \mn@doi [Nature]
+  {10.1038/nature12505}, 500, 547
 
 \bibitem[\protect\citeauthoryear{{Tepper Garc{\'{i}}a}}{{Tepper
   Garc{\'{i}}a}}{2006}]{TepperGarcia2006}
