@@ -127,7 +127,7 @@ def main():
     g.y = betaOX[idx_2][~idx_limit]
 
     np.savetxt("betaOX.dat", list(zip(name_s[idx][~idx_limit] ,HI[~idx_limit], betaOX[idx_2][~idx_limit])), fmt = '%s %s %s')
-    exit()
+    # exit()
 
     g = g.plot_joint(pl.scatter, color=color, label="This work")
 
