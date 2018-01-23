@@ -163,7 +163,7 @@ def main():
     ax = pl.gca()
     ax.axhline(0.5, color="black", linestyle="dashed", alpha=0.5)
     ax.annotate(r"$\beta_{OX} = 0.5$", (19.6, 0.45))
-    g.set_axis_labels(r"log(N$_H$) [cm$^2$]", r"Darkness [$\beta_{OX}$]")
+    g.set_axis_labels(r"$\log(N_{\mathrm{HI, X}}/\mathrm{cm}^{-2})$", r"Darkness [$\beta_{OX}$]")
     pl.tight_layout()
 
     # print(stats.ks_2samp(betaOX[idx_2], f_betaOX[f_idx_2]))
@@ -189,7 +189,7 @@ def main():
     print(len(HI[betaOX[idx_2] < 0.5])/(len(HI[betaOX[idx_2] < 0.5]) + len(HI[betaOX[idx_2] >= 0.5])))
     print(stats.ks_2samp(HI[betaOX[idx_2] < 0.5], HI[betaOX[idx_2] >= 0.5]))
     print(len(HI))
-    exit()
+    # exit()
     # print(len(f_HI))
     # l, m, h = np.percentile(f_HI, [16, 50, 84])
     # print(m, m - l, h - m)

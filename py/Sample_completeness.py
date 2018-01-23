@@ -80,9 +80,9 @@ def main():
 
 
     # BAT fluence
-    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Full Swift sample")
-    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Complete sample")
-    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Observed sample")
+    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Full Swift sample")
+    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Complete sample")
+    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Observed sample")
     print(len(BAT_c[~np.isnan(BAT_c)]))
     l, m, h = np.percentile(np.log10(1e-7*BAT_c), [16, 50, 84])
     print(m, m - l, h - m)
@@ -101,9 +101,9 @@ def main():
 
 
     # XRT flux
-    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Full Swift sample")
-    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Complete sample")
-    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Observed sample")
+    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Full Swift sample")
+    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Complete sample")
+    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Observed sample")
 
 
 
@@ -164,9 +164,9 @@ def main():
     # NHX_o = NHX_o[NHX_o > 10]
 
     # HI column
-    sns.distplot(NHX_s, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Full Swift sample")
-    sns.distplot(NHX_c, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Complete sample")
-    sns.distplot(NHX_o, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 3, "linestyle": "dashed"}, label="Observed sample")
+    sns.distplot(NHX_s, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Full Swift sample")
+    sns.distplot(NHX_c, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Complete sample")
+    sns.distplot(NHX_o, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Observed sample")
 
 
 
@@ -203,9 +203,9 @@ def main():
 
 
 
-    ax1.set_xlabel(r"log(15-150 keV Fluence) [$\mathrm{erg}~\mathrm{cm}^{-2}$]")
-    ax2.set_xlabel(r"log(0.3-10 keV Flux) [$\mathrm{erg}~\mathrm{cm}^{-2}\mathrm{s}^{-1}$]")
-    ax3.set_xlabel(r"log($N_{\mathrm{HI,X}}$) [$\mathrm{cm}^{-2}$]")
+    ax1.set_xlabel(r"$\log(15-150~\mathrm{keV}~\mathrm{Fluence}/\mathrm{erg}~\mathrm{cm}^{-2})$")
+    ax2.set_xlabel(r"$\log(0.3-10~\mathrm{keV}~\mathrm{Flux}/\mathrm{erg}~\mathrm{cm}^{-2}~\mathrm{s}^{-1})$")
+    ax3.set_xlabel(r"$\log(N_{\mathrm{HI, X}}/\mathrm{cm}^{-2})$")
     # ax1.set_ylabel(r"N")
 
     ax2.set_xlim(-18, -9)
