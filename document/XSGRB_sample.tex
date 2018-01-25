@@ -42,9 +42,11 @@
 \usepackage{xcolor}
 \newcommand\todo[1]{\textbf{(#1)}}
 
+\usepackage{float}
+
 \begin{document}
 	
-\title{XSGRB I - The X-shooter GRB afterglow sample
+\title{XS-GRB I - The X-shooter GRB afterglow sample
 \thanks{Based on observations collected at the European Southern Observatory, Paranal, 
 	Chile, Program ID: 098.A-0055, 097.A-0036, 096.A-0079, 095.B-0811(B), 
 	095.A-0045, 094.A-0134, 093.A-0069, 092.A-0124, 0091.C-0934, 090.A-0088,
@@ -64,22 +66,27 @@
 	afterglows that have been promptly observed at the VLT/X-shooter up to
 	\termdate. This totals spectroscopic observations of 102 individual bursts
 	observed with 48 hours of the GRB trigger. Redshifts have been measured for 96
-	\% of these, covering a redshift range from 0.059 to 7.84. Based on a set of observational selection criteria that are unbiased with regards to intrinsic properties of the
-	GRBs, the follow-up effort has been guided by the \textit{Swift}-telescope to
-	produce a homogeneous sample of afterglows for 86 spectra. We here provide a
-	public release of all the reduced spectra, including continuum estimates and
-	telluric corrections. For completeness, we also provide reductions for the
-	late-time observations of the underlying host galaxies. We provide an assessment
-	of the degree of completeness with respect to the parent GRB population, in
-	terms of the X-ray properties of the bursts in the sample and find that the
-	sample presented here is consistent with being drawn from the \textit{Swift}
+	per cent of these, covering a redshift range from 0.059 to 7.84. Based on a set
+	of observational selection criteria that are unbiased with regards to intrinsic
+	properties of the GRBs, the follow-up effort has been guided by the
+	\textit{Swift}-telescope to produce a homogeneous sample of spectra for 91 GRBs.
+	We here provide a public release of all the reduced spectra, including continuum
+	estimates and telluric corrections. For completeness, we also provide reductions
+	for the late-time observations of the underlying host galaxies. We provide an
+	assessment of the degree of completeness with respect to the parent GRB
+	population, in terms of the X-ray properties of the bursts in the sample and
+	find that the sample presented here is representative of the full \textit{Swift}
 	sample. For all bursts (39) for which it is possible, we provide a measurement
-	of the neutral hydrogen column density, increasing the total number of published HI
-	column density measurements by $\sim$ 50 per cent. We constrain the fraction of
-	dark bursts to be less than 28 per cent based on the detection of an optical
-	afterglow and tentatively confirm previous results that larger optical darkness
-	is correlated with increased X-ray absorption. This dataset provides a unique
-	possibility to study the ISM across cosmic time. }
+	of the neutral hydrogen column density, increasing the total number of published
+	HI column density measurements by $\sim$ 50 per cent. %	We constrain the
+	% fraction
+	%	of dark bursts to be less than 28 per cent based on the detection of an
+	% optical
+	%	afterglow and tentatively confirm previous results that larger optical
+	% darkness
+	%	is correlated with increased X-ray absorption.
+	This dataset provides a unique possibility to study the ISM across cosmic time,
+	from the local progenitor surroundings to the galaxy wide conditions}
 
 \keywords{Gamma-ray burst: general --- galaxies: high-redshift --- ISM: molecules --- dust, extinction }
 
@@ -89,27 +96,28 @@
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-$\gamma$-ray bursts (GRBs) are interesting as they provide the opportunity to
-derive new constraints on a very wide range of topics in astrophysics. Examples
-range from small scale phenomena relating to magnetars, properties of highly
-relativistic jets, hyper/supernova explosions, the interstellar medium, dust
-extinction curves, starburst galaxies, chemical and molecular abundances, escape
-of ionizing radiation, the ionization state of the intergalactic medium,
-intervening absoption systems to standard candles in cosmology
-\citep[e.g.,][]{Lyons2010, Molinari2007, HjorthBloom2012, Wijers1998,
-	Prochaska2009, Savaglio2006, Ghirlanda2007}. In that sense GRB research is very
-multidisciplinary.
+$\gamma$-ray bursts (GRBs) provide the opportunity to derive new constraints on
+a very wide range of topics in astrophysics. Examples range from small scale
+phenomena relating to magnetars, properties of highly relativistic jets,
+hyper/supernova explosions, the interstellar medium, dust extinction curves,
+starburst galaxies, chemical and molecular abundances, escape of ionizing
+radiation, the ionization state of the intergalactic medium, intervening
+absoption systems to standard candles in cosmology \citep[e.g.,][]{Lyons2010,
+	Molinari2007, HjorthBloom2012, Wijers1998, Prochaska2009, Savaglio2006,
+	Ghirlanda2007, Vergani2009, Christensen2017}.
 
 The \textit{Niel Gehrels Swift Observatory} ({\it Swift}) satellite
 \citep{Gehrels2004, Gehrels2009}, which was launched in 2004, has made it
 possible to harvest much of the great potential in using GRBs as probes of
 galaxies in the intergalactic medium, which was already hinted at by results
-from earlier missions \citep[e.g.,][]{Ricker2004}. A crucial aspect of the great
-success of the {\it Swift} mission has been the extensive ground based follow-up
-observations of the afterglows and of the host galaxies of the GRBs. This work
-has involved a large community of researchers both inside and outside the
-official {\it Swift} team. This fruitful collaboration has been greatly
-facilitated by the open data access policy of the {\it Swift} mission.
+from earlier missions \citep[e.g.,][]{Ricker2004}. With the two instruments, the
+Burst Alert Telescope (BAT) \citep{Barthelmy2005} and the X-Ray Telescope (XRT)
+\citep{Burrows2005}, \swift~is an ideal starting point for GRB investigations. A
+crucial aspect of the success of the {\it Swift} mission has been the extensive
+ground based follow-up observations of the afterglows and of the host galaxies
+of the GRBs, involving a large community of researchers. This fruitful
+collaboration has been greatly facilitated by the open data access policy of the
+{\it Swift} mission.
 
 In the beginning of the "{\it Swift} era" most of the follow-up afterglow
 spectroscopy was secured using low-resolution spectrographs \citep[typically
@@ -195,15 +203,14 @@ Our selection criteria are:
 	been stated a bit differently, the visibility constraint being replaced by a
 	declination + Sun angle constraint. The below criteria are however those
 	defining the sample.}
-	\item No closeby bright stars.
+	\item No bright, nearby stars within $ 1.8 + 0.4 \times exp[(20 - R)/2.05$] arcsec, where R is the USNO magnitude of the star)
 	\item Galactic $A_V \lesssim 0.5$ mag.
 \end{enumerate}
 
 Our ability to observe GRB afterglows is strongly dependent on the timing and
 the precision of the target positions delivered by the triggering facilities. By
 selecting only bursts that have been triggered on board the \textit{Swift} space
-telescope \citep{Gehrels2004}, based on the Burst Alert Telescope (BAT)
-\citep{Barthelmy2005}, we  start out with a homogeneously selected sample where
+telescope \citep{Gehrels2004}, based on the BAT, we  start out with a homogeneously selected sample where
 burst characteristics are delivered immediately, allowing for an informed
 follow-up strategy. Despite the complexity of the triggering mechanism on board
 \textit{Swift} \citep{Band2006, Coward2013a}, attempts at inferring properties
@@ -212,15 +219,15 @@ triggering algorithms have been made \citep{Lien2014, Graff2016}. Restricting
 the follow-up effort to bursts detected by \textit{Swift}, we therefore ensure
 that the limitations of the parent sample are well studied.
 
-Because the localization accuracy of BAT is 1 - 4 arcminutes
-\citep{Barthelmy2005}, a secure host identification is in general impossible
-based on BAT alone. We therefore additionally require an X-ray position from the
-X-Ray Telescope (XRT) \citep{Burrows2005} to be distributed to the GCN network
-\citep{Barthelmy2000} within 12 hours and to account for observing constraints
-on \textit{Swift} that XRT began observations within 10 minutes. The additional
-timing requirement of the XRT follow-up means that all bursts in our sample have
-detected X-ray afterglows. Because the XRT completeness is very high
-\citep{Burrows2007}, this cut should not alter the parent sample significantly.
+Because the localization accuracy of BAT is 1 -- 4 arcminutes
+\citep{Barthelmy2005}, a secure host association is in general very hard based
+on BAT alone. We therefore additionally require an X-ray position from XRT to be
+distributed to the GCN network \citep{Barthelmy2000} within 12 hours and to
+account for observing constraints on \textit{Swift} that XRT began observations
+within 10 minutes. The additional timing requirement of the XRT follow-up means
+that all bursts in our sample have detected X-ray afterglows. Because the XRT
+completeness is very high \citep{Burrows2007}, this cut should not alter the
+parent sample significantly.
 
 To ensure a minimum of observability, we require that the GRB is visible from
 the telescope site at Cerro Paranal, Chile, for a least 1 hour after the trigger
@@ -251,10 +258,10 @@ for the completeness of the sample in Sect. \ref{completeness}.
 \subsection{RRM observations} \label{RRM}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Under rare circumstances, the use of the rapid response mode (RRM) has been
-possible. In case of a promptly visible GRB, a robotic trigger was sent to
-the telescope if at the moment of the GCN notice the GRB is observable and
-fulfills the following criteria.
+Under rare circumstances, the use of the ESO rapid response mode (RRM) has been
+possible. In case of a promptly visible GRB, a robotic trigger was sent to the
+telescope if at the moment of the GCN notice the GRB is observable and fulfills
+the following criteria.
 
 
 \begin{enumerate}
@@ -264,10 +271,10 @@ fulfills the following criteria.
 	\item Error radius < 60\arcsec.
 	\item No limit on declination. 
 	\item No constraint on Moon phase or distance. 
-	\item Elevation in the sky > 22$^\circ$ (both now and 15 min after the trigger).
-	\item Sun elevation < -12$^\circ$ (both now and 15 min after the trigger).
+	\item Elevation in the sky > 22$^\circ$ (both at trigger time and 15 min after).
+	\item Sun elevation < -12$^\circ$ (both at trigger time and 15 min after).
 	\item The X-ray position must be available less than 1 hr after the GRB.
-	\item The flags KNOWN\_SOURCE, COSMIC\_RAY, DEF\_NOT\_GRB are set to false (PROB\_NOT\_GRB can be true).
+	\item The flags \swift-circulated tags: KNOWN\_SOURCE, COSMIC\_RAY, DEF\_NOT\_GRB are set to false (PROB\_NOT\_GRB can be true).
 \end{enumerate}
 
 The use of RRM is unique in the sense that it allows for the detailed study of
@@ -275,11 +282,11 @@ the temporal variability of the GRB afterglow due to effect of the GRB itself on
 the sorrounding medium \citep[e.g., see][for examples]{Dessauges-Zavadsky2006,
 	Vreeswijk2007, Vreeswijk2013}
 
-There 8 GRBs in the sample that were being observed with the RRM mode. One of
-the RRM triggers is outside the statistical sample and two of the RRM trigger
-are on short GRBs. The fastest response between \swift~GRB trigger and the
-beginning of spectroscopic integration is for GRB~160410A, for which the delay
-was only 8.4 minutes.
+There are 8 GRBs in the sample that have beem being observed with the RRM mode.
+One of the RRM triggers is outside the statistical sample and two of the RRM
+trigger are on short GRBs. The fastest response between \swift~GRB trigger and
+the beginning of spectroscopic integration is for GRB~160410A, for which the
+delay was only 8.4 minutes.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -295,14 +302,14 @@ was only 8.4 minutes.
 	The empty stars/circles are the positions of all the \textit{Swift} bursts
 	detected until the end of 2016. A blue filling of the symbol indicates the
 	position of bursts fulfilling the sample criteria specified in Sect.
-	\ref{samplecrit}. The red circles are added around GRBs which have been
-	followed up by X-shooter since the commissioning of the instrument. Blue points
-	with red circles represent GRBs that enter our sample and have X-shooter
-	spectroscopy. The different samples are compared in Sect. \ref{results}. The
-	background shows the dust maps presented in \citet{Schlegel1998} where the
-	sample criteria cut with $A_V \lesssim 0.5$ mag is removed. The colorbar below
-	indicates the value of $A_V$ on the plot. The dotted lines indicate intervals
-	of 30$^\circ$ in longitude and latitude.} \label{fig:skymap}
+	\ref{samplecrit}. The red outline is added around GRBs which have been followed
+	up by X-shooter in this work. Blue symbols with red outlines represent GRBs
+	that enter our sample and have X-shooter spectroscopy. The different samples
+	are compared in Sect. \ref{results}. The background shows the dust maps
+	presented in \citet{Schlegel1998} where the sample criteria cut with $A_V
+	\lesssim 0.5$ mag is replaced with a white color. The colorbar below indicates
+	the value of $A_V$ on the plot. The dotted lines indicate intervals of
+	30$^\circ$ in longitude and latitude.} \label{fig:skymap}
 \end{figure*}
 
 
@@ -314,11 +321,12 @@ the duration of this follow-up campaign. The observations have been taken during
 a period of 8 years corresponding to the ESO observing periods P84 through P98
 under the following programme IDs: 098.A-0055, 097.A-0036, 096.A-0079,
 095.A-0045, 094.A-0134, 093.A-0069, 092.A-0124, 0091.C-0934, 090.A-0088,
-089.A-0067, 088.A-0051, 087.A-0055, 086.A-0073, 085.A-0009 and 084.A-0260. We
-have included a few additional bursts, from the programmes 092.D-0056(A) (PI:
+089.A-0067, 088.A-0051, 087.A-0055, 086.A-0073, 085.A-0009 and 084.A-0260 (PI:
+Fynbo). We have included a few additional bursts, from the programmes
+084.D-0265(A) (PI: Benetti), 091.A-0877(A) (PI: Schady), 092.D-0056(A) (PI:
 Rau), 092.D-0633(E) (PI: Greiner), and 095.B-0811(B) (PI: Levan). The total
-collection of spectra represents \textit{all} GRBs that have been followed up by
-X-shooter up to \termdate.
+collection of spectra represents \textit{all} GRB afterglows that have been
+followed up by X-shooter up to \termdate.
 
 The first GRB followed up is GRB~090313, observed on the 15th of March, 2009,
 during the commissioning of X-shooter on UT3. The bursts observed during the
@@ -377,10 +385,10 @@ We provide an overview of all the observations in Table
 \ref{tab:sample_overview} and plot the positions of all the bursts on the
 celestial sphere in galactic coordinates in Fig. \ref{fig:skymap}. Away from
 central zone of avoidance due to high Galactic extinction cutoff (marked in
-white), the GRB positions have an apparent isotropic distribution except in the
+white), the GRB positions have an isotropic distribution except in the
 upper left quadrant, which cannot be observed from Paranal.
 
-A subset of the spectra presented here, primarily host observations, have
+30 percent of the spectra presented here, primarily host observations, have
 already been published in \citet{Kruhler2015}. We include independent
 reductions of them here for completeness.
 
@@ -502,15 +510,15 @@ position.
 
 To get the shape and the position of the spectral PSF as a function of location
 on the image, we need to chose a model which can represent how the light falls
-on the slit. We know from \citet{Trujillo2001} that the Moffat function
-\citep{Moffat1969} adequately describes an imaging PSF due to atmospheric
-turbulence, but because of aberrations in the dispersion elements and the
-rectification process, the PSF we are trying to model is different from this
-profile. To allow for flexibility in the model, we have chosen the Voigt
-function as a model for the spectral PSF and we describe how this is evaluated
-in App. \ref{voigt}. Since additionally, the host galaxy could also have a
-contribution to the image profile, this choice allows for the required freedom if
-additional flux is in the wings of the profile.
+on the slit. We know from \citet{Trujillo2001} that a Moffat function
+\citep{Moffat1969} with an index of $\beta = 4.765$ adequately describes an
+imaging PSF due to atmospheric turbulence, but because of aberrations in the
+dispersion elements and the rectification process, the PSF we are trying to
+model is different from this profile. To allow for flexibility in the model, we
+have chosen the Voigt function as a model for the spectral PSF and we describe
+how this is evaluated in App. \ref{voigt}. Since additionally, the host galaxy
+could also have a contribution to the image profile, this choice allows for the
+required freedom if additional flux is in the wings of the profile.
 
 To guide the guess position of the trace on the slit as a function of
 wavelength, we have used the analytic prescription for the trace position
@@ -568,7 +576,7 @@ received spectrum. These telluric features can be corrected for in a multitude
 of ways. We employ a prioritized list of methods here, depending on the
 availability of the different methods. Since the observation are often taken at
 odd times under varying conditions, this prioritized list ensures that we are
-always doing the optimal correction.
+always doing the best possible correction.
 
 The highest priority method is using the GRB afterglow continuum itself, where
 the atmospheric conditions have directly been imprinted on the spectrum. The
@@ -601,7 +609,7 @@ observations have been used.
 	absorption from molecular $\mathrm{H_2}$. The absorption trough visible at
 	$\sim$ 4000 $\AA$ is due to \lya~in the host. We have overplot the most
 	prominent lines seen in GRB afterglows from \citet{Christensen2011a}.
-	Additionally, three intervening systems are seen in this sightline This
+	Additionally, three intervening systems are seen in this sightline. This
 	spectrum has been analyzed in detail in \citet{Friis2015}.}
 \label{fig:spectrum}
 \end{figure*}
@@ -706,9 +714,9 @@ consistent with a simple scaling of the VIS arm relation by the ratio of
 resolutions of the NIR and VIS arm for unresolved, slit filling, sources as
 given on the ESO instrument website. The UVB arm contains no suitable absorption
 lines to use, and we therefore use a scaled value as in the NIR arm. While this
-simple method is not terribly accurate (for one, the spatial profile of the
-trace is not a perfect Gaussian), it nevertheless gives a sufficiently accurate
-estimate for the analysis of these poor signal to noise science spectra.
+simple method is perfect (the spatial profile of the trace is not a perfect
+Gaussian), it nevertheless gives a sufficiently accurate estimate for the
+analysis of these poor signal to noise science spectra.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -768,9 +776,9 @@ criteria described in Sect. \ref{samplecrit}. Some bursts not fulfilling the
 sample criteria have been followed up due to interesting characteristics, e.g.
 curiosity properties of their light curves, their brightness, etc. These bursts
 are not discussed as part of the investigation of the statistical properties of
-the GRB population. A prime example of a burst outside the statistical sample is the
-bright \textit{INTEGRAL} burst GRB~161023A, that turned to be a rich spectrum with at
-least 11 intervening absorption systems.
+the GRB population. A prime example of a spectacular burst outside the
+statistical sample is the bright \textit{INTEGRAL} burst GRB~161023A, that
+contains at least 11 intervening absorption systems, see \ref{GRB161023A}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -785,19 +793,20 @@ imprinted on the GRB afterglow continuum. Because the afterglow rapidly fades
 spectroscopic observation. The shortest delays are observed in RRM-mode. The
 fastest follow-up between BAT trigger and start of spectroscopic observations in
 our sample is for the short, $z = 1.717$, GRB~160410A for which spectroscopic
-integration was initialed only 8.4 minutes after the BAT trigger. To illustrate
-importance of the follow-up delay for the redshift completeness, we plot the
+integration was initiated only 8.4 minutes after the BAT trigger. To illustrate
+the importance of the follow-up delay for the redshift completeness, we plot the
 redshift completeness as a function of delay time in Fig. \ref{fig:timing} for
 all the bursts we have followed up, including the ones outside the statistical
-sample. Visible is the decreasing fraction of GRBs with a redshift determination
-for increasing delays. The overall redshift completeness for bursts that we have
-followed up is 92 per cent. This degree of completeness in the followed bursts,
-illustrates the efficiency of VLT/X-shooter in redshift determination. Not shown
-in the figure are an additional 12 bursts that have redshift determinations
-based on late-time host observations with delay times longer than $\sim$10 days.
+sample. As can be seen from the figure, the fraction of GRBs with a redshift
+determination decreases with follow-up delay. The overall redshift completeness
+for bursts that we have followed up is 92 per cent. This degree of completeness
+in the followed bursts, illustrates the efficiency of VLT/X-shooter in redshift
+determination. Not shown in the figure are an additional 12 bursts that have
+redshift determinations based on late-time host observations with delay times
+longer than $\sim$10 days.
 
 \begin{figure}
-	\centerline{\includegraphics[width=8cm]{figures/timing.pdf}} \caption{Afterglow
+	\centerline{\includegraphics[width=9cm]{figures/timing.pdf}} \caption{Afterglow
 	magnitude at the start of observation as a function of follow-up delay. The
 	points have been colored based on the redshift of the corresponding burst. Red
 	crosses indicate GRBs without a measured redshift and arrows indicate bursts
@@ -813,30 +822,30 @@ Based on the sample criteria specified in Sect. \ref{samplecrit}, a total of 158
 bursts have triggered \textit{Swift} in the period since the commissioning of
 VLT/X-shooter. This sample constitutes the \textit{statistical sample} from
 which we will derive statistical properties of the GRB population. The redshift
-completeness of the full statistical sample is 60 per cent. We return to the
-question of redshift completeness in Sect. \ref{redshift}. From this sample,
-90 GRBs have been spectroscopically followed up with X-shooter. In order to
-assess whether the subset of bursts followed up are representative of the
-underlying GRB parent population, we compare intrinsic properties of GRBs in our
-sample to GRBs in the full sample followed up by \textit{Swift}. We show the
-comparison between the BAT (15-150 keV) fluence, the XRT flux (0.3 - 10 keV) at
-11 hours, and the intrinsic X-ray derived equivalent hydrogen column density,
+completeness of the full statistical sample is 61 per cent. We return to the
+question of redshift completeness in Sect. \ref{redshift}. From this sample, 91
+GRBs have been spectroscopically followed up with X-shooter. In order to assess
+whether the subset of bursts followed up are representative of the underlying
+GRB parent population, we compare intrinsic properties of GRBs in our sample to
+GRBs in the full sample followed up by \textit{Swift}. We show the comparison
+between the BAT (15 -- 150 keV) fluence, the XRT flux (0.3 -- 10 keV) at 11
+hours, and the intrinsic X-ray derived equivalent hydrogen column density,
 $N_{\mathrm{HI,X}}$, in Fig. \ref{fig:swift_complete}. For the latter, we can
 only use values of $N_{\mathrm{HI,X}}$ derived for bursts with a measured
-redshift, excluding $\sim 75$ per cent of the bursts. We return to this last
-point in Sect. \ref{darkness}.
+redshift, excluding $\sim 75$ per cent of the full \swift~sample. We return to
+the last point in Sect. \ref{darkness}.
 
 
 \begin{figure*}
 	\centerline{\includegraphics[width=18cm]{figures/completeness_BAT.pdf}}
 \caption{Comparison between burst properties of all bursts observed with
-	\textit{Swift} (blue), the ones that fullfill the sample criteria specified in
-	Sect. \ref{samplecrit} (green), and the subset that has been observed as part of
-	the statistical sample (red). The left plot shows the fluence in 15-150
-	keV as observed by BAT. The middle panel shows the 0.3 - 10 keV flux, 11 hours
-	after the bursts as measured by XRT. In the right most panel, we show
-	$N_{\mathrm{HI,X}}$ based on the XRT spectrum \citep{Evans2009}.}
-\label{fig:swift_complete}
+	\textit{Swift} (blue), the statistical sample that fullfill the criteria
+	specified in Sect. \ref{samplecrit} (green), and the subset that has been
+	observed as part of the statistical sample (red). The left plot shows the
+	fluence in 15-150 keV as observed by BAT. The middle panel shows the 0.3 - 10
+	keV flux, 11 hours after the bursts as measured by XRT. In the right most
+	panel, we show $N_{\mathrm{HI,X}}$ based on the XRT spectrum
+	\citep{Evans2009}.} \label{fig:swift_complete}
 \end{figure*}
 
 Using the observational characteristics of the 1322 bursts observed by
@@ -849,12 +858,13 @@ database\footnote{\url{http://swift.gsfc.nasa.gov/archive/grb\_table/}}$^,$\foot
 
 For each of the samples, we calculate the median, 14th, and 86th percentiles of
 each of the distributions, which can be used as point estimates for the
-population distribution. These are provided in Table.
+population distribution. These are provided in Table
 \ref{tab:sample_properties}. It can be seen from the values that the three
 samples have very similar distributions in terms of the point estimates chosen.
 This suggests that our selection criteria are unbiased compared to the
 \textit{Swift}-sample and that additionally, the follow-up effort conserves the
-distributions of the intrinsic GRB properties (except perhaps for $N_{\mathrm{HI,X}}$, see Sect. \ref{darkness}). 
+distributions of the intrinsic GRB properties (except perhaps for
+$N_{\mathrm{HI,X}}$, see Sect. \ref{darkness}).
 
 Additionally, using a 2-sided Kolmogorov-Smirnov test (KS-test), we can assess
 the degree to which the null, that the two distributions are drawn from the same
@@ -876,20 +886,23 @@ from the same underlying distribution.
 \end{figure}
 
 We therefore conclude that the statistics of the sample presented here,
-conserves the intrinsic properties of the GRBs in the full \textit{Swift}
-sample. At least in terms of BAT fluence and X-ray afterglow flux at 11 hours.
+conserves the intrinsic properties of the GRBs in the full \textit{Swift} sample
+- at least in terms of BAT fluence and X-ray flux at 11 hours.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Properties of rejected triggers} \label{badbursts}
+\subsubsection{Properties of rejected triggers} \label{badbursts}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Out of the 158 bursts in the statistical sample, 32($\sim$ 20 per cent) have not
-been observed due to reasons unrelated to the GRB or afterglow properties. The
-reasons include unavailability of the telescope due to technical maintenance
+Out of the 158 bursts in the statistical sample, 33( $\sim$ 20 per cent) have
+not been observed due to reasons unrelated to the GRB or afterglow properties.
+The reasons include unavailability of the telescope due to technical maintenance
 (e.g., mirror re-coating), a visitor rejecting the TOO trigger, or bad weather.
 Because this cut is unrelated to the GRB properties, it will not change the
 statistical properties of the full sample. Removing all these bursts,
-drastically improves the redshift completeness from 60 per cent to 83 per cent.
+drastically improves the redshift completeness from 61 per cent to 84 per cent.
+The remaining burst not followed up already had redshift from other instruments
+or were very faint and thus observations unlikely to yield anything. In the
+remainder of the text, we consider the 125 bursts our statistical sample.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{On the redshift distribution of GRBs} \label{redshift}
@@ -898,15 +911,17 @@ drastically improves the redshift completeness from 60 per cent to 83 per cent.
 One of the objectives of our follow-up campaign is to measure the redshift
 distribution for a well-defined, observationally unbiased and statistically useful
 sample of GRBs. The imposed selection criteria (see Sect. \ref{samplecrit})
-ensure that the GRBs entering our homogeneous sample fairly represent  the
+ensure that the GRBs entering our homogeneous sample, fairly represent the
 underlying population. The redshift distribution of such a sample holds valuable
 information about the occurrence of GRBs through cosmic time
 \citep{Jakobsson2012, Perley2016a}.
 
+\input{tables/redshift_comparison}
+
 In Fig.~\ref{fig:z} we show the redshift distribution of all  the observed GRBs.
 In the top panel we show a histogram for the full sample and the statistical
 sample and in the main panel, we show the redshifts of the individual bursts as
-a function of GRB luminosity in the observed 15-150 keV band. To calculate the
+a function of GRB luminosity in the observed 15 -- 150 keV band. To calculate the
 luminosity, $L_{\mathrm{BAT}}$, we follow a similar procedure as
 \citet{Lien2016} and define $L_{\mathrm{BAT}} = F_{\gamma}\,4
 \pi\,d_L^2\,(1+z)^{-1}$, where $F_{\gamma}$ is the observed BAT fluence in the
@@ -924,36 +939,23 @@ is almost an order of magnitude brighter at $z=2$ than at $z=1$. At $z\geq4$
 we are only able to observe GRBs that are $\sim$ hundred times brighter than the
 faintest bursts at $z=1$ and below.
 
-We find the following mean and median and 14th and 86th percentiles for the
-redshift distribution. First for the statistical sample:
-$z_{\mathrm{avg}}=1.99$, $z_{\mathrm{med}}=1.64$, $z_{14\%}=0.60$ and
-$z_{86\%}=3.39$. For all GRBs observed with X-shooter we find
-$z_{\mathrm{avg}}=1.90$, $z_{\mathrm{med}}=1.52$, $z_{14\%}=0.55$ and
-$z_{86\%}=3.36$. For comparison, the corresponding values found in
-\citet{Fynbo2009} are z = 2.2 for both the mean and the median.
+We compare the point estimates for the redshift distributions of previous
+complete samples of GRBs in Tab. \ref{tab:redshift_comparison}. We see that when
+we compare to other complete samples, the XS-GRB presented here has the lowest
+average redshift. However, the other samples also exhibit a large spread in the
+redshift distributions. A 2-sided KS test confirms that there is only mild
+evidence against the Fynbo09 (p-value = 0.05) and TOUGH (p-value = 0.05) samples
+being drawn from the same parent sample, while XS-GRB is consistent with the
+SHOALS (p-value = 0.08) and BAT6 (p-value = 0.86) samples.
 
-%Because the redshift completeness of our statistical sample is 60 per cent,
-%making inference of the \textit{true} redshift distribution of GRBs on this sample
-%is difficult. A large fraction of the bursts for which we were unable to
-%secure a redshift are missing due to reasons unrelated to the GRBs (see Sect.
-%\ref{badbursts}). By trimming away the 33 bursts that can be rejected due to
-%telescope availability, the redshift completeness increases to 83 per cent.
-%
-%As is shown in Sect. \ref{timing}, the redshift completeness
-%decreases with increasing follow-up delay, we can additionally increase the
-%redshift completeness by imposing cuts on the follow-up delay. Our ability to
-%rapidly follow up a burst is also not dependent on the burst properties and
-%therefore we can additionally cut delays longer than 24 hours (all burst in the
-%sample are in principle observable within 24 hours). \todo{Unfinished section}
-
-Because the redshift completeness of our statistical sample is 60 per cent,
+Because the redshift completeness of our statistical sample is 84 per cent,
 making inference of the \textit{true} redshift distribution of GRBs based on
-this sample is difficult. The biases introduced in the measured redshift
+this sample is impossible. The biases introduced in the measured redshift
 distribution by our increased ability to secure redshift of optically brighter
 bursts has been investigated by \citet{Turpin2016} which find that we
 systematically find redshift for longer GRBs. Additionally only the brightest
 GRBs are seen above redshift $z \gtrsim 1$ as shown in Fig. \ref{fig:z}. As
-described in detail in \citet{Perley2016b}, bursts for which the redshift is
+described in detail in \citet{Hjorth2012} and \citet{Perley2016b}, bursts for which the redshift is
 measured from the afterglow are systematically found for host galaxies with a
 lower luminosity than burst for which the redshift is measured from the host
 galaxy. Only a few GRBs hosted in galaxies, with stellar masses more than
@@ -975,7 +977,9 @@ continuum.
 	BAT sensitivity limit described in the text. The estimated epoch of
 	reionization is shown by the black dot-dashed line, with the uncertainty shown
 	as the black dashed lines, from the most recent measurement by
-	\citet{Planck2015}.} \label{fig:z}
+	\citet{Planck2015}. On the top of the plot is shown the marginalization of the
+	redshift. Again the blue histogram represents the bursts than enter our sample
+	and the white histogram the full GRB population. } \label{fig:z}
 \end{figure*}
 
 
@@ -987,23 +991,27 @@ continuum.
 A large fraction of all GRBs exhibit no detectable or very faint optical
 afterglows \citep{Groot1998, Djorgovski2001, Fynbo2001}. The degree of optical
 extinction relative to the X-ray brightness has been parametrized in term of
-their optical darkness,  $\beta_{OX}$\citep{Jakobsson2004, Rol2005,
+their optical darkness, $\beta_{OX}$ \citep{Jakobsson2004, Rol2005,
 	VanderHorst2009}. The X-ray properties of such bursts have previously been
-investigated \citep{DePasquale2003, Fynbo2009, Melandri2012}. There are some
+investigated \citep{DePasquale2003, Fynbo2009, Melandri2012} and there are some
 indications that dark bursts have somewhat higher X-ray luminosity and
-\nhx~compared to the optically bright bursts. This indicates along with
-investigations of host galaxy properties \citep{Greiner2011, Kruhler2011,
-	Hjorth2012, Perley2016b}, that the extinction of the optical afterglow is
-primarily driven by the presence of dust in the host galaxy.
+$N_{\mathrm{HI, X}}$ compared to the optically bright bursts. This indicates
+along with investigations of host galaxy properties \citep{Greiner2011,
+	Kruhler2011, Hjorth2012, Perley2016b}, that the extinction of the optical
+afterglow is primarily driven by the presence of dust in the host galaxy.
+\citet{Hjorth2012} find that systems with no optical afterglow have higher
+$N_{\mathrm{HI, X}}$, irrespective of the nature of the host -- which however
+also turn out to be redder.
 
 For all bursts with follow-up within 100 hours we calculate the
 "darkness"-parameter, $\beta_{OX}$ \citep{Jakobsson2004}. This requires the
 simultaneous measurement of the X-ray flux density and the optical flux density
-which is in practice never possible. As a proxy, we use the measured acquisition
-camera magnitude reported in Tab. \ref{tab:sample_overview} to get the optical
-flux density at the beginning of the spectroscopic integration. Because we know
-the delay between the follow-up and the \textit{Swift} trigger, we can use the
-measured XRT lightcurve \citep{Evans2007,
+which is in practice is possible, but in reality extremely rarely available. As
+a proxy, we use the measured acquisition camera magnitude reported in Table
+\ref{tab:sample_overview} to get the optical flux density at the beginning of
+the spectroscopic integration. Because we know the delay between the follow-up
+and the \textit{Swift} trigger, we can use the measured XRT lightcurve
+\citep{Evans2007,
 	Evans2009}\footnote{http://www.swift.ac.uk/xrt\_curves/trigger\_numer/flux.qdp}
 to infer the corresponding X-ray flux density at the time of the optical
 observation. This is done by either linearly interpolating between temporally
@@ -1039,8 +1047,8 @@ no strong evidence for a discrepancy.
 \end{figure}
 
 It is clear, however, that the fraction of dark bursts for which we have
-measured the redshift is lower than the intrinsic dark burst fraction. To
-measure the redshift we either need a detected afterglow to obtain a spectrum or
+measured redshifts for is lower than the intrinsic dark burst fraction. To
+measure a redshift, we either need a detected afterglow to obtain a spectrum or
 to locate the host galaxy and determine the redshift from there. It is more
 difficult to correctly associate a galaxy with a burst when there is no detected
 optical afterglow and hence a correct redshift measurement is more difficult to
@@ -1057,32 +1065,27 @@ the number of bursts without a detected optical afterglow is $\sim$ 27 per cent,
 close to the upper limit on the fraction of dark bursts found in a complete
 sample with a very high degree of redshift completeness \citep{Melandri2012}. Of
 the bursts for which follow-up has actually been attempted, this number is
-$\sim$ 18 per cent, confirming that we are indeed biased against bursts without a
-detected optical afterglow in the spectroscopic sample.
+$\sim$ 18 per cent, confirming that we are indeed biased against bursts without
+a detected optical afterglow in the spectroscopic sample. Since \textit{all}
+GRBs should have an optical afterglow, the presence of an optical afterglow is
+more a statement about the sensitivity than optical properties of the bursts.
 
-
-Despite that the fraction of dark bursts is lower in the observed sample,
+Regardless that the fraction of dark bursts is lower in the observed sample,
 compared to the statistical sample, the X-ray properties not differ
-significantly, as shown in Sect. \ref{completeness}. If the tendency for dark
-bursts to have a higher \nhx~is real, that the decreased fraction of dark bursts
-does not alter the observed prompt X-ray brightness distribution, potentially
-reflects the independence of the X-ray brightness on the density of the
-circumburst medium \citep{Freedman2001, Berger2003, Nysewander2009}, if the
-measured \nhx is primarily driven by a high column local to the burst. Because we
-only use values of \nhx~in the comparison for which the GRB has a measured
-redshift, this measure is likely biased toward optically brighter bursts.
-
-Since \textit{all} GRBs should have an optical afterglow, the presence of an
-optical afterglow is more a statement about the sensitivity than optical
-properties of the bursts. 
-
-
-This is despite spectroscopic follow-up only being carried out in cases where
-either a detectable optical afterglow or a clear counterpart are seen, which
-naively should be biased against dark bursts occurring in more obscured
-galaxies, which is shown to exhibit different galactic properties
-\citep{Perley2009, Kruhler2011, Rossi2012, Perley2013b, Perley2015b}.
-
+significantly, as shown in Sect. \ref{completeness}. This is despite
+spectroscopic follow-up only being carried out in cases where either a
+detectable optical afterglow or a clear counterpart are seen, which naively
+should be biased against dark bursts occurring in more obscured galaxies, which
+is shown to exhibit different galactic properties \citep{Perley2009,
+	Kruhler2011, Rossi2012, Perley2013b, Perley2015b}. If the tendency for dark
+bursts to have a higher $N_{\mathrm{HI, X}}$ is real, that the decreased
+fraction of dark bursts does not alter the observed prompt X-ray brightness
+distribution, potentially reflects the independence of the X-ray brightness on
+the density of the circumburst medium \citep{Freedman2001, Berger2003,
+	Nysewander2009}, if the measured $N_{\mathrm{HI, X}}$ is primarily driven by a
+metal column local to the burst. Because we only use values for $N_{\mathrm{HI,
+		X}}$ in the comparison for which the GRB has a measured redshift, this measure
+is likely biased toward optically brighter bursts.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Hydrogen column densities}
@@ -1121,14 +1124,15 @@ Table~\ref{tab:HI}.
 
 \input{tables/HI_columns.tex}
 
-In the compilation of HI measurements towards GRBs in Tanvir et al. (submitted) %\citet{Tanvir2017} 
-there are 81 published HI values. We here provide 39 new HI
-column density measurements, i.e. an increase of the number of optically derived
-hydrogen column densities of $\sim$ 50 per cent. We compare the median, the 14th,
-and 86th percentiles of the two distributions where the sample presented here
-has $21.8_{-0.8}^{+0.3}$ and the rest of the literature values has
-$21.5_{-1.5}^{+0.4}$. We see that the two distribution has a large degree of
-overlap due to the large width of the distributions, but we find a slightly
+In the compilation of $N_{\mathrm{HI}}$ measurements towards GRBs in Tanvir et
+al. (submitted) %\citet{Tanvir2017}
+there are 81 published $N_{\mathrm{HI}}$ values. We here provide 39 new neutral
+hydrogen column density measurements -- an increase of the number of optically
+derived hydrogen column densities of $\sim$ 50 per cent. We compare the median,
+the 14th, and 86th percentiles of the two distributions. The sample presented
+has a \nh~$= 21.8_{-0.8}^{+0.3}$ and the rest of the literature values has
+\nh~$= 21.5_{-1.5}^{+0.4}$. We see that the two distribution has a large degree
+of overlap due to the large width of the distributions, but we find a slightly
 higher median value for the new sample presented here. A 2-sided KS test gets us
 a p-value of p = 0.006, meaning relatively large evidence against the null that
 the two samples are drawn from the same underlying distribution. Because the
@@ -1170,30 +1174,29 @@ spectroscopic observations of afterglows and host galaxies of GRBs detected by
 X-shooter, but over the years the project continued in open time and the team
 was opened to include any researchers interested in contributing to this effort.
 
-The sample we present here include spectroscopic observations of 90 systems
-fulfilling our sample criteria including 17 spectra that are late time
+The sample presented here include spectroscopic observations of 91 systems
+fulfilling our sample criteria including 18 spectra that are late time
 observations of the underlying host galaxies. All spectra have been made
 publicly available in the reduced form used in this paper.
 
 Our sample serves the purpose to further characterize the environments of GRBs
 that was also much advanced by the previous surveys based primarily on
-lower-resolution spectographs. The most striking result found is that GRBs
-typically are located behind very large column densities of neutral hydrogen.
-Only after observing more than 12000 damped Lyman-$\alpha$ absorbers (DLAs)
-towards about 10$^5$ quasars have a handful such systems with
-$\log({N_\mathrm{HI}/\mathrm{cm^{-2}}}) > 22$ been identified \citep[e.g., five
-in][]{Noterdaeme2012b}. Long GRB afterglow spectra, by contrast, reveal such
-systems in the majority of cases \citep[][and this work]{Jakobsson2006b,
-	Fynbo2009, Cucchiara2015}.  With afterglow spectroscopy (throughout the
-electromagnetic spectrum from X-rays to the sub-mm) we hence characterize the
-properties of star-forming galaxies over cosmic history in terms of redshifts,
-metallicities, molecular contents, ISM temperatures, UV-flux densities,
-extinction curves, etc.  A number of independent papers have been published or
-submitted for publication focusing on many of these specific issues of our
-sample such as extinction curves \citep[][see also \citealt{Fynbo2014,
+lower-resolution spectographs. Only after observing more than 12000 damped
+Lyman-$\alpha$ absorbers (DLAs) towards about 10$^5$ quasars have a handful such
+systems with $\log({N_\mathrm{HI}/\mathrm{cm^{-2}}}) > 22$ been identified
+\citep[e.g., five in][]{Noterdaeme2012b}. Long GRB afterglow spectra, by
+contrast, reveal such systems in the majority of cases \citep[][and this
+work]{Jakobsson2006b, Fynbo2009, Cucchiara2015}.  With afterglow spectroscopy
+(throughout the electromagnetic spectrum from X-rays to the sub-mm) we hence
+characterize the properties of star-forming galaxies over cosmic history in
+terms of redshifts, metallicities, molecular contents, ISM temperatures, UV-flux
+densities, extinction curves, etc.  A number of independent papers have been
+published or submitted for publication focusing on many of these specific issues
+of our sample such as extinction curves \citep[][see also \citealt{Fynbo2014,
 	Heintz2017}]{Japelj2015, Zafar17}, emission lines from the underlying host
 galaxies \citep{Kruhler2015}, the frequency of intervening \mgii~ absorbers
-\citep{Christensen2017}, and escape of ionizing radiation (Tanvir et al., submitted). A number of additional companion papers are also planned,
+\citep{Christensen2017}, and escape of ionizing radiation (Tanvir et al.,
+submitted). A number of additional companion papers are also planned,
 investigating the detailed properties of the sample presented here, including
 equivalent width distributions (de Ugarte Postigo et al., in preparation),
 metallicities and kinematics (Th{\"o}ne et al., in preparation), high ionization
@@ -1209,28 +1212,29 @@ GRB afterglow spectrum (Selsing et al., in preparation).
 %bright "short" GRBs", but to the degree that \textit{Swift} is complete, we can
 %test if the sample presented here is complete.
 
-It seems important to end this paper by stressing that the potential of using
-GRB sightlines as probes is far from fully harvested. The sample of sightlines
-probed by our spectra are not representative for all GRB sightlines as we have
-shown and consistent with earlier findings from samples based on low-resolution
-spectroscopy \citep[e.g.,][]{Fynbo2009} and from studies of complete samples of
-GRB host galaxies \citep{Hjorth2012, Covino2013, Perley2016}. \cite{Kruhler2013}
-convincingly argue, that very rich sightlines like that probed by the remarkable
-GRB~080607 \citep{Prochaska2009} are probably significantly more frequent than
-in the sightlines sampled by our spectra. However, with current instrumentation
-these sightlines are out of reach except under very fortunate circumstances as
-in the case of GRB~080607 when the afterglow could be observed only a few
-minutes after the burst with a 10-m class telescope. Observations of such
-sightlines with X-shooter-like spectrographs on the next generation of 20--40-m
-telescopes is likely to be very rewarding.
+The potential of using GRB sightlines as probes is far from fully harvested. The
+sample of sightlines probed by our spectra are not representative for all GRB
+sightlines as we have shown and consistent with earlier findings from samples
+based on low-resolution spectroscopy \citep[e.g.,][]{Fynbo2009} and from studies
+of complete samples of GRB host galaxies \citep{Hjorth2012, Covino2013,
+	Perley2016}. \cite{Kruhler2013} argue, that very rich sightlines like that
+probed by the remarkable GRB~080607 \citep{Prochaska2009} are probably
+significantly more frequent than in the sightlines sampled by our spectra.
+However, with current instrumentation these sightlines are out of reach except
+under very fortunate circumstances as in the case of GRB~080607 when the
+afterglow could be observed only a few minutes after the burst with a 10-m class
+telescope. Observations of such sightlines with X-shooter-like spectrographs on
+the next generation of 20--40-m telescopes is likely to be very rewarding, given
+that the a suitable GRB detector will be online.
 
 \begin{acknowledgements}
 	*** We should add an acknowledgment to Neil Gehrels here ***. JPUF, BMJ and DX
-acknowledge support from the ERC-StG grant EGGS-278202.  The Dark Cosmology
-Centre is funded by the Danish National Research Foundation.  TK acknowledges
-support by the European Commission under the Marie Curie Intra-European
-Fellowship Programme in FP7.  AdUP acknowledges support by the European
-Commission under the Marie Curie Career Integration Grant programme
+acknowledge support from the ERC-StG grant EGGS-278202. The Dark Cosmology
+Centre were funded by the Danish National Research Foundation. This work was
+supported by a VILLUM FONDEN Investigator grant to JH (project number 16599).
+TK acknowledges support by the European Commission under the Marie Curie
+Intra-European Fellowship Programme in FP7.  AdUP acknowledges support by the
+European Commission under the Marie Curie Career Integration Grant programme
 (FP7-PEOPLE-2012-CIG 322307).  This work made use of data supplied by the UK
 {\it Swift} Science Data Centre at the University of Leicester. JJ acknowledges
 support from NOVA and NWO-FAPESP grant for advanced instrumentation in
@@ -2314,19 +2318,56 @@ securely sets this as the redshift of the GRB. Additionally, two
 
 \subsection{GRB~150206A (z = 2.087)}	
 
-
+This spectrum has previously been used to form the basis for GCN
+\#17420\footnote{\url{http://gcn.gsfc.nasa.gov/other/17420.gcn3}}, but it is not
+published in the refereed literature. Due to the short visibility of this burst,
+it does not enter into the statistical sample. Beginning in twilight,
+$4\times600$ s integration time contains a weak/moderate S/N GRB afterglow
+continuum throughout the X-shooter spectral coverage, down to $\sim$ 3750 \AA.
+In the continuum are absorption features, which we identify as due to metal
+lines from \znii, \feii, and \mgii. Additionally, \lya-absorption is seen at the
+end of the trace. The spectral position of the lines means that this GRB is at
+$z = 2.087$. From the \lya~trough, we infer \nh~$=21.7 \pm 0.4$. The afterglow
+continuum appears depressed in the blue end of the spectrum, suggestion dust
+extinction in the host.
 
 \subsection{GRB~150301B (z = 1.517)}	
 
+This spectrum has already been used to inform GCN
+\#17523\footnote{\url{http://gcn.gsfc.nasa.gov/other/17523.gcn3}}, but it is not
+used elsewhere. Starting 5.1 hours after the BAT trigger, this spectrum is based
+on $6 \times 600$ s spectroscopic integration. The GRB afterglow continuum is
+well detected across the entire spectral coverage of X-shooter at moderate S/N.
+Imprinted on the continuum are absorption features which we identify as being
+caused by \SIii, \civ, \alii, \feii, \mgii, and \mgi - all at a similar redshift
+of $z = 1.517$, which is likely the redshift of the GRB.
 
+\subsection{GRB~150403A (z = 2.057)}	
 
-\subsection{GRB~150403A (z = 2.06)}	
-
-
+This spectrum has previously been used to form the basis for GCN
+\#17672\footnote{\url{http://gcn.gsfc.nasa.gov/other/17672.gcn3}}. $4 \times
+600$ s spectroscopic integration, starting 10 hours after the GRB trigger,
+captures a bright GRB afterglow. A broad absorption trough centered at $\sim$
+3700 \AA due to \lya signals the redshift of the GRB, which is refined to $z =
+2.057$ based on the additional detection of metal absorption lines. We readily
+identify features associated with \sii, \SIiv, \oi, \SIii, \SIii$^*$, \cii,
+\cii$^*$, \civ, \alii, \feii, \feii$^*$, \mni, \mgii, and \mgi~in the host of
+the GRB. An intervening \civ absorber is additionally detected at $z=1.76$. From
+the absorption trough due to \lya, we infer the amount of neutral hydrogen in
+the host along the line of sight to be \nh~$=21.8 \pm 0.2$.
 
 \subsection{GRB~150423A (z = 1.394)}	
 
-
+The gross content of these observations have previously been presented in GCN
+\#17755\footnote{\url{http://gcn.gsfc.nasa.gov/other/17755.gcn3}}, but is not
+published as part of any refereed paper. This bona-fide short GRB (T90 (15-350
+keV ) = is $ 0.22 \pm 0.03$ s \citep{Lien2016}) was observed in RRM mode and
+spectroscopic integration started after only 22 minutes. A series of stare mode
+observations, increasing in exposure time, and ending with a nodding sequence
+totals $\sim$ 5000 s are combined to form this spectrum. A faint, almost
+featureless continuum is detected at low S/N all the way to the bluest part of
+the spectrum. An absorption doublet is detected in the VIS arm against the GRB
+afterglow continuum, which we identify as \mgii~at $z = 1.394$.
 
 \subsection{GRB~150428A (z = na)}	
 
@@ -2462,7 +2503,7 @@ detected bluewards of 600 nm, possible signifying some anomalous form of
 extinction.
 
 
-\subsection{GRB~161023A (z = 2.710)}	
+\subsection{GRB~161023A (z = 2.710)}	 \label{GRB161023A}
 
 
 \subsection{GRB~161117A (z = 1.549)}	

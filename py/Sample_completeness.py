@@ -36,7 +36,15 @@ def filt_nan(input_array):
             holder.append(np.nan)
 
     return np.array(holder)
+fbo = [3.2425, 2.8983, 1.2356, 3.9693, 1.38, 1.7102, 2.6147, 0.8278, 3.3467, 2.1995, 3.5328, 2.3, 4.0559, 3.9133, 1.5026, 2.1, 3.2213, 3.0749, 0.1257, 3.424, 1.92, 2.7108, 0.5428, 1.8836, 5.4636, 1.2622, 0.3463, 0.7578, 3.4344, 1.3145, 2.3521, 1.4965, 0.8397, 0.9705, 2.309, 2.0394, 3.6298, 2.4541, 2.1462, 5.2, 2.6918, 0.8227, 1.3308, 2.6419, 2.4274, 0.9382, 1.9492, 1.5119, 1.1014, 1.5457, 2.6892, 1.4171, 1.6403, 3.0368, 1.2322, 0.8454, 2.5914, 2.2045, 1.5042, 3.3604, 2.3739, 6.7, 0.6887, 1.6919, 0.7029, 3.6856, 3.2086, 1.5471, 2.9538, 1.0301, 2.433]
 
+tough = [1.95, 1.4436, 2.8983, 2.7, 0.6528, 5.2, 0.606, 3.96855, 1.38, 2.5043, 2.61469, 1.434, 0.8278, 6.295, 3.3467, 2.5273, 2.1992, 2.4296, 1.059, 0.9364, 0.481, 3.5328, 0.03351, 5.11, 3.2213, 2.1357, 3.773, 3.0749, 0.125, 3.424, 1.92, 2.7108, 1.532, 0.5428, 1.9229, 1.8836, 0.937, 5.4636, 1.2622, 0.3463, 0.7578, 3.4344, 1.3145, 2.6208, 2.3521, 2.3384, 1.49594, 0.8397, 1.9591, 2.309, 2.0394, 3.6298, 2.4541, 4.406, 0.0889, 0.787, 2.17, 2.0858]
+
+bat = [1.44, 2.9, 0.65, 0.61, 1.71, 2.2, 4.05, 3.91, 3.5, 0.13, 1.92, 1.88, 0.94, 5.47, 1.26, 0.35, 1.31, 2.09, 1.5, 1.35, 2.15, 0.82, 1.33, 0.94, 1.95, 1.1, 0.77, 1.4, 2.69, 1.64, 3.04, 2.59, 2.2, 0.69, 0.53, 2.51, 2.1, 2.26, 2.77, 1.55, 0.54, 3, 2.45, 1.24, 0.97, 1.71, 0.49, 1.06, 0.54, 2.106, 2.22, 1.613]
+
+bat2 = [1.44, 2.9, 0.65, 0.61, 1.71, 2.2, 4.05, 3.91, 3.5, 0.13, 1.92, 1.88, 0.94, 5.47, 1.26, 0.35, 1.31, 2.09, 1.5, 4, 1.35, 2.15, 0.82, 1.33, 0.94, 1.95, 1.1, 0.77, 1.4, 2.69, 1.64, 3.04, 2.59, 2.2, 0.69, 0.53, 2.51, 2.1, 2.26, 2.77, 1.55, 4, 0.54, 3.5, 3, 2.45, 1.24, 0.97, 1.71, 0.49, 1.06, 0.54, 2.106, 2.22, 1.613]
+
+sho = [1.95, 1.4436, 3.2425, 2.8983, 0.606, 3.9693, 1.7102, 2.6147, 1.434, 6.295, 4.9, 2.1995, 2.4296, 1.059, 3.5328, 0.785, 2.3393, 3.9122, 0.0331, 1.559, 1.5026, 5.11, 3.2213, 3.0749, 3.424, 2.7108, 1.532, 0.5428, 1.9229, 1.8836, 0.937, 5.467, 1.2622, 0.3463, 0.7578, 3.4344, 1.3145, 2.253, 2.088, 2.3521, 2.3384, 1.6295, 1.4959, 0.84, 2.0627, 1.9588, 0.82, 2.0865, 3.6298, 1.35, 2.1462, 2.452, 0.8227, 2.72, 2.0858, 2.6419, 2.4274, 2.0265, 0.9382, 1.78, 1.0301, 2.433, 1.1014, 0.767, 2.6892, 1.6403, 3.0368, 0.8454, 2.5914, 2.2045, 1.5042, 3.3604, 0.6887, 1.6919, 1.967, 3.8479, 0.9787, 2.58, 2.512, 2.0631, 2.26, 2.77, 3.375, 0.345, 1.608, 0.544, 4.109, 3.85, 1.266, 0.54, 2.452, 0.696, 1.24, 0.971, 2.752, 3.076, 0.49, 1.0633, 1.398, 0.542, 2.106, 1.44, 2.22, 2.09, 1.728]
 
 def main():
     """
@@ -48,8 +56,35 @@ def main():
     # burst_table = np.array([[ii, kk, ll, pp, tt] for ii, kk, ll, pp, tt in np.genfromtxt("../data/burst_list.dat", dtype=None)])
     burst_table = pd.read_csv("../data/Burst list - master.csv")
 
-    name, z, observed, OA, BAT, XRT, HI = burst_table["GRB"].values, burst_table["Redshift"].values, burst_table["Observed"].values, burst_table["Afterglow"].values, burst_table["BAT Fluence (15-150 keV) [10^-7 erg/cm^2]"].values.astype("float"), burst_table["XRT 11 Hour Flux (0.3-10 keV) [10^-11 erg/cm^2/s]"].values.astype("float"), burst_table["XRT Column Density (NH) [10^21 cm^-2]"].values.astype("float")
+    name, z, observed, OA, BAT, XRT, HI, pure = burst_table["GRB"].values, burst_table["Redshift"].values, burst_table["Observed"].values, burst_table["Afterglow"].values, burst_table["BAT Fluence (15-150 keV) [10^-7 erg/cm^2]"].values.astype("float"), burst_table["XRT 11 Hour Flux (0.3-10 keV) [10^-11 erg/cm^2/s]"].values.astype("float"), burst_table["XRT Column Density (NH) [10^21 cm^-2]"].values.astype("float"), burst_table["In pure sample"].values.astype("string")
 
+    # print(pure == "Yes")
+    l, m, h = np.nanpercentile(filt_nan(z[pure == "Yes"]), (14, 50, 86))
+    mm = np.nanmean(filt_nan(z[pure == "Yes"]))
+    print(mm, m, l - m, h - m)
+
+    l, m, h = np.nanpercentile(fbo, (14, 50, 86))
+    mm = np.nanmean(fbo)
+    print(mm, m, l - m, h - m)
+
+    l, m, h = np.nanpercentile(tough, (14, 50, 86))
+    mm = np.nanmean(tough)
+    print(mm, m, l - m, h - m)
+
+
+    l, m, h = np.nanpercentile(bat2, (14, 50, 86))
+    mm = np.nanmean(bat2)
+    print(mm, m, l - m, h - m)
+
+    l, m, h = np.nanpercentile(sho, (14, 50, 86))
+    mm = np.nanmean(sho)
+    print(mm, m, l - m, h - m)
+
+    print(stats.ks_2samp(sho, filt_nan(z[pure == "Yes"])[~np.isnan(filt_nan(z[pure == "Yes"]))]))
+    print(stats.ks_2samp(fbo, filt_nan(z[pure == "Yes"])[~np.isnan(filt_nan(z[pure == "Yes"]))]))
+    print(stats.ks_2samp(tough, filt_nan(z[pure == "Yes"])[~np.isnan(filt_nan(z[pure == "Yes"]))]))
+    print(stats.ks_2samp(bat2, filt_nan(z[pure == "Yes"])[~np.isnan(filt_nan(z[pure == "Yes"]))]))
+    exit()
     BAT_o = BAT[observed == "Yes"]
     XRT_o = XRT[observed == "Yes"]
     HI_o = HI[observed == "Yes"]
@@ -80,9 +115,9 @@ def main():
 
 
     # BAT fluence
-    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Full Swift sample")
-    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Complete sample")
-    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Observed sample")
+    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label=r"\textit{Swift}")
+    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Statistical")
+    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Observed")
     print(len(BAT_c[~np.isnan(BAT_c)]))
     l, m, h = np.percentile(np.log10(1e-7*BAT_c), [16, 50, 84])
     print(m, m - l, h - m)
@@ -101,9 +136,9 @@ def main():
 
 
     # XRT flux
-    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Full Swift sample")
-    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Complete sample")
-    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Observed sample")
+    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label=r"\textit{Swift}")
+    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Statistical")
+    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Observed")
 
 
 
@@ -164,9 +199,9 @@ def main():
     # NHX_o = NHX_o[NHX_o > 10]
 
     # HI column
-    sns.distplot(NHX_s, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Full Swift sample")
-    sns.distplot(NHX_c, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Complete sample")
-    sns.distplot(NHX_o, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed"}, label="Observed sample")
+    sns.distplot(NHX_s, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label=r"\textit{Swift}")
+    sns.distplot(NHX_c, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Statistical")
+    sns.distplot(NHX_o, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Observed")
 
 
 
@@ -208,13 +243,14 @@ def main():
     ax3.set_xlabel(r"$\log(N_{\mathrm{HI, X}}/\mathrm{cm}^{-2})$")
     # ax1.set_ylabel(r"N")
 
-    ax2.set_xlim(-18, -9)
+    ax1.set_xlim(-8, -4)
+    ax2.set_xlim(-18, -10.4)
     # ax1.set_xlim(-10, -3)
     # ax2.set_xlim(-20, -9)
-    ax1.set_ylim(0, 1)
-    ax2.set_ylim(0, 1)
-    ax3.set_ylim(0, 1)
-    ax3.set_xlim(19, 24)
+    ax1.set_ylim(-0.1, 1.1)
+    ax2.set_ylim(-0.1, 1.1)
+    ax3.set_ylim(-0.1, 1.1)
+    ax3.set_xlim(10, 22.9)
     pl.tight_layout()
     ax1.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
 

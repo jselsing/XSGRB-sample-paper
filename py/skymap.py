@@ -48,8 +48,14 @@ def main():
     ebv_map = hp.read_map("../data/lambda_sfd_ebv.fits")
     A_Vmap = ebv_map*3.1
     A_Vmap[A_Vmap >= 0.5] = 0
-    ax = hp.mollview(A_Vmap, max=0.5, title="")
+    ax = hp.mollview(A_Vmap, max=0.5, title="", cbar=False)
     # , cbar=False
+
+
+    fig = pl.gcf()
+    ax = pl.gca()
+    image = ax.get_images()[0]
+    cmap = fig.colorbar(image, ax=ax, location="bottom", pad = 0.02, label=r"$A_V$", shrink=0.5)
     hp.graticule()
 
     # Overplot swift positions

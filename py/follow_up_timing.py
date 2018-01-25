@@ -13,12 +13,12 @@ import numpy as np
 import matplotlib as mpl
 from matplotlib.ticker import FormatStrFormatter
 params = {
-   'axes.labelsize': 12,
-   'font.size': 12,
-   'legend.fontsize': 12,
-   'xtick.labelsize': 12,
-   'ytick.labelsize': 12,
-   'text.usetex': False,
+   'axes.labelsize': 15,
+   'font.size': 15,
+   'legend.fontsize': 15,
+   'xtick.labelsize': 15,
+   'ytick.labelsize': 15,
+   'text.usetex': True,
    'figure.figsize': [6, 6]
    }
 mpl.rcParams.update(params)
@@ -57,7 +57,7 @@ def main():
     sorted_z = z[delay_sort]
     print(len(sorted_z))
     print(sorted_z)
-    exit()
+    # exit()
     fractional_completeness = (1 - np.cumsum(np.isnan(sorted_z).astype("int"))/len(sorted_z))*100
     # print(len(sorted_z), np.sum(np.isnan(sorted_z).astype("int")))
     # print(fractional_completeness[-1])
@@ -67,19 +67,21 @@ def main():
     # Plot
     fig, ax1 = pl.subplots()
 
+
     color = sns.color_palette()[0]
     color_rgb = mpl.colors.colorConverter.to_rgb(color)
     colors = [sns.set_hls_values(color_rgb, l=l) for l in np.linspace(1, 0, 12)]
     cmap = sns.blend_palette(colors, as_cmap=True)
     # cmap = pl.get_cmap("plasma")
     # With redshift and acq mag
-    sc = ax1.scatter(delay[idx_hasz & idx_limits], mag[idx_hasz & idx_limits], c=z[idx_hasz & idx_limits], cmap=cmap, s=25)
+    sc = ax1.scatter(delay[idx_hasz & idx_limits], mag[idx_hasz & idx_limits], c=z[idx_hasz & idx_limits], cmap=cmap, s=35)
+
     # Without redshift and with acq mag
-    ax1.scatter(delay[~idx_hasz & idx_limits], mag[~idx_hasz & idx_limits], color=sns.color_palette()[2], s=35, marker="x")
+    ax1.scatter(delay[~idx_hasz & idx_limits], mag[~idx_hasz & idx_limits], color=sns.color_palette()[2], s=45, marker="x")
     # With redshift, but without acq mag
-    ax1.scatter(delay[idx_hasz & ~idx_limits], magnondet[idx_hasz & ~idx_limits], c=z[idx_hasz & ~idx_limits], cmap=cmap, s=125, marker=u'$\u2193$')
+    ax1.scatter(delay[idx_hasz & ~idx_limits], magnondet[idx_hasz & ~idx_limits], c=z[idx_hasz & ~idx_limits], cmap=cmap, s=175, marker=r'$\downarrow$')
     # No redshift and without acq mag
-    ax1.scatter(delay[~idx_hasz & ~idx_limits], magnondet[~idx_hasz & ~idx_limits], color=sns.color_palette()[2], s=125, marker=u'$\u2193$')
+    ax1.scatter(delay[~idx_hasz & ~idx_limits], magnondet[~idx_hasz & ~idx_limits], color=sns.color_palette()[2], s=175, marker=r'$\downarrow$')
     ax2 = pl.twinx()
     ax2.plot(sorted_delay, fractional_completeness, color=sns.color_palette()[2])
 
@@ -108,21 +110,29 @@ def main():
     ax1.set_xlim((0.05, 110))
     ax2.set_ylim((70, 105))
     ax2.set_yticks([75, 80, 85, 90, 95, 100])
-    ax1.set_xlabel(r"Follow-up delay [hours]")
-    ax1.set_ylabel(r"Acquisition camera magnitude [$R, i$-band]")
-    ax2.set_ylabel(r"Redshift completeness [%]")
+    ax1.set_xlabel(r"Follow-up delay (hours)")
+    ax1.set_ylabel(r"Acquisition camera magnitude ($R, i$-band)")
+    ax2.set_ylabel(r"Redshift completeness (\%)")
 
     ax1.invert_yaxis()
     ax1.semilogx()
-    pl.tight_layout()
+    # pl.tight_layout()
     ax1.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
     #create a colorbar axis
-    cax, kw = mpl.colorbar.make_axes(ax2, location='top')
-    clb = pl.colorbar(sc, orientation="horizontal", cax=cax, ticks=[0, 1, 2, 3, 4, 5, 6])
-    cax, kw = mpl.colorbar.make_axes(ax1, location='top')
-    clb = pl.colorbar(sc, orientation="horizontal", cax=cax, ticks=[0, 1, 2, 3, 4, 5, 6])
-    clb.ax.set_title("Redshift")
-    # pl.show()
+
+    from mpl_toolkits.axes_grid1 import make_axes_locatable
+    divider = make_axes_locatable(ax1)
+    cax = divider.append_axes('top', size='5%', pad=0.05)
+    cbar = fig.colorbar(sc, cax=cax, orientation='horizontal')
+
+    # cbar.ax.tick_params(direction='out')
+    cax.xaxis.set_ticks_position("top")
+    cax.xaxis.set_label_position("top")
+    # cbar.make_axes(location="top")
+    cbar.set_label("Redshift")
+
+
+    pl.tight_layout()
     pl.savefig("../document/figures/timing.pdf", dpi="figure")
     pl.show()
 
