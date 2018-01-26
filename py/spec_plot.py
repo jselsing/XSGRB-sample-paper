@@ -66,8 +66,8 @@ def main():
             lineid_plot.plot_line_ids(wl[cut], flux[cut], linelist[idx]*(1 + pp), linenames[idx], arrow_tip=1.2, box_loc=1.6, ax = ax)
 
 
-        ax.plot(wl[cut][::10], signal.medfilt(error[cut][::10], 11), color=sns.color_palette()[0], alpha=0.9, zorder=1)
-        ax.axhline(1, linestyle="dashed", color=sns.color_palette()[2], alpha=0.9, zorder=10)
+        ax.plot(wl[cut][::10], signal.medfilt(error[cut][::10], 11), color=sns.color_palette("muted")[0], alpha=0.9, zorder=1)
+        ax.axhline(1, linestyle="dashed", color=sns.color_palette("muted")[2], alpha=0.9, zorder=10)
         ax.axhline(0, linestyle="dotted", color="black", alpha=0.7)
         ax.set_xlim(min(wl[cut]), max(wl[cut]))
         ax.set_ylim(-0.2, 2)
@@ -75,10 +75,14 @@ def main():
         # ax.spines['top'].set_visible(False)
         ax.yaxis.set_ticks_position('left')
         ax.xaxis.set_ticks_position('bottom')
+        # ax.axvspan(12600, 12800, color = "grey", alpha = 0.4)
+        ax.axvspan(13500, 14500, color = "grey", alpha = 0.4)
+        ax.axvspan(18000, 19500, color = "grey", alpha = 0.4)
     # Save figure for tex
     # pl.legend()
     ax4.set_ylabel(r"$F_{\lambda}\,\rm{(10^{-17}\,erg\,s^{-1}\,cm^{-2}\, \AA^{-1})}$")
-    ax7.set_xlabel(r"$\rm{Observed\,wavelength\, (\AA)}$")
+    # ax7.set_xlabel(r"$\rm{Observed\,wavelength\,}$ (\AA)")
+    ax7.set_xlabel(r"Observed Wavelength (\AA)")
     pl.tight_layout()
     pl.subplots_adjust(hspace=0.2)
     pl.savefig("../document/figures/GRB121024A.pdf", dpi="figure", rasterize=True)

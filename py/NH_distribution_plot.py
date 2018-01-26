@@ -40,9 +40,9 @@ def main():
     burst_table = pd.read_csv("../data/Burst list - HI columns.csv")
     name, z, NH, NHe, pub = np.array([ii[3:] for ii in burst_table["GRB"].values]), burst_table["z"].values, burst_table["N_H"].values, burst_table["N_H_err"].values, burst_table["Sample"].values
     XSGRB = (pub == "Selsing2017")
-    print(np.sum((~XSGRB).astype("int")))
-    print(len(name))
-    exit()
+    # print(np.sum((~XSGRB).astype("int")))
+    # print(len(name))
+    # exit()
 
 
     g = sns.jointplot(x=Noter_z, y=Noter_NH, kind="hex", stat_func=None, xlim = (1, 7), ylim = (20, 23), marginal_kws = {"kde": False, "norm_hist": True}, label="Noterdaeme et al. 2012b", space=0)
