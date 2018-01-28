@@ -119,6 +119,16 @@ def main():
     f_HI[np.isnan(f_HI)] = 0
 
     # Plot new values
+
+
+    print(stats.pearsonr(HI, betaOX[idx_2]))
+    print(stats.spearmanr(HI, betaOX[idx_2]))
+    print(stats.pointbiserialr(HI, betaOX[idx_2]))
+    print(stats.kendalltau(HI, betaOX[idx_2]))
+    
+    exit()
+
+
     g = sns.JointGrid(x=HI, y=betaOX[idx_2], xlim = (19.5, 23), ylim = (0, 1.3), space=0)
     color = sns.color_palette()[0]
     g = g.plot_marginals(sns.distplot, hist=True, kde=False, norm_hist=True, color=color)
@@ -176,6 +186,9 @@ def main():
 
     # print(stats.ks_2samp(HI, f_HI))
     # print(len(HI))
+
+
+
     print("Above 0.5")
     l, m, h = np.percentile(HI[betaOX[idx_2] >= 0.5], [16, 50, 84])
     print(HI[betaOX[idx_2] >= 0.5])

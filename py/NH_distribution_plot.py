@@ -1,13 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from __future__ import division, print_function
+# Plotting
+import matplotlib; matplotlib.use('TkAgg')
+import matplotlib.pyplot as pl
+import seaborn as sns; sns.set_style('ticks')
+import matplotlib as mpl
 
 from astropy.io import fits
 import pandas as pd
-import matplotlib.pyplot as pl
+# import matplotlib.pyplot as pl
 import healpy as hp
-import seaborn as sns; sns.set_style('ticks')
+# import seaborn as sns; sns.set_style('ticks')
 import numpy as np
 from scipy import stats
 
@@ -18,7 +22,7 @@ params = {
    'legend.fontsize': 10,
    'xtick.labelsize': 10,
    'ytick.labelsize': 10,
-   'text.usetex': False,
+   'text.usetex': True ,
    'figure.figsize': [7.281, 4.5]
    }
 
@@ -44,8 +48,9 @@ def main():
     # print(len(name))
     # exit()
 
-
-    g = sns.jointplot(x=Noter_z, y=Noter_NH, kind="hex", stat_func=None, xlim = (1, 7), ylim = (20, 23), marginal_kws = {"kde": False, "norm_hist": True}, label="Noterdaeme et al. 2012b", space=0)
+    # sns.set_palette("muted")
+    fig, ax1 = pl.subplots()
+    g = sns.jointplot(x=Noter_z, y=Noter_NH, kind="hex", stat_func=None, xlim = (1, 7), ylim = (20, 23), marginal_kws = {"kde": False, "norm_hist": True}, label="Noterdaeme et al. 2012b", space=0, color = "#4C72B0")
 
     # Plot old distribution
     NH_old = NH[~XSGRB]
@@ -66,26 +71,41 @@ def main():
     g.x = 1
     g.y = 1
     g = g.plot_joint(pl.plot, color="#55A868", label="Tanvir et al. 2017")
-    print(stats.ks_2samp(NH_new, NH_old))
-    print(stats.ks_2samp(z_new, z_old))
-    l, m, h = np.percentile(NH_new, [16, 50, 84])
-    print(m, m - l, h - m)
-    l, m, h = np.percentile(NH_old, [16, 50, 84])
-    print(m, m - l, h - m)
-    l, m, h = np.percentile(z_new, [16, 50, 84])
-    print(m, m - l, h - m)
-    l, m, h = np.percentile(z_old, [16, 50, 84])
-    print(m, m - l, h - m)
+    # print(stats.ks_2samp(NH_new, NH_old))
+    # print(stats.ks_2samp(z_new, z_old))
+    # l, m, h = np.percentile(NH_new, [16, 50, 84])
+    # print(m, m - l, h - m)
+    # l, m, h = np.percentile(NH_old, [16, 50, 84])
+    # print(m, m - l, h - m)
+    # l, m, h = np.percentile(z_new, [16, 50, 84])
+    # print(m, m - l, h - m)
+    # l, m, h = np.percentile(z_old, [16, 50, 84])
+    # print(m, m - l, h - m)
 
-    g.set_axis_labels("Redshift", r"log(N$_H$) [cm$^{-2}$]")
+    g.set_axis_labels("Redshift", r"$\log(N_{\mathrm{HI}}/\mathrm{cm}^{-2})$")
+
     pl.tight_layout()
 
 
 
 
     # Save figure for tex
-    pl.legend()
-    pl.savefig("../document/figures/NH_dist.pdf", dpi="figure")
+    ax = pl.gca()
+    handle, label = ax.get_legend_handles_labels()
+    # from matplotlib.lines import Line2D     
+    l1 = mpl.lines.Line2D([1], [1], color = "#4C72B0")
+    l2 = mpl.lines.Line2D([1], [1], color = "#55A868")
+    l3 = mpl.lines.Line2D([1], [1], color = "#C44E52")
+    # print(handle, label)
+    # pl.legend([l1, l2, l3], label)
+
+    leg = pl.legend([l1, l2, l3], label, loc=1, handlelength=1)
+    # leg = ax1.legend()
+    # set the linewidth of each legend object
+    for legobj in leg.legendHandles:
+        legobj.set_linewidth(5.0)
+        # legobj.handlelength(2.0)
+    pl.savefig("../document/figures/NH_dist.pdf")
     # pl.show()
 
 if __name__ == '__main__':

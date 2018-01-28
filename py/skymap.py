@@ -45,18 +45,18 @@ def main():
     """
     # Script to produce sky plots.
     """
-    ebv_map = hp.read_map("../data/lambda_sfd_ebv.fits")
-    A_Vmap = ebv_map*3.1
-    A_Vmap[A_Vmap >= 0.5] = 0
-    ax = hp.mollview(A_Vmap, max=0.5, title="", cbar=False)
+    # ebv_map = hp.read_map("../data/lambda_sfd_ebv.fits")
+    # A_Vmap = ebv_map*3.1
+    # A_Vmap[A_Vmap >= 0.5] = 0
+    # ax = hp.mollview(A_Vmap, max=0.5, title="", cbar=False)
     # , cbar=False
 
 
-    fig = pl.gcf()
-    ax = pl.gca()
-    image = ax.get_images()[0]
-    cmap = fig.colorbar(image, ax=ax, location="bottom", pad = 0.02, label=r"$A_V$", shrink=0.5)
-    hp.graticule()
+    # fig = pl.gcf()
+    # ax = pl.gca()
+    # image = ax.get_images()[0]
+    # cmap = fig.colorbar(image, ax=ax, location="bottom", pad = 0.02, label=r"$A_V$", shrink=0.5)
+    # hp.graticule()
 
     # Overplot swift positions
     # Read in master sample
@@ -66,9 +66,21 @@ def main():
     burst_table = pd.read_csv("../data/Burst list - CSV_observed.csv")
     name_o = np.array([ii[3:] for ii in burst_table["GRB"].values])
     # Read in Swift table
-    swift_table = pd.read_table("../data/grb_table_1511519199.txt", delimiter="\t", dtype=None)
+    swift_table = pd.read_table("../data/grb_table_1517061198.txt", delimiter="\t", dtype=None)
     name_s, RA, DEC, redshift = swift_table["GRB"].values, pd.to_numeric(swift_table["BAT RA (J2000)"], errors='coerce').values, pd.to_numeric(swift_table["BAT Dec (J2000)"], errors='coerce').values, swift_table["Redshift"].values
+    count = 0
+    for ii, kk in enumerate(name_s):
+        hej = ''.join(filter(lambda x: x.isdigit(), kk))
+        print(hej, ii)
 
+        try:
+            if float(hej) < 170331:
+                count += 1
+        except:
+            pass
+    print(count)
+    # print(name_s)
+    exit()
     # Convert ra and dec to l, b
     # l, b = [(SkyCoord(ra=kk, dec=ll, frame='fk5', unit='deg').galactic.l.degree, SkyCoord(ra=kk, dec=ll, frame='fk5', unit='deg').galactic.b.degree) for (kk, ll) in zip(RA, DEC)]
     # print(l, b)

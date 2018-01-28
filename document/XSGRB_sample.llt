@@ -1,6 +1,6 @@
 \begin{Longtab}{0}
 \begin{longtable}{lccccccclc}
-\caption{The full sample of afterglows or hosts observed in the program.
+\caption{The full sample of afterglows and hosts observed in the program.
 	We here list the burst names and details of the spectroscopic observations. The
 	exposure times and slit widths are given in the order UVB/VIS/NIR. The column
 	$\Delta t$ shows the time after trigger when the spectroscopic observation was
