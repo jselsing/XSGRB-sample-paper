@@ -84,7 +84,7 @@ def main():
     print(stats.ks_2samp(fbo, filt_nan(z[pure == "Yes"])[~np.isnan(filt_nan(z[pure == "Yes"]))]))
     print(stats.ks_2samp(tough, filt_nan(z[pure == "Yes"])[~np.isnan(filt_nan(z[pure == "Yes"]))]))
     print(stats.ks_2samp(bat2, filt_nan(z[pure == "Yes"])[~np.isnan(filt_nan(z[pure == "Yes"]))]))
-    exit()
+    # exit()
     BAT_o = BAT[observed == "Yes"]
     XRT_o = XRT[observed == "Yes"]
     HI_o = HI[observed == "Yes"]
@@ -95,8 +95,17 @@ def main():
 
     swift_table = pd.read_table("../data/grb_table_1511519199.txt", delimiter="\t", dtype=None)
     name_s, BAT_s, XRT_s, HI_s = swift_table["GRB"].values, swift_table["BAT Fluence (15-150 keV) [10^-7 erg/cm^2]"].values, swift_table["XRT 11 Hour Flux (0.3-10 keV) [10^-11 erg/cm^2/s]"].values, swift_table["XRT Column Density (NH) [10^21 cm^-2]"].values
-    # print(len(name_s))
+    # print(name_s)
     # exit()
+    counter = 0
+    for ii in name_s:
+        dat = ''.join(c for c in ii if c.isdigit())
+        print(dat)
+
+    exit()
+
+
+
     # Exclude sample bursts
     idx = [ii for ii, kk in enumerate(name_s) if kk not in name]
 
@@ -115,9 +124,9 @@ def main():
 
 
     # BAT fluence
-    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label=r"\textit{Swift}")
-    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Statistical")
-    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Observed")
+    sns.distplot(np.log10(1e-7*BAT_s), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label=r"\textit{Swift}")
+    sns.distplot(np.log10(1e-7*BAT_c), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label="Statistical")
+    sns.distplot(np.log10(1e-7*BAT_o), ax=ax1, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label="Observed")
     print(len(BAT_c[~np.isnan(BAT_c)]))
     l, m, h = np.percentile(np.log10(1e-7*BAT_c), [16, 50, 84])
     print(m, m - l, h - m)
@@ -136,9 +145,9 @@ def main():
 
 
     # XRT flux
-    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label=r"\textit{Swift}")
-    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Statistical")
-    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Observed")
+    sns.distplot(np.log10(1e-11*XRT_s), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label=r"\textit{Swift}")
+    sns.distplot(np.log10(1e-11*XRT_c), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label="Statistical")
+    sns.distplot(np.log10(1e-11*XRT_o), ax=ax2, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label="Observed")
 
 
 
@@ -199,9 +208,9 @@ def main():
     # NHX_o = NHX_o[NHX_o > 10]
 
     # HI column
-    sns.distplot(NHX_s, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label=r"\textit{Swift}")
-    sns.distplot(NHX_c, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Statistical")
-    sns.distplot(NHX_o, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "dashed", 'cumulative': True}, label="Observed")
+    sns.distplot(NHX_s, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label=r"\textit{Swift}")
+    sns.distplot(NHX_c, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label="Statistical")
+    sns.distplot(NHX_o, ax=ax3, kde=False, norm_hist=True, hist_kws={"histtype": "step", "alpha": 1, "linewidth": 2, "linestyle": "solid", 'cumulative': True}, label="Observed")
 
 
 

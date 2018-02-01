@@ -7,7 +7,7 @@
 	started. Mag$_\mathrm{acq}$ gives the approximate magnitude (typically in the
 	$R$-band) of the afterglow in the acquisition image. \label{tab:sample_overview}}  \\
 \hline\hline
-{GRB} &  Obs Date & Exptime & Slit width & Airmass & Seeing & $\Delta t$ & Mag$_\mathrm{acq}$ & Redshift & Ref \\[1.5pt]
+{GRB} &  Obs Date & Exptime & Slit width & Airmass & Seeing & $\Delta t$ & Mag$_\mathrm{acq}$ & Redshift & Notes \\[1.5pt]
 \hline
 {} & {} &  (ks)   & (arcsec) & {}  &(arcsec) & (hr)   & {} & {} &  \\ [1.5pt]
 \hline
@@ -35,13 +35,6 @@
 \tablefoottext{f}{Short burst}
 }
 
-\tablebib{
-	(1) \citet{DeUgartePostigo2010}; (2) This work ; (3) Skuladottir (2010);
-	(4) \citet{DElia2010}; (5) \citet{Wiersema2012}; (6) \citet{Vergani2011, Cobb2010};
-	(7) \citet{Thone2013}; (8) \citet{Bufano2012} ; (9) \citet{DeUgartePostigo2011} ;
-	(10) \citet{Hartoog2013}; (11) \citet{Sparre2011}; (12) \citet{Sparre2014};
-	(13) \citet{Levan2013}; (14) \citet{DElia2014}; (15) \citet{Schulze2014};
-	(16) \citet{Kruhler2013}; (17) \citet{Friis2015}
-}
+%\tablebib{}
 \end{minipage}
 \end{Longtab}

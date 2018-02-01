@@ -80,7 +80,7 @@ def main():
         ax.axvspan(18000, 19500, color = "grey", alpha = 0.4)
     # Save figure for tex
     # pl.legend()
-    ax4.set_ylabel(r"$F_{\lambda}\,\rm{(10^{-17}\,erg\,s^{-1}\,cm^{-2}\, \AA^{-1})}$")
+    ax4.set_ylabel(r"$F_{\lambda}$")
     # ax7.set_xlabel(r"$\rm{Observed\,wavelength\,}$ (\AA)")
     ax7.set_xlabel(r"Observed Wavelength (\AA)")
     pl.tight_layout()

@@ -63,11 +63,33 @@ def main():
     # pl.legend()
     # Plot new distribution
     NH_new = NH[XSGRB]
+    NHe_new = NHe[XSGRB]
     z_new = z[XSGRB]
     g.x = z_new[NH_new > 20]
     g.y = NH_new[NH_new > 20]
     g = g.plot_marginals(sns.distplot, kde=False, color="#C44E52", bins = 25, norm_hist=True)
+
+
+
+
+
     g = g.plot_joint(pl.scatter, color="#C44E52", label="This work")
+
+
+
+    HIh = NH_new[NH_new > 20] + NHe_new[NH_new > 20]
+    HIl = NH_new[NH_new > 20] - NHe_new[NH_new > 20]
+
+    for ii, kk in enumerate(NH_new[NH_new > 20]):
+
+        print(z_new[NH_new > 20][ii], HIl[ii], HIh[ii])
+        g.x = np.array([z_new[NH_new > 20][ii], z_new[NH_new > 20][ii]])
+        g.y = np.array([HIl[ii], HIh[ii]])
+        g = g.plot_joint(pl.plot, color="#C44E52", lw=1)
+
+
+
+    # pl.show()
     g.x = 1
     g.y = 1
     g = g.plot_joint(pl.plot, color="#55A868", label="Tanvir et al. 2017")

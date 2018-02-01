@@ -18,7 +18,7 @@ params = {
    'legend.fontsize': 10,
    'xtick.labelsize': 10,
    'ytick.labelsize': 10,
-   'text.usetex': False,
+   'text.usetex': True,
    'figure.figsize': [7.281, 4.5]
    }
 
@@ -105,12 +105,29 @@ def main():
     # Get Swift HI values
     swift_table = pd.read_table("../data/allSwiftGRBs_NH.txt", delimiter="\t", dtype=None)
     name_s, z_s, HI_s, HI_sh, HI_sl = swift_table["#GRB"].values, swift_table["Redshift"].values, swift_table["Ave_NH_PC"].values, swift_table["Ave_dNH_PC+"].values, -1*swift_table["Ave_dNH_PC-"].values
+    # print(HI_s)
+
+
+    # # Read in Buchner catalog
+    # grbcat = fits.open("../data/grbcat-annotated.fits")
+    # # print(grbcat[1].data.field)
+    # name_s = np.array(["".join(kk.split(" "))[3:] for kk in grbcat[1].data.field("Name")])
+    # HI_s, HI_sl, HI_sh, nH_std, z_s = grbcat[1].data.field("NH_sphere_mean"), grbcat[1].data.field("NH_sphere_hi"), grbcat[1].data.field("NH_sphere_lo"), grbcat[1].data.field("NH_sphere_std"), grbcat[1].data.field("z")
+ 
+
 
     # Find values with betaOX
     idx = [ii for ii, kk in enumerate(name_s) if kk in name and ~np.isnan(z_s[ii])]
     idx_2 = [ii for ii, kk in enumerate(name) if kk in name_s[idx]]
     f_idx = [ii for ii, kk in enumerate(name_s) if kk in f_name and ~np.isnan(z_s[ii])]
     f_idx_2 = [ii for ii, kk in enumerate(f_name) if kk in name_s[f_idx]]
+
+
+    # HI = filt_nan(HI_s[idx], fill_value=0)
+    # HIh = filt_nan(HI_sh[idx], fill_value=0)
+    # HIl = filt_nan(HI_sl[idx], fill_value=0)
+    # f_HI = filt_nan(HI_s[f_idx], fill_value=0)
+    # f_HI[np.isnan(f_HI)] = 0
 
     HI = np.log10(1e22*filt_nan(HI_s[idx], fill_value=0))
     HIh = np.log10(1e22*filt_nan(HI_s[idx] + HI_sh[idx], fill_value=0))
@@ -126,7 +143,7 @@ def main():
     print(stats.pointbiserialr(HI, betaOX[idx_2]))
     print(stats.kendalltau(HI, betaOX[idx_2]))
     
-    exit()
+    # exit()
 
 
     g = sns.JointGrid(x=HI, y=betaOX[idx_2], xlim = (19.5, 23), ylim = (0, 1.3), space=0)
@@ -143,7 +160,7 @@ def main():
 
     g.x = HI[idx_limit]
     g.y = betaOX[idx_2][idx_limit]
-    g = g.plot_joint(pl.scatter, color=color, marker=u'$\u2193$', s=150, lw=1.0)
+    g = g.plot_joint(pl.scatter, color=color, marker=r'$\downarrow$', s=150, lw=1.0)
 
 
 
