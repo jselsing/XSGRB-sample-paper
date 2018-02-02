@@ -102,7 +102,7 @@ def main():
         dat = ''.join(c for c in ii if c.isdigit())
         print(dat)
 
-    exit()
+    # exit()
 
 
 
@@ -231,7 +231,7 @@ def main():
     # exit()
 
     for ax in (ax1, ax2, ax3):
-        ax.spines['top'].set_visible(False)
+        # ax.spines['top'].set_visible(False)
         ax.get_xaxis().tick_bottom()
         ax.get_yaxis().tick_left()
         ax.tick_params(axis='x', direction='out')

@@ -38,6 +38,12 @@ Amati L.,  Guidorzi C.,  Frontera F.,  {Della Valle} M.,  Finelli F.,  Landi
   R.,   Montanari E.,  2008, \mn@doi [MNRAS]
   {10.1111/j.1365-2966.2008.13943.x}, 391, 577
 
+\bibitem[\protect\citeauthoryear{{Antonelli} et~al.,}{{Antonelli}
+  et~al.}{2010}]{GCN10620}
+{Antonelli} L.~A.,  et~al., 2010, GRB Coordinates Network, Circular Service,
+  No.~10620, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10620....1A} {10620}
+
 \bibitem[\protect\citeauthoryear{Arabsalmani et~al.,}{Arabsalmani
   et~al.}{2018}]{Arabsalmani2018}
 Arabsalmani M.,  et~al., 2018, \mn@doi [MNRAS] {10.1093/mnras/stx2451}, 473,
@@ -77,6 +83,10 @@ Baumgartner W.~H.,  Tueller J.,  Markwardt C.~B.,  Skinner G.~K.,  Barthelmy
 Benner D.~C.,  Rinsland C.~P.,  Devi V.~M.,  Smith M. A.~H.,   Atkins D.,
   1995, \mn@doi [JQSRT] {10.1016/0022-4073(95)00015-D}, 53, 705
 
+\bibitem[\protect\citeauthoryear{{Berger}}{{Berger}}{2011}]{GCN12193}
+{Berger} E.,  2011, GRB Coordinates Network, Circular Service, No.~12193, \#1
+  (2011), \href {http://adsabs.harvard.edu/abs/2011GCN.12193....1B} {12193}
+
 \bibitem[\protect\citeauthoryear{Berger, Kulkarni  \& Frail}{Berger
   et~al.}{2003}]{Berger2003}
 Berger E.,  Kulkarni S.,   Frail D.,  2003, \mn@doi [ApJ] {10.1086/374892},
@@ -95,6 +105,12 @@ Bloom J.~S.,  Kulkarni S.~R.,   Djorgovski S.~G.,  2002, \mn@doi [AJ]
 \bibitem[\protect\citeauthoryear{Briggs et~al.,}{Briggs
   et~al.}{1996}]{Briggs1996}
 Briggs M.~S.,  et~al., 1996, \mn@doi [ApJ] {10.1086/176867}, 459, 40
+
+\bibitem[\protect\citeauthoryear{{Bufano} et~al.,}{{Bufano}
+  et~al.}{2010}]{GCN10543}
+{Bufano} F.,  et~al., 2010, GRB Coordinates Network, Circular Service,
+  No.~10543, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10543....1B} {10543}
 
 \bibitem[\protect\citeauthoryear{Bufano et~al.,}{Bufano
   et~al.}{2012}]{Bufano2012}
@@ -125,6 +141,18 @@ Cardelli J.~a.,  Clayton G.~C.,   Mathis J.~S.,  1989, \mn@doi [ApJ]
 Castro-Tirado A.~J.,  et~al., 2010, \mn@doi [A{\&}A]
   {10.1051/0004-6361/200913966}, 517, A61
 
+\bibitem[\protect\citeauthoryear{{Chen}, {Klose}, {Guelbenzu}, {Bolmer},
+  {Kruehler}  \& {Greiner}}{{Chen} et~al.}{2016}]{GCN19975}
+{Chen} T.-W.,  {Klose} S.,  {Guelbenzu} A.~N.,  {Bolmer} J.,  {Kruehler} T.,
+  {Greiner} J.,  2016, GRB Coordinates Network, Circular Service, No.~19975,
+  \#1 (2016), \href {http://adsabs.harvard.edu/abs/2016GCN.19975....1C} {19975}
+
+\bibitem[\protect\citeauthoryear{{Chornock} \& {Berger}}{{Chornock} \&
+  {Berger}}{2011}]{GCN11518}
+{Chornock} R.,  {Berger} E.,  2011, GRB Coordinates Network, Circular Service,
+  No.~11518, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.11518....1C} {11518}
+
 \bibitem[\protect\citeauthoryear{Christensen, Fynbo, Prochaska, Th{\"{o}}ne,
   {de Ugarte Postigo}  \& Jakobsson}{Christensen
   et~al.}{2011}]{Christensen2011a}
@@ -151,6 +179,19 @@ Cucchiara A.,  Fumagalli M.,  Rafelski M.,  Kocevski D.,  Prochaska J.~X.,
   Cooke R.~J.,   Becker G.~D.,  2015, \mn@doi [ApJ]
   {10.1088/0004-637X/804/1/51}, 804, 51
 
+\bibitem[\protect\citeauthoryear{{D'Avanzo} et~al.,}{{D'Avanzo}
+  et~al.}{2011a}]{GCN12284}
+{D'Avanzo} P.,  et~al., 2011a, GRB Coordinates Network, Circular Service,
+  No.~12284, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.12284....1D} {12284}
+
+\bibitem[\protect\citeauthoryear{{D'Avanzo}, {Vergani}, {Flores}, {Malesani},
+  {Watson}, {Levan}  \& {Fynbo}}{{D'Avanzo} et~al.}{2011b}]{GCN12542}
+{D'Avanzo} P.,  {Vergani} S.~D.,  {Flores} H.,  {Malesani} D.,  {Watson} D.,
+  {Levan} A.~J.,   {Fynbo} J.~P.~U.,  2011b, GRB Coordinates Network, Circular
+  Service, No.~12542, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.12542....1D} {12542}
+
 \bibitem[\protect\citeauthoryear{D'Elia \& Stratta}{D'Elia \&
   Stratta}{2011}]{DElia2011}
 D'Elia V.,  Stratta G.,  2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201116505},
@@ -165,10 +206,53 @@ D'Elia V.,  et~al., 2009, \mn@doi [ApJ] {10.1088/0004-637X/694/1/332}, 694, 332
 D'Elia V.,  et~al., 2010, \mn@doi [A{\&}A] {10.1051/0004-6361/201015216}, 523,
   A36
 
+\bibitem[\protect\citeauthoryear{{D'Elia}, {Goldoni}, {Malesani}, {Tanvir},
+  {Fynbo}  \& {Melandri}}{{D'Elia} et~al.}{2012a}]{GCN13227}
+{D'Elia} V.,  {Goldoni} P.,  {Malesani} D.,  {Tanvir} N.~R.,  {Fynbo} J.~P.~U.,
+    {Melandri} A.,  2012a, GRB Coordinates Network, Circular Service,
+  No.~13227, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.13227....1D} {13227}
+
+\bibitem[\protect\citeauthoryear{{D'Elia}, {Goldoni}, {Xu}, {Kruehler},
+  {Fynbo}, {Malesani}, {Hartoog}  \& {Tanvir}}{{D'Elia}
+  et~al.}{2012b}]{GCN13494}
+{D'Elia} V.,  {Goldoni} P.,  {Xu} D.,  {Kruehler} T.,  {Fynbo} J.~P.~U.,
+  {Malesani} D.,  {Hartoog} O.~E.,   {Tanvir} N.~R.,  2012b, GRB Coordinates
+  Network, Circular Service, No.~13494, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.13494....1D} {13494}
+
+\bibitem[\protect\citeauthoryear{{D'Elia}, {Xu}, {de Ugarte Postigo},
+  {Malesani}, {Fynbo}, {Goldoni}, {Tanvir}  \& {Kruehler}}{{D'Elia}
+  et~al.}{2012c}]{GCN13507}
+{D'Elia} V.,  {Xu} D.,  {de Ugarte Postigo} A.,  {Malesani} D.,  {Fynbo}
+  J.~P.~U.,  {Goldoni} P.,  {Tanvir} N.~R.,   {Kruehler} T.,  2012c, GRB
+  Coordinates Network, Circular Service, No.~13507, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.13507....1D} {13507}
+
 \bibitem[\protect\citeauthoryear{D'Elia et~al.,}{D'Elia
   et~al.}{2014}]{DElia2014}
 D'Elia V.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201323057}, 564,
   A38
+
+\bibitem[\protect\citeauthoryear{{D'Elia} et~al.,}{{D'Elia}
+  et~al.}{2015a}]{GCN18187}
+{D'Elia} V.,  et~al., 2015a, GRB Coordinates Network, Circular Service,
+  No.~18187, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.18187....1D} {18187}
+
+\bibitem[\protect\citeauthoryear{{D'Elia}, {Kruehler}, {Xu}, {Jakobsson},
+  {Tanvir}  \& {de Ugarte Postigo}}{{D'Elia} et~al.}{2015b}]{GCN18318}
+{D'Elia} V.,  {Kruehler} T.,  {Xu} D.,  {Jakobsson} P.,  {Tanvir} N.~R.,   {de
+  Ugarte Postigo} A.,  2015b, GRB Coordinates Network, Circular Service,
+  No.~18318, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.18318....1D} {18318}
+
+\bibitem[\protect\citeauthoryear{{D'Elia}, {Xu}, {Malesani}, {Fynbo}, {Flores},
+  {Wiersema}  \& {Watson}}{{D'Elia} et~al.}{2016}]{GCN19192}
+{D'Elia} V.,  {Xu} D.,  {Malesani} D.,  {Fynbo} J.~P.~U.,  {Flores} H.,
+  {Wiersema} K.,   {Watson} D.,  2016, GRB Coordinates Network, Circular
+  Service, No.~19192, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19192....1D} {19192}
 
 \bibitem[\protect\citeauthoryear{{De Pasquale} et~al.,}{{De Pasquale}
   et~al.}{2003}]{DePasquale2003}
@@ -189,6 +273,12 @@ Dessauges-Zavadsky M.,  Chen H.-W.,  Prochaska J.~X.,  Bloom J.~S.,   Barth
 Djorgovski S.~G.,  Frail D.~A.,  Kulkarni S.~R.,  Bloom J.~S.,  Odewahn S.~C.,
    Diercks A.,  2001, \mn@doi [ApJ] {10.1086/323845}, 562, 654
 
+\bibitem[\protect\citeauthoryear{{Elliott}, {Schmidl}, {Greiner}, {Kann},
+  {Ciceri}  \& {Mancini}}{{Elliott} et~al.}{2013}]{GCN14898}
+{Elliott} J.,  {Schmidl} S.,  {Greiner} J.,  {Kann} D.~A.,  {Ciceri} S.,
+  {Mancini} L.,  2013, GRB Coordinates Network, Circular Service, No.~14898,
+  \#1 (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.14898....1E} {14898}
+
 \bibitem[\protect\citeauthoryear{Evans et~al.,}{Evans et~al.}{2007}]{Evans2007}
 Evans P.~A.,  et~al., 2007, \mn@doi [A{\&}A] {10.1051/0004-6361:20077530}, 469,
   379
@@ -202,6 +292,25 @@ Filippenko A.~V.,  1982, \mn@doi [PASP] {10.1086/131052}, 94, 715
 
 \bibitem[\protect\citeauthoryear{Fiore et~al.,}{Fiore et~al.}{2005}]{Fiore2005}
 Fiore F.,  et~al., 2005, \mn@doi [ApJ] {10.1086/429385}, 624, 853
+
+\bibitem[\protect\citeauthoryear{{Flores} et~al.,}{{Flores}
+  et~al.}{2010}]{GCN11317}
+{Flores} H.,  et~al., 2010, GRB Coordinates Network, Circular Service,
+  No.~11317, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.11317....1F} {11317}
+
+\bibitem[\protect\citeauthoryear{{Flores} et~al.,}{{Flores}
+  et~al.}{2013a}]{GCN14491}
+{Flores} H.,  et~al., 2013a, GRB Coordinates Network, Circular Service,
+  No.~14491, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.14491....1F} {14491}
+
+\bibitem[\protect\citeauthoryear{{Flores}, {Covino}, {de Ugarte Postigo},
+  {Fynbo}, {Kruehler}, {Xu}  \& {Tanvir}}{{Flores} et~al.}{2013b}]{GCN14493}
+{Flores} H.,  {Covino} S.,  {de Ugarte Postigo} A.,  {Fynbo} J.,  {Kruehler}
+  T.,  {Xu} D.,   {Tanvir} N.,  2013b, GRB Coordinates Network, Circular
+  Service, No.~14493, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.14493....1F} {14493}
 
 \bibitem[\protect\citeauthoryear{Fong et~al.,}{Fong et~al.}{2013}]{Fong2013}
 Fong W.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/769/1/56}, 769, 56
@@ -232,9 +341,35 @@ Fynbo J.~U.,  et~al., 2001, \mn@doi [A{\&}A] {10.1051/0004-6361:20010112}, 369,
 Fynbo J. P.~U.,  et~al., 2009, \mn@doi [ApJS] {10.1088/0067-0049/185/2/526},
   185, 175
 
-\bibitem[\protect\citeauthoryear{Fynbo et~al.,}{Fynbo et~al.}{2014}]{Fynbo2014}
-Fynbo J. P.~U.,  et~al., 2014, \mn@doi [A{\&}A] {10.1051/0004-6361/201424726},
+\bibitem[\protect\citeauthoryear{{Fynbo}, {de Ugarte Postigo}, {D'Elia}, {Xu}
+  \& {Malesani}}{{Fynbo} et~al.}{2012a}]{GCN13477}
+{Fynbo} J.~P.~U.,  {de Ugarte Postigo} A.,  {D'Elia} V.,  {Xu} D.,   {Malesani}
+  D.,  2012a, GRB Coordinates Network, Circular Service, No.~13477, \#1 (2012),
+  \href {http://adsabs.harvard.edu/abs/2012GCN.13477....1F} {13477}
+
+\bibitem[\protect\citeauthoryear{{Fynbo} et~al.,}{{Fynbo}
+  et~al.}{2012b}]{GCN14120}
+{Fynbo} J.~P.~U.,  et~al., 2012b, GRB Coordinates Network, Circular Service,
+  No.~14120, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.14120....1F} {14120}
+
+\bibitem[\protect\citeauthoryear{{Fynbo}, {Xu}, {Malesani}, {Kruehler},
+  {Perley}  \& {D'Elia}}{{Fynbo} et~al.}{2013}]{GCN14286}
+{Fynbo} J.~P.~U.,  {Xu} D.,  {Malesani} D.,  {Kruehler} T.,  {Perley} D.~A.,
+  {D'Elia} V.,  2013, GRB Coordinates Network, Circular Service, No.~14286, \#1
+  (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.14286....1F} {14286}
+
+\bibitem[\protect\citeauthoryear{Fynbo et~al.,}{Fynbo
+  et~al.}{2014a}]{Fynbo2014}
+Fynbo J. P.~U.,  et~al., 2014a, \mn@doi [A{\&}A] {10.1051/0004-6361/201424726},
   12, 1
+
+\bibitem[\protect\citeauthoryear{{Fynbo}, {Tanvir}, {Jakobsson}, {Xu},
+  {Malesani}  \& {Milvang-Jensen}}{{Fynbo} et~al.}{2014b}]{GCN16217}
+{Fynbo} J.~P.~U.,  {Tanvir} N.~R.,  {Jakobsson} P.,  {Xu} D.,  {Malesani} D.,
+  {Milvang-Jensen} B.,  2014b, GRB Coordinates Network, Circular Service,
+  No.~16217, \#1 (2014), \href
+  {http://adsabs.harvard.edu/abs/2014GCN.16217....1F} {16217}
 
 \bibitem[\protect\citeauthoryear{Gehrels et~al.,}{Gehrels
   et~al.}{2004}]{Gehrels2004}
@@ -260,6 +395,19 @@ Goldoni P.,  Royer F.,  Fran{\c{c}}ois P.,  Horrobin M.,  Blanc G.,  Vernet J.,
    Modigliani A.,   Larsen J.,  2006, \mn@doi [Ground-based Airborne Instrum.
   Astron. Ed. by McLean] {10.1117/12.669986}, 6269, 80
 
+\bibitem[\protect\citeauthoryear{{Goldoni}, {Flores}, {Malesani}, {Levan},
+  {Tanvir}  \& {Fynbo}}{{Goldoni} et~al.}{2010}]{GCN10684}
+{Goldoni} P.,  {Flores} H.,  {Malesani} D.,  {Levan} A.~J.,  {Tanvir} N.~R.,
+  {Fynbo} J.~P.~U.,  2010, GRB Coordinates Network, Circular Service,
+  No.~10684, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10684....1G} {10684}
+
+\bibitem[\protect\citeauthoryear{{Goldoni}, {de Ugarte Postigo}  \&
+  {Fynbo}}{{Goldoni} et~al.}{2013}]{GCN15571}
+{Goldoni} P.,  {de Ugarte Postigo} A.,   {Fynbo} J.~P.~U.,  2013, GRB
+  Coordinates Network, Circular Service, No.~15571, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.15571....1G} {15571}
+
 \bibitem[\protect\citeauthoryear{Graff, Lien, Baker  \& Sakamoto}{Graff
   et~al.}{2016}]{Graff2016}
 Graff P.~B.,  Lien A.~Y.,  Baker J.~G.,   Sakamoto T.,  2016, \mn@doi [ApJ]
@@ -282,14 +430,44 @@ Greiner J.,  et~al., 2015, \mn@doi [Nature] {10.1038/nature14579}, 523, 189
 \bibitem[\protect\citeauthoryear{Groot et~al.,}{Groot et~al.}{1998}]{Groot1998}
 Groot P.~J.,  et~al., 1998, \mn@doi [ApJ] {10.1086/311125}, 493, L27
 
+\bibitem[\protect\citeauthoryear{{Groot} et~al.,}{{Groot}
+  et~al.}{2010}]{GCN10441}
+{Groot} P.,  et~al., 2010, GRB Coordinates Network, Circular Service,
+  No.~10441, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10441....1G} {10441}
+
 \bibitem[\protect\citeauthoryear{Hamuy, Suntzeff, Heathcote, Walker, Gigoux  \&
   Phillips}{Hamuy et~al.}{1994}]{Hamuy1994}
 Hamuy M.,  Suntzeff N.~B.,  Heathcote S.~R.,  Walker A.~R.,  Gigoux P.,
   Phillips M.~M.,  1994, \mn@doi [PASP] {10.1086/133417}, 106, 566
 
+\bibitem[\protect\citeauthoryear{{Hartoog}, {Malesani}, {Wiersema}, {Kruehler},
+  {Schulze}, {de Ugarte Postigo}, {D'Elia}  \& {Fynbo}}{{Hartoog}
+  et~al.}{2012}]{GCN13730}
+{Hartoog} O.~E.,  {Malesani} D.,  {Wiersema} K.,  {Kruehler} T.,  {Schulze} S.,
+   {de Ugarte Postigo} A.,  {D'Elia} V.,   {Fynbo} J.~P.~U.,  2012, GRB
+  Coordinates Network, Circular Service, No.~13730, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.13730....1H} {13730}
+
 \bibitem[\protect\citeauthoryear{Hartoog et~al.,}{Hartoog
-  et~al.}{2013}]{Hartoog2013}
-Hartoog O.~E.,  et~al., 2013, \mn@doi [MNRAS] {10.1093/mnras/stt078}, 430, 2739
+  et~al.}{2013a}]{Hartoog2013}
+Hartoog O.~E.,  et~al., 2013a, \mn@doi [MNRAS] {10.1093/mnras/stt078}, 430,
+  2739
+
+\bibitem[\protect\citeauthoryear{{Hartoog}, {Xu}, {Malesani}, {Tanvir},
+  {Fynbo}, {Kaper}  \& {D'Elia}}{{Hartoog} et~al.}{2013b}]{GCN15494}
+{Hartoog} O.~E.,  {Xu} D.,  {Malesani} D.,  {Tanvir} N.~R.,  {Fynbo} J.~P.~U.,
+  {Kaper} L.,   {D'Elia} V.,  2013b, GRB Coordinates Network, Circular Service,
+  No.~15494, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.15494....1H} {15494}
+
+\bibitem[\protect\citeauthoryear{{Hartoog}, {Malesani}, {Sanchez-Ramirez}, {de
+  Ugarte Postigo}, {Levan}, {Fynbo}, {Vreeswijk}  \& {Kaper}}{{Hartoog}
+  et~al.}{2014}]{GCN16437}
+{Hartoog} O.~E.,  {Malesani} D.,  {Sanchez-Ramirez} R.,  {de Ugarte Postigo}
+  A.,  {Levan} A.~J.,  {Fynbo} J.~P.~U.,  {Vreeswijk} P.~M.,   {Kaper} L.,
+  2014, GRB Coordinates Network, Circular Service, No.~16437, \#1 (2014), \href
+  {http://adsabs.harvard.edu/abs/2014GCN.16437....1H} {16437}
 
 \bibitem[\protect\citeauthoryear{Hartoog et~al.,}{Hartoog
   et~al.}{2015}]{Hartoog2015}
@@ -317,6 +495,12 @@ Hjorth J.,  Bloom J.~S.,  2011, AIP Conf. Proc., p.~29
 \bibitem[\protect\citeauthoryear{Hjorth et~al.,}{Hjorth
   et~al.}{2012}]{Hjorth2012}
 Hjorth J.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/756/2/187}, 756, 187
+
+\bibitem[\protect\citeauthoryear{{Hjorth}, {Melandri}, {Malesani}, {Kruehler}
+  \& {Xu}}{{Hjorth} et~al.}{2013}]{GCN14365}
+{Hjorth} J.,  {Melandri} A.,  {Malesani} D.,  {Kruehler} T.,   {Xu} D.,  2013,
+  GRB Coordinates Network, Circular Service, No.~14365, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.14365....1H} {14365}
 
 \bibitem[\protect\citeauthoryear{Hogg \& Fruchter}{Hogg \&
   Fruchter}{1999}]{Hogg1999}
@@ -367,6 +551,78 @@ Kann D.~A.,  et~al., 2017, eprint arXiv:1706.00601
   et~al.}{2015}]{Kausch2015}
 Kausch W.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201423909}, 576,
   A78
+
+\bibitem[\protect\citeauthoryear{{Knust}, {Kann}, {Kruehler}  \&
+  {Greiner}}{{Knust} et~al.}{2015}]{GCN17767}
+{Knust} F.,  {Kann} D.~A.,  {Kruehler} T.,   {Greiner} J.,  2015, GRB
+  Coordinates Network, Circular Service, No.~17767, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.17767....1K} {17767}
+
+\bibitem[\protect\citeauthoryear{{Kruehler}, {Fynbo}, {Milvang-Jensen},
+  {Tanvir}  \& {Jakobsson}}{{Kruehler} et~al.}{2012a}]{GCN13134}
+{Kruehler} T.,  {Fynbo} J.~P.~U.,  {Milvang-Jensen} B.,  {Tanvir} N.,
+  {Jakobsson} P.,  2012a, GRB Coordinates Network, Circular Service, No.~13134,
+  \#1 (2012), \href {http://adsabs.harvard.edu/abs/2012GCN.13134....1K} {13134}
+
+\bibitem[\protect\citeauthoryear{{Kruehler} et~al.,}{{Kruehler}
+  et~al.}{2012b}]{GCN13930}
+{Kruehler} T.,  et~al., 2012b, GRB Coordinates Network, Circular Service,
+  No.~13930, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.13930....1K} {13930}
+
+\bibitem[\protect\citeauthoryear{{Kruehler}, {Malesani}, {Xu}, {Fynbo},
+  {Levan}, {Tanvir}, {D'Elia}  \& {Perley}}{{Kruehler}
+  et~al.}{2013a}]{GCN14264}
+{Kruehler} T.,  {Malesani} D.,  {Xu} D.,  {Fynbo} J.~P.~U.,  {Levan} A.~J.,
+  {Tanvir} N.~R.,  {D'Elia} V.,   {Perley} D.,  2013a, GRB Coordinates Network,
+  Circular Service, No.~14264, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.14264....1K} {14264}
+
+\bibitem[\protect\citeauthoryear{{Kruehler}, {Xu}, {Sanchez-Ramirez},
+  {Malesani}, {Fynbo}  \& {Flores}}{{Kruehler} et~al.}{2013b}]{GCN14390}
+{Kruehler} T.,  {Xu} D.,  {Sanchez-Ramirez} R.,  {Malesani} D.,  {Fynbo} J.,
+  {Flores} H.,  2013b, GRB Coordinates Network, Circular Service, No.~14390,
+  \#1 (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.14390....1K} {14390}
+
+\bibitem[\protect\citeauthoryear{{Kruehler}, {Tanvir}, {Malesani}, {Xu}  \&
+  {Fynbo}}{{Kruehler} et~al.}{2014a}]{GCN15900}
+{Kruehler} T.,  {Tanvir} N.~R.,  {Malesani} D.,  {Xu} D.,   {Fynbo} J.~P.~U.,
+  2014a, GRB Coordinates Network, Circular Service, No.~15900, \#1 (2014),
+  \href {http://adsabs.harvard.edu/abs/2014GCN.15900....1K} {15900}
+
+\bibitem[\protect\citeauthoryear{{Kruehler}, {Malesani}, {de Ugarte Postigo},
+  {Melandri}  \& {Fynbo}}{{Kruehler} et~al.}{2014b}]{GCN16194}
+{Kruehler} T.,  {Malesani} D.,  {de Ugarte Postigo} A.,  {Melandri} A.,
+  {Fynbo} J.~P.~U.,  2014b, GRB Coordinates Network, Circular Service,
+  No.~16194, \#1 (2014), \href
+  {http://adsabs.harvard.edu/abs/2014GCN.16194....1K} {16194}
+
+\bibitem[\protect\citeauthoryear{{Kruehler}, {Vreeswijk}  \&
+  {Fynbo}}{{Kruehler} et~al.}{2014c}]{GCN16401}
+{Kruehler} T.,  {Vreeswijk} P.~M.,   {Fynbo} J.~P.~U.,  2014c, GRB Coordinates
+  Network, Circular Service, No.~16401, \#1 (2014), \href
+  {http://adsabs.harvard.edu/abs/2014GCN.16401....1K} {16401}
+
+\bibitem[\protect\citeauthoryear{{Kruehler}, {Xu}, {Fynbo}, {Malesani}, {Cano}
+  \& {de Ugarte Postigo}}{{Kruehler} et~al.}{2015}]{GCN17420}
+{Kruehler} T.,  {Xu} D.,  {Fynbo} J.~P.~U.,  {Malesani} D.,  {Cano} Z.,   {de
+  Ugarte Postigo} A.,  2015, GRB Coordinates Network, Circular Service,
+  No.~17420, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.17420....1K} {17420}
+
+\bibitem[\protect\citeauthoryear{{Kruehler} et~al.,}{{Kruehler}
+  et~al.}{2016a}]{GCN19186}
+{Kruehler} T.,  et~al., 2016a, GRB Coordinates Network, Circular Service,
+  No.~19186, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19186....1K} {19186}
+
+\bibitem[\protect\citeauthoryear{{Kruehler}, {Xu}, {Bolmer}, {Wiersema},
+  {Malesani}, {Sanchez-Ramirez}  \& {Fynbo}}{{Kruehler}
+  et~al.}{2016b}]{GCN19971}
+{Kruehler} T.,  {Xu} D.,  {Bolmer} J.,  {Wiersema} K.,  {Malesani} D.,
+  {Sanchez-Ramirez} R.,   {Fynbo} J.~P.~U.,  2016b, GRB Coordinates Network,
+  Circular Service, No.~19971, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19971....1K} {19971}
 
 \bibitem[\protect\citeauthoryear{Kr{\"{u}}hler et~al.,}{Kr{\"{u}}hler
   et~al.}{2011}]{Kruhler2011}
@@ -425,6 +681,64 @@ Littlejohns O.~M.,  Tanvir N.~R.,  Willingale R.,  Evans P.~A.,  O'Brien P.~T.,
 L{\'{o}}pez S.,  et~al., 2016, \mn@doi [A{\&}A] {10.1051/0004-6361/201628161},
   594, A91
 
+\bibitem[\protect\citeauthoryear{{Malesani} \& {Palazzi}}{{Malesani} \&
+  {Palazzi}}{2010}]{GCN10631}
+{Malesani} D.,  {Palazzi} E.,  2010, GRB Coordinates Network, Circular Service,
+  No.~10631, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10631....1M} {10631}
+
+\bibitem[\protect\citeauthoryear{{Malesani}, {Fynbo}, {Christensen}, {de Ugarte
+  Postigo}, {Milvang-Jensen}  \& {Covino}}{{Malesani} et~al.}{2009a}]{GCN.9761}
+{Malesani} D.,  {Fynbo} J.~P.~U.,  {Christensen} L.,  {de Ugarte Postigo} A.,
+  {Milvang-Jensen} B.,   {Covino} S.,  2009a, GRB Coordinates Network, \href
+  {http://adsabs.harvard.edu/abs/2009GCN..9761....1M} {9761}
+
+\bibitem[\protect\citeauthoryear{{Malesani} et~al.,}{{Malesani}
+  et~al.}{2009b}]{GCN.9942}
+{Malesani} D.,  et~al., 2009b, GRB Coordinates Network, \href
+  {http://adsabs.harvard.edu/abs/2009GCN..9942....1M} {9942}
+
+\bibitem[\protect\citeauthoryear{{Malesani}, {Schulze}, {de Ugarte Postigo},
+  {Xu}, {D'Elia}, {Fynbo}  \& {Tanvir}}{{Malesani} et~al.}{2012}]{GCN13649}
+{Malesani} D.,  {Schulze} S.,  {de Ugarte Postigo} A.,  {Xu} D.,  {D'Elia} V.,
+  {Fynbo} J.~P.~U.,   {Tanvir} N.~R.,  2012, GRB Coordinates Network, Circular
+  Service, No.~13649, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.13649....1M} {13649}
+
+\bibitem[\protect\citeauthoryear{{Malesani}, {Kruehler}, {Perley}, {Fynbo},
+  {Xu}, {Milvang-Jensen}, {Goldoni}  \& {Schulze}}{{Malesani}
+  et~al.}{2013a}]{GCN14225}
+{Malesani} D.,  {Kruehler} T.,  {Perley} D.,  {Fynbo} J.~P.~U.,  {Xu} D.,
+  {Milvang-Jensen} B.,  {Goldoni} P.,   {Schulze} S.,  2013a, GRB Coordinates
+  Network, Circular Service, No.~14225, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.14225....1M} {14225}
+
+\bibitem[\protect\citeauthoryear{{Malesani}, {Xu}, {Fynbo}, {Kruehler},
+  {Perley}, {Vergani}  \& {Goldoni}}{{Malesani} et~al.}{2013b}]{GCN14291}
+{Malesani} D.,  {Xu} D.,  {Fynbo} J.~P.~U.,  {Kruehler} T.,  {Perley} D.~A.,
+  {Vergani} S.~D.,   {Goldoni} P.,  2013b, GRB Coordinates Network, Circular
+  Service, No.~14291, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.14291....1M} {14291}
+
+\bibitem[\protect\citeauthoryear{{Malesani} et~al.,}{{Malesani}
+  et~al.}{2015a}]{GCN17755}
+{Malesani} D.,  et~al., 2015a, GRB Coordinates Network, Circular Service,
+  No.~17755, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.17755....1M} {17755}
+
+\bibitem[\protect\citeauthoryear{{Malesani}, {Tanvir}, {Kruehler}, {de Ugarte
+  Postigo}, {Flores}, {Xu}  \& {Fynbo}}{{Malesani} et~al.}{2015b}]{GCN18540}
+{Malesani} D.,  {Tanvir} N.~R.,  {Kruehler} T.,  {de Ugarte Postigo} A.,
+  {Flores} H.,  {Xu} D.,   {Fynbo} J.~P.~U.,  2015b, GRB Coordinates Network,
+  Circular Service, No.~18540, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.18540....1M} {18540}
+
+\bibitem[\protect\citeauthoryear{{Markwardt} et~al.,}{{Markwardt}
+  et~al.}{2016}]{GCN19974}
+{Markwardt} C.~B.,  et~al., 2016, GRB Coordinates Network, Circular Service,
+  No.~19974, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19974....1M} {19974}
+
 \bibitem[\protect\citeauthoryear{Meegan, Fishman, Wilson, Horack, Brock,
   Paciesas, Pendleton  \& Kouveliotou}{Meegan et~al.}{1992}]{Meegan1992}
 Meegan C.~A.,  Fishman G.~J.,  Wilson R.~B.,  Horack J.~M.,  Brock M.~N.,
@@ -450,6 +764,12 @@ Micha{\l}owski M.~J.,  et~al., 2016, pp 1--16
 Micol A.,  Arnaboldi M.,  Delmotte N. A.~R.,  Mascetti L.,   Retzlaff J.,
   2016. International Society for Optics and Photonics, p. 991030,
   \mn@doi{10.1117/12.2232655}
+
+\bibitem[\protect\citeauthoryear{{Milvang-Jensen} et~al.,}{{Milvang-Jensen}
+  et~al.}{2010}]{GCN10876}
+{Milvang-Jensen} B.,  et~al., 2010, GRB Coordinates Network, Circular Service,
+  No.~10876, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10876....1M} {10876}
 
 \bibitem[\protect\citeauthoryear{Modigliani et~al.,}{Modigliani
   et~al.}{2010}]{Modigliani2010}
@@ -493,6 +813,13 @@ Pagnini G.,  Mainardi F.,  2010, \mn@doi [JCoAM] {10.1016/j.cam.2008.04.040},
 Perley D.~A.,  et~al., 2009, \mn@doi [AJ] {10.1088/0004-6256/138/6/1690}, 138,
   1690
 
+\bibitem[\protect\citeauthoryear{{Perley}, {Bloom}, {Cenko}, {Cobb}, {Morgan},
+  {Miller}  \& {Klein}}{{Perley} et~al.}{2010}]{GCN10399}
+{Perley} D.~A.,  {Bloom} J.~S.,  {Cenko} S.~B.,  {Cobb} B.~E.,  {Morgan} A.~N.,
+   {Miller} A.~A.,   {Klein} C.~R.,  2010, GRB Coordinates Network, Circular
+  Service, No.~10399, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10399....1P} {10399}
+
 \bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
   et~al.}{2013}]{Perley2013b}
 Perley D.~A.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/778/2/128}, 778,
@@ -519,10 +846,24 @@ Perley D.~A.,  et~al., 2017, \mn@doi [Mon. Not. R. Astron. Soc. Lett.]
 \bibitem[\protect\citeauthoryear{Piran}{Piran}{2005}]{Piran2005}
 Piran T.,  2005, \mn@doi [RvMP] {10.1103/RevModPhys.76.1143}, 76, 1143
 
+\bibitem[\protect\citeauthoryear{{Piranomonte}, {Vergani}, {Malesani}, {Fynbo},
+  {Wiersema}  \& {Kaper}}{{Piranomonte} et~al.}{2011}]{GCN12164}
+{Piranomonte} S.,  {Vergani} S.~D.,  {Malesani} D.,  {Fynbo} J.~P.~U.,
+  {Wiersema} K.,   {Kaper} L.,  2011, GRB Coordinates Network, Circular
+  Service, No.~12164, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.12164....1P} {12164}
+
 \bibitem[\protect\citeauthoryear{{Planck Collaboration} et~al.,}{{Planck
   Collaboration} et~al.}{2016}]{Planck2015}
 {Planck Collaboration} et~al., 2016, \mn@doi [A{\&}A]
   {10.1051/0004-6361/201525830}, 594, A13
+
+\bibitem[\protect\citeauthoryear{{Pozanenko}, {Mazaeva}, {Sergeev}, {Reva},
+  {Volnova}, {Klunko}  \& {Korobtsev}}{{Pozanenko} et~al.}{2015}]{GCN17903}
+{Pozanenko} A.,  {Mazaeva} E.,  {Sergeev} A.,  {Reva} I.,  {Volnova} A.,
+  {Klunko} E.,   {Korobtsev} I.,  2015, GRB Coordinates Network, Circular
+  Service, No.~17903, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.17903....1P} {17903}
 
 \bibitem[\protect\citeauthoryear{Prochaska et~al.,}{Prochaska
   et~al.}{2007}]{Prochaska2007}
@@ -532,6 +873,25 @@ Prochaska J.~X.,  et~al., 2007, \mn@doi [ApJS] {10.1086/510239}, 168, 231
   et~al.}{2009}]{Prochaska2009}
 Prochaska J.~X.,  et~al., 2009, \mn@doi [ApJ] {10.1088/0004-637X/691/1/L27},
   691, L27
+
+\bibitem[\protect\citeauthoryear{{Pugliese}, {Xu}, {Tanvir}, {Wiersema},
+  {Fynbo}, {Milvang-Jensen}  \& {D'Elia}}{{Pugliese} et~al.}{2015}]{GCN17672}
+{Pugliese} V.,  {Xu} D.,  {Tanvir} N.~R.,  {Wiersema} K.,  {Fynbo} J.~P.~U.,
+  {Milvang-Jensen} B.,   {D'Elia} V.,  2015, GRB Coordinates Network, Circular
+  Service, No.~17672, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.17672....1P} {17672}
+
+\bibitem[\protect\citeauthoryear{{Pugliese}, {Covino}, {Kruehler}, {Xu}  \&
+  {Tanvir}}{{Pugliese} et~al.}{2016}]{GCN18982}
+{Pugliese} G.,  {Covino} S.,  {Kruehler} T.,  {Xu} D.,   {Tanvir} N.~R.,  2016,
+  GRB Coordinates Network, Circular Service, No.~18982, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.18982....1P} {18982}
+
+\bibitem[\protect\citeauthoryear{{Rau}, {Kruehler}  \& {Greiner}}{{Rau}
+  et~al.}{2013}]{GCN15330}
+{Rau} A.,  {Kruehler} T.,   {Greiner} J.,  2013, GRB Coordinates Network,
+  Circular Service, No.~15330, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.15330....1R} {15330}
 
 \bibitem[\protect\citeauthoryear{Ricker \& Team}{Ricker \&
   Team}{2004}]{Ricker2004}
@@ -552,6 +912,12 @@ Rossi A.,  et~al., 2012, \mn@doi [A{\&}A] {10.1051/0004-6361/201117201}, 545,
 Rowlinson A.,  Patruno A.,   O'Brien P.~T.,  2017, \mn@doi [MNRAS]
   {10.1093/mnras/stx2023}, 472, 1152
 
+\bibitem[\protect\citeauthoryear{{Sakamoto} et~al.,}{{Sakamoto}
+  et~al.}{2016}]{GCN19276}
+{Sakamoto} T.,  et~al., 2016, GRB Coordinates Network, Circular Service,
+  No.~19276, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19276....1S} {19276}
+
 \bibitem[\protect\citeauthoryear{Salvaterra et~al.,}{Salvaterra
   et~al.}{2009}]{Salvaterra2009a}
 Salvaterra R.,  et~al., 2009, \mn@doi [Nature] {10.1038/nature08445}, 461, 1258
@@ -560,6 +926,12 @@ Salvaterra R.,  et~al., 2009, \mn@doi [Nature] {10.1038/nature08445}, 461, 1258
   et~al.}{2012}]{Salvaterra2012}
 Salvaterra R.,  et~al., 2012, \mn@doi [ApJ] {10.1088/0004-637X/749/1/68}, 749,
   68
+
+\bibitem[\protect\citeauthoryear{{Sanchez-Ramirez} et~al.,}{{Sanchez-Ramirez}
+  et~al.}{2012}]{GCN14035}
+{Sanchez-Ramirez} R.,  et~al., 2012, GRB Coordinates Network, Circular Service,
+  No.~14035, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.14035....1S} {14035}
 
 \bibitem[\protect\citeauthoryear{S{\'{a}}nchez-Ram{\'{i}}rez
   et~al.,}{S{\'{a}}nchez-Ram{\'{i}}rez et~al.}{2017}]{Sanchez-Ramirez2017}
@@ -584,16 +956,49 @@ Schlafly E.~F.,  Finkbeiner D.~P.,  2011, \mn@doi [ApJ]
 Schlegel D.~J.,  Finkbeiner D.~P.,   Davis M.,  1998, \mn@doi [ApJ]
   {10.1086/305772}, 500, 525
 
+\bibitem[\protect\citeauthoryear{{Schulze}, {Covino}, {Flores}, {Fynbo},
+  {Milvang-Jensen}, {Sollerman}  \& {Xu}}{{Schulze} et~al.}{2011}]{GCN12770}
+{Schulze} S.,  {Covino} S.,  {Flores} H.,  {Fynbo} J.~P.~U.,  {Milvang-Jensen}
+  B.,  {Sollerman} J.,   {Xu} D.,  2011, GRB Coordinates Network, Circular
+  Service, No.~12770, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.12770....1S} {12770}
+
+\bibitem[\protect\citeauthoryear{{Schulze} et~al.,}{{Schulze}
+  et~al.}{2012}]{GCN13257}
+{Schulze} S.,  et~al., 2012, GRB Coordinates Network, Circular Service,
+  No.~13257, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.13257....1S} {13257}
+
 \bibitem[\protect\citeauthoryear{Schulze, Malesani, Cucchiara, Tanvir,
-  Kr{\"{u}}hler, Postigo  \& Leloudas}{Schulze et~al.}{2014}]{Schulze2014}
+  Kr{\"{u}}hler, Postigo  \& Leloudas}{Schulze et~al.}{2014a}]{Schulze2014}
 Schulze S.,  Malesani D.,  Cucchiara A.,  Tanvir N.~R.,  Kr{\"{u}}hler T.,
-  Postigo A. D.~U.,   Leloudas G.,  2014, \mn@doi [A{\&}A]
+  Postigo A. D.~U.,   Leloudas G.,  2014a, \mn@doi [A{\&}A]
   {10.1051/0004-6361/201423387}, 102, 1
+
+\bibitem[\protect\citeauthoryear{{Schulze}, {Wiersema}, {Xu}  \&
+  {Fynbo}}{{Schulze} et~al.}{2014b}]{GCN15831}
+{Schulze} S.,  {Wiersema} K.,  {Xu} D.,   {Fynbo} J.~P.~U.,  2014b, GRB
+  Coordinates Network, Circular Service, No.~15831, \#1 (2014), \href
+  {http://adsabs.harvard.edu/abs/2014GCN.15831....1S} {15831}
 
 \bibitem[\protect\citeauthoryear{Selsing, Fynbo, Christensen  \&
   Krogager}{Selsing et~al.}{2015}]{Selsing2015}
 Selsing J.,  Fynbo J. P.~U.,  Christensen L.,   Krogager J.-K.,  2015, \mn@doi
   [A{\&}A] {10.1051/0004-6361/201527096}, 87, 14
+
+\bibitem[\protect\citeauthoryear{{Selsing} et~al.,}{{Selsing}
+  et~al.}{2016a}]{GCN19274}
+{Selsing} J.,  et~al., 2016a, GRB Coordinates Network, Circular Service,
+  No.~19274, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19274....1S} {19274}
+
+\bibitem[\protect\citeauthoryear{{Selsing}, {Heintz}, {Malesani}, {Xu}, {de
+  Ugarte Postigo}, {Tanvir}, {Wiersema}  \& {Fynbo}}{{Selsing}
+  et~al.}{2016b}]{GCN20061}
+{Selsing} J.,  {Heintz} K.~E.,  {Malesani} D.,  {Xu} D.,  {de Ugarte Postigo}
+  A.,  {Tanvir} N.~R.,  {Wiersema} K.,   {Fynbo} J.~P.~U.,  2016b, GRB
+  Coordinates Network, Circular Service, No.~20061, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.20061....1S} {20061}
 
 \bibitem[\protect\citeauthoryear{Selsing et~al.,}{Selsing
   et~al.}{2017}]{Selsing2017}
@@ -605,8 +1010,15 @@ Smette A.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201423932}, 576,
   A77
 
 \bibitem[\protect\citeauthoryear{Sparre et~al.,}{Sparre
-  et~al.}{2011}]{Sparre2011}
-Sparre M.,  et~al., 2011, \mn@doi [ApJ] {10.1088/2041-8205/735/1/L24}, 735, L24
+  et~al.}{2011a}]{Sparre2011}
+Sparre M.,  et~al., 2011a, \mn@doi [ApJ] {10.1088/2041-8205/735/1/L24}, 735,
+  L24
+
+\bibitem[\protect\citeauthoryear{{Sparre} et~al.,}{{Sparre}
+  et~al.}{2011b}]{GCN11607}
+{Sparre} M.,  et~al., 2011b, GRB Coordinates Network, Circular Service,
+  No.~11607, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.11607....1S} {11607}
 
 \bibitem[\protect\citeauthoryear{Sparre et~al.,}{Sparre
   et~al.}{2014}]{Sparre2014}
@@ -617,20 +1029,83 @@ Sparre M.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/785/2/150}, 785, 150
 Starling R. L.~C.,  et~al., 2011, \mn@doi [MNRAS]
   {10.1111/j.1365-2966.2010.17879.x}, 411, 2792
 
+\bibitem[\protect\citeauthoryear{{Sudilovsky}, {Kann}, {Schady}, {Klose},
+  {Greiner}  \& {Kruehler}}{{Sudilovsky} et~al.}{2013}]{GCN15250}
+{Sudilovsky} V.,  {Kann} D.~A.,  {Schady} P.,  {Klose} S.,  {Greiner} J.,
+  {Kruehler} T.,  2013, GRB Coordinates Network, Circular Service, No.~15250,
+  \#1 (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.15250....1S} {15250}
+
 \bibitem[\protect\citeauthoryear{Tanvir et~al.,}{Tanvir
   et~al.}{2009}]{Tanvir2009b}
 Tanvir N.~R.,  et~al., 2009, \mn@doi [Nature] {10.1038/nature08459}, 461, 1254
 
+\bibitem[\protect\citeauthoryear{{Tanvir} et~al.,}{{Tanvir}
+  et~al.}{2010}]{GCN11123}
+{Tanvir} N.~R.,  et~al., 2010, GRB Coordinates Network, Circular Service,
+  No.~11123, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.11123....1T} {11123}
+
+\bibitem[\protect\citeauthoryear{{Tanvir}, {Fynbo}, {Melandri}, {Levan}, {Xu}
+  \& {D'Elia}}{{Tanvir} et~al.}{2012}]{GCN13890}
+{Tanvir} N.~R.,  {Fynbo} J.~P.~U.,  {Melandri} A.,  {Levan} A.~J.,  {Xu} D.,
+  {D'Elia} V.,  2012, GRB Coordinates Network, Circular Service, No.~13890, \#1
+  (2012), \href {http://adsabs.harvard.edu/abs/2012GCN.13890....1T} {13890}
+
 \bibitem[\protect\citeauthoryear{Tanvir, Levan, Fruchter, Hjorth, Hounsell,
-  Wiersema  \& Tunnicliffe}{Tanvir et~al.}{2013}]{Tanvir2013a}
+  Wiersema  \& Tunnicliffe}{Tanvir et~al.}{2013a}]{Tanvir2013a}
 Tanvir N.~R.,  Levan A.~J.,  Fruchter A.~S.,  Hjorth J.,  Hounsell R.~A.,
-  Wiersema K.,   Tunnicliffe R.~L.,  2013, \mn@doi [Nature]
+  Wiersema K.,   Tunnicliffe R.~L.,  2013a, \mn@doi [Nature]
   {10.1038/nature12505}, 500, 547
+
+\bibitem[\protect\citeauthoryear{{Tanvir}, {Wiersema}, {Xu}  \&
+  {Fynbo}}{{Tanvir} et~al.}{2013b}]{GCN14882}
+{Tanvir} N.~R.,  {Wiersema} K.,  {Xu} D.,   {Fynbo} J.~P.~U.,  2013b, GRB
+  Coordinates Network, Circular Service, No.~14882, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.14882....1T} {14882}
+
+\bibitem[\protect\citeauthoryear{{Tanvir}, {Xu}, {Zafar}, {Covino}  \&
+  {Schulze}}{{Tanvir} et~al.}{2015a}]{GCN18080}
+{Tanvir} N.~R.,  {Xu} D.,  {Zafar} T.,  {Covino} S.,   {Schulze} S.,  2015a,
+  GRB Coordinates Network, Circular Service, No.~18080, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.18080....1T} {18080}
+
+\bibitem[\protect\citeauthoryear{{Tanvir}, {Kruehler}, {Malesani}, {Xu}, {de
+  Ugarte Postigo}  \& {Pugliese}}{{Tanvir} et~al.}{2015b}]{GCN18524}
+{Tanvir} N.~R.,  {Kruehler} T.,  {Malesani} D.,  {Xu} D.,  {de Ugarte Postigo}
+  A.,   {Pugliese} G.,  2015b, GRB Coordinates Network, Circular Service,
+  No.~18524, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.18524....1T} {18524}
+
+\bibitem[\protect\citeauthoryear{{Tanvir}, {Xu}, {Kruehler}, {Malesani},
+  {Fynbo}, {Pugliese}, {Levan}  \& {Cano}}{{Tanvir} et~al.}{2016a}]{GCN19350}
+{Tanvir} N.~R.,  {Xu} D.,  {Kruehler} T.,  {Malesani} D.,  {Fynbo} J.~P.~U.,
+  {Pugliese} G.,  {Levan} A.~J.,   {Cano} Z.,  2016a, GRB Coordinates Network,
+  Circular Service, No.~19350, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19350....1T} {19350}
+
+\bibitem[\protect\citeauthoryear{{Tanvir}, {Kruehler}, {De Cia}, {Wiersema},
+  {Xu}  \& {Malesani}}{{Tanvir} et~al.}{2016b}]{GCN20104}
+{Tanvir} N.~R.,  {Kruehler} T.,  {De Cia} A.,  {Wiersema} K.,  {Xu} D.,
+  {Malesani} D.,  2016b, GRB Coordinates Network, Circular Service, No.~20104,
+  \#1 (2016), \href {http://adsabs.harvard.edu/abs/2016GCN.20104....1T} {20104}
 
 \bibitem[\protect\citeauthoryear{{Tepper Garc{\'{i}}a}}{{Tepper
   Garc{\'{i}}a}}{2006}]{TepperGarcia2006}
 {Tepper Garc{\'{i}}a} T.,  2006, \mn@doi [MNRAS]
   {10.1111/j.1365-2966.2006.10450.x}, 369, 2025
+
+\bibitem[\protect\citeauthoryear{{Thoene} et~al.,}{{Thoene}
+  et~al.}{2009}]{GCN10233}
+{Thoene} C.~C.,  et~al., 2009, GRB Coordinates Network, Circular Service,
+  No.~10233, \#1 (2009), \href
+  {http://adsabs.harvard.edu/abs/2009GCN.10233....1T} {10233}
+
+\bibitem[\protect\citeauthoryear{{Thoene}, {de Ugarte Postigo}, {Vreeswijk},
+  {D'Avanzo}, {Covino}, {Fynbo}  \& {Tanvir}}{{Thoene} et~al.}{2010}]{GCN10971}
+{Thoene} C.~C.,  {de Ugarte Postigo} A.,  {Vreeswijk} P.,  {D'Avanzo} P.,
+  {Covino} S.,  {Fynbo} J.~P.~U.,   {Tanvir} N.,  2010, GRB Coordinates
+  Network, Circular Service, No.~10971, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10971....1T} {10971}
 
 \bibitem[\protect\citeauthoryear{Th{\"{o}}ne, Greiner, Savaglio  \&
   Jehin}{Th{\"{o}}ne et~al.}{2007}]{Thone2007}
@@ -652,16 +1127,49 @@ Trujillo I.,  Aguerri J. A.~L.,  Cepa J.,   Guti{\'{e}}rrez C.~M.,  2001,
 Ukwatta T.~N.,  W{\'{o}}zniak P.~R.,  2016, \mn@doi [MNRAS]
   {10.1093/mnras/stv2350}, 455, 703
 
+\bibitem[\protect\citeauthoryear{{Ukwatta} et~al.,}{{Ukwatta}
+  et~al.}{2016}]{GCN19148}
+{Ukwatta} T.~N.,  et~al., 2016, GRB Coordinates Network, Circular Service,
+  No.~19148, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19148....1U} {19148}
+
 \bibitem[\protect\citeauthoryear{Vergani, Petitjean, Ledoux, Vreeswijk, Smette
   \& Meurs}{Vergani et~al.}{2009}]{Vergani2009}
 Vergani S.~D.,  Petitjean P.,  Ledoux C.,  Vreeswijk P.,  Smette A.,   Meurs E.
   J.~A.,  2009, \mn@doi [eprint arXiv] {10.1051/0004-6361/200911747}, 0906,
   3269
 
+\bibitem[\protect\citeauthoryear{{Vergani} et~al.,}{{Vergani}
+  et~al.}{2010a}]{GCN10495}
+{Vergani} S.~D.,  et~al., 2010a, GRB Coordinates Network, Circular Service,
+  No.~10495, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10495....1V} {10495}
+
+\bibitem[\protect\citeauthoryear{{Vergani}, {D'Avanzo}, {Levan}, {Covino},
+  {Malesani}, {Hjorth}  \& {Antonelli}}{{Vergani} et~al.}{2010b}]{GCN10512}
+{Vergani} S.~D.,  {D'Avanzo} P.,  {Levan} A.~J.,  {Covino} S.,  {Malesani} D.,
+  {Hjorth} J.,   {Antonelli} L.~A.,  2010b, GRB Coordinates Network, Circular
+  Service, No.~10512, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10512....1V} {10512}
+
+\bibitem[\protect\citeauthoryear{{Vergani}, {Levan}, {D'Avanzo}, {Covino},
+  {Malesani}, {Hjorth}, {Tanvir}  \& {Antonelli}}{{Vergani}
+  et~al.}{2010c}]{GCN10513}
+{Vergani} S.~D.,  {Levan} A.~J.,  {D'Avanzo} P.,  {Covino} S.,  {Malesani} D.,
+  {Hjorth} J.,  {Tanvir} N.~R.,   {Antonelli} L.~A.,  2010c, GRB Coordinates
+  Network, Circular Service, No.~10513, \#1 (2010), \href
+  {http://adsabs.harvard.edu/abs/2010GCN.10513....1V} {10513}
+
 \bibitem[\protect\citeauthoryear{Vergani et~al.,}{Vergani
-  et~al.}{2011}]{Vergani2011}
-Vergani S.~D.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201117726},
+  et~al.}{2011a}]{Vergani2011}
+Vergani S.~D.,  et~al., 2011a, \mn@doi [A{\&}A] {10.1051/0004-6361/201117726},
   535, A127
+
+\bibitem[\protect\citeauthoryear{{Vergani} et~al.,}{{Vergani}
+  et~al.}{2011b}]{GCN12677}
+{Vergani} S.~D.,  et~al., 2011b, GRB Coordinates Network, Circular Service,
+  No.~12677, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.12677....1V} {12677}
 
 \bibitem[\protect\citeauthoryear{Vergani et~al.,}{Vergani
   et~al.}{2015}]{Vergani2015}
@@ -683,28 +1191,185 @@ Vernet J.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201117752}, 536,
 Vreeswijk P.~M.,  et~al., 2007, \mn@doi [A{\&}A] {10.1051/0004-6361:20066780},
   468, 83
 
+\bibitem[\protect\citeauthoryear{{Vreeswijk}, {Fynbo}  \&
+  {Melandri}}{{Vreeswijk} et~al.}{2011}]{GCN12648}
+{Vreeswijk} P.,  {Fynbo} J.,   {Melandri} A.,  2011, GRB Coordinates Network,
+  Circular Service, No.~12648, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.12648....1V} {12648}
+
 \bibitem[\protect\citeauthoryear{Vreeswijk et~al.,}{Vreeswijk
   et~al.}{2013}]{Vreeswijk2013}
 Vreeswijk P.~M.,  et~al., 2013, \mn@doi [A{\&}A] {10.1051/0004-6361/201219652},
   549, A22
 
+\bibitem[\protect\citeauthoryear{{Wiersema} et~al.,}{{Wiersema}
+  et~al.}{2011}]{GCN12431}
+{Wiersema} K.,  et~al., 2011, GRB Coordinates Network, Circular Service,
+  No.~12431, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.12431....1W} {12431}
+
 \bibitem[\protect\citeauthoryear{Wiersema et~al.,}{Wiersema
-  et~al.}{2012}]{Wiersema2012}
-Wiersema K.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2012.20943.x},
-  426, 2
+  et~al.}{2012a}]{Wiersema2012}
+Wiersema K.,  et~al., 2012a, \mn@doi [MNRAS]
+  {10.1111/j.1365-2966.2012.20943.x}, 426, 2
+
+\bibitem[\protect\citeauthoryear{{Wiersema} et~al.,}{{Wiersema}
+  et~al.}{2012b}]{GCN12991}
+{Wiersema} K.,  et~al., 2012b, GRB Coordinates Network, Circular Service,
+  No.~12991, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.12991....1W} {12991}
 
 \bibitem[\protect\citeauthoryear{Wijers, Bloom, Bagla  \& Natarajan}{Wijers
   et~al.}{1998}]{Wijers1998}
 Wijers R. A. M.~J.,  Bloom J.~S.,  Bagla J.~S.,   Natarajan P.,  1998, \mn@doi
   [MNRAS] {10.1046/j.1365-8711.1998.01328.x}, 294, L13
 
-\bibitem[\protect\citeauthoryear{Xu et~al.,}{Xu et~al.}{2013}]{Xu2013b}
-Xu D.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/776/2/98}, 776
+\bibitem[\protect\citeauthoryear{{Xu}, {Fynbo}, {D'Elia}  \& {Tanvir}}{{Xu}
+  et~al.}{2012}]{GCN13460}
+{Xu} D.,  {Fynbo} J.~P.~U.,  {D'Elia} V.,   {Tanvir} N.~R.,  2012, GRB
+  Coordinates Network, Circular Service, No.~13460, \#1 (2012), \href
+  {http://adsabs.harvard.edu/abs/2012GCN.13460....1X} {13460}
+
+\bibitem[\protect\citeauthoryear{Xu et~al.,}{Xu et~al.}{2013a}]{Xu2013b}
+Xu D.,  et~al., 2013a, \mn@doi [ApJ] {10.1088/0004-637X/776/2/98}, 776
+
+\bibitem[\protect\citeauthoryear{{Xu} et~al.,}{{Xu} et~al.}{2013b}]{GCN14273}
+{Xu} D.,  et~al., 2013b, GRB Coordinates Network, Circular Service, No.~14273,
+  \#1 (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.14273....1X} {14273}
+
+\bibitem[\protect\citeauthoryear{{Xu} et~al.,}{{Xu} et~al.}{2013c}]{GCN14757}
+{Xu} D.,  et~al., 2013c, GRB Coordinates Network, Circular Service, No.~14757,
+  \#1 (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.14757....1X} {14757}
+
+\bibitem[\protect\citeauthoryear{{Xu} et~al.,}{{Xu} et~al.}{2013d}]{GCN14816}
+{Xu} D.,  et~al., 2013d, GRB Coordinates Network, Circular Service, No.~14816,
+  \#1 (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.14816....1X} {14816}
+
+\bibitem[\protect\citeauthoryear{{Xu} et~al.,}{{Xu} et~al.}{2013e}]{GCN14956}
+{Xu} D.,  et~al., 2013e, GRB Coordinates Network, Circular Service, No.~14956,
+  \#1 (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.14956....1X} {14956}
+
+\bibitem[\protect\citeauthoryear{{Xu}, {Malesani}, {Tanvir}, {Kruehler}  \&
+  {Fynbo}}{{Xu} et~al.}{2013f}]{GCN15450}
+{Xu} D.,  {Malesani} D.,  {Tanvir} N.,  {Kruehler} T.,   {Fynbo} J.,  2013f,
+  GRB Coordinates Network, Circular Service, No.~15450, \#1 (2013), \href
+  {http://adsabs.harvard.edu/abs/2013GCN.15450....1X} {15450}
+
+\bibitem[\protect\citeauthoryear{{Xu} et~al.,}{{Xu} et~al.}{2013g}]{GCN15451}
+{Xu} D.,  et~al., 2013g, GRB Coordinates Network, Circular Service, No.~15451,
+  \#1 (2013), \href {http://adsabs.harvard.edu/abs/2013GCN.15451....1X} {15451}
+
+\bibitem[\protect\citeauthoryear{{Xu}, {Malesani}, {Tanvir}, {D'Elia}, {de
+  Ugarte Postigo}, {Kruehler}  \& {Fynbo}}{{Xu} et~al.}{2014a}]{GCN15645}
+{Xu} D.,  {Malesani} D.,  {Tanvir} N.~R.,  {D'Elia} V.,  {de Ugarte Postigo}
+  A.,  {Kruehler} T.,   {Fynbo} J.~P.~U.,  2014a, GRB Coordinates Network,
+  Circular Service, No.~15645, \#1 (2014), \href
+  {http://adsabs.harvard.edu/abs/2014GCN.15645....1X} {15645}
+
+\bibitem[\protect\citeauthoryear{{Xu}, {Levan}, {Fynbo}, {Tanvir}, {D'Elia}  \&
+  {Malesani}}{{Xu} et~al.}{2014b}]{GCN16983}
+{Xu} D.,  {Levan} A.~J.,  {Fynbo} J.~P.~U.,  {Tanvir} N.~R.,  {D'Elia} V.,
+  {Malesani} D.,  2014b, GRB Coordinates Network, Circular Service, No.~16983,
+  \#1 (2014), \href {http://adsabs.harvard.edu/abs/2014GCN.16983....1X} {16983}
+
+\bibitem[\protect\citeauthoryear{{Xu}, {Vreeswijk}, {Fynbo}, {D'Elia},
+  {Wiersema}, {Tanvir}, {de Ugarte Postigo}  \& {Covino}}{{Xu}
+  et~al.}{2014c}]{GCN17040}
+{Xu} D.,  {Vreeswijk} P.~M.,  {Fynbo} J.~P.~U.,  {D'Elia} V.,  {Wiersema} K.,
+  {Tanvir} N.~R.,  {de Ugarte Postigo} A.,   {Covino} S.,  2014c, GRB
+  Coordinates Network, Circular Service, No.~17040, \#1 (2014), \href
+  {http://adsabs.harvard.edu/abs/2014GCN.17040....1X} {17040}
+
+\bibitem[\protect\citeauthoryear{{Xu}, {Levan}, {de Ugarte Postigo}, {Tanvir},
+  {Malesani}  \& {Fynbo}}{{Xu} et~al.}{2015a}]{GCN17832}
+{Xu} D.,  {Levan} A.~J.,  {de Ugarte Postigo} A.,  {Tanvir} N.~R.,  {Malesani}
+  D.,   {Fynbo} J.~P.~U.,  2015a, GRB Coordinates Network, Circular Service,
+  No.~17832, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.17832....1X} {17832}
+
+\bibitem[\protect\citeauthoryear{{Xu}, {Tanvir}, {Malesani}  \& {Fynbo}}{{Xu}
+  et~al.}{2015b}]{GCN18506}
+{Xu} D.,  {Tanvir} N.~R.,  {Malesani} D.,   {Fynbo} J.~P.~U.,  2015b, GRB
+  Coordinates Network, Circular Service, No.~18506, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.18506....1X} {18506}
+
+\bibitem[\protect\citeauthoryear{{Xu}, {Malesani}, {Fynbo}, {Tanvir}, {Levan}
+  \& {Perley}}{{Xu} et~al.}{2016a}]{GCN19600}
+{Xu} D.,  {Malesani} D.,  {Fynbo} J.~P.~U.,  {Tanvir} N.~R.,  {Levan} A.~J.,
+  {Perley} D.~A.,  2016a, GRB Coordinates Network, Circular Service, No.~19600,
+  \#1 (2016), \href {http://adsabs.harvard.edu/abs/2016GCN.19600....1X} {19600}
+
+\bibitem[\protect\citeauthoryear{{Xu}, {Heintz}, {Malesani}, {Wiersema}  \&
+  {Fynbo}}{{Xu} et~al.}{2016b}]{GCN19773}
+{Xu} D.,  {Heintz} K.~E.,  {Malesani} D.,  {Wiersema} K.,   {Fynbo} J.~P.~U.,
+  2016b, GRB Coordinates Network, Circular Service, No.~19773, \#1 (2016),
+  \href {http://adsabs.harvard.edu/abs/2016GCN.19773....1X} {19773}
+
+\bibitem[\protect\citeauthoryear{{Zheng}, {Filippenko}, {Yuk}, {Zhu}  \&
+  {Perley}}{{Zheng} et~al.}{2015}]{GCN18273}
+{Zheng} W.,  {Filippenko} A.~V.,  {Yuk} H.,  {Zhu} Y.,   {Perley} D.~A.,  2015,
+  GRB Coordinates Network, Circular Service, No.~18273, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.18273....1Z} {18273}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo} et~al.,}{{de Ugarte
+  Postigo} et~al.}{2009a}]{GCN.9015}
+{de Ugarte Postigo} A.,  et~al., 2009a, GRB Coordinates Network, \href
+  {http://adsabs.harvard.edu/abs/2009GCN..9015....1D} {9015}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo} et~al.,}{{de Ugarte
+  Postigo} et~al.}{2009b}]{GCN10042}
+{de Ugarte Postigo} A.,  et~al., 2009b, GRB Coordinates Network, Circular
+  Service, No.~1042, \#1 (2009), \href
+  {http://adsabs.harvard.edu/abs/2009GCN.10042....1D} {10042}
 
 \bibitem[\protect\citeauthoryear{{de Ugarte Postigo} et~al.,}{{de Ugarte
   Postigo} et~al.}{2010}]{DeUgartePostigo2010}
 {de Ugarte Postigo} A.,  et~al., 2010, \mn@doi [A{\&}A]
   {10.1051/0004-6361/200913113}, 513, A42
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo} et~al.,}{{de Ugarte
+  Postigo} et~al.}{2011a}]{GCN11579}
+{de Ugarte Postigo} A.,  et~al., 2011a, GRB Coordinates Network, Circular
+  Service, No.~11579, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.11579....1D} {11579}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo} et~al.,}{{de Ugarte
+  Postigo} et~al.}{2011b}]{GCN12258}
+{de Ugarte Postigo} A.,  et~al., 2011b, GRB Coordinates Network, Circular
+  Service, No.~12258, \#1 (2011), \href
+  {http://adsabs.harvard.edu/abs/2011GCN.12258....1D} {12258}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo}, {Kruehler}, {Flores}  \&
+  {Fynbo}}{{de Ugarte Postigo} et~al.}{2015a}]{GCN17523}
+{de Ugarte Postigo} A.,  {Kruehler} T.,  {Flores} H.,   {Fynbo} J.~P.~U.,
+  2015a, GRB Coordinates Network, Circular Service, No.~17523, \#1 (2015),
+  \href {http://adsabs.harvard.edu/abs/2015GCN.17523....1D} {17523}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo}, {Xu}, {Malesani}  \&
+  {Tanvir}}{{de Ugarte Postigo} et~al.}{2015b}]{GCN17822}
+{de Ugarte Postigo} A.,  {Xu} D.,  {Malesani} D.,   {Tanvir} N.~R.,  2015b, GRB
+  Coordinates Network, Circular Service, No.~17822, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.17822....1D} {17822}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo}, {Thoene}, {Lombardi}  \&
+  {Perez}}{{de Ugarte Postigo} et~al.}{2015c}]{GCN18274}
+{de Ugarte Postigo} A.,  {Thoene} C.,  {Lombardi} G.,   {Perez} A.,  2015c, GRB
+  Coordinates Network, Circular Service, No.~18274, \#1 (2015), \href
+  {http://adsabs.harvard.edu/abs/2015GCN.18274....1D} {18274}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo}, {Pugliese}, {Xu}  \&
+  {Malesani}}{{de Ugarte Postigo} et~al.}{2016a}]{GCN18886}
+{de Ugarte Postigo} A.,  {Pugliese} G.,  {Xu} D.,   {Malesani} D.,  2016a, GRB
+  Coordinates Network, Circular Service, No.~18886, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.18886....1D} {18886}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo}, {Malesani}, {Kruehler},
+  {Xu}, {Schulze}, {Hjorth}  \& {Tanvir}}{{de Ugarte Postigo}
+  et~al.}{2016b}]{GCN19154}
+{de Ugarte Postigo} A.,  {Malesani} D.,  {Kruehler} T.,  {Xu} D.,  {Schulze}
+  S.,  {Hjorth} J.,   {Tanvir} N.~R.,  2016b, GRB Coordinates Network, Circular
+  Service, No.~19154, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19154....1D} {19154}
 
 \bibitem[\protect\citeauthoryear{van Dokkum}{van Dokkum}{2001}]{VanDokkum2001}
 van Dokkum P.~G.,  2001, \mn@doi [PASP] {10.1086/323894}, 113, 1420

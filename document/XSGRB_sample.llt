@@ -1,11 +1,11 @@
 \begin{Longtab}{0}
-\begin{longtable}{lccccccclc}
+\begin{longtable}{lccccccccc}
 \caption{The full sample of afterglows and hosts observed in the program.
 	We here list the burst names and details of the spectroscopic observations. The
 	exposure times and slit widths are given in the order UVB/VIS/NIR. The column
 	$\Delta t$ shows the time after trigger when the spectroscopic observation was
 	started. Mag$_\mathrm{acq}$ gives the approximate magnitude (typically in the
-	$R$-band) of the afterglow in the acquisition image. \label{tab:sample_overview}}  \\
+	$R$-band) of the afterglow or the host in the acquisition image. \label{tab:sample_overview}}  \\
 \hline\hline
 {GRB} &  Obs Date & Exptime & Slit width & Airmass & Seeing & $\Delta t$ & Mag$_\mathrm{acq}$ & Redshift & Notes \\[1.5pt]
 \hline
