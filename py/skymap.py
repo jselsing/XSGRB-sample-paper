@@ -69,7 +69,7 @@ def main():
 
     # Overplot swift positions
     # Read in master sample
-    burst_table = pd.read_csv("../data/Burst list - CSV_master.csv")
+    burst_table = pd.read_csv("../data/Burst list - master.csv")
     name, z, observed, OA, = burst_table["GRB"].values, burst_table["Redshift"].values, burst_table["Observed"].values, burst_table["Afterglow"].values
 
 
@@ -82,7 +82,7 @@ def main():
             pass
 
     # Read in observed bursts
-    burst_table = pd.read_csv("../data/Burst list - CSV_observed.csv")
+    burst_table = pd.read_csv("../data/Burst list - observed.csv")
     name_o = np.array([ii[3:] for ii in burst_table["GRB"].values])
 
 
@@ -95,7 +95,22 @@ def main():
 
     # Read in Swift table
     swift_table = pd.read_table("../data/grb_table_1517061198.txt", delimiter="\t", dtype=None)
-    name_s, RA, DEC, redshift = swift_table["GRB"].values, pd.to_numeric(swift_table["BAT RA (J2000)"], errors='coerce').values, pd.to_numeric(swift_table["BAT Dec (J2000)"], errors='coerce').values, swift_table["Redshift"].values
+    name_s, RA, DEC, redshift, bat, xrt, nh = swift_table["GRB"].values, pd.to_numeric(swift_table["BAT RA (J2000)"], errors='coerce').values, pd.to_numeric(swift_table["BAT Dec (J2000)"], errors='coerce').values, swift_table["Redshift"].values, swift_table["BAT Fluence (15-150 keV) [10^-7 erg/cm^2]"].values, swift_table["XRT 11 Hour Flux (0.3-10 keV) [10^-11 erg/cm^2/s]"].values, swift_table["XRT Column Density (NH) [10^21 cm^-2]"].values
+
+    # nammmm = ["170111A", "170113A", "170127A", "170127B", "170202A", "170208A", "170208B"]
+
+    # idx = [ii for ii, kk in enumerate(name_s) if kk in nammmm]
+
+    # for ii, kk in enumerate(nammmm):
+    #     print(bat[idx][ii])
+
+    # for ii, kk in enumerate(nammmm):
+    #     print(xrt[idx][ii])
+
+    # for ii, kk in enumerate(nammmm):
+    #     print(nh[idx][ii])
+
+    # exit()
     count = 0
     for ii, kk in enumerate(name_s):
         hej = ''.join(filter(lambda x: x.isdigit(), kk))

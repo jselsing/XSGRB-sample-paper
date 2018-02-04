@@ -733,6 +733,12 @@ L{\'{o}}pez S.,  et~al., 2016, \mn@doi [A{\&}A] {10.1051/0004-6361/201628161},
   Circular Service, No.~18540, \#1 (2015), \href
   {http://adsabs.harvard.edu/abs/2015GCN.18540....1M} {18540}
 
+\bibitem[\protect\citeauthoryear{{Malesani}, {Kruehler}, {Heintz}  \&
+  {Fynbo}}{{Malesani} et~al.}{2016}]{GCN20180}
+{Malesani} D.,  {Kruehler} T.,  {Heintz} K.~E.,   {Fynbo} J.~P.~U.,  2016, GRB
+  Coordinates Network, Circular Service, No.~20180, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.20180....1M} {20180}
+
 \bibitem[\protect\citeauthoryear{{Markwardt} et~al.,}{{Markwardt}
   et~al.}{2016}]{GCN19974}
 {Markwardt} C.~B.,  et~al., 2016, GRB Coordinates Network, Circular Service,
@@ -807,6 +813,12 @@ Oesch P.~A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/819/2/129}, 819,
   Mainardi}{2010}]{pagnini2010}
 Pagnini G.,  Mainardi F.,  2010, \mn@doi [JCoAM] {10.1016/j.cam.2008.04.040},
   233, 1590
+
+\bibitem[\protect\citeauthoryear{{Palmerio}, {Kruehler}, {Malesani}  \&
+  {Fynbo}}{{Palmerio} et~al.}{2017}]{GCN20589}
+{Palmerio} J.,  {Kruehler} T.,  {Malesani} D.,   {Fynbo} J.~P.~U.,  2017, GRB
+  Coordinates Network, Circular Service, No.~20589, \#1 (2017), \href
+  {http://adsabs.harvard.edu/abs/2017GCN.20589....1P} {20589}
 
 \bibitem[\protect\citeauthoryear{Perley et~al.,}{Perley
   et~al.}{2009}]{Perley2009}
@@ -1089,6 +1101,13 @@ Tanvir N.~R.,  Levan A.~J.,  Fruchter A.~S.,  Hjorth J.,  Hounsell R.~A.,
   {Malesani} D.,  2016b, GRB Coordinates Network, Circular Service, No.~20104,
   \#1 (2016), \href {http://adsabs.harvard.edu/abs/2016GCN.20104....1T} {20104}
 
+\bibitem[\protect\citeauthoryear{{Tanvir}, {Kruehler}, {Wiersema}, {Xu},
+  {Malesani}, {Milvang-Jensen}  \& {Fynbo}}{{Tanvir} et~al.}{2016c}]{GCN20321}
+{Tanvir} N.~R.,  {Kruehler} T.,  {Wiersema} K.,  {Xu} D.,  {Malesani} D.,
+  {Milvang-Jensen} B.,   {Fynbo} J.~P.~U.,  2016c, GRB Coordinates Network,
+  Circular Service, No.~20321, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.20321....1T} {20321}
+
 \bibitem[\protect\citeauthoryear{{Tepper Garc{\'{i}}a}}{{Tepper
   Garc{\'{i}}a}}{2006}]{TepperGarcia2006}
 {Tepper Garc{\'{i}}a} T.,  2006, \mn@doi [MNRAS]
@@ -1305,6 +1324,12 @@ Xu D.,  et~al., 2013a, \mn@doi [ApJ] {10.1088/0004-637X/776/2/98}, 776
   2016b, GRB Coordinates Network, Circular Service, No.~19773, \#1 (2016),
   \href {http://adsabs.harvard.edu/abs/2016GCN.19773....1X} {19773}
 
+\bibitem[\protect\citeauthoryear{{Xu}, {Heintz}, {Malesani}  \& {Fynbo}}{{Xu}
+  et~al.}{2017}]{GCN20458}
+{Xu} D.,  {Heintz} K.~E.,  {Malesani} D.,   {Fynbo} J.~P.~U.,  2017, GRB
+  Coordinates Network, Circular Service, No.~20458, \#1 (2017), \href
+  {http://adsabs.harvard.edu/abs/2017GCN.20458....1X} {20458}
+
 \bibitem[\protect\citeauthoryear{{Zheng}, {Filippenko}, {Yuk}, {Zhu}  \&
   {Perley}}{{Zheng} et~al.}{2015}]{GCN18273}
 {Zheng} W.,  {Filippenko} A.~V.,  {Yuk} H.,  {Zhu} Y.,   {Perley} D.~A.,  2015,
@@ -1370,6 +1395,12 @@ Xu D.,  et~al., 2013a, \mn@doi [ApJ] {10.1088/0004-637X/776/2/98}, 776
   S.,  {Hjorth} J.,   {Tanvir} N.~R.,  2016b, GRB Coordinates Network, Circular
   Service, No.~19154, \#1 (2016), \href
   {http://adsabs.harvard.edu/abs/2016GCN.19154....1D} {19154}
+
+\bibitem[\protect\citeauthoryear{{de Ugarte Postigo} et~al.,}{{de Ugarte
+  Postigo} et~al.}{2016c}]{GCN20342}
+{de Ugarte Postigo} A.,  et~al., 2016c, GRB Coordinates Network, Circular
+  Service, No.~20342, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.20342....1D} {20342}
 
 \bibitem[\protect\citeauthoryear{van Dokkum}{van Dokkum}{2001}]{VanDokkum2001}
 van Dokkum P.~G.,  2001, \mn@doi [PASP] {10.1086/323894}, 113, 1420

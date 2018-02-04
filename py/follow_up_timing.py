@@ -43,12 +43,12 @@ def main():
     # exit()
 
     for ii, ll in enumerate(mag):
-        # print(ll)
+        print(name[ii], ll)
         if "R" in str(ll):
             print(ll)
             mag[ii] = float(ll.split("=")[1]) + 0.21
-
-
+    # print(mag)
+    # exit()
     idx_limits = ~(mag == ">24")
     magnondet = 24 * (~idx_limits).astype("int")
 
@@ -68,7 +68,7 @@ def main():
     fig, ax1 = pl.subplots()
 
 
-    color = sns.color_palette()[0]
+    color = sns.color_palette("muted")[0]
     color_rgb = mpl.colors.colorConverter.to_rgb(color)
     colors = [sns.set_hls_values(color_rgb, l=l) for l in np.linspace(1, 0, 12)]
     cmap = sns.blend_palette(colors, as_cmap=True)
@@ -77,13 +77,13 @@ def main():
     sc = ax1.scatter(delay[idx_hasz & idx_limits], mag[idx_hasz & idx_limits], c=z[idx_hasz & idx_limits], cmap=cmap, s=35)
 
     # Without redshift and with acq mag
-    ax1.scatter(delay[~idx_hasz & idx_limits], mag[~idx_hasz & idx_limits], color=sns.color_palette()[2], s=45, marker="x")
+    ax1.scatter(delay[~idx_hasz & idx_limits], mag[~idx_hasz & idx_limits], color=sns.color_palette("muted")[2], s=45, marker="x")
     # With redshift, but without acq mag
     ax1.scatter(delay[idx_hasz & ~idx_limits], magnondet[idx_hasz & ~idx_limits], c=z[idx_hasz & ~idx_limits], cmap=cmap, s=175, marker=r'$\downarrow$')
     # No redshift and without acq mag
-    ax1.scatter(delay[~idx_hasz & ~idx_limits], magnondet[~idx_hasz & ~idx_limits], color=sns.color_palette()[2], s=175, marker=r'$\downarrow$')
+    ax1.scatter(delay[~idx_hasz & ~idx_limits], magnondet[~idx_hasz & ~idx_limits], color=sns.color_palette("muted")[2], s=175, marker=r'$\downarrow$')
     ax2 = pl.twinx()
-    ax2.plot(sorted_delay, fractional_completeness, color=sns.color_palette()[2])
+    ax2.plot(sorted_delay, fractional_completeness, color=sns.color_palette("muted")[2])
 
 
 
@@ -108,6 +108,8 @@ def main():
 
     # ax.set_xlim((19.5, 23))
     ax1.set_xlim((0.05, 110))
+    # ax1.set_ylim((15.5, 24.5))
+    # ax2.set_yticks([75, 80, 85, 90, 95, 100])
     ax2.set_ylim((70, 105))
     ax2.set_yticks([75, 80, 85, 90, 95, 100])
     ax1.set_xlabel(r"Follow-up delay (hours)")

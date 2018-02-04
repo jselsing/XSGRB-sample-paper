@@ -68,7 +68,7 @@ def main():
     # Script to produce beta OX.
     """
     # Read in burst list
-    burst_table = pd.read_csv("../data/Burst list - CSV_observed.csv")
+    burst_table = pd.read_csv("../data/Burst list - observed.csv")
     name, sample, dt, acqmag, X_Fnu  = burst_table["GRB"].values, burst_table["In Sample"].values, burst_table["Follow-up delay"].values, burst_table["Acquisition mag"].values, burst_table["XRT flux density"].values
     name = np.array([ii[3:] for ii in name])
     # print(name)
