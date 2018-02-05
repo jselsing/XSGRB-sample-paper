@@ -65,32 +65,27 @@
 \authorrunning{Selsing et al.}
 
 \abstract{In this work we present spectra of all $\gamma$-ray burst (GRB)
-	afterglows that have been promptly observed with the X-shooter spectrograph up
-	to \termdate. This totals spectroscopic observations of 103 individual bursts
-	observed with 48 hours of the GRB trigger. Redshifts have been measured for 97
+	afterglows that have been promptly observed with the X-shooter spectrograph
+	until \termdate. This totals spectroscopic observations of 103 individual GRBs
+	observed within 48 hours of the GRB trigger. Redshifts have been measured for 97
 	per cent of these, covering a redshift range from 0.059 to 7.84. Based on a set
 	of observational selection criteria that minimize biases with regards to
 	intrinsic properties of the GRBs, the follow-up effort has been focused on
 	producing a homogeneous sample of 93 afterglow spectra for GRBs discovered by
 	the {\em Swift} satellite. We here provide a public release of all the reduced
 	spectra, including continuum estimates and telluric absorption corrections. For
-	completeness, we also provide reductions for the 18 late-time observations of the
-	underlying host galaxies. We provide an assessment of the degree of completeness
-	with respect to the parent GRB population, in terms of the X-ray properties of
-	the bursts in the sample and find that the sample presented here is
-	representative of the full \textit{Swift} sample. For all bursts (42) for which
-	it is possible, we provide a measurement of the neutral hydrogen column density,
-	increasing the total number of published H{\sc I} column density measurements by
-	$\sim$ 50 per cent. %	We
-	% constrain the
-	% fraction
-	%	of dark bursts to be less than 28 per cent based on the detection of an
-	% optical
-	%	afterglow and tentatively confirm previous results that larger optical
-	% darkness
-	%	is correlated with increased X-ray absorption.
-	This dataset provides a unique resource to study the ISM across cosmic time,
-	from the local progenitor surroundings to the galaxy-scale conditions.}
+	completeness, we also provide reductions for the 18 late-time observations of
+	the underlying host galaxies. We provide an assessment of the degree of
+	completeness with respect to the parent GRB population, in terms of the X-ray
+	properties of the bursts in the sample and find that the sample presented here
+	is representative of the full \textit{Swift} sample. We constrain the fraction
+	of dark bursts to be < 28 per cent and we confirm previous results, that higher
+	optical darkness is correlated with increased X-ray absorption. For the 42
+	bursts for which it is possible, we provide a measurement of the neutral
+	hydrogen column density, increasing the total number of published H{\sc I}
+	column density measurements by $\sim$ 33 per cent. This dataset provides a
+	unique resource to study the ISM across cosmic time, from the local progenitor
+	surroundings to the intervening universe.}
 
 \keywords{Gamma-ray burst: general --- galaxies: high-redshift --- ISM: molecules --- dust, extinction }
 
@@ -100,13 +95,15 @@
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-$\gamma$-ray bursts (GRBs) provide constraints on a very wide range of topics in
-astrophysics. Examples range from small-scale phenomena relating to magnetars,
-properties of highly relativistic jets, hyper/supernova explosions, the
-interstellar medium, dust extinction curves, starburst galaxies, chemical and
-molecular abundances, escape of ionizing radiation, the ionization state of the
-intergalactic medium, intervening absoption systems to standard candles in
-cosmology \citep[e.g.,][]{Wijers1998, Savaglio2006, Ghirlanda2007, Molinari2007,
+$\gamma$-ray bursts (GRBs) are bright glimpses of electromagnetic radiation that
+pierce through the universe, all the way from the beginning of time. They
+provide constraints on a very wide range of topics in astrophysics. Examples
+range from small-scale phenomena relating to magnetars, properties of highly
+relativistic jets, hyper/supernova explosions, the interstellar medium, dust
+extinction curves, starburst galaxies, chemical and molecular abundances, escape
+of ionizing radiation, the ionization state of the intergalactic medium,
+intervening absoption systems to standard candles in cosmology
+\citep[e.g.,][]{Wijers1998, Savaglio2006, Ghirlanda2007, Molinari2007,
 	Amati2008, Vergani2009, Prochaska2009, HjorthBloom2012, Rowlinson2017,
 	Christensen2017}.
 
@@ -588,6 +585,88 @@ periods of time were applied to the corresponding spectra\footnote{The
 	wavelength shifts have been extensively studied by ESO
 	\href{https://www.eso.org/sci/facilities/paranal/instruments/xshooter/doc/XS_wlc_shift_150615.pdf}{in this document}.}. Using the convolved synthetic sky, the pixels containing the brightest sky lines have been flagged as such in the bad pixel map.
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Spectral resolution} \label{resolution}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\begin{figure}[!ht]
+%	\centerline{\includegraphics[width=8cm]{figures/resolution_paper.eps}}
+%\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved
+%	telluric absorption lines in the VIS spectra, as a function of the FWHM of a
+%	Gaussian fit onto the trace in the spatial direction at 792 nm. The lower
+%	horizontal axis is in units pixels, the top axis in arc seconds. The red
+%	datapoints show a subsample of measurements obtained for NIR spectra. The grey
+%	line shows a linear fit to the VIS datapoints. } \label{fig:res}
+%\end{figure}
+
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[width=8cm]{figures/resolutuions}} \caption{Blue
+		datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric
+		absorption lines in the VIS spectra, as a function of the airmass corrected
+		ambient FWHM. The red datapoints show a subsample of measurements obtained for
+		NIR spectra. The colored lines show the corresponding linear fits to the
+		datapoints. The colored bounds contain 68 per cent of the best-fit probability
+		mass. The red and blue dashed line indicates the nominal resolution for the
+		slit-widths used for the telluric standard observations. As can be see, the
+		delivered resolution is in many cases superior to the nominal one. }
+	\label{fig:res}
+\end{figure}
+
+The afterglow spectra described in this paper are obtained in
+Target-of-Opportunity (override) mode. In most cases, there is little
+possibility to tweak slit widths to the seeing at the time of observations (i.e.
+to optimize spectral resolution and signal-to-noise), and almost all our data are
+therefore taken with a fixed set of slit widths and binning, described above. In
+a fair number of cases, the seeing full width at half maximum (FWHM) is
+considerably smaller than the slit width, and the delivered spectral resolution
+will then be determined by the seeing rather than by the slit width, as afterglows are
+point sources (this is evidently not the case for extended sources, e.g for host
+galaxies). The delivered resolution for slit-width dominated spectra
+post-reduction and extraction can easily be determined from the bright sky
+emission lines. For afterglow spectra with very high signal-to-noise, the
+delivered spectral resolution can at times be determined from the science data
+themselves. However, in the presence of multiple velocity components in
+absorption, other forms of line broadening, and a lack of lines at some
+redshifts, this is difficult to do at lower signal-to-noise ratios (the
+majority of spectra in our sample). A broad starting value for the expected
+resolution will help fitting of these spectra, and can be important in upper
+limit determination, and for this reason we construct a crude relation between
+the seeing and the delivered resolution at our slit width, binning, and
+reduction pipeline settings. 
+
+To this end we use observations of telluric standard stars that are taken with
+identical instrument settings as our afterglow spectra, usually just after the
+science data, as part of the ESO X-shooter calibration plan. These spectra have
+been reduced together with the afterglow spectra, using identical pipeline
+settings with the same version of the pipeline. To get the resolutions, we
+select a series of atmospheric transitions that are resolved multiples which
+should be intrinsically unresolved, and are in areas with well defined continuum
+flux. We then fit the lines with Voigt-profiles and calculate a corresponding
+FWHM, which we can then convert to a delivered resolution using the wavelength
+of the chosen transitions. To get the resolution as a function of ambient
+conditions, for each observations we also calculate the airmass-corrected
+\href{http://www.eso.org/asm/ui/publicLog}{DIMM} seeing, which is measured at
+500 nm.
+
+The resulting distribution of spectral FWHM (km/s) as a function of spatial
+FWHM at 500 nm is fairly well described in the VIS arm by a linear relation $a
++ b*x$, with $x$ the spatial FWHM in arcseconds, $a= 25.2 \pm 0.8$ km/s, $b=3.8
+\pm 0.7$ (see Fig. \ref{fig:res}). For the NIR arm the corresponding relation
+is $a= 36.0 \pm 1.8$ km/s, $b=8.4 \pm 1.8$. We use these linear relations as a
+way to estimate the spectral resolution for medium to low signal-to-noise
+afterglow spectra. To extend this to the UVB arm, we calculate the ratio
+between the VIS and the NIR arm resolutions and find that the resulting
+distribution is consistent with a simple scaling of the VIS arm relation by the
+ratio of resolutions of the NIR and VIS arm for unresolved, slit filling,
+sources as given on the
+\href{https://www.eso.org/sci/facilities/paranal/instruments/xshooter/inst.html}{ESO instrument website}. The UVB arm contains no suitable absorption lines to use, and we therefore use a scaled value. This simple analysis gives a sufficiently accurate estimate for the analysis of the low signal-to-noise science spectra.
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Spectral extraction}    \label{extract}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -759,91 +838,6 @@ continuum error is set to 10 per cent. The code for the continuum estimate is
 released along with the paper at
 \url{https://github.com/jselsing/XSGRB-sample-paper}.
                                                                                            
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Spectral resolution} \label{resolution}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%\begin{figure}[!ht]
-%	\centerline{\includegraphics[width=8cm]{figures/resolution_paper.eps}}
-%\caption{Green datapoints show the FWHM (km/s) of Gaussian fits to unresolved
-%	telluric absorption lines in the VIS spectra, as a function of the FWHM of a
-%	Gaussian fit onto the trace in the spatial direction at 792 nm. The lower
-%	horizontal axis is in units pixels, the top axis in arc seconds. The red
-%	datapoints show a subsample of measurements obtained for NIR spectra. The grey
-%	line shows a linear fit to the VIS datapoints. } \label{fig:res}
-%\end{figure}
-
-
-\begin{figure}[!ht]
-	\centerline{\includegraphics[width=8cm]{figures/resolutions}} \caption{Blue
-	datapoints show the FWHM (km/s) of Gaussian fits to unresolved telluric
-	absorption lines in the VIS spectra, as a function of the airmass corrected
-	ambient FWHM. The red datapoints show a subsample of measurements obtained for
-	NIR spectra. The colored lines show the corresponding linear fits to the
-	datapoints. The colored bounds contain 68 per cent of the best-fit probability
-	mass. } \label{fig:res}
-\end{figure}
-
-The afterglow spectra described in this paper are obtained in
-Target-of-Opportunity (override) mode. In most cases, there is little
-possibility to tweak slit widths to the seeing at the time of observations (i.e.
-to optimize spectral resolution and signal-to-noise), and almost all our data are
-therefore taken with a fixed set of slit widths and binning, described above. In
-a fair number of cases, the seeing full width at half maximum (FWHM) is
-considerably smaller than the slit width, and the delivered spectral resolution
-will then be determined by the seeing rather than by the slit width, as afterglows are
-point sources (this is evidently not the case for extended sources, e.g for host
-galaxies). The delivered resolution for slit-width dominated spectra
-post-reduction and extraction can easily be determined from the bright sky
-emission lines. For afterglow spectra with very high signal-to-noise, the
-delivered spectral resolution can at times be determined from the science data
-themselves. However, in the presence of multiple velocity components in
-absorption, other forms of line broadening, and a lack of lines at some
-redshifts, this is difficult to do at lower signal-to-noise ratios (the
-majority of spectra in our sample). A broad starting value for the expected
-resolution will help fitting of these spectra, and can be important in upper
-limit determination, and for this reason we construct a crude relation between
-the seeing and the delivered resolution at our slit width, binning, and
-reduction pipeline settings. 
-
-To this end we use observations of telluric standard stars that are taken with
-identical instrument settings as our afterglow spectra, usually just after the
-science data, as part of the ESO X-shooter calibration plan. These spectra have
-been reduced together with the afterglow spectra, using identical pipeline
-settings with the same version of the pipeline. 
-
-%First we fit a Gaussian function
-%in the spatial direction of the trace of the standard star at 792 nm (i.e. in
-%the VIS arm). After this, we fit a series of  20 telluric absorption lines in
-%the telluric standard star spectra with Gaussians, taking care to select
-%transitions that are not almost-resolved multiples, should be intrinsically
-%unresolved, and are in areas with well defined continuum flux. We pick 34
-%telluric standard stars spanning a range of DIMM seeing values, with the
-%majority between $0.5-1.5 $\arcsec. The resulting distribution of spectral FWHM
-%(km/s) as a function of spatial FWHM at 792 nm is fairly well described by a
-%linear relation $a + b*x$, with $x$ the spatial FWHM in pixels (with 0.15 arc
-%sec per pixel),  $a= 21.4 \pm 1.3$ km/s, $b=1.4 \pm 0.2$ (see Fig.
-%\ref{fig:res}). We use this linear relation as a way to estimate the spectral
-%resolution for medium to low signal to noise afterglow spectra in the VIS arm.
-%To extend this to the UVB and NIR arm, we measured a series of lines in the NIR
-%arm spectra of a subset of 19 sources used for the VIS arm above, and find that
-%the resulting distribution is consistent with a simple scaling of the VIS arm
-%relation by the ratio of resolutions of the NIR and VIS arm for unresolved, slit
-%filling, sources as given on the ESO instrument website. The UVB arm contains no
-%suitable absorption lines to use, and we therefore use a scaled value as in the
-%NIR arm. This simple analysis gives a sufficiently accurate estimate for the
-%analysis of the low signal-to-noise science spectra.
-
-
-%fit parameter 1-sigma error
-%———————————-
-%6.96733427249 +- 1.35492333728
-%36.1113577532 +- 1.36818568362
-%fit parameter 1-sigma error
-%———————————-
-%3.64773146238 +- 0.563740522948
-%24.2308362925 +- 0.792580030602
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Science data products} \label{products}
@@ -938,7 +932,7 @@ completeness, we plot the redshift completeness as a function of delay time in
 Fig. \ref{fig:timing} for all the bursts we have followed up, including the ones
 outside the statistical sample. As can be seen from the figure, the fraction of
 GRBs with a redshift determination decreases with follow-up delay. The redshift
-completeness for bursts that we have followed up is 92 per cent. This degree of
+completeness for bursts that we have followed up is 94 per cent. This degree of
 completeness in the followed bursts, illustrates the efficiency of VLT/X-shooter
 in redshift determination. Not shown in the figure are an additional 12 bursts
 that have redshift determinations based on late-time host observations with
@@ -958,12 +952,12 @@ delay times longer than $\sim$10 days.
 \subsection{Sample completeness} \label{completeness}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Of all the BAT-triggered bursts, a total of 158 bursts fulfill the sample
+Of all the BAT-triggered bursts, a total of 165 bursts fulfill the sample
 criteria specified in Sect. \ref{samplecrit}, since the commissioning of
 VLT/X-shooter. This sample constitutes the \textit{statistical sample} from
 which we will derive statistical properties of the GRB population. The redshift
 completeness of the full statistical sample is 61 per cent. We return to the
-question of redshift completeness in Sect. \ref{redshift}. From this sample, 91
+question of redshift completeness in Sect. \ref{redshift}. From this sample, 93
 GRBs have been spectroscopically followed up with X-shooter. In order to assess
 whether the subset of bursts followed up are representative of the underlying
 GRB parent population, we compare intrinsic properties of GRBs in our sample to
@@ -990,9 +984,10 @@ the last point in Sect. \ref{darkness}.
 \end{figure*}
 
 Using the observational characteristics of the 1266 bursts observed until
-\termdate~by \textit{Swift}, and the derived $N_{\mathrm{HI,X}}$ \citep{Evans2009}, we can
-quantify the degree to which our sample is biased relative to the overall
-\textit{Swift} sample. The values are queried from the online \textit{Swift}
+\termdate~by \textit{Swift}, and the derived $N_{\mathrm{HI,X}}$
+\citep{Evans2009}, we can quantify the degree to which our sample is biased
+relative to the overall \textit{Swift} sample. The values are queried from the
+online \textit{Swift}
 database\footnote{\url{http://swift.gsfc.nasa.gov/archive/grb\_table/}}$^,$\footnote{\url{http://www.swift.ac.uk/xrt\_live\_cat/}}. Three samples are of interest in order to assess the completeness of the follow-up campaign (Fig.~\ref{fig:swift_complete}); the full \textit{Swift} sample consisting of all the bursts observed by \textit{Swift} (blue), all the bursts that fulfill the selection criteria imposed in Sect. \ref{samplecrit} (green), and the bursts actually followed up with X-shooter (red).
 
 \input{tables/sample_properties.tex}
@@ -1045,17 +1040,17 @@ conserves the intrinsic properties of the GRBs in the full \textit{Swift} sample
 \subsubsection{Properties of rejected triggers} \label{badbursts}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Out of the 158 bursts in the statistical sample, 33 ( $\sim$ 20 per cent) were
+Out of the 165 bursts in the statistical sample, 36 (22 per cent) were
 not observed due to reasons unrelated to the GRB or afterglow properties. The
 reasons include unavailability of the telescope due to technical maintenance
 (e.g., mirror re-coating), a visiting observer rejecting the ToO trigger, or bad
 weather. Because this cut is unrelated to the GRB properties, it will not change
 the statistical properties of the full sample. Removing these bursts for the
-statistical sample, dramatically improves the redshift completeness from 61 per cent to 84
+statistical sample, dramatically improves the redshift completeness from 61 per cent to 88
 per cent. The remaining burst not followed up already had redshift from other
 instruments or were very faint and without a host association thus observations
 unlikely to yield a redshift measurement. In the remainder of the text, we
-consider the 125 bursts our statistical sample.
+consider the 129 bursts our statistical sample.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{On the redshift distribution of GRBs} \label{redshift}
@@ -1089,16 +1084,20 @@ effective limit depends on the light curve of the prompt emission signal. Due to
 the dilution of light with distance, the \swift~GRB luminosity detection limit
 is almost an order of magnitude brighter at $z=2$ than at $z=1$. At $z\geq4$ we
 are only able to observe GRBs that are $\sim$ hundred times brighter than the
-faintest bursts at $z=1$ and below. The effect of GRB redshift on the \swift~triggering criteria have previously been studied in detail \citep{Littlejohns2013a}.
+faintest bursts at $z=1$ and below. The effect of GRB redshift on the
+\swift~triggering criteria have previously been studied in detail
+\citep{Littlejohns2013a}.
 
 We compare the point estimates for the redshift distributions of previous
 complete samples of GRBs in Tab. \ref{tab:redshift_comparison}. We see that when
 we compare to other complete samples, the XS-GRB presented here has the lowest
 average redshift. However, the other samples also exhibit a large spread in the
-redshift distributions. A 2-sided KS test reveals that the XS-GRB sample is consistent with
-being drawn from the same parent sample with the following p-values: SHOALS (p-value = 0.13), BAT6 (p-value = 0.95), Fynbo09 (p-value = 0.08) and TOUGH (p-value = 0.09).
+redshift distributions. A 2-sided KS test reveals that the XS-GRB sample is
+consistent with being drawn from the same parent sample with the following
+p-values: SHOALS (p-value = 0.13), BAT6 (p-value = 0.95), Fynbo09 (p-value =
+0.08) and TOUGH (p-value = 0.09).
 
-Because the redshift completeness of our statistical sample is 84 per cent,
+Because the redshift completeness of our statistical sample is 88 per cent,
 making inference of the \textit{true} redshift distribution of GRBs based on
 this sample is impossible. %The biases introduced in the measured redshift
 %distribution by our increased ability to secure redshifts for optically
@@ -1231,7 +1230,7 @@ lower than the for the ones with a detected optical afterglow. For the
 afterglows we have observed as part of the statistical sample that do not have a
 detected optical afterglow, the redshift completeness is 53 per cent. For
 comparison, for the afterglows in the statistical sample we have observed with
-an optical afterglow detected, the redshift completeness is 91 per cent. This
+an optical afterglow detected, the redshift completeness is 92 per cent. This
 also goes to show that the lack of redshift completeness in the sample presented
 here is in part due to the increased difficulty of measuring a redshift for
 bursts without an afterglow. To measure a redshift, we either need a detected
@@ -1292,23 +1291,24 @@ bounds contain the continuum variation. We show the results of this procedure
 for all bursts where possible in Fig. \ref{fig:HI1} and the inferred hydrogen
 column densities in Table~\ref{tab:HI}.
 
-In the compilation of $N_{\mathrm{HI}}$ measurements towards GRBs in Tanvir et
-al. (submitted) %\citet{Tanvir2017}
-there are 81 published $N_{\mathrm{HI}}$ values, excluding the measurements
-provided here. We here provide 39 new neutral hydrogen column density
-measurements -- an increase of the number of optically derived hydrogen column
-densities of $\sim$ 50 per cent. We show the two distributions in  Fig.
-\ref{fig:NH_dist}. We compare the median, the 14th, and 86th percentiles of the
-two distributions. The sample presented has a \nh~$= 21.8_{-0.8}^{+0.3}$ and the
-rest of the literature values has \nh~$= 21.5_{-1.5}^{+0.4}$. We see that the
-two distributions have a large degree of overlap due to the large width of the
-distributions, but we find a slightly higher median value for the new sample
-presented here. A 2-sided KS test gives a p-value of p = 0.006, meaning
-relatively large evidence against the null that the two samples are drawn from
-the same underlying distribution. Because the bursts that have measurements of
-the hydrogen column density are selected solely based on our ability to infer a
-column, it is difficult to make any strong conclusions about the population
-statistics in terms of gas content.
+12 of the $N_{\mathrm{HI}}$ measurements for these spectra have previously been
+presented in \citet{Cucchiara2015} (See Table \ref{tab:HI}). We provide new
+measurements here for completeness. In the compilation of $N_{\mathrm{HI}}$
+measurements towards GRBs in Tanvir et al. (submitted) there are 93 published
+$N_{\mathrm{HI}}$ values, excluding the measurements provided here. We here
+provide 30 new neutral hydrogen column density measurements -- an increase of
+the number of optically derived hydrogen column densities of $\sim$ 33 per cent.
+We show the two distributions in  Fig. \ref{fig:NH_dist}. We compare the median,
+the 14th, and 86th percentiles of the two distributions. The sample presented
+has a \nh~$= 21.8_{-0.8}^{+0.3}$ and the rest of the literature values has
+\nh~$= 21.5_{-1.5}^{+0.4}$. We see that the two distributions have a large
+degree of overlap due to the large width of the distributions, but we find a
+slightly higher median value for the new sample presented here. A 2-sided KS
+test gives a p-value of p = 0.006, meaning relatively large evidence against the
+null that the two samples are drawn from the same underlying distribution.
+Because the bursts that have measurements of the hydrogen column density are
+selected solely based on our ability to infer a column, it is difficult to make
+any strong conclusions about the population statistics in terms of gas content.
 
 In Fig. \ref{fig:NH_dist}, we also show the column density-distribution
 for the 12081 quasar absorbers with \nh~$> 20$ from \citet{Noterdaeme2012b}. The
@@ -1343,7 +1343,7 @@ spectroscopic observations of afterglows and host galaxies of GRBs detected by
 \swift. This work was initiated by a consortium using Guaranteed Time on
 X-shooter, but over the years the project continued in open time.
 
-The sample presented here includes spectroscopic observations of 91 systems
+The sample presented here includes spectroscopic observations of 93 systems
 fulfilling our sample criteria, including 18 spectra that are late-time
 observations of the underlying host galaxies. All spectra have been made
 publicly available in the reduced form used in this paper.
@@ -1361,25 +1361,25 @@ to characterize the properties of star-forming galaxies over cosmic history in
 terms of redshifts, metallicities, molecular contents, ISM temperatures, UV-flux
 densities, extinction curves, etc.  A number of independent papers have been
 published or submitted for publication focusing on many of these specific issues
-of our sample such as extinction curves \citep[][see also \citealt{Fynbo2014,
-	Heintz2017}]{Japelj2015, Zafar17}, emission lines from the underlying host
-galaxies \citep{Kruhler2015}, the frequency of intervening \mgii~ absorbers
-\citep{Christensen2017}, \citet{Arabsalmani2018} on the metallicity-scaling
-relations, and escape of ionizing radiation (Tanvir et al., submitted). A number
-of additional companion papers are also planned, investigating the detailed
-properties of the sample presented here, including equivalent width
-distributions (de Ugarte Postigo et al., in preparation), metallicities and
-kinematics (Th{\"o}ne et al., in preparation), high ionization lines (Heintz et
-al., in preparation), molecular lines (Bolmer et al., in preparation),
-fine-structure lines (Vreeswijk et al., in preparation), composite GRB afterglow
-spectrum (Selsing et al., in preparation).
+of our sample such as extinction curves (\citealt{Japelj2015}, Zafar et al.
+submitted, see also \citealt{Fynbo2014, Heintz2017}]), emission lines from the
+underlying host galaxies \citep{Kruhler2015}, the frequency of intervening
+\mgii~ absorbers \citep{Christensen2017}, \citet{Arabsalmani2018} on the
+metallicity-scaling relations, and escape of ionizing radiation (Tanvir et al.,
+submitted). A number of additional companion papers are also planned,
+investigating the detailed properties of the sample presented here, including
+equivalent width distributions (de Ugarte Postigo et al., in preparation),
+metallicities and kinematics (Th{\"o}ne et al., in preparation), high ionization
+lines (Heintz et al., in submitted), molecular lines (Bolmer et al., in
+preparation), fine-structure lines (Vreeswijk et al., in preparation), and
+composite GRB afterglow spectrum (Selsing et al., in preparation).
 
 The potential of using GRB sightlines as probes is far from fully harvested. The
 sample of sightlines probed by our spectra are not representative for all GRB
 sightlines as we have shown and consistent with earlier findings from samples
 based on low-resolution spectroscopy \citep[e.g.,][]{Fynbo2009} and from studies
 of complete samples of GRB host galaxies \citep{Hjorth2012, Covino2013,
-	Perley2016}. \cite{Kruhler2013} argue, that very rich sightlines like that
+	Perley2016a}. \cite{Kruhler2013} argue, that very rich sightlines like that
 probed by the remarkable GRB~080607 \citep{Prochaska2009} are probably
 significantly more frequent than in the sightlines sampled by our spectra.
 However, with current instrumentation, these sightlines are out of reach except
@@ -1799,11 +1799,11 @@ identified from an absorption feature, likely due to \civ.
 
 These observations have not been published before. Starting 12.36 hours after
 the BAT trigger, 4.8 ks spectroscopic integration yields a very faint trace down
-to $\sim$4300\AA, only visible after binning heavily. This could indicate a
+to $\sim$430 nm, only visible after binning heavily. This could indicate a
 redshift, $z ~\sim 2.5$, but no emission lines or absorption lines are
 immediately visible to support this.
 
-\subsection{GRB~110709B (z=2.109 (NEW!!!!))} \label{110709}
+\subsection{GRB~110709B (z=2.109)} \label{110709}
 
 This is a late-time observation (> 1 year) and has previously been used in
 \citet{Perley2016a}. In this reduction of the 7.2 ks spectroscopic integration,
@@ -1829,7 +1829,7 @@ This is a Fermi burst with a LAT detection and thus outside the statistical
 sample, but nonetheless followed up due to the extremely high peak energy
 \citep{Axelsson2012}. Starting 28.7 hours after the burst trigger, 2.4ks
 spectroscopic observation reveals after heavy binning, a wide, faint trace down
-to $\sim$ 5800 \AA, offset by 2.5\arcsec~relative to the centering of the slit.
+to $\sim$ 580 nm, offset by 2.5\arcsec~relative to the centering of the slit.
 No good redshift measurement can be inferred from this. We have adopted the
 redshift from GCN  12193 \citep{GCN12193}
 
@@ -1847,8 +1847,7 @@ continuum from \mgii~and \feii.
 \subsection{GRB~110818A (z=3.36)} \label{110818}
 
 Starting 6.15 hours after the BAT trigger, spectroscopic integration for 4.8ks
-reveals a moderate signal-to-noise GRB afterglow continuum, down to $\sim$ 5000
-\AA. The simultaneous detection of absorption features identified as \lya,
+reveals a moderate signal-to-noise GRB afterglow continuum, down to $\sim$ 500 nm. The simultaneous detection of absorption features identified as \lya,
 \SIii, \civ, \alii, \cah, \cak, and \mgii, and emission from the \oiii-doublet,
 securely sets $z = 3.36$ as the redshift of the GRB. This data forms the basis
 of GCN 12284 \citep{GCN12284}, but is not published elsewhere.
@@ -1870,7 +1869,7 @@ This data formed the basis of GCN 12431 \citep{GCN12431} and is additionally
 published in \citet{Sparre2014}. Observations of this GRB afterglow was
 initiated 7.71 hours after the BAT trigger and had a duration of 8.4ks. A second
 observational epoch started 20.1 hours and lasted for 6.6ks. The GRB afterglow
-continuum is well detected down to $\sim$7600 \AA, with several strong
+continuum is well detected down to $\sim$760 nm, with several strong
 absorption features imprinted, all at a common $z = 4.990$. \lya~is clearly
 detected and we additionally detect lines identified as \SIii, \feii, \civ,
 \mgii, \SIii*, \sii*, \oi*. An intervening DLA systems is additionally detected
@@ -1957,7 +1956,7 @@ to \oii~and \oiii~at $z = 2.943$, suggested to be redshift of the host.
 \subsection{GRB~120119A (z = 1.728)} \label{120119}
 
 The data presented here has been examined by \citet{Japelj2015} and
-\citet{Zafar2017} who both find a significant amount of extinction, $A_V\approx
+Zafar et al. (submitted), who both find a significant amount of extinction, $A_V\approx
 1$ mag. Three epochs of observations have been obtained, the first two
 immediately after the burst, and the last one long after the afterglow had
 faded. Starting 1.4 hours after the \textit{Swift} trigger, the first epoch
@@ -1979,7 +1978,7 @@ $> 1$ year after the burst has faded. A redshift for this object has been
 reported by \citet{Kruhler2015} and the features seen by those authors are
 reproduced in these reductions, confirming $z =	2.346$.
 
-\subsection{GRB~120224A (z = 1.10 NEW!!!)} \label{120224}
+\subsection{GRB~120224A (z = 1.10)} \label{120224}
 
 The data presented here has formed the basis of GCN 12991 \citep{GCN12991}, and
 has also been published in \citet{Kruhler2015}. Starting 19.8 hours after the
@@ -1989,7 +1988,7 @@ we detect a $\sim 2 \sigma$ emission line which, if interpreted as \ha, gives $z
 = 1.10$, supporting the photometric redshift ($0.9 < z_\mathrm{phot} < 1.3$)
 derived by \citet{Kruhler2015}.
 
-\subsection{GRB~120311 (z = 0.350 NEW!!!)} \label{120311}
+\subsection{GRB~120311 (z = 0.350)} \label{120311}
 
 The data presented here has formed the basis of GCN 12991 \citep{GCN12991}, but
 is not published otherwise. Starting just before twilight, 3.65 hours after the
@@ -2077,7 +2076,7 @@ of the GRB.
 
 
 
-\subsection{GRB~120805A (z = 3.9 NEW!!!)} \label{120805}
+\subsection{GRB~120805A (z = 3.9)} \label{120805}
 
 A separate reduction of this burst has been published in \citet{Kruhler2015},
 but is not used otherwise. Starting 9 days after the burst trigger, this is host
@@ -2275,7 +2274,7 @@ This spectrum has not previously been published. Starting only 45 minutes after
 the BAT trigger, $2\times600$ s spectroscopic integration carried on into the
 beginning twilight. Observed at very high airmass with a quickly varying
 background, a faint afterglow trace is visible across all arms of X-shooter,
-down to ~ 4800 \AA, which if interpreted as the break due to \lya suggests $z =
+down to ~ 480 nm, which if interpreted as the break due to \lya suggests $z =
 2.9$. This supports the approximate redshift suggested in GCN 14898
 \citep{GCN14898}.
 
@@ -2308,13 +2307,13 @@ spectrum is taken under ESO programme ID: 091.A-0877(A) (PI: Schady).
 This data formed the basis for 15330 \citep{GCN15330}, but is not published
 elsewhere. Starting $\sim$1.5 days after the Fermi-GBM trigger, 4.5 ks
 spectroscopic integration captures a modest signal-to-noise GRB afterglow
-continuum all the way down to $\sim$3200 \AA. Imprinted on the continuum are
+continuum all the way down to $\sim$320 nm. Imprinted on the continuum are
 absorption features, which we identify as due to \lya, \feii,  \mgii, \mgi~at
 the same redshift, which we measure to be $z = 1.874$. From the broad absorption
 trough due to \lya, we infer \nh~$= 22.0 \pm 0.3$. This spectrum is taken under
 ESO programme ID: 092.D-0056(A) (PI: Rau).
 
-\subsection{(CHECK ME - Bright un-used spectrum)GRB~131030A (z = 1.296)}	
+\subsection{GRB~131030A (z = 1.296)}	
 \label{131030}
 
 This data has not been published before. Starting 3.4 hours after the
@@ -2356,7 +2355,7 @@ This spectrum has previously been used in GCN 15494 \citep{GCN15494}, but is not
 published in a refereed paper. Starting only 68 minutes after the BAT trigger,
 4.8 ks spectroscopic integration secures afterglow continuum for this bursts,
 which is measured to be at $z = 4.042$. A moderate signal-to-noise GRB afterglow
-continuum is detected down to $\sim$ 6100 \AA, signifying the onset of the
+continuum is detected down to $\sim$ 610 nm, signifying the onset of the
 \lya~forest, with part of the forest also visible. Metal absorption lines from
 \SIii~and \SIiv~are detected at a consistent redshift.
 
@@ -2378,7 +2377,7 @@ This spectrum has previously been published in \citet{Kruhler2015}. This is a
 late time observation, taken long after the GRB had faded. Despite a long
 integration time of 5.4 ks, no clear features stand out to clearly secure a
 redshift measurement. By heavily binning the spectrum, a faint trace is visible
-down to 4850 \AA, which if interpreted at the onset of \lya signifies z $\sim$
+down to 485 nm, which if interpreted at the onset of \lya signifies z $\sim$
 3. We adopt the redshift inferred in \citet{Kruhler2015}.
 
 \subsection{GRB~140213A (z = 1.208)}\label{140213}
@@ -2404,7 +2403,7 @@ underlying host continuum. The host exhibits usual nebular emission from \oii,
 the redshift of the GRB are absorption features from the \mgii-doublet in the
 GRB afterglow continuum.
 
-\subsection{CHECK ME - Bright un-used spectrum - GRB~140311A (z = 4.954)}	
+\subsection{GRB~140311A (z = 4.954)}	
 \label{140311}
 
 This spectrum has not been published previously. Starting 32.5 hours after the
@@ -2444,7 +2443,7 @@ This spectrum has previously been used in \citet{Melandri2015}, but is not
 published elsewhere. Starting 15.5 hours after the \swift~trigger, $8\times600$
 s spectroscopic integration captures this very high redshift GRB afterglow. The
 Gunn-Peterson trough is visible against the GRB afterglow continuum, starting at
-8900 \AA, which along with absorption lines from the \mgii~doublet securely sets
+890 nm, which along with absorption lines from the \mgii~doublet securely sets
 the redshift of this GRB at $z = 6.327$. From the red wing of the \lya-profile
 we measure \nh~$=19.0 \pm 0.5$, which is very low compared to the measured
 distribution of $N_{\mathrm{HI}}$.
@@ -2500,7 +2499,7 @@ redshift from.
 The gross content of the spectrum has been issued in GCN 17040 \citep{GCN17040},
 but it is not used otherwise. Starting only 1.9 hours after the BAT trigger,
 these $4\times600$ s spectra contains a high signal-to-noise GRB afterglow. The
-afterglow continuum is readily detected all the way down to 3700 \AA, although
+afterglow continuum is readily detected all the way down to 370 nm, although
 the bluest part is affected by the \lya-forest. A broad absorption trough from
 neutral hydrogen is clearly visible, with additional, narrower absorption
 features identified as due to \SIii, \SIii$^*$, \cii, \cii$^*$, \SIiv, \civ,
@@ -2518,7 +2517,7 @@ This spectrum has previously been used to form the basis for GCN 17420
 short visibility of this burst, it does not enter into the statistical sample.
 Beginning in twilight, $4\times600$ s integration time contains a weak/moderate
 signal-to-noise GRB afterglow continuum throughout the X-shooter spectral
-coverage, down to $\sim$ 3750 \AA. In the continuum are absorption features,
+coverage, down to $\sim$ 375 nm. In the continuum are absorption features,
 which we identify as due to metal lines from \znii, \feii, and \mgii.
 Additionally, \lya-absorption is seen at the end of the trace. The spectral
 position of the lines means that this GRB is at $z = 2.087$. From the
@@ -2542,7 +2541,7 @@ GRB.
 This spectrum has previously been used to form the basis for GCN 17672
 \citep{GCN17672}. $4 \times 600$ s spectroscopic integration, starting 10 hours
 after the GRB trigger, captures a bright GRB afterglow. A broad absorption
-trough centered at $\sim$ 3700 \AA due to \lya signals the redshift of the GRB,
+trough centered at $\sim$ 370 nm due to \lya signals the redshift of the GRB,
 which is refined to $z = 2.057$ based on the additional detection of metal
 absorption lines. We readily identify features associated with \sii, \SIiv, \oi,
 \SIii, \SIii$^*$, \cii, \cii$^*$, \civ, \alii, \feii, \feii$^*$, \mni, \mgii,
@@ -2638,8 +2637,8 @@ exited local to the burst, clearly marks this as the redshift of the GRB.
 This spectrum has not previously been published. Starting $\sim$ 20 hours after
 the BAT trigger, these observations were stopped after $2 \times 600$s, when it
 became apparent that only a modest signal-to-noise was obtainable, and the
-redshift had already been published( GCN 18273 \citep{GCN18273}, GCN 18274
-\citep{GCN18274}).  The continuum is detected at low signal-to-noise all across
+redshift had already been published in GCN 18273 \citep{GCN18273} and GCN 18274
+\citep{GCN18274}. The continuum is detected at low signal-to-noise all across
 X-shooter and \mgii~is detected at the suggested redshift, which we take as the
 redshift of the GRB.
 
@@ -2673,7 +2672,7 @@ The content of these spectra has previously been issued in GCN 18506
 \citep{GCN18506}, but is not published. Beginning 5 hours after the BAT trigger,
 4 spectroscopic integrations obtained in a nodding sequence, each lasting for
 600s, securely allows us to measure a redshift for this GRB. Beginning at $\sim$
-4700 \AA, the \lya-forest is clearly detected at high signal-to-noise leading up
+470 nm, the \lya-forest is clearly detected at high signal-to-noise leading up
 to the broad \lya~absorption trough and the onset of a bright GRB afterglow
 continuum. Imprinted in the afterglow continuum are a range of absorption lines
 which we identify as due to \SIii, \SIii$^*$, \oi, \cii, \cii$^*$, \civ, \alii, 
@@ -2823,29 +2822,37 @@ metallicity and is among the most luminous GRB hosts at $z < 1$.
 
 The content and scope of these spectra has previously been issued in GCN 19971
 \citep{GCN19971}. $4 \times 600$ s spectroscopic integration was obtained of
-this potentially short GRB \citep[GCN 19974;][]{GCN19974}, starting 6.1 hours
-after the GRB trigger. The main source in the slit is likely of stellar origin
-and thus a foreground object unrelated to the GRB. Superposed, but slightly
-offset, from the stellar source are emission lines from \oii, \hb, and \ha~at a
-consistent redshift of $z = 0.891$. As stated in GCN 19971 \citep{GCN19971}, the
-association between the GRB and the source at $z = 0.891$ is uncertain. An
-alternative host association is suggestion in GCN 19975 \citep{GCN19975} just
-outside the XRT error circle. The fading of the source in GCN 19975
-\citep{GCN19975} is, however, not confirmed (Kruehler, private communication)
-and thus a clear localization unclear. Due to the proximity of the $z =
-0.891$-host suggested here to the XRT localization, we consider this redshift as
-the most likely redshift of the GRB.
+this potentially short GRB (GCN 19974; \citealt{GCN19974}), starting 6.1 hr
+after the GRB trigger. Close to the
+\href{http://www.swift.ac.uk/xrt_positions/00020702/}{XRT error circle}
+\citep{GCN19969} there is a bright, point-like source, also visible in archival
+images. Our spectrum reveals that this is an M-type star, based on the presence
+of TiO bands, and is thus unrelated to the GRB. Two more objects lie within or
+in the near proximity of the X-ray error circle, as visible in our images from
+the acquisition camera. One is blended with the above mentioned star, and is
+serendipitously covered by the X-shooter slit, revealing emission lines from
+\oii, \hb, and \ha~at a consistent redshift of $z = 0.891$. The second source,
+first noted by \citet{GCN19975}, is extended and lies just outside the XRT error
+circle. Based on GROND imaging, \citep{GCN19975} report moderate variability,
+and suggest this object as an afterglow candidate. Following our original
+imaging, we thus secured further late-time photometry with the X-shooter
+acquisition camera, starting on 2016 Oct 5.26 UT (4.22 days after the GRB),
+securing $3 \times 120$~s in each of the $g$ and $r$ filters. No variability is
+apparent in either bands. In offline analysis of the GROND data (T. Kr\"uhler,
+priv. comm.), the evidence for fading is less significant than originally
+reported. The situation is thus left ambiguous, but due to the consistency of
+the $z = 0.891$ object with the XRT localization, we consider this as the most
+likely redshift of GRB\,161001A.
 
-\subsection{GRB~161007A (z =4.6 ???NEW!!!)} \label{161007}
+\subsection{GRB~161007A (z =4.7)} \label{161007}
 
 This data has not been published elsewhere. Observations for GRB~161007A started
-323 hours after the burst trigger and contains the potential host. 4 x 600
-seconds of observations reveals a faint continuum rising abruptly above the
-noise at $\sim$ 685 nm and continuing through 2100 nm. A very low significance
-continuum is detected at shorter wavelengths, down to $\sim$ 600 nm. If the host
-is located at $z \sim 4.6$, the drop in continuum flux is the Lyman alpha break
-and the absence of nebular emission lines is due to \oii~being shifted out of
-the wavelength coverage. Alternatively, an early-type host at $z = 0.71$ could
+323 hours after the burst trigger and contains the potential host. $4 \times
+600$ seconds of observations reveals a faint continuum rising abruptly above the
+noise at $\sim$ 690 nm and continuing through 2100 nm. If the host is located at
+$z \sim 4.7$, the drop in continuum flux is the Lyman and the
+absence of nebular emission lines is due to \oii~being shifted out of the
+wavelength coverage. Alternatively, an early-type host at $z = 0.71$ could
 exhibit the 400 nm break at 600 nm, but due to the preference of long-duration
 GRBs for star-forming galaxies, this is the least likely explanation, why we
 prefer the high-z solution.
@@ -2886,7 +2893,7 @@ the BAT trigger, these observations consist of $4 \times 600$ s, taken under
 relatively poor observing conditions. The GRB afterglow continuum is detected
 throughout most of the X-shooter spectral coverage at low-to-moderate
 signal-to-noise, however the continuum level drops below the noise in the bluest
-part of the UVB arm at $\sim$ 3800 \AA. Imprinted in the continuum are
+part of the UVB arm at $\sim$ 380 nm. Imprinted in the continuum are
 absorption features, which we identify as due to \feii, \mgii, and \mgi~in an
 absorption system at $z = 1.549$. We consider this the likely redshift of the
 GRB.
@@ -2926,9 +2933,9 @@ follow-up effort that has lasted for 8 years. The majority of the spectral
 features in this spectrum has previously been reported in GCN 20589
 \citep{GCN20589}. Spectroscopy began 9.7 hours after the BAT trigger, and lasted
 for $4 \times 600$ s. The GRB afterglow is well detected at moderate-to-high
-signal-to-noise throughout the spectral coverage of X-shooter, down to 4300 \AA.
-The lowest wavelength continuum from 4300 \AA to 5600 \AA is absorbed by the
-\lya~forest, with the broad \lya~absorption trough centered at 5650 \AA. In the
+signal-to-noise throughout the spectral coverage of X-shooter, down to 430 nm.
+The lowest wavelength continuum from 430 nmto 560 nm is absorbed by the
+\lya~forest, with the broad \lya~absorption trough centered at 565 nm. In the
 continuum, we additionally identify metal absorption features from \SIii, \civ,
 \SIiv, \feii, and \mgii, with the additionally detection of
 \SIii$^*$~fine-structure lines. With an additional detection of \oiii~and all

@@ -62,7 +62,7 @@ def main():
     l, m, h = np.nanpercentile(filt_nan(z[pure == "Yes"]), (14, 50, 86))
     mm = np.nanmean(filt_nan(z[pure == "Yes"]))
     print(mm, m, l - m, h - m)
-
+    exit()
     l, m, h = np.nanpercentile(fbo, (14, 50, 86))
     mm = np.nanmean(fbo)
     print(mm, m, l - m, h - m)

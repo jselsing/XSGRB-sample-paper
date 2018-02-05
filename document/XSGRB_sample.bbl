@@ -49,6 +49,10 @@ Amati L.,  Guidorzi C.,  Frontera F.,  {Della Valle} M.,  Finelli F.,  Landi
 Arabsalmani M.,  et~al., 2018, \mn@doi [MNRAS] {10.1093/mnras/stx2451}, 473,
   3312
 
+\bibitem[\protect\citeauthoryear{Ashall et~al.,}{Ashall
+  et~al.}{2017}]{Ashall2017}
+Ashall C.,  et~al., 2017, eprint arXiv:1702.04339, pp 1--18
+
 \bibitem[\protect\citeauthoryear{Axelsson et~al.,}{Axelsson
   et~al.}{2012}]{Axelsson2012}
 Axelsson M.,  et~al., 2012, \mn@doi [Astrophys. J. Lett.]
@@ -130,6 +134,12 @@ Burrows D.~N.,  et~al., 2007, in SPIE Conf. Ser.. International Society for
   et~al.}{2012}]{Campana2012}
 Campana S.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2012.20428.x},
   421, 1697
+
+\bibitem[\protect\citeauthoryear{Cano, Izzo, {De Ugarte Postigo}, Th{\"{o}}ne,
+  Kr{\"{u}}hler, Heintz  \& Malesani}{Cano et~al.}{2017}]{Cano2017}
+Cano Z.,  Izzo L.,  {De Ugarte Postigo} A.,  Th{\"{o}}ne C.~C.,  Kr{\"{u}}hler
+  T.,  Heintz K.~E.,   Malesani D.,  2017, \mn@doi [eprint arXiv:1704.05401]
+  {10.1051/0004-6361/201731005}
 
 \bibitem[\protect\citeauthoryear{Cardelli, Clayton  \& Mathis}{Cardelli
   et~al.}{1989}]{Cardelli1989}
@@ -681,6 +691,10 @@ Littlejohns O.~M.,  Tanvir N.~R.,  Willingale R.,  Evans P.~A.,  O'Brien P.~T.,
 L{\'{o}}pez S.,  et~al., 2016, \mn@doi [A{\&}A] {10.1051/0004-6361/201628161},
   594, A91
 
+\bibitem[\protect\citeauthoryear{Lyman et~al.,}{Lyman et~al.}{2017}]{Lyman2017}
+Lyman J.~D.,  et~al., 2017, \mn@doi [MNRAS] {10.1093/mnras/stx220}, 1817,
+  stx220
+
 \bibitem[\protect\citeauthoryear{{Malesani} \& {Palazzi}}{{Malesani} \&
   {Palazzi}}{2010}]{GCN10631}
 {Malesani} D.,  {Palazzi} E.,  2010, GRB Coordinates Network, Circular Service,
@@ -758,12 +772,12 @@ Melandri A.,  et~al., 2012, \mn@doi [MNRAS] {10.1111/j.1365-2966.2011.20398.x},
 
 \bibitem[\protect\citeauthoryear{Melandri et~al.,}{Melandri
   et~al.}{2015}]{Melandri2015}
-Melandri A.,  et~al., 2015, \mn@doi [J. Gorosabel]
-  {10.1051/0004-6361/201526660}, 1314151
+Melandri A.,  et~al., 2015, \mn@doi [A{\&}A] {10.1051/0004-6361/201526660},
+  581, A86
 
 \bibitem[\protect\citeauthoryear{Micha{\l}owski et~al.,}{Micha{\l}owski
-  et~al.}{2016}]{Michaowski2016}
-Micha{\l}owski M.~J.,  et~al., 2016, pp 1--16
+  et~al.}{}]{Michaowski2016}
+Micha{\l}owski M.~J.,  et~al.,, eprint arXiv:1610.06928
 
 \bibitem[\protect\citeauthoryear{Micol, Arnaboldi, Delmotte, Mascetti  \&
   Retzlaff}{Micol et~al.}{2016}]{Micol2016}
@@ -808,6 +822,12 @@ Nysewander M.,  Fruchter A.~S.,   Pe'er A.,  2009, \mn@doi [ApJ]
 \bibitem[\protect\citeauthoryear{Oesch et~al.,}{Oesch et~al.}{2016}]{Oesch2016}
 Oesch P.~A.,  et~al., 2016, \mn@doi [ApJ] {10.3847/0004-637X/819/2/129}, 819,
   129
+
+\bibitem[\protect\citeauthoryear{{Osborne}, {Beardmore}, {Evans}  \&
+  {Goad}}{{Osborne} et~al.}{2016}]{GCN19969}
+{Osborne} J.~P.,  {Beardmore} A.~P.,  {Evans} P.~A.,   {Goad} M.~R.,  2016, GRB
+  Coordinates Network, Circular Service, No.~19969, \#1 (2016), \href
+  {http://adsabs.harvard.edu/abs/2016GCN.19969....1O} {19969}
 
 \bibitem[\protect\citeauthoryear{Pagnini \& Mainardi}{Pagnini \&
   Mainardi}{2010}]{pagnini2010}
@@ -993,6 +1013,10 @@ Schulze S.,  Malesani D.,  Cucchiara A.,  Tanvir N.~R.,  Kr{\"{u}}hler T.,
   Coordinates Network, Circular Service, No.~15831, \#1 (2014), \href
   {http://adsabs.harvard.edu/abs/2014GCN.15831....1S} {15831}
 
+\bibitem[\protect\citeauthoryear{Selsing et~al.,}{Selsing
+  et~al.}{}]{Selsing2017}
+Selsing J.,  et~al.,, eprint arXiv:1707.01452
+
 \bibitem[\protect\citeauthoryear{Selsing, Fynbo, Christensen  \&
   Krogager}{Selsing et~al.}{2015}]{Selsing2015}
 Selsing J.,  Fynbo J. P.~U.,  Christensen L.,   Krogager J.-K.,  2015, \mn@doi
@@ -1011,10 +1035,6 @@ Selsing J.,  Fynbo J. P.~U.,  Christensen L.,   Krogager J.-K.,  2015, \mn@doi
   A.,  {Tanvir} N.~R.,  {Wiersema} K.,   {Fynbo} J.~P.~U.,  2016b, GRB
   Coordinates Network, Circular Service, No.~20061, \#1 (2016), \href
   {http://adsabs.harvard.edu/abs/2016GCN.20061....1S} {20061}
-
-\bibitem[\protect\citeauthoryear{Selsing et~al.,}{Selsing
-  et~al.}{2017}]{Selsing2017}
-Selsing J.,  et~al., 2017, pp~1--8
 
 \bibitem[\protect\citeauthoryear{Smette et~al.,}{Smette
   et~al.}{2015}]{Smette2015}
@@ -1108,6 +1128,10 @@ Tanvir N.~R.,  Levan A.~J.,  Fruchter A.~S.,  Hjorth J.,  Hounsell R.~A.,
   Circular Service, No.~20321, \#1 (2016), \href
   {http://adsabs.harvard.edu/abs/2016GCN.20321....1T} {20321}
 
+\bibitem[\protect\citeauthoryear{Tanvir et~al.,}{Tanvir
+  et~al.}{2017}]{Tanvir2017a}
+Tanvir N.~R.,  et~al., 2017, eprint arXiv:1703.09052
+
 \bibitem[\protect\citeauthoryear{{Tepper Garc{\'{i}}a}}{{Tepper
   Garc{\'{i}}a}}{2006}]{TepperGarcia2006}
 {Tepper Garc{\'{i}}a} T.,  2006, \mn@doi [MNRAS]
@@ -1136,6 +1160,9 @@ Th{\"{o}}ne C.~C.,  Greiner J.,  Savaglio S.,   Jehin E.,  2007, \mn@doi [ApJ]
 Th{\"{o}}ne C.~C.,  et~al., 2013, \mn@doi [MNRAS] {10.1093/mnras/sts303}, 428,
   3590
 
+\bibitem[\protect\citeauthoryear{Troja et~al.,}{Troja et~al.}{2017}]{Troja2017}
+Troja E.,  et~al., 2017, \mn@doi [Nature] {10.1038/nature23289}, 547, 425
+
 \bibitem[\protect\citeauthoryear{Trujillo, Aguerri, Cepa  \&
   Guti{\'{e}}rrez}{Trujillo et~al.}{2001}]{Trujillo2001}
 Trujillo I.,  Aguerri J. A.~L.,  Cepa J.,   Guti{\'{e}}rrez C.~M.,  2001,
@@ -1155,8 +1182,7 @@ Ukwatta T.~N.,  W{\'{o}}zniak P.~R.,  2016, \mn@doi [MNRAS]
 \bibitem[\protect\citeauthoryear{Vergani, Petitjean, Ledoux, Vreeswijk, Smette
   \& Meurs}{Vergani et~al.}{2009}]{Vergani2009}
 Vergani S.~D.,  Petitjean P.,  Ledoux C.,  Vreeswijk P.,  Smette A.,   Meurs E.
-  J.~A.,  2009, \mn@doi [eprint arXiv] {10.1051/0004-6361/200911747}, 0906,
-  3269
+  J.~A.,  2009, \mn@doi [A{\&}A] {10.1051/0004-6361/200911747}, 503, 771
 
 \bibitem[\protect\citeauthoryear{{Vergani} et~al.,}{{Vergani}
   et~al.}{2010a}]{GCN10495}
@@ -1209,6 +1235,13 @@ Vernet J.,  et~al., 2011, \mn@doi [A{\&}A] {10.1051/0004-6361/201117752}, 536,
   et~al.}{2007}]{Vreeswijk2007}
 Vreeswijk P.~M.,  et~al., 2007, \mn@doi [A{\&}A] {10.1051/0004-6361:20066780},
   468, 83
+
+\bibitem[\protect\citeauthoryear{Vreeswijk, Kaufer, Spyromilio, Schmutzer,
+  Ledoux, Smette  \& {De Cia}}{Vreeswijk et~al.}{2010}]{Vreeswijk2010}
+Vreeswijk P.~M.,  Kaufer A.,  Spyromilio J.,  Schmutzer R.,  Ledoux C.,  Smette
+  A.,   {De Cia} A.,  2010, {The VLT Rapid-Response Mode: implementation and
+  scientific results}, \mn@doi{10.1117/12.859027}, \url
+  {https://www.eso.org/sci/libraries/SPIE2010/7737-22.pdf}
 
 \bibitem[\protect\citeauthoryear{{Vreeswijk}, {Fynbo}  \&
   {Melandri}}{{Vreeswijk} et~al.}{2011}]{GCN12648}
@@ -1335,6 +1368,11 @@ Xu D.,  et~al., 2013a, \mn@doi [ApJ] {10.1088/0004-637X/776/2/98}, 776
 {Zheng} W.,  {Filippenko} A.~V.,  {Yuk} H.,  {Zhu} Y.,   {Perley} D.~A.,  2015,
   GRB Coordinates Network, Circular Service, No.~18273, \#1 (2015), \href
   {http://adsabs.harvard.edu/abs/2015GCN.18273....1Z} {18273}
+
+\bibitem[\protect\citeauthoryear{Zitrin et~al.,}{Zitrin
+  et~al.}{2015}]{Zitrin2015}
+Zitrin A.,  et~al., 2015, \mn@doi [Astrophys. J. Lett.]
+  {10.1088/2041-8205/810/1/L12}, 810, L12
 
 \bibitem[\protect\citeauthoryear{{de Ugarte Postigo} et~al.,}{{de Ugarte
   Postigo} et~al.}{2009a}]{GCN.9015}
