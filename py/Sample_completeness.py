@@ -62,7 +62,7 @@ def main():
     l, m, h = np.nanpercentile(filt_nan(z[pure == "Yes"]), (14, 50, 86))
     mm = np.nanmean(filt_nan(z[pure == "Yes"]))
     print(mm, m, l - m, h - m)
-    exit()
+    # exit()
     l, m, h = np.nanpercentile(fbo, (14, 50, 86))
     mm = np.nanmean(fbo)
     print(mm, m, l - m, h - m)
@@ -249,7 +249,7 @@ def main():
 
     ax1.set_xlabel(r"$\log(15-150~\mathrm{keV}~\mathrm{Fluence}/\mathrm{erg}~\mathrm{cm}^{-2})$")
     ax2.set_xlabel(r"$\log(0.3-10~\mathrm{keV}~\mathrm{Flux}/\mathrm{erg}~\mathrm{cm}^{-2}~\mathrm{s}^{-1})$")
-    ax3.set_xlabel(r"$\log(N_{\mathrm{HI, X}}/\mathrm{cm}^{-2})$")
+    ax3.set_xlabel(r"$\log(N_{\mathrm{H, X}}/\mathrm{cm}^{-2})$")
     # ax1.set_ylabel(r"N")
 
     ax1.set_xlim(-8, -4)

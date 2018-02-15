@@ -59,7 +59,7 @@ def main():
     g.y = NH_old[NH_old > 20]
     # g = g.plot_joint(pl.scatter, color="#55A868")
     g = g.plot_marginals(sns.distplot, hist=False, color="#55A868", bins = 25, norm_hist=True, kde_kws={"shade": True, "bw": 0.2})
-    g = g.plot_joint(sns.kdeplot, color="#55A868", label="Tanvir et al. 2017")
+    g = g.plot_joint(sns.kdeplot, color="#55A868")
     # pl.legend()
     # Plot new distribution
     NH_new = NH[XSGRB]
@@ -115,8 +115,8 @@ def main():
     ax = pl.gca()
     handle, label = ax.get_legend_handles_labels()
     # from matplotlib.lines import Line2D     
-    l1 = mpl.lines.Line2D([1], [1], color = "#4C72B0")
-    l2 = mpl.lines.Line2D([1], [1], color = "#55A868")
+    l1 = mpl.lines.Line2D([1], [1], color = "#55A868")
+    l2 = mpl.lines.Line2D([1], [1], color = "#4C72B0")
     l3 = mpl.lines.Line2D([1], [1], color = "#C44E52")
     # print(handle, label)
     # pl.legend([l1, l2, l3], label)
@@ -128,7 +128,7 @@ def main():
         legobj.set_linewidth(5.0)
         # legobj.handlelength(2.0)
     pl.savefig("../document/figures/NH_dist.pdf")
-    # pl.show()
+    pl.show()
 
 if __name__ == '__main__':
     main()

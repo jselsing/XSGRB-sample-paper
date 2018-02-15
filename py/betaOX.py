@@ -190,7 +190,7 @@ def main():
     ax = pl.gca()
     ax.axhline(0.5, color="black", linestyle="dashed", alpha=0.5)
     ax.annotate(r"$\beta_{OX} = 0.5$", (19.6, 0.45))
-    g.set_axis_labels(r"$\log(N_{\mathrm{HI, X}}/\mathrm{cm}^{-2})$", r"Darkness [$\beta_{OX}$]")
+    g.set_axis_labels(r"$\log(N_{\mathrm{H, X}}/\mathrm{cm}^{-2})$", r"Darkness [$\beta_{OX}$]")
     pl.tight_layout()
 
     # print(stats.ks_2samp(betaOX[idx_2], f_betaOX[f_idx_2]))
