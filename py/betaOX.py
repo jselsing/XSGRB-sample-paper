@@ -13,15 +13,15 @@ from scipy import stats
 import matplotlib as mpl
 
 params = {
-   'axes.labelsize': 10,
-   'font.size': 10,
-   'legend.fontsize': 10,
-   'xtick.labelsize': 10,
-   'ytick.labelsize': 10,
+   'axes.labelsize': 14,
+   'font.size': 14,
+   'legend.fontsize': 14,
+   'xtick.labelsize': 14,
+   'ytick.labelsize': 14,
    'text.usetex': True,
-   'figure.figsize': [7.281, 4.5]
+   # 'figure.figsize': [7.281, 4.5]
    }
-
+mpl.rcParams.update(params)
 
 def iqr(a):
     """Calculate the IQR for an array of numbers."""
@@ -189,8 +189,8 @@ def main():
     g = g.plot_joint(pl.plot, color=color, label="Fynbo et al. 2009")
     ax = pl.gca()
     ax.axhline(0.5, color="black", linestyle="dashed", alpha=0.5)
-    ax.annotate(r"$\beta_{OX} = 0.5$", (19.6, 0.45))
-    g.set_axis_labels(r"$\log(N_{\mathrm{H, X}}/\mathrm{cm}^{-2})$", r"Darkness [$\beta_{OX}$]")
+    ax.annotate(r"$\beta_{OX} = 0.5$", (19.6, 0.42))
+    g.set_axis_labels(r"$\log(N_{\mathrm{H, X}}/\mathrm{cm}^{-2})$", r"$\beta_{OX}$")
     pl.tight_layout()
 
     # print(stats.ks_2samp(betaOX[idx_2], f_betaOX[f_idx_2]))
@@ -226,7 +226,7 @@ def main():
 
 
     # Save figure for tex
-    pl.legend()
+    pl.legend(loc = 1)
     pl.savefig("../document/figures/betaOX.pdf", dpi="figure")
     pl.show()
 

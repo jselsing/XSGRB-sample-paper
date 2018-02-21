@@ -14,7 +14,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[longauth]{aa}    %% Astronomy & Astrophysics style class aa.cls v8.2
-%\documentclass{aa}    %% Astronomy & Astrophysics style class aa.cls v8.2
 %\documentclass[referee]{aa} 
 
 \usepackage{graphicx,url,twoopt,natbib}
@@ -48,12 +47,12 @@
 
 \begin{document}
 	
-\title{The X-shooter GRB afterglow legacy sample (XS-GRB). \thanks{Based on
+\title{The X-shooter GRB afterglow legacy sample (XS-GRB)\thanks{Based on
 		observations collected at the European Southern Observatory, Paranal, Chile,
 		Program IDs: 084.A-0260, 084.D-0265, 085.A-0009, 086.A-0073, 087.A-0055,
 		088.A-0051, 089.A-0067, 090.A-0088, 091.A-0877, 0091.C-0934, 092.A-0124,
-		092.D-0056, 093.A-0069, 094.A-0134, 095.A-0045, 095.B-0811, 096.A-0079,
-		097.A-0036, and 098.A-0055.}}
+		092.D-0056, 092.D-0633, 093.A-0069, 094.A-0134, 095.A-0045, 095.B-0811,
+		096.A-0079, 097.A-0036, 098.A-0136, and 098.A-0055.}}
 
 
 
@@ -89,7 +88,7 @@
 	unique resource to study the ISM across cosmic time, from the local progenitor
 	surroundings to the intervening universe.}
 
-\keywords{Gamma-ray burst: general --- Galaxies: high-redshift --- ISM: general --- Techniques: spectroscopic}
+\keywords{Gamma-ray burst: general --- Galaxies: high-redshift --- ISM: general --- Techniques: spectroscopic --- Galaxies: star formation --- catalogs}
 
 \maketitle
 
@@ -220,7 +219,7 @@ degrees above the horizon, with the Sun below $-12$ degrees\footnote{Note that
 	\item Galactic $A_V \leq 0.5$ mag according to the maps of \citet{Schlegel1998}.
 	
 	\item No bright, nearby stars within $ 1.8 + 0.4 \times \exp[(20 - R)/2.05$]
-arcsec, where $R$ is the USNO magnitude of the star)
+arcsec, where $R$ is the USNO magnitude of the star.
 	
 \end{enumerate}
 
@@ -364,7 +363,7 @@ immediately observable, compared to the rest of the \swift~orbit.
 
 
 \begin{figure*}
-	\centerline{\includegraphics{figures/skymap.pdf}} \caption{Mollweide projection
+	\centerline{\includegraphics[width=\linewidth]{figures/skymap.pdf}} \caption{Mollweide projection
 	in Galactic coordinates of the full sky showing the positions on the sky of the
 	bursts presented in this work. The equator is the Galactic plane. The empty
 	stars/circles are the positions of all the 1266 \textit{Swift} bursts detected
@@ -393,18 +392,19 @@ immediately observable, compared to the rest of the \swift~orbit.
 
 The observations obtained for this sample have been secured with the
 cross-dispersed echelle spectrograph, X-shooter \citep{Vernet2011}, mounted on
-one of two Unit Telescopes at ESO/VLT, UT2 (Kueyen) and UT3 (Melipal) during
-the duration of this follow-up campaign. The observations have been taken during
-a period of eight years corresponding to the ESO observing periods P84 through
-P98 under the following programme IDs: 084.A-0260, 085.A-0009, 086.A-0073,
+one of two Unit Telescopes at ESO/VLT, UT2 (Kueyen) and UT3 (Melipal) during the
+duration of this follow-up campaign. The observations have been taken during a
+period of eight years corresponding to the ESO observing periods P84 through P98
+under the following programme IDs: 084.A-0260, 085.A-0009, 086.A-0073,
 087.A-0055, 088.A-0051, 089.A-0067, 090.A-0088, 092.A-0124, 093.A-0069,
 094.A-0134, 095.A-0045, 096.A-0079, 097.A-0036, and 098.A-0055 (PI: Fynbo) and
 0091.C-0934 (PI: Kaper). These proposals were initiated on Guaranteed Time. We
 have included a few additional bursts, from the programmes 084.D-0265 (PI:
-Benetti), 091.A-0877 (PI: Schady), 092.D-0056 (PI: Rau), 092.D-0633 (PI:
-Greiner), and 095.B-0811 (PI: Levan). The total collection of spectra represents
-\textit{all} GRB afterglows that have been followed up by X-shooter up to
-\termdate, which marks the end of the XS-GRB legacy follow-up program.
+Benetti), 091.A-0877 (PI: Schady), 092.D-0056 (PI: Rau), 092.D-0633,
+098.A-0136 (PI: Greiner), and 095.B-0811 (PI: Levan). The total collection of
+spectra represents \textit{all} GRB afterglows that have been followed up by
+X-shooter up to \termdate, which marks the end of the XS-GRB legacy follow-up
+program.
 
 The first GRB followed up was GRB~090313 \citep{DeUgartePostigo2010}, observed
 on the 15th of March, 2009, during the commissioning of X-shooter on the second
@@ -601,7 +601,7 @@ during the X-shooter Active Flexure Compensation procedure\footnote{X-shooter
 
 
 \begin{figure}[!t]
-	\centerline{\includegraphics[width=8cm]{figures/resolutuions}} \caption{Blue
+	\centerline{\includegraphics[width=\columnwidth]{figures/resolutuions}} \caption{Blue
 		data points show the FWHM (km/s) of Gaussian fits to unresolved telluric
 		absorption lines in the VIS spectra, as a function of the airmass corrected
 		DIMM seeing. The red data points show a subsample of measurements obtained for
@@ -769,7 +769,7 @@ observations have been used.
 
 
 \begin{figure*}
-	\centerline{\includegraphics[width=0.85\linewidth]{figures/GRB121024A.pdf}}
+	\centerline{\includegraphics[width=\linewidth]{figures/GRB121024A.pdf}}
 \caption{Telluric corrected, normalized spectrum of GRB~121024A at $z = 2.300$
 	that illustrates the typical data quality. The continuum estimate is shown in
 	dashed red and the error spectrum in solid blue. The acquisition magnitude is
@@ -843,7 +843,7 @@ released along with the paper at
 
 All the spectra are made available as a single
 \href{https://sid.erda.dk/cgi-sid/ls.py?share_id=DBuNORk1lI}{ZIP file}, through
-\url{http://grbspec.iaa.es}, and additionally through the ESO archive in the
+\url{http://grbspec.iaa.es} \citep{DeUgartePostigo2014f}, and additionally through the ESO archive in the
 form of \href{http://archive.eso.org/wdb/wdb/adp/phase3_main/form}{phase 3
 	material}. This release includes both prompt afterglow observations as well as
 late time observations of the associated hosts, and represents \textit{all}
@@ -935,7 +935,7 @@ that have redshift determinations based on late-time host observations with
 delay times longer than $\sim$10 days.
 
 \begin{figure}[!ht]
-	\centerline{\includegraphics[width=9cm]{figures/timing.pdf}} \caption{Afterglow
+	\centerline{\includegraphics[width=\columnwidth]{figures/timing.pdf}} \caption{Afterglow
 	magnitude at the start of observation and redshift completeness as a function
 	of follow-up delay for all the afterglows that have been followed up. The
 	points have been colored based on the redshift of the corresponding burst. Red
@@ -969,7 +969,7 @@ the last point in Sect. \ref{darkness}.
 
 
 \begin{figure*}
-	\centerline{\includegraphics[width=18cm]{figures/completeness_BAT.pdf}}
+	\centerline{\includegraphics[width=\linewidth]{figures/completeness_BAT.pdf}}
 \caption{Comparison between the burst properties of all bursts observed with
 	\textit{Swift} (blue), the statistical sample that fullfill the criteria
 	specified in Sect. \ref{samplecrit} (green), and the subset that has been
@@ -1009,7 +1009,7 @@ distribution are still consistent with being drawn from the same underlying
 distribution.
 
 \begin{figure}[!ht]
-	\centerline{\includegraphics[width=9cm]{figures/XSGRB_p_values.pdf}}
+	\centerline{\includegraphics[width=\columnwidth]{figures/XSGRB_p_values.pdf}}
 \caption{Relational graph showing the respective $p$-values. They all represent
 	the degree that the different samples are drawn from the same underlying
 	distribution. The arrows represent the comparison direction with each of the
@@ -1118,7 +1118,7 @@ more massive galaxies, leading to a larger fraction of extincted afterglows.
 
 
 \begin{figure*}[!ht]
-	\centering \includegraphics[width=16cm]{figures/XSGRB_redshift.pdf}
+	\centering \includegraphics[width=\linewidth]{figures/XSGRB_redshift.pdf}
 \caption{Redshift distribution as a function of intrinsic BAT $\gamma$-ray
 	energy, $E_{\mathrm{BAT}}$. Bursts that are a part of the statistical sample
 	are marked by blue stars whereas black dots show all GRBs observed with
@@ -1201,7 +1201,7 @@ test, however, suggest a statistically significant, low degree of negative
 correlation ($\Gamma = -0.21$ at a $p$-value = 0.01).
 
 \begin{figure}[!ht]
-	\centerline{\includegraphics[width=9cm]{figures/betaOX.pdf}}
+	\centerline{\includegraphics[width=\columnwidth]{figures/betaOX.pdf}}
 \caption{$\beta_{OX}$ against X-ray derived hydrogen column density. In red is
 	shown the sample presented in \citet{Fynbo2009} where the lines indicate the
 	kernel density estimate of the distribution. For the kernel density estimate,
@@ -1324,7 +1324,7 @@ that are cross-section selected, whereas GRB sight-lines probe the dense,
 star-forming regions in their hosts.
 
 \begin{figure}[!t]
-	\centering \includegraphics[width=9cm]{figures/NH_dist.pdf}
+	\centering \includegraphics[width=\columnwidth]{figures/NH_dist.pdf}
 \caption{Distributions of hydrogen column densities for absorbers found in
 	quasar absorption lines, from \citet{Noterdaeme2012b} in blue. Overplotted in
 	green is the kernel density estimate of absorbers in GRB sightlines. Values are
@@ -1448,7 +1448,9 @@ This work made use of data supplied by the UK {\it Swift} Science Data Centre at
 the University of Leicester. Finally, it is with pleasure that we acknowledge
 expert support from the ESO staff at the Paranal and La Silla observatories in
 obtaining these target of opportunity data.
-
+%
+This research made use of Astropy, a community-developed core Python package for Astronomy \citep{TheAstropyCollaboration2013}. The analysis and plotting was achieved using the Python-based packages Matplotlib \citep{Hunter2007}, Numpy, and Scipy \citep{scipy, VanderWalt2011}, along with other community-developed packages.
+%
 
 \end{acknowledgements}
 
@@ -1461,7 +1463,7 @@ obtaining these target of opportunity data.
 
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=1, width=16cm]{figures/HI_measurements.pdf}
+	\includegraphics[page=1, width=\linewidth]{figures/HI_measurements.pdf}
 	\caption{Measurements of the hydrogen column densities for all bursts with a
 		clear Lyman alpha absorption system. In solid black is shown the spectrum with
 		black dotted giving the corresponding 1-$\sigma$ error. The black dashed line shows zero
@@ -1473,35 +1475,35 @@ obtaining these target of opportunity data.
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=2, width=16cm]{figures/HI_measurements.pdf}
+	\includegraphics[page=2, width=\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI2}
 \end{figure*}
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=3, width=16cm]{figures/HI_measurements.pdf}
+	\includegraphics[page=3, width=\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI3}
 \end{figure*}
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=4, width=16cm]{figures/HI_measurements.pdf}
+	\includegraphics[page=4, width=\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI4}
 \end{figure*}
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=5, width=16cm]{figures/HI_measurements.pdf}
+	\includegraphics[page=5, width=\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI5}
 \end{figure*}
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=6, width=16cm]{figures/HI_measurements.pdf}
+	\includegraphics[page=6, width=\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI6}
 \end{figure*}
@@ -2876,7 +2878,7 @@ wavelength range. The host would be however exceptionally bright, with an
 absolute magnitude at $\approx 150$~nm{} $M = -23.8$~AB, that is about 2.8~mag
 brighter than $M^*$ at that redshift (e.g. \citealt{Bouwens2015}). The inferred
 X-ray hydrogen-equivalent column density would also be a record-high $4 \times
-10^{21}$~cm$^{-2}$ (see e.g. \citealt{Campana2012}). Alternatively, the
+10^{23}$~cm$^{-2}$ (see e.g. \citealt{Campana2012}). Alternatively, the
 continuum discontinuity could be the 400~nm{} break at $z = 0.71$; such
 feature is however prominent only in early-type galaxies, which are unlikely
 hosts of long-duration GRBs (but see \citealt{Rossi2014}). Given the lack of

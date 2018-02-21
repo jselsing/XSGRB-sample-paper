@@ -17,14 +17,15 @@ from scipy import stats
 
 
 params = {
-   'axes.labelsize': 10,
-   'font.size': 10,
-   'legend.fontsize': 10,
-   'xtick.labelsize': 10,
-   'ytick.labelsize': 10,
+   'axes.labelsize': 14,
+   'font.size': 14,
+   'legend.fontsize': 14,
+   'xtick.labelsize': 14,
+   'ytick.labelsize': 14,
    'text.usetex': True ,
-   'figure.figsize': [7.281, 4.5]
+   # 'figure.figsize': [7.281, 4.5]
    }
+mpl.rcParams.update(params)
 
 def main():
     """
@@ -113,8 +114,9 @@ def main():
 
     # Save figure for tex
     ax = pl.gca()
+    ax.set_ylim((20, 24))
     handle, label = ax.get_legend_handles_labels()
-    # from matplotlib.lines import Line2D     
+    # from matplotlib.lines import Line2D
     l1 = mpl.lines.Line2D([1], [1], color = "#55A868")
     l2 = mpl.lines.Line2D([1], [1], color = "#4C72B0")
     l3 = mpl.lines.Line2D([1], [1], color = "#C44E52")

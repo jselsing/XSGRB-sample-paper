@@ -19,7 +19,7 @@ params = {
    'xtick.labelsize': 14,
    'ytick.labelsize': 14,
    'text.usetex': True,
-   'figure.figsize': [8.27, 11.7]
+   'figure.figsize': [8, 8*1.4142]
    }
 mpl.rcParams.update(params)
 
