@@ -1,0 +1,1841 @@
+\begin{thebibliography}{297}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Abbott {et~al.}(2017)Abbott, Abbott, Abbott, Acernese, Ackley, Adams,
+  Adams, Addesso, Adhikari, Adya, Affeldt, Afrough, Agarwal, Agathos, Agatsuma,
+  Aggarwal, Aguiar, Aiello, Ain, Ajith, Allen, Allen, Allocca, Altin, Amato,
+  Ananyeva, Anderson, Anderson, Angelova, Antier, Appert, Arai, Araya, Areeda,
+  Arnaud, Arun, Ascenzi, Ashton, Ast, Aston, Astone, Atallah, Aufmuth, Aulbert,
+  AultONeal, Austin, Avila-Alvarez, Babak, Bacon, Bader, Bae, Bailes, Baker,
+  Baldaccini, Ballardin, Ballmer, Banagiri, Barayoga, Barclay, Barish, Barker,
+  Barkett, Barone, Barr, Barsotti, Barsuglia, Barta, Barthelmy, Bartlett,
+  Bartos, Bassiri, Basti, Batch, Bawaj, Bayley, Bazzan, B{\'{e}}csy, Beer,
+  Bejger, Belahcene, Bell, Berger, Bergmann, Bernuzzi, Bero, Berry, Bersanetti,
+  Bertolini, Betzwieser, Bhagwat, Bhandare, Bilenko, Billingsley, Billman,
+  Birch, Birney, Birnholtz, Biscans, Biscoveanu, Bisht, Bitossi, Biwer,
+  Bizouard, Blackburn, Blackman, Blair, Blair, Blair, Bloemen, Bock, Bode,
+  Boer, Bogaert, Bohe, Bondu, Bonilla, Bonnand, Boom, Bork, Boschi, Bose,
+  Bossie, Bouffanais, Bozzi, Bradaschia, Brady, Branchesi, Brau, Briant,
+  Brillet, Brinkmann, Brisson, Brockill, Broida, Brooks, Brown, Brown, Brunett,
+  Buchanan, Buikema, Bulik, Bulten, Buonanno, Buskulic, Buy, Byer, Cabero,
+  Cadonati, Cagnoli, Cahillane, {Calder{\'{o}}n Bustillo}, Callister, Calloni,
+  Camp, Canepa, Canizares, Cannon, Cao, Cao, Capano, Capocasa, Carbognani,
+  Caride, Carney, Carullo, {Casanueva Diaz}, Casentini, Caudill,
+  Cavagli{\`{a}}, Cavalier, Cavalieri, Cella, Cepeda, Cerd{\'{a}}-Dur{\'{a}}n,
+  Cerretani, Cesarini, Chamberlin, Chan, Chao, Charlton, Chase,
+  Chassande-Mottin, Chatterjee, Chatziioannou, Cheeseboro, Chen, Chen, Chen,
+  Cheng, Chia, Chincarini, Chiummo, Chmiel, Cho, Cho, Chow, Christensen, Chu,
+  Chua, Chua, Chung, Chung, Ciani, Ciolfi, Cirelli, Cirone, Clara, Clark,
+  Clearwater, Cleva, Cocchieri, Coccia, Cohadon, Cohen, Colla, Collette,
+  Cominsky, Constancio, Conti, Cooper, Corban, Corbitt, Cordero-Carri{\'{o}}n,
+  Corley, Cornish, Corsi, Cortese, Costa, Coughlin, Coughlin, Coulon,
+  Countryman, Couvares, Covas, Cowan, Coward, Cowart, Coyne, Coyne, Creighton,
+  Creighton, Cripe, Crowder, Cullen, Cumming, Cunningham, Cuoco, {Dal Canton},
+  D{\'{a}}lya, Danilishin, D'Antonio, Danzmann, Dasgupta, {Da Silva Costa},
+  Dattilo, Dave, Davier, Davis, Daw, Day, De, DeBra, Degallaix, {De Laurentis},
+  Del{\'{e}}glise, {Del Pozzo}, Demos, Denker, Dent, {De Pietri}, Dergachev,
+  {De Rosa}, DeRosa, {De Rossi}, DeSalvo, de~Varona, Devenson, Dhurandhar,
+  D{\'{i}}az, Dietrich, {Di Fiore}, {Di Giovanni}, {Di Girolamo}, {Di Lieto},
+  {Di Pace}, {Di Palma}, {Di Renzo}, Doctor, Dolique, Donovan, Dooley,
+  Doravari, Dorrington, Douglas, {Dovale {\'{A}}lvarez}, Downes, Drago,
+  Dreissigacker, Driggers, Du, Ducrot, Dudi, Dupej, Dwyer, Edo, Edwards,
+  Effler, Eggenstein, Ehrens, Eichholz, Eikenberry, Eisenstein, Essick,
+  Estevez, Etienne, Etzel, Evans, Evans, Factourovich, Fafone, Fair, Fairhurst,
+  Fan, Farinon, Farr, Farr, Fauchon-Jones, Favata, Fays, Fee, Fehrmann, Feicht,
+  Fejer, Fernandez-Galiana, Ferrante, Ferreira, Ferrini, Fidecaro, Finstad,
+  Fiori, Fiorucci, Fishbach, Fisher, Fitz-Axen, Flaminio, Fletcher, Fong, Font,
+  Forsyth, Forsyth, Fournier, Frasca, Frasconi, Frei, Freise, Frey, Frey,
+  Fries, Fritschel, Frolov, Fulda, Fyffe, Gabbard, Gadre, Gaebel, Gair,
+  Gammaitoni, Ganija, Gaonkar, Garcia-Quiros, Garufi, Gateley, Gaudio, Gaur,
+  Gayathri, Gehrels, Gemme, Genin, Gennai, George, George, Gergely, Germain,
+  Ghonge, Ghosh, Ghosh, Ghosh, Giaime, Giardina, Giazotto, Gill, Glover, Goetz,
+  Goetz, Gomes, Goncharov, Gonz{\'{a}}lez, {Gonzalez Castro}, Gopakumar,
+  Gorodetsky, Gossan, Gosselin, Gouaty, Grado, Graef, Granata, Grant, Gras,
+  Gray, Greco, Green, Gretarsson, Groot, Grote, Grunewald, Gruning, Guidi, Guo,
+  Gupta, Gupta, Gushwa, Gustafson, Gustafson, Halim, Hall, Hall, Hamilton,
+  Hammond, Haney, Hanke, Hanks, Hanna, Hannam, Hannuksela, Hanson, Hardwick,
+  Harms, Harry, Harry, Hart, Haster, Haughian, Healy, Heidmann, Heintze,
+  Heitmann, Hello, Hemming, Hendry, Heng, Hennig, Heptonstall, Heurs, Hild,
+  Hinderer, Ho, Hoak, Hofman, Holt, Holz, Hopkins, Horst, Hough, Houston,
+  Howell, Hreibi, Hu, Huerta, Huet, Hughey, Husa, Huttner, Huynh-Dinh, Indik,
+  Inta, Intini, Isa, Isac, Isi, Iyer, Izumi, Jacqmin, Jani, Jaranowski,
+  Jawahar, Jim{\'{e}}nez-Forteza, Johnson, Johnson-McDaniel, Jones, Jones,
+  Jonker, Ju, Junker, Kalaghatgi, Kalogera, Kamai, Kandhasamy, Kang, Kanner,
+  Kapadia, Karki, Karvinen, Kasprzack, Kastaun, Katolik, Katsavounidis,
+  Katzman, Kaufer, Kawabe, K{\'{e}}f{\'{e}}lian, Keitel, Kemball, Kennedy,
+  Kent, Key, Khalili, Khan, Khan, Khan, Khazanov, Kijbunchoo, Kim, Kim, Kim,
+  Kim, Kim, Kim, Kimbrell, King, King, Kinley-Hanlon, Kirchhoff, Kissel,
+  Kleybolte, Klimenko, Knowles, Koch, Koehlenbeck, Koley, Kondrashov, Kontos,
+  Korobko, Korth, Kowalska, Kozak, Kr{\"{a}}mer, Kringel, Krishnan,
+  Kr{\'{o}}lak, Kuehn, Kumar, Kumar, Kumar, Kuo, Kutynia, Kwang, Lackey, Lai,
+  Landry, Lang, Lange, Lantz, Lanza, Larson, Lartaux-Vollard, Lasky, Laxen,
+  Lazzarini, Lazzaro, Leaci, Leavey, Lee, Lee, Lee, Lee, Lee, Lehmann, Lenon,
+  Leon, Leonardi, Leroy, Letendre, Levin, Li, Linker, Littenberg, Liu, Liu, Lo,
+  Lockerbie, London, Lord, Lorenzini, Loriette, Lormand, Losurdo, Lough,
+  Lousto, Lovelace, L{\"{u}}ck, Lumaca, Lundgren, Lynch, Ma, Macas, Macfoy,
+  Machenschalk, MacInnis, Macleod, {Maga{\~{n}}a Hernandez},
+  Maga{\~{n}}a-Sandoval, {Maga{\~{n}}a Zertuche}, Magee, Majorana, Maksimovic,
+  Man, Mandic, Mangano, Mansell, Manske, Mantovani, Marchesoni, Marion,
+  M{\'{a}}rka, M{\'{a}}rka, Markakis, Markosyan, Markowitz, Maros, Marquina,
+  Marsh, Martelli, Martellini, Martin, Martin, Martynov, Marx, Mason, Massera,
+  Masserot, Massinger, Masso-Reid, Mastrogiovanni, Matas, Matichard, Matone,
+  Mavalvala, Mazumder, McCarthy, McClelland, McCormick, McCuller, McGuire,
+  McIntyre, McIver, McManus, McNeill, McRae, McWilliams, Meacher, Meadors,
+  Mehmet, Meidam, Mejuto-Villa, Melatos, Mendell, Mercer, Merilh, Merzougui,
+  Meshkov, Messenger, Messick, Metzdorff, Meyers, Miao, Michel, Middleton,
+  Mikhailov, Milano, Miller, Miller, Miller, Millhouse, Milovich-Goff,
+  Minazzoli, Minenkov, Ming, Mishra, Mitra, Mitrofanov, Mitselmakher,
+  Mittleman, Moffa, Moggi, Mogushi, Mohan, Mohapatra, Molina, Montani, Moore,
+  Moraru, Moreno, Morisaki, Morriss, Mours, Mow-Lowry, Mueller, Muir,
+  Mukherjee, Mukherjee, Mukherjee, Mukund, Mullavey, Munch, Mu{\~{n}}iz,
+  Muratore, Murray, Nagar, Napier, Nardecchia, Naticchioni, Nayak, Neilson,
+  Nelemans, Nelson, Nery, Neunzert, Nevin, Newport, Newton, Ng, Nguyen, Nguyen,
+  Nichols, Nielsen, Nissanke, Nitz, Noack, Nocera, Nolting, North, Nuttall,
+  Oberling, O'Dea, Ogin, Oh, Oh, Ohme, Okada, Oliver, Oppermann, Oram,
+  O'Reilly, Ormiston, Ortega, O'Shaughnessy, Ossokine, Ottaway, Overmier, Owen,
+  Pace, Page, Page, Pai, Pai, Palamos, Palashov, Palomba, Pal-Singh, Pan, Pan,
+  Pang, Pang, Pankow, Pannarale, Pant, Paoletti, Paoli, Papa, Parida, Parker,
+  Pascucci, Pasqualetti, Passaquieti, Passuello, Patil, Patricelli, Pearlstone,
+  Pedraza, Pedurand, Pekowsky, Pele, Penn, Perez, Perreca, Perri, Pfeiffer,
+  Phelps, Piccinni, Pichot, Piergiovanni, Pierro, Pillant, Pinard, Pinto,
+  Pirello, Pitkin, Poe, Poggiani, Popolizio, Porter, Post, Powell, Prasad,
+  Pratt, Pratten, Predoi, Prestegard, Prijatelj, Principe, Privitera, Prix,
+  Prodi, Prokhorov, Puncken, Punturo, Puppo, P{\"{u}}rrer, Qi, Quetschke,
+  Quintero, Quitzow-James, Raab, Rabeling, Radkins, Raffai, Raja, Rajan,
+  Rajbhandari, Rakhmanov, Ramirez, Ramos-Buades, Rapagnani, Raymond, Razzano,
+  Read, Regimbau, Rei, Reid, Reitze, Ren, Reyes, Ricci, Ricker, Rieger, Riles,
+  Rizzo, Robertson, Robie, Robinet, Rocchi, Rolland, Rollins, Roma, Romano,
+  Romano, Romel, Romie, Rosi{\'{n}}ska, Ross, Rowan, R{\"{u}}diger, Ruggi,
+  Rutins, Ryan, Sachdev, Sadecki, Sadeghian, Sakellariadou, Salconi, Saleem,
+  Salemi, Samajdar, Sammut, Sampson, Sanchez, Sanchez, Sanchis-Gual, Sandberg,
+  Sanders, Sassolas, Sathyaprakash, Saulson, Sauter, Savage, Sawadsky, Schale,
+  Scheel, Scheuer, Schmidt, Schmidt, Schnabel, Schofield, Sch{\"{o}}nbeck,
+  Schreiber, Schuette, Schulte, Schutz, Schwalbe, Scott, Scott, Seidel,
+  Sellers, Sengupta, Sentenac, Sequino, Sergeev, Shaddock, Shaffer, Shah,
+  Shahriar, Shaner, Shao, Shapiro, Shawhan, Sheperd, Shoemaker, Shoemaker,
+  Siellez, Siemens, Sieniawska, Sigg, Silva, Singer, Singh, Singhal, Sintes,
+  Slagmolen, Smith, Smith, Smith, Somala, Son, Sonnenberg, Sorazu, Sorrentino,
+  Souradeep, Spencer, Srivastava, Staats, Staley, Steinke, Steinlechner,
+  Steinlechner, Steinmeyer, Stevenson, Stone, Stops, Strain, Stratta, Strigin,
+  Strunk, Sturani, Stuver, Summerscales, Sun, Sunil, Suresh, Sutton, Swinkels,
+  Szczepa{\'{n}}czyk, Tacca, Tait, Talbot, Talukder, Tanner, T{\'{a}}pai,
+  Taracchini, Tasson, Taylor, Taylor, Tewari, Theeg, Thies, Thomas, Thomas,
+  Thomas, Thorne, Thorne, Thrane, Tiwari, Tiwari, Tokmakov, Toland, Tonelli,
+  Tornasi, Torres-Forn{\'{e}}, Torrie, T{\"{o}}yr{\"{a}}, Travasso, Traylor,
+  Trinastic, Tringali, Trozzo, Tsang, Tse, Tso, Tsukada, Tsuna, Tuyenbayev,
+  Ueno, Ugolini, Unnikrishnan, Urban, Usman, Vahlbruch, Vajente, Valdes,
+  Vallisneri, van Bakel, van Beuzekom, van~den Brand, {Van Den Broeck},
+  Vander-Hyde, van~der Schaaf, van Heijningen, van Veggel, Vardaro, Varma,
+  Vass, Vas{\'{u}}th, Vecchio, Vedovato, Veitch, Veitch, Venkateswara,
+  Venugopalan, Verkindt, Vetrano, Vicer{\'{e}}, Viets, Vinciguerra, Vine,
+  Vinet, Vitale, Vo, Vocca, Vorvick, Vyatchanin, Wade, Wade, Wade, Walet,
+  Walker, Wallace, Walsh, Wang, Wang, Wang, Wang, Wang, Ward, Warner, Was,
+  Watchi, Weaver, Wei, Weinert, Weinstein, Weiss, Wen, Wessel, We{\ss}els,
+  Westerweck, Westphal, Wette, Whelan, Whitcomb, Whiting, Whittle, Wilken,
+  Williams, Williams, Williamson, Willis, Willke, Wimmer, Winkler, Wipf,
+  Wittel, Woan, Woehler, Wofford, Wong, Worden, Wright, Wu, Wysocki, Xiao,
+  Yamamoto, Yancey, Yang, Yap, Yazback, Yu, Yu, Yvert, Zadro{\.{z}}ny, Zanolin,
+  Zelenova, Zendri, Zevin, Zhang, Zhang, Zhang, Zhang, Zhao, Zhou, Zhou, Zhu,
+  Zhu, Zimmerman, Zucker, \& Zweizig}]{LIGOScientificCollaboration2017a}
+Abbott, B.~P., Abbott, R., Abbott, T.~D., {et~al.} 2017, Phys. Rev. Lett., 119,
+  161101
+
+\bibitem[{Abrarov \& Quine(2015{\natexlab{a}})}]{abrarov2015b}
+Abrarov, S.~M. \& Quine, B.~M. 2015{\natexlab{a}}, J. Math. Res., 7, 163
+
+\bibitem[{Abrarov \& Quine(2015{\natexlab{b}})}]{abrarov2015a}
+Abrarov, S.~M. \& Quine, B.~M. 2015{\natexlab{b}}, J. Math. Res., 7, 44
+
+\bibitem[{Ackermann {et~al.}(2014)Ackermann, Ajello, Asano, Atwood, Axelsson,
+  Baldini, Ballet, Barbiellini, Baring, Bastieri, Bechtol, Bellazzini,
+  Bissaldi, Bonamente, Bregeon, Brigida, Bruel, Buehler, Burgess, Buson,
+  Caliandro, Cameron, Caraveo, Cecchi, Chaplin, Charles, Chekhtman, Cheung,
+  Chiang, Chiaro, Ciprini, Claus, Cleveland, Cohen-Tanugi, Collazzi, Cominsky,
+  Connaughton, Conrad, Cutini, D'Ammando, {De Angelis}, DeKlotz, {De Palma},
+  Dermer, Desiante, Diekmann, {Di Venere}, Drell, Drlica-Wagner, Favuzzi,
+  Fegan, Ferrara, Finke, Fitzpatrick, Focke, Franckowiak, Fukazawa, Funk,
+  Fusco, Gargano, Gehrels, Germani, Gibby, Giglietto, Giles, Giordano,
+  Giroletti, Godfrey, Granot, Grenier, Grove, Gruber, Guiriec, Hadasch,
+  Hanabata, Harding, Hayashida, Hays, Horan, Hughes, Inoue, Jogler,
+  J{\'{o}}hannesson, Johnson, Kawano, Kn{\"{o}}dlseder, Kocevski, Kuss, Lande,
+  Larsson, Latronico, Longo, Loparco, Lovellette, Lubrano, Mayer, Mazziotta,
+  McEnery, Michelson, Mizuno, Moiseev, Monzani, Moretti, Morselli, Moskalenko,
+  Murgia, Nemmen, Nuss, Ohno, Ohsugi, Okumura, Omodei, Orienti, Paneque,
+  Pelassa, Perkins, Pesce-Rollins, Petrosian, Piron, Pivato, Porter, Racusin,
+  Rain{\`{o}}, Rando, Razzano, Razzaque, Reimer, Reimer, Ritz, Roth, Ryde,
+  Sartori, {Saz Parkinson}, Scargle, Schulz, Sgr{\`{o}}, Siskind, Sonbas,
+  Spandre, Spinelli, Tajima, Takahashi, Thayer, Thayer, Thompson, Tibaldo,
+  Tinivella, Torres, Tosti, Troja, Usher, Vandenbroucke, Vasileiou, Vianello,
+  Vitale, Winer, Wood, Yamazaki, Younes, Yu, Zhu, Bhat, Briggs, Byrne, Foley,
+  Goldstein, Jenke, Kippen, Kouveliotou, McBreen, Meegan, Paciesas, Preece,
+  Rau, Tierney, {Van Der Horst}, {Von Kienlin}, Wilson-Hodge, Xiong, Cusumano,
+  {La Parola}, \& Cummings}]{Ackermann2014}
+Ackermann, M., Ajello, M., Asano, K., {et~al.} 2014, Sci, 343, 42
+
+\bibitem[{Amati {et~al.}(2008)Amati, Guidorzi, Frontera, {Della Valle},
+  Finelli, Landi, \& Montanari}]{Amati2008}
+Amati, L., Guidorzi, C., Frontera, F., {et~al.} 2008, MNRAS, 391, 577
+
+\bibitem[{{Antonelli} {et~al.}(2010){Antonelli}, {Maund}, {Palazzi}, {Goldoni},
+  {Vergani}, {Flores}, {de Ugarte Postigo}, {Covino}, {Fynbo}, {Hjorth},
+  {Malesani}, {Sollerman}, \& {Th\"one}}]{GCN10620}
+{Antonelli}, L.~A., {Maund}, J.~R., {Palazzi}, E., {et~al.} 2010, GRB
+  Coordinates Network, Circular Service, No.~10620, \#1 (2010), 10620
+
+\bibitem[{Arabsalmani {et~al.}(2018)Arabsalmani, M{\o}ller, Perley, Freudling,
+  Fynbo, {Le Floc'h}, Zwaan, Schulze, Tanvir, Christensen, Levan, Jakobsson,
+  Malesani, Cano, Covino, D'Elia, Goldoni, Gomboc, Heintz, Sparre, {de Ugarte
+  Postigo}, \& Vergani}]{Arabsalmani2018}
+Arabsalmani, M., M{\o}ller, P., Perley, D.~A., {et~al.} 2018, MNRAS, 473, 3312
+
+\bibitem[{Ashall {et~al.}(2017)Ashall, Pian, Mazzali, Palazzi, Prentice,
+  Kobayashi, Levan, Perley, Bufano, Filippenko, Fynbo, Melandri, D'Avanzo, {De
+  Pasquale}, Emery, Fruchter, Hurley, Malesani, Moller, Nomoto, Tanaka, Tanvir,
+  \& Valeev}]{Ashall2017}
+Ashall, C., Pian, E., Mazzali, P.~A., {et~al.} 2017, arXiv, 1
+
+\bibitem[{Axelsson {et~al.}(2012)Axelsson, Baldini, Barbiellini, Baring,
+  Bellazzini, Bregeon, Brigida, Bruel, Buehler, Caliandro, Cameron, Caraveo,
+  Cecchi, Chaves, Chekhtman, Chiang, Claus, Conrad, Cutini, D'Ammando, {De
+  Palma}, Dermer, {Do Couto E Silva}, Drell, Favuzzi, Fegan, Ferrara, Focke,
+  Fukazawa, Fusco, Gargano, Gasparrini, Gehrels, Germani, Giglietto, Giroletti,
+  Godfrey, Guiriec, Hadasch, Hanabata, Hayashida, Hou, Iyyani, Jackson,
+  Kocevski, Kuss, Larsson, Larsson, Longo, Loparco, Lundman, Mazziotta,
+  McEnery, Mizuno, Monzani, Moretti, Morselli, Murgia, Nuss, Nymark, Ohno,
+  Omodei, Pesce-Rollins, Piron, Pivato, Racusin, Rain{\`{o}}, Razzano,
+  Razzaque, Reimer, Roth, Ryde, Sanchez, Sgr{\`{o}}, Siskind, Spandre,
+  Spinelli, Stamatikos, Tibaldo, Tinivella, Usher, Vandenbroucke, Vasileiou,
+  Vianello, Vitale, Waite, Winer, Wood, Burgess, Bhat, Bissaldi, Briggs,
+  Connaughton, Fishman, Fitzpatrick, Foley, Gruber, Kippen, Kouveliotou, Jenke,
+  McBreen, McGlynn, Meegan, Paciesas, Pelassa, Preece, Tierney, {Von Kienlin},
+  Wilson-Hodge, Xiong, \& Pe'Er}]{Axelsson2012}
+Axelsson, M., Baldini, L., Barbiellini, G., {et~al.} 2012, Astrophys. J. Lett.,
+  757, L31
+
+\bibitem[{Ba{\~{n}}ados {et~al.}(2017)Ba{\~{n}}ados, Venemans, Mazzucchelli,
+  Farina, Walter, Wang, Decarli, Stern, Fan, Davies, Hennawi, Simcoe, Turner,
+  Rix, Yang, Kelson, Rudie, \& Winters}]{Banados2017}
+Ba{\~{n}}ados, E., Venemans, B.~P., Mazzucchelli, C., {et~al.} 2017, Nature,
+  553, 473
+
+\bibitem[{Band(2006)}]{Band2006}
+Band, D.~L. 2006, ApJ, 644, 378
+
+\bibitem[{Barthelmy(2000)}]{Barthelmy2000}
+Barthelmy, S.~D. 2000, in AIP Conf. Proc., Vol. 526 (AIP), 731--735
+
+\bibitem[{Barthelmy {et~al.}(2005)Barthelmy, Barbier, Cummings, Fenimore,
+  Gehrels, Hullinger, Krimm, Markwardt, Palmer, Parsons, Sato, Suzuki,
+  Takahashi, Tashiro, \& Tueller}]{Barthelmy2005}
+Barthelmy, S.~D., Barbier, L.~M., Cummings, J.~R., {et~al.} 2005, SSRv, 120,
+  143
+
+\bibitem[{Baumgartner {et~al.}(2013)Baumgartner, Tueller, Markwardt, Skinner,
+  Barthelmy, Mushotzky, Evans, \& Gehrels}]{Baumgartner2013}
+Baumgartner, W.~H., Tueller, J., Markwardt, C.~B., {et~al.} 2013, Astrophys.
+  Journal, Suppl. Ser., 207, 19
+
+\bibitem[{Benner {et~al.}(1995)Benner, Rinsland, Devi, Smith, \&
+  Atkins}]{benner1995}
+Benner, D.~C., Rinsland, C.~P., Devi, V.~M., Smith, M. A.~H., \& Atkins, D.
+  1995, JQSRT, 53, 705
+
+\bibitem[{{Berger}(2011)}]{GCN12193}
+{Berger}, E. 2011, GRB Coordinates Network, Circular Service, No.~12193, \#1
+  (2011), 12193
+
+\bibitem[{Berger {et~al.}(2011)Berger, Chornock, Holmes, Foley, Cucchiara,
+  Wolf, Podsiadlowski, Fox, \& Roth}]{Berger2011}
+Berger, E., Chornock, R., Holmes, T.~R., {et~al.} 2011, ApJ, 743
+  [\eprint[arXiv]{1106.3073}]
+
+\bibitem[{Berger {et~al.}(2013)Berger, Fong, \& Chornock}]{Berger2013a}
+Berger, E., Fong, W., \& Chornock, R. 2013, Astrophys. J. Lett., 774, L23
+
+\bibitem[{Berger {et~al.}(2003)Berger, Kulkarni, \& Frail}]{Berger2003}
+Berger, E., Kulkarni, S., \& Frail, D. 2003, ApJ, 590, 379
+
+\bibitem[{Bloom {et~al.}(2002)Bloom, Kulkarni, \& Djorgovski}]{Bloom2002}
+Bloom, J.~S., Kulkarni, S.~R., \& Djorgovski, S.~G. 2002, AJ, 123, 1111
+
+\bibitem[{Bouwens {et~al.}(2015)Bouwens, Illingworth, Oesch, Trenti,
+  Labb{\'{e}}, Bradley, Carollo, {Van Dokkum}, Gonzalez, Holwerda, Franx,
+  Spitler, Smit, \& Magee}]{Bouwens2015}
+Bouwens, R.~J., Illingworth, G.~D., Oesch, P.~A., {et~al.} 2015, ApJ, 803, 1
+
+\bibitem[{Boyd(1978)}]{Boyd78}
+Boyd, R.~W. 1978, J. Opt. Soc. Am., 68, 877
+
+\bibitem[{Briggs {et~al.}(1996)Briggs, Paciesas, Pendleton, Meegan, Fishman,
+  Horack, Brock, Kouveliotou, Hartmann, \& Hakkila}]{Briggs1996}
+Briggs, M.~S., Paciesas, W.~S., Pendleton, G.~N., {et~al.} 1996, ApJ, 459, 40
+
+\bibitem[{{Bufano} {et~al.}(2010){Bufano}, {Bufano}, {Benetti}, {Cappellaro},
+  {Covino}, {Vergani}, {Goldoni}, {Della Valle}, {Pian}, {Campana},
+  {Tagliaferri}, {Malesani}, {Fynbo}, {Turatto}, {Patat}, \&
+  {Mazzali}}]{GCN10543}
+{Bufano}, F., {Bufano}, F., {Benetti}, S., {et~al.} 2010, GRB Coordinates
+  Network, Circular Service, No.~10543, \#1 (2010), 10543
+
+\bibitem[{Bufano {et~al.}(2012)Bufano, Pian, Sollerman, Benetti, Pignata,
+  Valenti, Covino, D'Avanzo, Malesani, Cappellaro, {Della Valle}, Fynbo,
+  Hjorth, Mazzali, Reichart, Starling, Turatto, Vergani, Wiersema, Amati,
+  Bersier, Campana, Cano, Castro-Tirado, Chincarini, D'Elia, {de Ugarte
+  Postigo}, Deng, Ferrero, Filippenko, Goldoni, Gorosabel, Greiner, Hammer,
+  Jakobsson, Kaper, Kawabata, Klose, Levan, Maeda, Masetti, Milvang-Jensen,
+  Mirabel, M{\o}ller, Nomoto, Palazzi, Piranomonte, Salvaterra, Stratta,
+  Tagliaferri, Tanaka, Tanvir, \& Wijers}]{Bufano2012}
+Bufano, F., Pian, E., Sollerman, J., {et~al.} 2012, ApJ, 753, 67
+
+\bibitem[{Burrows {et~al.}(2005)Burrows, Hill, Nousek, Kennea, Wells, Osborne,
+  Abbey, Beardmore, Mukerjee, Short, Chincarini, Campana, Citterio, Moretti,
+  Pagani, Tagliaferri, Giommi, Capalbi, Tamburelli, Angelini, Cusumano,
+  Br{\"{a}}uninger, Burkert, \& Hartner}]{Burrows2005}
+Burrows, D.~N., Hill, J.~E., Nousek, J.~A., {et~al.} 2005, SSRv, 120, 165
+
+\bibitem[{Burrows {et~al.}(2007)Burrows, Kennea, Abbey, Beardmore, Campana,
+  Capalbi, Chincarini, Cusumano, Evans, Hill, Giommi, Goad, Godet, Moretti,
+  Morris, Osborne, Pagani, Page, Perri, Racusin, Romano, Starling, Tagliaferri,
+  Tamburelli, Tyler, \& Willingale}]{Burrows2007}
+Burrows, D.~N., Kennea, J.~A., Abbey, A.~F., {et~al.} 2007in  (International
+  Society for Optics and Photonics), 668607
+
+\bibitem[{Campana {et~al.}(2012)Campana, Salvaterra, Melandri, Vergani, Covino,
+  D'Avanzo, Fugazza, Ghisellini, Sbarufatti, \& Tagliaferri}]{Campana2012}
+Campana, S., Salvaterra, R., Melandri, A., {et~al.} 2012, MNRAS, 421, 1697
+
+\bibitem[{Cano {et~al.}(2011)Cano, Bersier, Guidorzi, Kobayashi, Levan, Tanvir,
+  Wiersema, D'Avanzo, Fruchter, Garnavich, Gomboc, Gorosabel, Kasen,
+  Kopa{\v{c}}, Margutti, Mazzali, Melandri, Mundell, Nugent, Pian, Smith,
+  Steele, Wijers, \& Woosley}]{Cano2011a}
+Cano, Z., Bersier, D., Guidorzi, C., {et~al.} 2011, ApJ, 740
+  [\eprint[arXiv]{1104.5141}]
+
+\bibitem[{Cano {et~al.}(2017)Cano, Izzo, {de Ugarte Postigo}, Th{\"{o}}ne,
+  Kr{\"{u}}hler, Heintz, Malesani, Geier, Fuentes, Chen, Covino, D'Elia, Fynbo,
+  Goldoni, Gomboc, Hjorth, Jakobsson, Kann, Milvang-Jensen, Pugliese,
+  S{\'{a}}nchez-Ram{\'{i}}rez, Schulze, Sollerman, Tanvir, \&
+  Wiersema}]{Cano2017}
+Cano, Z., Izzo, L., {de Ugarte Postigo}, A., {et~al.} 2017, A{\&}A, 605, A107
+
+\bibitem[{Cardelli {et~al.}(1989)Cardelli, Clayton, \& Mathis}]{Cardelli1989}
+Cardelli, J.~a., Clayton, G.~C., \& Mathis, J.~S. 1989, ApJ, 345, 245
+
+\bibitem[{Castro-Tirado {et~al.}(2010)Castro-Tirado, M{\o}ller,
+  Garc{\'{i}}a-Segura, Gorosabel, P{\'{e}}rez, {de Ugarte Postigo}, Solano,
+  Barrado, Klose, Kann, {Castro Cer{\'{o}}n}, Kouveliotou, Fynbo, Hjorth,
+  Pedersen, Pian, Rol, Palazzi, Masetti, Tanvir, Vreeswijk, Andersen, Fruchter,
+  Greiner, Wijers, \& van~den Heuvel}]{Castro-Tirado2010}
+Castro-Tirado, A.~J., M{\o}ller, P., Garc{\'{i}}a-Segura, G., {et~al.} 2010,
+  A{\&}A, 517, A61
+
+\bibitem[{{Chen} {et~al.}(2016){Chen}, {Klose}, {Guelbenzu}, {Bolmer},
+  {Kr\"uhler}, \& {Greiner}}]{GCN19975}
+{Chen}, T.-W., {Klose}, S., {Guelbenzu}, A.~N., {et~al.} 2016, GRB Coordinates
+  Network, Circular Service, No.~19975, \#1 (2016), 19975
+
+\bibitem[{{Chornock} \& {Berger}(2011)}]{GCN11518}
+{Chornock}, R. \& {Berger}, E. 2011, GRB Coordinates Network, Circular Service,
+  No.~11518, \#1 (2011), 11518
+
+\bibitem[{Christensen {et~al.}(2011)Christensen, Fynbo, Prochaska, Th{\"{o}}ne,
+  {de Ugarte Postigo}, \& Jakobsson}]{Christensen2011a}
+Christensen, L., Fynbo, J. P.~U., Prochaska, J.~X., {et~al.} 2011, ApJ, 727, 73
+
+\bibitem[{Christensen {et~al.}(2017)Christensen, Vergani, Schulze, Annau,
+  Selsing, Fynbo, {de Ugarte Postigo}, Ca{\~{n}}ameras, Lopez, Passi,
+  Cort{\'{e}}s-Zuleta, Ellison, D'Odorico, Becker, Berg, Cano, Covino, Cupani,
+  D'Elia, Goldoni, Gomboc, Hammer, Heintz, Jakobsson, Japelj, Kaper, Malesani,
+  M{\o}ller, Petitjean, Pugliese, S{\'{a}}nchez-Ram{\'{i}}rez, Tanvir,
+  Th{\"{o}}ne, Vestergaard, Wiersema, \& Worseck}]{Christensen2017}
+Christensen, L., Vergani, S.~D., Schulze, S., {et~al.} 2017, A{\&}A, 608, A84
+
+\bibitem[{Cobb {et~al.}(2010)Cobb, Bloom, Perley, Morgan, Cenko, \&
+  Filippenko}]{Cobb2010}
+Cobb, B.~E., Bloom, J.~S., Perley, D.~A., {et~al.} 2010, ApJ, 718, L150
+
+\bibitem[{Covino {et~al.}(2013{\natexlab{a}})Covino, Melandri, Salvaterra,
+  Campana, Vergani, Bernardini, D'Avanzo, D'Elia, Fugazza, Ghirlanda,
+  Ghisellini, Gomboc, Jin, Kr{\"{u}}hler, Malesani, Nava, Sbarufatti, \&
+  Tagliaferri}]{Covino2013a}
+Covino, S., Melandri, A., Salvaterra, R., {et~al.} 2013{\natexlab{a}}, MNRAS,
+  432, 1231
+
+\bibitem[{Covino {et~al.}(2013{\natexlab{b}})Covino, Melandri, Salvaterra,
+  Campana, Vergani, Bernardini, D'Avanzo, D'Elia, Fugazza, Ghirlanda,
+  Ghisellini, Gomboc, Jin, Kr{\"{u}}hler, Malesani, Nava, Sbarufatti, \&
+  Tagliaferri}]{Covino2013}
+Covino, S., Melandri, A., Salvaterra, R., {et~al.} 2013{\natexlab{b}}, MNRAS,
+  432, 1231
+
+\bibitem[{Coward {et~al.}(2013)Coward, Howell, Branchesi, Stratta, Guetta,
+  Gendre, \& Macpherson}]{Coward2013a}
+Coward, D.~M., Howell, E.~J., Branchesi, M., {et~al.} 2013, MNRAS, 432, 2141
+
+\bibitem[{Cucchiara {et~al.}(2015)Cucchiara, Fumagalli, Rafelski, Kocevski,
+  Prochaska, Cooke, \& Becker}]{Cucchiara2015}
+Cucchiara, A., Fumagalli, M., Rafelski, M., {et~al.} 2015, ApJ, 804, 51
+
+\bibitem[{{D'Avanzo} {et~al.}(2011{\natexlab{a}}){D'Avanzo}, {Sparre},
+  {Watson}, {Fynbo}, {Malesani}, {Milvang-Jensen}, {Goldoni}, {D'Elia}, \&
+  {Tanvir}}]{GCN12284}
+{D'Avanzo}, P., {Sparre}, M., {Watson}, D., {et~al.} 2011{\natexlab{a}}, GRB
+  Coordinates Network, Circular Service, No.~12284, \#1 (2011), 12284
+
+\bibitem[{{D'Avanzo} {et~al.}(2011{\natexlab{b}}){D'Avanzo}, {Vergani},
+  {Flores}, {Malesani}, {Watson}, {Levan}, \& {Fynbo}}]{GCN12542}
+{D'Avanzo}, P., {Vergani}, S.~D., {Flores}, H., {et~al.} 2011{\natexlab{b}},
+  GRB Coordinates Network, Circular Service, No.~12542, \#1 (2011), 12542
+
+\bibitem[{{De Pasquale} {et~al.}(2003){De Pasquale}, Piro, Perna, Costa,
+  Feroci, Gandolfi, Zand, Nicastro, Frontera, Antonelli, Fiore, \&
+  Stratta}]{DePasquale2003}
+{De Pasquale}, M., Piro, L., Perna, R., {et~al.} 2003, ApJ, 592, 1018
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2014{\natexlab{a}}){de Ugarte Postigo},
+  Blazek, Janout, Sprimont, Th{\"{o}}ne, Gorosabel, \&
+  S{\'{a}}nchez-Ram{\'{i}}rez}]{DeUgartePostigo2014f}
+{de Ugarte Postigo}, A., Blazek, M., Janout, P., {et~al.} 2014{\natexlab{a}},
+  in Proc. SPIE, Vol. 9152, id. 91520B 9 pp. (2014)., ed. G.~Chiozzi \& N.~M.
+  Radziwill, Vol. 9152, 91520B
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2016{\natexlab{a}}){de Ugarte Postigo},
+  {Cano}, {Izzo}, {Th\"one}, {Sanchez-Ramirez}, {Bensch}, {Kann}, {Tanvir},
+  {Schulze}, {Leloudas}, {Geier}, \& {Tejero}}]{GCN20342}
+{de Ugarte Postigo}, A., {Cano}, Z., {Izzo}, L., {et~al.} 2016{\natexlab{a}},
+  GRB Coordinates Network, Circular Service, No.~20342, \#1 (2016), 20342
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2009{\natexlab{a}}){de Ugarte Postigo},
+  {D'Odorico}, {Vernet}, {Modigliani}, {Ramsay}, {Covino}, {Flores}, {Fynbo},
+  {Hjorth}, {Wijers}, {Hammer}, {Kaper}, {Kjaergaard}, {Randich}, \&
+  {Groot}}]{GCN.9015}
+{de Ugarte Postigo}, A., {D'Odorico}, S., {Vernet}, J., {et~al.}
+  2009{\natexlab{a}}, GRB Coordinates Network, 9015
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2011{\natexlab{a}}){de Ugarte Postigo},
+  {Fynbo}, {Jakobsson}, {Milvang-Jensen}, {Melandri}, {Malesani}, {Schulze},
+  {Goldoni}, {Tanvir}, {Flores}, {Wiersema}, {Covino}, {Lovisi}, \&
+  {Lanzoni}}]{GCN12258}
+{de Ugarte Postigo}, A., {Fynbo}, J.~P.~U., {Jakobsson}, P., {et~al.}
+  2011{\natexlab{a}}, GRB Coordinates Network, Circular Service, No.~12258, \#1
+  (2011), 12258
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2011{\natexlab{b}}){de Ugarte Postigo},
+  {Goldoni}, {Milvang-Jensen}, {Malesani}, {Sparre}, {Fynbo}, {Leloudas},
+  {Covino}, {Flores}, {D'Elia}, \& {Levan}}]{GCN11579}
+{de Ugarte Postigo}, A., {Goldoni}, P., {Milvang-Jensen}, B., {et~al.}
+  2011{\natexlab{b}}, GRB Coordinates Network, Circular Service, No.~11579, \#1
+  (2011), 11579
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2009{\natexlab{b}}){de Ugarte Postigo},
+  {Goldoni}, {Th\"one}, {Tanvir}, {Jakobsson}, {Vergani}, {Flores}, {Malesani},
+  {Levan}, \& {Fynbo}}]{GCN10042}
+{de Ugarte Postigo}, A., {Goldoni}, P., {Th\"one}, C.~C., {et~al.}
+  2009{\natexlab{b}}, GRB Coordinates Network, Circular Service, No.~1042, \#1
+  (2009), 10042
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2010){de Ugarte Postigo}, Goldoni,
+  Th{\"{o}}ne, Vergani, D'Elia, Piranomonte, Malesani, Covino, Flores, Fynbo,
+  Hjorth, Wijers, D'Odorico, Hammer, Kaper, Kj{\ae}rgaard, Randich, Andersen,
+  Antonelli, Christensen, D'Avanzo, Fiore, Groot, Maiorano, Palazzi, Pian,
+  Tagliaferri, van~den Ancker, \& Vernet}]{DeUgartePostigo2010}
+{de Ugarte Postigo}, A., Goldoni, P., Th{\"{o}}ne, C.~C., {et~al.} 2010,
+  A{\&}A, 513, A42
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2016{\natexlab{b}}){de Ugarte Postigo},
+  {Kann}, {Izzo}, {Th\"one}, {Castro-Rodriguez}, \& {Velarde}}]{GCN20014}
+{de Ugarte Postigo}, A., {Kann}, D.~A., {Izzo}, L., {et~al.}
+  2016{\natexlab{b}}, GRB Coordinates Network, Circular Service, No.~20014, \#1
+  (2016), 20014
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2015{\natexlab{a}}){de Ugarte Postigo},
+  {Kr\"uhler}, {Flores}, \& {Fynbo}}]{GCN17523}
+{de Ugarte Postigo}, A., {Kr\"uhler}, T., {Flores}, H., \& {Fynbo}, J.~P.~U.
+  2015{\natexlab{a}}, GRB Coordinates Network, Circular Service, No.~17523, \#1
+  (2015), 17523
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2016{\natexlab{c}}){de Ugarte Postigo},
+  {Malesani}, {Kr\"uhler}, {Xu}, {Schulze}, {Hjorth}, \& {Tanvir}}]{GCN19154}
+{de Ugarte Postigo}, A., {Malesani}, D., {Kr\"uhler}, T., {et~al.}
+  2016{\natexlab{c}}, GRB Coordinates Network, Circular Service, No.~19154, \#1
+  (2016), 19154
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2016{\natexlab{d}}){de Ugarte Postigo},
+  {Pugliese}, {Xu}, \& {Malesani}}]{GCN18886}
+{de Ugarte Postigo}, A., {Pugliese}, G., {Xu}, D., \& {Malesani}, D.
+  2016{\natexlab{d}}, GRB Coordinates Network, Circular Service, No.~18886, \#1
+  (2016), 18886
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2015{\natexlab{b}}){de Ugarte Postigo},
+  {Th\"one}, {Lombardi}, \& {Perez}}]{GCN18274}
+{de Ugarte Postigo}, A., {Th\"one}, C., {Lombardi}, G., \& {Perez}, A.
+  2015{\natexlab{b}}, GRB Coordinates Network, Circular Service, No.~18274, \#1
+  (2015), 18274
+
+\bibitem[{{De Ugarte Postigo} {et~al.}(2011){De Ugarte Postigo}, Th{\"{o}}ne,
+  Goldoni, \& Fynbo}]{DeUgartePostigo2011}
+{De Ugarte Postigo}, A., Th{\"{o}}ne, C.~C., Goldoni, P., \& Fynbo, J. P.~U.
+  2011, AN, 332, 297
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2014{\natexlab{b}}){de Ugarte Postigo},
+  Th{\"{o}}ne, Rowlinson, Garc{\'{i}}a-Benito, Levan, Gorosabel, Goldoni,
+  Schulze, Zafar, Wiersema, S{\'{a}}nchez-Ram{\'{i}}rez, Melandri, D'Avanzo,
+  Oates, D'Elia, {De Pasquale}, Kr{\"{u}}hler, van~der Horst, Xu, Watson,
+  Piranomonte, Vergani, Milvang-Jensen, Kaper, Malesani, Fynbo, Cano, Covino,
+  Flores, Greiss, Hammer, Hartoog, Hellmich, Heuser, Hjorth, Jakobsson,
+  Mottola, Sparre, Sollerman, Tagliaferri, Tanvir, Vestergaard, \&
+  Wijers}]{DeUgartePostigo2014e}
+{de Ugarte Postigo}, A., Th{\"{o}}ne, C.~C., Rowlinson, A., {et~al.}
+  2014{\natexlab{b}}, A{\&}A, 563, A62
+
+\bibitem[{{de Ugarte Postigo} {et~al.}(2015{\natexlab{c}}){de Ugarte Postigo},
+  {Xu}, {Malesani}, \& {Tanvir}}]{GCN17822}
+{de Ugarte Postigo}, A., {Xu}, D., {Malesani}, D., \& {Tanvir}, N.~R.
+  2015{\natexlab{c}}, GRB Coordinates Network, Circular Service, No.~17822, \#1
+  (2015), 17822
+
+\bibitem[{D'Elia {et~al.}(2009)D'Elia, Fiore, Perna, Krongold, Covino, Fugazza,
+  Lazzati, Nicastro, Antonelli, Campana, Chincarini, D'Avanzo, Valle, Goldoni,
+  Guetta, Guidorzi, Meurs, Mirabel, Molinari, Norci, Piranomonte, Stella,
+  Stratta, Tagliaferri, \& Ward}]{DElia2009}
+D'Elia, V., Fiore, F., Perna, R., {et~al.} 2009, ApJ, 694, 332
+
+\bibitem[{D'Elia {et~al.}(2010)D'Elia, Fynbo, Covino, Goldoni, Jakobsson,
+  Matteucci, Piranomonte, Sollerman, Th{\"{o}}ne, Vergani, Vreeswijk, Watson,
+  Wiersema, Zafar, {de Ugarte Postigo}, Flores, Hjorth, Kaper, Levan, Malesani,
+  Milvang-Jensen, Pian, Tagliaferri, \& Tanvir}]{DElia2010}
+D'Elia, V., Fynbo, J. P.~U., Covino, S., {et~al.} 2010, A{\&}A, 523, A36
+
+\bibitem[{D'Elia {et~al.}(2014)D'Elia, Fynbo, Goldoni, Covino, {de Ugarte
+  Postigo}, Ledoux, Calura, Gorosabel, Malesani, Matteucci,
+  S{\'{a}}nchez-Ram{\'{i}}rez, Savaglio, Castro-Tirado, Hartoog, Kaper,
+  Mu{\~{n}}oz-Darias, Pian, Piranomonte, Tagliaferri, Tanvir, Vergani, Watson,
+  \& Xu}]{DElia2014}
+D'Elia, V., Fynbo, J. P.~U., Goldoni, P., {et~al.} 2014, A{\&}A, 564, A38
+
+\bibitem[{{D'Elia} {et~al.}(2012{\natexlab{a}}){D'Elia}, {Goldoni}, {Malesani},
+  {Tanvir}, {Fynbo}, \& {Melandri}}]{GCN13227}
+{D'Elia}, V., {Goldoni}, P., {Malesani}, D., {et~al.} 2012{\natexlab{a}}, GRB
+  Coordinates Network, Circular Service, No.~13227, \#1 (2012), 13227
+
+\bibitem[{{D'Elia} {et~al.}(2012{\natexlab{b}}){D'Elia}, {Goldoni}, {Xu},
+  {Kr\"uhler}, {Fynbo}, {Malesani}, {Hartoog}, \& {Tanvir}}]{GCN13494}
+{D'Elia}, V., {Goldoni}, P., {Xu}, D., {et~al.} 2012{\natexlab{b}}, GRB
+  Coordinates Network, Circular Service, No.~13494, \#1 (2012), 13494
+
+\bibitem[{{D'Elia} {et~al.}(2015{\natexlab{a}}){D'Elia}, {Kr\"uhler},
+  {Wiersema}, {Tanvir}, {Japelj}, {Pugliese}, {Malesani}, {Milvang-Jensen}, \&
+  {Fynbo}}]{GCN18187}
+{D'Elia}, V., {Kr\"uhler}, T., {Wiersema}, K., {et~al.} 2015{\natexlab{a}}, GRB
+  Coordinates Network, Circular Service, No.~18187, \#1 (2015), 18187
+
+\bibitem[{{D'Elia} {et~al.}(2015{\natexlab{b}}){D'Elia}, {Kr\"uhler}, {Xu},
+  {Jakobsson}, {Tanvir}, \& {de Ugarte Postigo}}]{GCN18318}
+{D'Elia}, V., {Kr\"uhler}, T., {Xu}, D., {et~al.} 2015{\natexlab{b}}, GRB
+  Coordinates Network, Circular Service, No.~18318, \#1 (2015), 18318
+
+\bibitem[{D'Elia \& Stratta(2011)}]{DElia2011}
+D'Elia, V. \& Stratta, G. 2011, A{\&}A, 532, A48
+
+\bibitem[{{D'Elia} {et~al.}(2012{\natexlab{c}}){D'Elia}, {Xu}, {de Ugarte
+  Postigo}, {Malesani}, {Fynbo}, {Goldoni}, {Tanvir}, \&
+  {Kr\"uhler}}]{GCN13507}
+{D'Elia}, V., {Xu}, D., {de Ugarte Postigo}, A., {et~al.} 2012{\natexlab{c}},
+  GRB Coordinates Network, Circular Service, No.~13507, \#1 (2012), 13507
+
+\bibitem[{{D'Elia} {et~al.}(2016){D'Elia}, {Xu}, {Malesani}, {Fynbo}, {Flores},
+  {Wiersema}, \& {Watson}}]{GCN19192}
+{D'Elia}, V., {Xu}, D., {Malesani}, D., {et~al.} 2016, GRB Coordinates Network,
+  Circular Service, No.~19192, \#1 (2016), 19192
+
+\bibitem[{Dessauges-Zavadsky {et~al.}(2006)Dessauges-Zavadsky, Chen, Prochaska,
+  Bloom, \& Barth}]{Dessauges-Zavadsky2006}
+Dessauges-Zavadsky, M., Chen, H.-W., Prochaska, J.~X., Bloom, J.~S., \& Barth,
+  A.~J. 2006, ApJ, 648, L89
+
+\bibitem[{Djorgovski {et~al.}(2001)Djorgovski, Frail, Kulkarni, Bloom, Odewahn,
+  \& Diercks}]{Djorgovski2001}
+Djorgovski, S.~G., Frail, D.~A., Kulkarni, S.~R., {et~al.} 2001, ApJ, 562, 654
+
+\bibitem[{{Elliott} {et~al.}(2013){Elliott}, {Schmidl}, {Greiner}, {Kann},
+  {Ciceri}, \& {Mancini}}]{GCN14898}
+{Elliott}, J., {Schmidl}, S., {Greiner}, J., {et~al.} 2013, GRB Coordinates
+  Network, Circular Service, No.~14898, \#1 (2013), 14898
+
+\bibitem[{Evans {et~al.}(2009)Evans, Beardmore, Page, Osborne, O'Brien,
+  Willingale, Starling, Burrows, Godet, Vetere, Racusin, Goad, Wiersema,
+  Angelini, Capalbi, Chincarini, Gehrels, Kennea, Margutti, Morris, Mountford,
+  Pagani, Perri, Romano, \& Tanvir}]{Evans2009}
+Evans, P.~A., Beardmore, A.~P., Page, K.~L., {et~al.} 2009, MNRAS, 397, 1177
+
+\bibitem[{Evans {et~al.}(2007)Evans, Beardmore, Page, Tyler, Osborne, Goad,
+  O'Brien, Vetere, Racusin, Morris, Burrows, Capalbi, Perri, Gehrels, \&
+  Romano}]{Evans2007}
+Evans, P.~A., Beardmore, A.~P., Page, K.~L., {et~al.} 2007, A{\&}A, 469, 379
+
+\bibitem[{Filippenko(1982)}]{Filippenko1982}
+Filippenko, A.~V. 1982, PASP, 94, 715
+
+\bibitem[{Fiore {et~al.}(2005)Fiore, D'Elia, Lazzati, Perna, Sbordone, Stratta,
+  Meurs, Ward, Antonelli, Chincarini, Covino, {Di Paola}, Fontana, Ghisellini,
+  Israel, Frontera, Marconi, Stella, Vietri, \& Zerbi}]{Fiore2005}
+Fiore, F., D'Elia, V., Lazzati, D., {et~al.} 2005, ApJ, 624, 853
+
+\bibitem[{{Flores} {et~al.}(2013{\natexlab{a}}){Flores}, {Covino}, {de Ugarte
+  Postigo}, {Fynbo}, {Kr\"uhler}, {Xu}, \& {Tanvir}}]{GCN14493}
+{Flores}, H., {Covino}, S., {de Ugarte Postigo}, A., {et~al.}
+  2013{\natexlab{a}}, GRB Coordinates Network, Circular Service, No.~14493, \#1
+  (2013), 14493
+
+\bibitem[{{Flores} {et~al.}(2013{\natexlab{b}}){Flores}, {Covino}, {Xu},
+  {Kr\"uhler}, {Fynbo}, {Milvang-Jensen}, {de Ugarte Postigo}, {Kaper}, \&
+  {Wiersema}}]{GCN14491}
+{Flores}, H., {Covino}, S., {Xu}, D., {et~al.} 2013{\natexlab{b}}, GRB
+  Coordinates Network, Circular Service, No.~14491, \#1 (2013), 14491
+
+\bibitem[{{Flores} {et~al.}(2010){Flores}, {Fynbo}, {de Ugarte Postigo},
+  {Milvang-Jensen}, {Malesani}, {Goldoni}, {Th\"one}, {Piranomonte}, \&
+  {Vergani}}]{GCN11317}
+{Flores}, H., {Fynbo}, J.~P.~U., {de Ugarte Postigo}, A., {et~al.} 2010, GRB
+  Coordinates Network, Circular Service, No.~11317, \#1 (2010), 11317
+
+\bibitem[{Fong {et~al.}(2013)Fong, Berger, Chornock, Margutti, Levan, Tanvir,
+  Tunnicliffe, Czekala, Fox, Perley, Cenko, Zauderer, Laskar, Persson, Monson,
+  Kelson, Birk, Murphy, Servillat, \& Anglada}]{Fong2013}
+Fong, W., Berger, E., Chornock, R., {et~al.} 2013, ApJ, 769, 56
+
+\bibitem[{Freedman \& Waxman(2001)}]{Freedman2001}
+Freedman, D.~L. \& Waxman, E. 2001, ApJ, 547, 922
+
+\bibitem[{Freudling {et~al.}(2013)Freudling, Romaniello, Bramich, Ballester,
+  Forchi, Garc{\'{i}}a-Dabl{\'{o}}, Moehler, \& Neeser}]{Freudling2013}
+Freudling, W., Romaniello, M., Bramich, D.~M., {et~al.} 2013, A{\&}A, 559, A96
+
+\bibitem[{Friis {et~al.}(2015)Friis, {De Cia}, Kruhler, Fynbo, Ledoux,
+  Vreeswijk, Watson, Malesani, Gorosabel, Starling, Jakobsson, Varela,
+  Wiersema, Drachmann, Trotter, Thone, {de Ugarte Postigo}, D'Elia, Elliott,
+  Maturi, Goldoni, Greiner, Haislip, Kaper, Knust, LaCluyze, Milvang-Jensen,
+  Reichart, Schulze, Sudilovsky, Tanvir, \& Vergani}]{Friis2015}
+Friis, M., {De Cia}, A., Kruhler, T., {et~al.} 2015, MNRAS, 451, 167
+
+\bibitem[{Fruchter {et~al.}(2006)Fruchter, Levan, Strolger, Vreeswijk,
+  Thorsett, Bersier, Burud, {Castro Cer{\'{o}}n}, Castro-Tirado, Conselice,
+  Dahlen, Ferguson, Fynbo, Garnavich, Gibbons, Gorosabel, Gull, Hjorth,
+  Holland, Kouveliotou, Levay, Livio, Metzger, Nugent, Petro, Pian, Rhoads,
+  Riess, Sahu, Smette, Tanvir, Wijers, \& Woosley}]{Fruchter2006}
+Fruchter, A.~S., Levan, A.~J., Strolger, L., {et~al.} 2006, Nature, 441, 463
+
+\bibitem[{{Fynbo} {et~al.}(2012{\natexlab{a}}){Fynbo}, {de Ugarte Postigo},
+  {D'Elia}, {Xu}, \& {Malesani}}]{GCN13477}
+{Fynbo}, J.~P.~U., {de Ugarte Postigo}, A., {D'Elia}, V., {Xu}, D., \&
+  {Malesani}, D. 2012{\natexlab{a}}, GRB Coordinates Network, Circular Service,
+  No.~13477, \#1 (2012), 13477
+
+\bibitem[{Fynbo {et~al.}(2009)Fynbo, Jakobsson, Prochaska, Malesani, Ledoux,
+  Postigo, Nardini, Vreeswijk, Wiersema, Hjorth, Sollerman, Chen, Thoene,
+  Bjoernsson, Bloom, Castro-Tirado, Christensen, {De Cia}, Fruchter, Gorosabel,
+  Graham, Jaunsen, Jensen, Kann, Kouveliotou, Levan, Maund, Masetti,
+  Milvang-Jensen, Palazzi, Perley, Pian, Rol, Schady, Starling, Tanvir, Watson,
+  Xu, Augusteijn, Grundahl, Telting, \& Quirion}]{Fynbo2009}
+Fynbo, J. P.~U., Jakobsson, P., Prochaska, J.~X., {et~al.} 2009, ApJS, 185, 175
+
+\bibitem[{Fynbo {et~al.}(2014)Fynbo, Kr{\"{u}}hler, Leighly, Ledoux, Vreeswijk,
+  Schulze, Noterdaeme, Watson, Wijers, Bolmer, Cano, Christensen, Covino, Elia,
+  Flores, Friis, Goldoni, Greiner, Hammer, Hjorth, Jakobsson, Japelj, Kaper,
+  Klose, Knust, Leloudas, Levan, Malesani, M{\o}ller, A, Oates, Pian, Schady,
+  Sparre, Tagliaferri, Tanvir, Th{\"{o}}ne, A, Vergani, Wiersema, Xu, \&
+  Zafar}]{Fynbo2014}
+Fynbo, J. P.~U., Kr{\"{u}}hler, T., Leighly, K., {et~al.} 2014, A{\&}A, 12, 1
+
+\bibitem[{{Fynbo} {et~al.}(2012{\natexlab{b}}){Fynbo}, {Tanvir}, {D'Elia}, {de
+  Ugarte Postigo}, {Malesani}, {Hartoog}, {Xu}, {Flores}, {Levan}, \&
+  {Milvang-Jensen}}]{GCN14120}
+{Fynbo}, J.~P.~U., {Tanvir}, N.~R., {D'Elia}, V., {et~al.} 2012{\natexlab{b}},
+  GRB Coordinates Network, Circular Service, No.~14120, \#1 (2012), 14120
+
+\bibitem[{{Fynbo} {et~al.}(2014){Fynbo}, {Tanvir}, {Jakobsson}, {Xu},
+  {Malesani}, \& {Milvang-Jensen}}]{GCN16217}
+{Fynbo}, J.~P.~U., {Tanvir}, N.~R., {Jakobsson}, P., {et~al.} 2014, GRB
+  Coordinates Network, Circular Service, No.~16217, \#1 (2014), 16217
+
+\bibitem[{{Fynbo} {et~al.}(2013){Fynbo}, {Xu}, {Malesani}, {Kr\"uhler},
+  {Perley}, \& {D'Elia}}]{GCN14286}
+{Fynbo}, J.~P.~U., {Xu}, D., {Malesani}, D., {et~al.} 2013, GRB Coordinates
+  Network, Circular Service, No.~14286, \#1 (2013), 14286
+
+\bibitem[{Fynbo {et~al.}(2001)Fynbo, Jensen, Gorosabel, Hjorth, Pedersen,
+  M{\o}ller, Abbott, CastroTirado, Delgado, Greiner, Henden, Magazz{\`{u}},
+  Masetti, Merlino, Masegosa, {\O}stensen, Palazzi, Pian, Schwarz, Cline,
+  Guidorzi, Goldsten, Hurley, Mazets, McClanahan, Montanari, Starr, \&
+  Trombka}]{Fynbo2001}
+Fynbo, J.~U., Jensen, B.~L., Gorosabel, J., {et~al.} 2001, A{\&}A, 369, 373
+
+\bibitem[{Gehrels {et~al.}(2009)Gehrels, Ramirez-Ruiz, \& Fox}]{Gehrels2009}
+Gehrels, N., Ramirez-Ruiz, E., \& Fox, D. 2009, ARA{\&}A, 47, 567
+
+\bibitem[{Gehrels {et~al.}(2004)Gehrels, White, Barthelmy, Marshall, Angelini,
+  Barbier, Cline, Cummings, Gendreau, Krimm, Markwardt, Mattson, Mushotzky,
+  Norris, Parsons, Smale, Tueller, Zhang, Chincarini, Belloni, Campana,
+  Citterio, Ghisellini, Tagliaferri, Zerbi, Chincarini, Giommi, Mason, Cropper,
+  Nousek, Burrows, M{\'{e}}sz{\'{a}}ros, Roming, Chester, Feigelson, Garmire,
+  Hill, Hunsberger, Townsley, Wells, Willingale, Cominsky, Hurley, Angelini,
+  Krimm, Smale, Caraveo, Cummings, Dean, Fenimore, Palmer, Frail, Fruchter,
+  Rhoads, Greiner, Voges, Kulkarni, Kumar, Schaefer, Lebrun, Paul,
+  Lloyd-Ronning, Markwardt, Mattson, Reynolds, Mattson, Osborne, Short, Turner,
+  Ward, Paczynski, Park, Rees, Sasseen, Smith, Stella, Takahashi, Tashiro,
+  Takahashi, Tashiro, \& Vietri}]{Gehrels2004}
+Gehrels, N., White, N., Barthelmy, S., {et~al.} 2004, ApJ, 611, 1005
+
+\bibitem[{Ghirlanda(2007)}]{Ghirlanda2007}
+Ghirlanda, G. 2007, R. Soc. London Philos. Trans. Ser. A, 365, 1385
+
+\bibitem[{Ginsburg {et~al.}(2016)Ginsburg, Parikh, Woillez, Groener, Liedtke,
+  Sipocz, Robitaille, Deil, Svoboda, Tollerud, Persson, Adamginsburg,
+  S{\'{e}}guin-Charbonneau, Armstrong, Mirocha, Droettboom, James-allen,
+  Moolekamp, Egeland, Singer, Barbary, Grollier, Shiga, G{\"{u}}nther, Parejko,
+  Booker, Rol, Edward, Miller, \& Willett}]{astroquery}
+Ginsburg, A., Parikh, M., Woillez, J., {et~al.} 2016, {Astroquery V0.3.1}
+
+\bibitem[{{Goldoni} {et~al.}(2013){Goldoni}, {de Ugarte Postigo}, \&
+  {Fynbo}}]{GCN15571}
+{Goldoni}, P., {de Ugarte Postigo}, A., \& {Fynbo}, J.~P.~U. 2013, GRB
+  Coordinates Network, Circular Service, No.~15571, \#1 (2013), 15571
+
+\bibitem[{{Goldoni} {et~al.}(2010){Goldoni}, {Flores}, {Malesani}, {Levan},
+  {Tanvir}, \& {Fynbo}}]{GCN10684}
+{Goldoni}, P., {Flores}, H., {Malesani}, D., {et~al.} 2010, GRB Coordinates
+  Network, Circular Service, No.~10684, \#1 (2010), 10684
+
+\bibitem[{Goldoni {et~al.}(2006)Goldoni, Royer, Fran{\c{c}}ois, Horrobin,
+  Blanc, Vernet, Modigliani, \& Larsen}]{Goldoni2006}
+Goldoni, P., Royer, F., Fran{\c{c}}ois, P., {et~al.} 2006, Ground-based
+  Airborne Instrum. Astron. Ed. by McLean, 6269, 80
+
+\bibitem[{Graff {et~al.}(2016)Graff, Lien, Baker, \& Sakamoto}]{Graff2016}
+Graff, P.~B., Lien, A.~Y., Baker, J.~G., \& Sakamoto, T. 2016, ApJ, 818, 55
+
+\bibitem[{Greiner {et~al.}(2018)Greiner, Bolmer, Wieringa, van~der Horst,
+  Petry, Schulze, Knust, de~Bruyn, Kr{\"{u}}hler, Wiseman, Klose, Delvaux,
+  Graham, Kann, Moin, Nicuesa-Guelbenzu, Schady, Schmidl, Schweyer, Tanga,
+  Tingay, van Eerten, \& Varela}]{Greiner2018}
+Greiner, J., Bolmer, J., Wieringa, M., {et~al.} 2018, arXiv
+  [\eprint[arXiv]{1802.01882}]
+
+\bibitem[{Greiner {et~al.}(2008)Greiner, Bornemann, Clemens, Deuter, Hasinger,
+  Honsberg, Huber, Huber, Krauss, Kr{\"{u}}hler, {K{\"{u}}pc{\"{u}} Yoldaş},
+  Mayer-Hasselwander, Mican, Primak, Schrey, Steiner, Szokoly, Th{\"{o}}ne,
+  Yoldaş, Klose, Laux, \& Winkler}]{Greiner2008}
+Greiner, J., Bornemann, W., Clemens, C., {et~al.} 2008, PASP, 120, 405
+
+\bibitem[{Greiner {et~al.}(2011)Greiner, Kr{\"{u}}hler, Klose, Afonso, Clemens,
+  Filgas, Hartmann, {K{\"{u}}pc{\"{u}} Yoldaş}, Nardini, E., Rau, Rossi,
+  Schady, \& Updike}]{Greiner2011}
+Greiner, J., Kr{\"{u}}hler, T., Klose, S., {et~al.} 2011, A{\&}A, 526, A30
+
+\bibitem[{Greiner {et~al.}(2015)Greiner, Mazzali, Kann, Kr{\"{u}}hler, Pian,
+  Prentice, {Olivares E.}, Rossi, Klose, Taubenberger, Knust, Afonso, Ashall,
+  Bolmer, Delvaux, Diehl, Elliott, Filgas, Fynbo, Graham, Guelbenzu, Kobayashi,
+  Leloudas, Savaglio, Schady, Schmidl, Schweyer, Sudilovsky, Tanga, Updike,
+  {Van Eerten}, \& Varela}]{Greiner2015}
+Greiner, J., Mazzali, P.~A., Kann, D.~A., {et~al.} 2015, Nature, 523, 189
+
+\bibitem[{Greiner {et~al.}(2014)Greiner, Yu, Kr{\"{u}}hler, Frederiks,
+  Beloborodov, Bhat, Bolmer, van Eerten, Aptekar, Elliott, Golenetskii, Graham,
+  Hurley, Kann, Klose, {Nicuesa Guelbenzu}, Rau, Schady, Schmidl, Sudilovsky,
+  Svinkin, Tanga, Ulanov, Varela, von Kienlin, \& Zhang}]{Greiner2014}
+Greiner, J., Yu, H.-F., Kr{\"{u}}hler, T., {et~al.} 2014, A{\&}A, 568, A75
+
+\bibitem[{{Groot} {et~al.}(2010){Groot}, {Kaper}, {Ellerbroek}, {Malesani},
+  {Jakobsson}, {Fynbo}, {Hjorth}, {Watson}, \& {Mason}}]{GCN10441}
+{Groot}, P., {Kaper}, L., {Ellerbroek}, L., {et~al.} 2010, GRB Coordinates
+  Network, Circular Service, No.~10441, \#1 (2010), 10441
+
+\bibitem[{Groot {et~al.}(1998)Groot, Galama, van Paradijs, Kouveliotou, Wijers,
+  Bloom, Tanvir, Vanderspek, Greiner, Castro-Tirado, Gorosabel, von Hippel,
+  Lehnert, Kuijken, Hoekstra, Metcalfe, Howk, Conselice, Telting, Rutten,
+  Rhoads, Cole, Pisano, Naber, \& Schwarz}]{Groot1998}
+Groot, P.~J., Galama, T.~J., van Paradijs, J., {et~al.} 1998, ApJ, 493, L27
+
+\bibitem[{Hamuy {et~al.}(1994)Hamuy, Suntzeff, Heathcote, Walker, Gigoux, \&
+  Phillips}]{Hamuy1994}
+Hamuy, M., Suntzeff, N.~B., Heathcote, S.~R., {et~al.} 1994, PASP, 106, 566
+
+\bibitem[{Hartoog {et~al.}(2015)Hartoog, Malesani, Fynbo, Goto, Kr{\"{u}}hler,
+  Vreeswijk, {De Cia}, Xu, M{\o}ller, Covino, D'Elia, Flores, Goldoni, Hjorth,
+  Jakobsson, Krogager, Kaper, Ledoux, Levan, Milvang-Jensen, Sollerman, Sparre,
+  Tagliaferri, Tanvir, {de Ugarte Postigo}, Vergani, Wiersema, Datson, Salinas,
+  Mikkelsen, Aghanim, Cia, \& Xu}]{Hartoog2015}
+Hartoog, O.~E., Malesani, D., Fynbo, J. P.~U., {et~al.} 2015, A{\&}A, 580, A139
+
+\bibitem[{{Hartoog} {et~al.}(2014){Hartoog}, {Malesani}, {Sanchez-Ramirez}, {de
+  Ugarte Postigo}, {Levan}, {Fynbo}, {Vreeswijk}, \& {Kaper}}]{GCN16437}
+{Hartoog}, O.~E., {Malesani}, D., {Sanchez-Ramirez}, R., {et~al.} 2014, GRB
+  Coordinates Network, Circular Service, No.~16437, \#1 (2014), 16437
+
+\bibitem[{{Hartoog} {et~al.}(2012){Hartoog}, {Malesani}, {Wiersema},
+  {Kr\"uhler}, {Schulze}, {de Ugarte Postigo}, {D'Elia}, \& {Fynbo}}]{GCN13730}
+{Hartoog}, O.~E., {Malesani}, D., {Wiersema}, K., {et~al.} 2012, GRB
+  Coordinates Network, Circular Service, No.~13730, \#1 (2012), 13730
+
+\bibitem[{Hartoog {et~al.}(2013)Hartoog, Wiersema, Vreeswijk, Kaper, Tanvir,
+  Savaglio, Berger, Chornock, Covino, D'Elia, Flores, Fynbo, Goldoni, Gomboc,
+  Melandri, Pozanenko, Schaye, Postigo, \& Wijers}]{Hartoog2013}
+Hartoog, O.~E., Wiersema, K., Vreeswijk, P.~M., {et~al.} 2013, MNRAS, 430, 2739
+
+\bibitem[{{Hartoog} {et~al.}(2013){Hartoog}, {Xu}, {Malesani}, {Tanvir},
+  {Fynbo}, {Kaper}, \& {D'Elia}}]{GCN15494}
+{Hartoog}, O.~E., {Xu}, D., {Malesani}, D., {et~al.} 2013, GRB Coordinates
+  Network, Circular Service, No.~15494, \#1 (2013), 15494
+
+\bibitem[{Heintz {et~al.}(2017)Heintz, Fynbo, Jakobsson, Kr{\"{u}}hler,
+  Christensen, Watson, Ledoux, Noterdaeme, Perley, Rhodin, Selsing, Schulze,
+  Tanvir, M{\o}ller, Goldoni, Xu, \& Milvang-Jensen}]{Heintz2017a}
+Heintz, K.~E., Fynbo, J. P.~U., Jakobsson, P., {et~al.} 2017, A{\&}A, 601, A83
+
+\bibitem[{{Heintz} {et~al.}(2016){Heintz}, {Malesani}, {de Ugarte Postigo},
+  {Pursimo}, {Kruehler}, {Telting}, \& {Fynbo}}]{GCN20020}
+{Heintz}, K.~E., {Malesani}, D., {de Ugarte Postigo}, A., {et~al.} 2016, GRB
+  Coordinates Network, Circular Service, No.~20020, \#1 (2016), 20020
+
+\bibitem[{Heintz {et~al.}(2018)Heintz, Malesani, Wiersema, Jakobsson, Fynbo,
+  Savaglio, Cano, Covino, D'Elia, Gomboc, Hammer, Kaper, Milvang-Jensen,
+  M{\o}ller, Piranomonte, Selsing, Rhodin, Tanvir, Th{\"{o}}ne, {de Ugarte
+  Postigo}, Vergani, \& Watson}]{Heintz2017b}
+Heintz, K.~E., Malesani, D., Wiersema, K., {et~al.} 2018, MNRAS, 474, 2738
+
+\bibitem[{Hjorth \& Bloom(2011)}]{HjorthBloom2012}
+Hjorth, J. \& Bloom, J.~S. 2011, in Gamma-Ray Bursts, ed. C.~Kouveliotou, R.~A.
+  M.~J. Wijers, \& S.~Woosley No. 1973 (Cambridge: Cambridge University Press),
+  169--190
+
+\bibitem[{Hjorth {et~al.}(2012)Hjorth, Malesani, Jakobsson, Jaunsen, Fynbo,
+  Gorosabel, Kr{\"{u}}hler, Levan, Micha{\l}owski, Milvang-Jensen, Moller,
+  Schulze, Tanvir, \& Watson}]{Hjorth2012}
+Hjorth, J., Malesani, D., Jakobsson, P., {et~al.} 2012, ApJ, 756, 187
+
+\bibitem[{{Hjorth} {et~al.}(2013){Hjorth}, {Melandri}, {Malesani}, {Kr\"uhler},
+  \& {Xu}}]{GCN14365}
+{Hjorth}, J., {Melandri}, A., {Malesani}, D., {Kr\"uhler}, T., \& {Xu}, D.
+  2013, GRB Coordinates Network, Circular Service, No.~14365, \#1 (2013), 14365
+
+\bibitem[{Hogg \& Fruchter(1999)}]{Hogg1999}
+Hogg, D.~W. \& Fruchter, A.~S. 1999, ApJ, 520, 54
+
+\bibitem[{Horne(1986)}]{Horne1986}
+Horne, K. 1986, PASP, 98, 609
+
+\bibitem[{Hunter(2007)}]{Hunter2007}
+Hunter, J.~D. 2007, Comput. Sci. Eng., 9, 99
+
+\bibitem[{Izzo {et~al.}(2017)Izzo, Th{\"{o}}ne, Schulze, Mehner, Flores, Cano,
+  {de Ugarte Postigo}, Kann, Amor{\'{i}}n, Anderson, Bauer, Bensch,
+  Christensen, Covino, {Della Valle}, Fynbo, Jakobsson, Klose, Kuncarayakti,
+  Leloudas, Milvang-Jensen, M{\o}ller, Puech, Rossi,
+  S{\'{a}}nchez-Ram{\'{i}}rez, \& Vergani}]{Izzo2017}
+Izzo, L., Th{\"{o}}ne, C.~C., Schulze, S., {et~al.} 2017, MNRAS, 472, 4480
+
+\bibitem[{Jakobsson {et~al.}(2005)Jakobsson, Frail, Fox, Moon, Price, Kulkarni,
+  Fynbo, Hjorth, Berger, McNaught, \& Dahle}]{Jakobsson2005}
+Jakobsson, P., Frail, D.~A., Fox, D.~B., {et~al.} 2005, ApJ, 629, 45
+
+\bibitem[{Jakobsson {et~al.}(2004)Jakobsson, Hjorth, Fynbo, Watson, Pedersen,
+  Bj{\"{o}}rnsson, \& Gorosabel}]{Jakobsson2004}
+Jakobsson, P., Hjorth, J., Fynbo, J. P.~U., {et~al.} 2004, ApJ, 617, L21
+
+\bibitem[{Jakobsson {et~al.}(2012)Jakobsson, Hjorth, Malesani, Chapman, Fynbo,
+  Tanvir, Milvang-Jensen, Vreeswijk, Letawe, \& Starling}]{Jakobsson2012}
+Jakobsson, P., Hjorth, J., Malesani, D., {et~al.} 2012, ApJ, 752, 62
+
+\bibitem[{Jakobsson {et~al.}(2006)Jakobsson, Levan, Fynbo, Priddey, Hjorth,
+  Tanvir, Watson, Jensen, Sollerman, Natarajan, Gorosabel, {Castro
+  Cer{\'{o}}n}, Pedersen, Pursimo, {\'{A}}rnad{\'{o}}ttir, Castro-Tirado,
+  Davis, Deeg, Fiuza, Mykolaitis, \& Sousa}]{Jakobsson2006b}
+Jakobsson, P., Levan, A., Fynbo, J. P.~U., {et~al.} 2006, A{\&}A, 447, 897
+
+\bibitem[{Japelj {et~al.}(2015)Japelj, Covino, Gomboc, Vergani, Goldoni,
+  Selsing, Cano, D'Elia, Flores, Fynbo, Hammer, Hjorth, Jakobsson, Kaper,
+  Kopa{\v{c}}, Kr{\"{u}}hler, Melandri, Piranomonte,
+  S{\'{a}}nchez-Ram{\'{i}}rez, Tagliaferri, Tanvir, {de Ugarte Postigo},
+  Watson, \& Wijers}]{Japelj2015}
+Japelj, J., Covino, S., Gomboc, A., {et~al.} 2015, A{\&}A, 579, A74
+
+\bibitem[{Jones {et~al.}(2013)Jones, Noll, Kausch, Szyszka, \&
+  Kimeswenger}]{Jones2013}
+Jones, A., Noll, S., Kausch, W., Szyszka, C., \& Kimeswenger, S. 2013, A{\&}A,
+  560, A91
+
+\bibitem[{Kann {et~al.}(2017)Kann, Schady, E., Klose, Rossi, Perley,
+  Kr{\"{u}}hler, Greiner, Guelbenzu, Elliott, Knust, Filgas, Pian, Mazzali,
+  Fynbo, Leloudas, Afonso, Delvaux, Graham, Rau, Schmidl, Schulze, Tanga,
+  Updike, \& Varela}]{Kann2017}
+Kann, D.~A., Schady, P., E., F.~O., {et~al.} 2017, arXiv
+  [\eprint[arXiv]{1706.00601}]
+
+\bibitem[{Kausch {et~al.}(2015)Kausch, Noll, Smette, Kimeswenger, Barden,
+  Szyszka, Jones, Sana, Horst, \& Kerber}]{Kausch2015}
+Kausch, W., Noll, S., Smette, A., {et~al.} 2015, A{\&}A, 576, A78
+
+\bibitem[{{Knust} {et~al.}(2015){Knust}, {Kann}, {Kr\"uhler}, \&
+  {Greiner}}]{GCN17767}
+{Knust}, F., {Kann}, D.~A., {Kr\"uhler}, T., \& {Greiner}, J. 2015, GRB
+  Coordinates Network, Circular Service, No.~17767, \#1 (2015), 17767
+
+\bibitem[{{Kr\"uhler} {et~al.}(2012){Kr\"uhler}, {Fynbo}, {Milvang-Jensen},
+  {Tanvir}, \& {Jakobsson}}]{GCN13134}
+{Kr\"uhler}, T., {Fynbo}, J.~P.~U., {Milvang-Jensen}, B., {Tanvir}, N., \&
+  {Jakobsson}, P. 2012, GRB Coordinates Network, Circular Service, No.~13134,
+  \#1 (2012), 13134
+
+\bibitem[{Kr{\"{u}}hler {et~al.}(2011)Kr{\"{u}}hler, Greiner, Schady, Savaglio,
+  Afonso, Clemens, Elliott, Filgas, Gruber, Kann, Klose,
+  K{\"{u}}pc{\"{u}}-Yoldaş, McBreen, Olivares, Pierini, Rau, Rossi, Nardini,
+  {Nicuesa Guelbenzu}, Sudilovsky, \& Updike}]{Kruhler2011}
+Kr{\"{u}}hler, T., Greiner, J., Schady, P., {et~al.} 2011, A{\&}A, 534, A108
+
+\bibitem[{Kr{\"{u}}hler {et~al.}(2013)Kr{\"{u}}hler, Ledoux, Fynbo, Vreeswijk,
+  Schmidl, Malesani, Christensen, {De Cia}, Hjorth, Jakobsson, Kann, Kaper,
+  Vergani, Afonso, Covino, {de Ugarte Postigo}, D'Elia, Filgas, Goldoni,
+  Greiner, Hartoog, Milvang-Jensen, Nardini, Piranomonte, Rossi,
+  Sanchez-Ramirez, Schady, Schulze, Sudilovsky, Tanvir, Tagliaferri, Watson,
+  Wiersema, Wijers, \& Xu}]{Kruhler2013}
+Kr{\"{u}}hler, T., Ledoux, C., Fynbo, J. P.~U., {et~al.} 2013, A{\&}A, 557, A18
+
+\bibitem[{{Kr\"uhler} {et~al.}(2014{\natexlab{a}}){Kr\"uhler}, {Malesani}, {de
+  Ugarte Postigo}, {Melandri}, \& {Fynbo}}]{GCN16194}
+{Kr\"uhler}, T., {Malesani}, D., {de Ugarte Postigo}, A., {Melandri}, A., \&
+  {Fynbo}, J.~P.~U. 2014{\natexlab{a}}, GRB Coordinates Network, Circular
+  Service, No.~16194, \#1 (2014), 16194
+
+\bibitem[{Kr{\"{u}}hler {et~al.}(2015)Kr{\"{u}}hler, Malesani, Fynbo, Hartoog,
+  Hjorth, Jakobsson, Perley, Rossi, Schady, Schulze, Tanvir, Vergani, Wiersema,
+  Afonso, Bolmer, Cano, Covino, D'Elia, {de Ugarte Postigo}, Filgas, Friis,
+  Graham, Greiner, Goldoni, Gomboc, Hammer, Japelj, Kann, Kaper, Klose, Levan,
+  Leloudas, Milvang-Jensen, {Nicuesa Guelbenzu}, Palazzi, Pian, Piranomonte,
+  S{\'{a}}nchez-Ram{\'{i}}rez, Savaglio, Selsing, Tagliaferri, Vreeswijk,
+  Watson, \& Xu}]{Kruhler2015}
+Kr{\"{u}}hler, T., Malesani, D., Fynbo, J. P.~U., {et~al.} 2015, A{\&}A, 581,
+  A125
+
+\bibitem[{Kr{\"{u}}hler {et~al.}(2012)Kr{\"{u}}hler, Malesani, Milvang-Jensen,
+  Fynbo, Hjorth, Jakobsson, Levan, Sparre, Tanvir, \& Watson}]{Kruhler2012}
+Kr{\"{u}}hler, T., Malesani, D., Milvang-Jensen, B., {et~al.} 2012, ApJ, 758,
+  46
+
+\bibitem[{{Kr\"uhler} {et~al.}(2016{\natexlab{a}}){Kr\"uhler}, {Malesani},
+  {Xu}, {Bolmer}, {Fynbo}, {Perley}, {Kann}, {Greiner}, \& {Graham}}]{GCN19186}
+{Kr\"uhler}, T., {Malesani}, D., {Xu}, D., {et~al.} 2016{\natexlab{a}}, GRB
+  Coordinates Network, Circular Service, No.~19186, \#1 (2016), 19186
+
+\bibitem[{{Kr\"uhler} {et~al.}(2013{\natexlab{a}}){Kr\"uhler}, {Malesani},
+  {Xu}, {Fynbo}, {Levan}, {Tanvir}, {D'Elia}, \& {Perley}}]{GCN14264}
+{Kr\"uhler}, T., {Malesani}, D., {Xu}, D., {et~al.} 2013{\natexlab{a}}, GRB
+  Coordinates Network, Circular Service, No.~14264, \#1 (2013), 14264
+
+\bibitem[{{Kr\"uhler} {et~al.}(2012){Kr\"uhler}, {Tanvir}, {de Ugarte Postigo},
+  {Malesani}, {Fynbo}, {Melandri}, {Levan}, {Wiersema}, {Schulze}, {Goldoni},
+  {Flores}, \& {Kaper}}]{GCN13930}
+{Kr\"uhler}, T., {Tanvir}, N.~R., {de Ugarte Postigo}, A., {et~al.} 2012, GRB
+  Coordinates Network, Circular Service, No.~13930, \#1 (2012), 13930
+
+\bibitem[{{Kr\"uhler} {et~al.}(2014{\natexlab{b}}){Kr\"uhler}, {Tanvir},
+  {Malesani}, {Xu}, \& {Fynbo}}]{GCN15900}
+{Kr\"uhler}, T., {Tanvir}, N.~R., {Malesani}, D., {Xu}, D., \& {Fynbo},
+  J.~P.~U. 2014{\natexlab{b}}, GRB Coordinates Network, Circular Service,
+  No.~15900, \#1 (2014), 15900
+
+\bibitem[{{Kr\"uhler} {et~al.}(2014{\natexlab{c}}){Kr\"uhler}, {Vreeswijk}, \&
+  {Fynbo}}]{GCN16401}
+{Kr\"uhler}, T., {Vreeswijk}, P.~M., \& {Fynbo}, J.~P.~U. 2014{\natexlab{c}},
+  GRB Coordinates Network, Circular Service, No.~16401, \#1 (2014), 16401
+
+\bibitem[{{Kr\"uhler} {et~al.}(2016{\natexlab{b}}){Kr\"uhler}, {Xu}, {Bolmer},
+  {Wiersema}, {Malesani}, {Sanchez-Ramirez}, \& {Fynbo}}]{GCN19971}
+{Kr\"uhler}, T., {Xu}, D., {Bolmer}, J., {et~al.} 2016{\natexlab{b}}, GRB
+  Coordinates Network, Circular Service, No.~19971, \#1 (2016), 19971
+
+\bibitem[{{Kr\"uhler} {et~al.}(2015){Kr\"uhler}, {Xu}, {Fynbo}, {Malesani},
+  {Cano}, \& {de Ugarte Postigo}}]{GCN17420}
+{Kr\"uhler}, T., {Xu}, D., {Fynbo}, J.~P.~U., {et~al.} 2015, GRB Coordinates
+  Network, Circular Service, No.~17420, \#1 (2015), 17420
+
+\bibitem[{{Kr\"uhler} {et~al.}(2013{\natexlab{b}}){Kr\"uhler}, {Xu},
+  {Sanchez-Ramirez}, {Malesani}, {Fynbo}, \& {Flores}}]{GCN14390}
+{Kr\"uhler}, T., {Xu}, D., {Sanchez-Ramirez}, R., {et~al.} 2013{\natexlab{b}},
+  GRB Coordinates Network, Circular Service, No.~14390, \#1 (2013), 14390
+
+\bibitem[{Letchworth \& Benner(2007)}]{letchworth2007}
+Letchworth, K.~L. \& Benner, D.~C. 2007, JQSRT, 107, 173
+
+\bibitem[{Levan {et~al.}(2013)Levan, Tanvir, Starling, Wiersema, Page, Perley,
+  Schulze, Wynn, Chornock, Hjorth, Cenko, Fruchter, O'Brien, Brown,
+  Tunnicliffe, Malesani, Jakobsson, Watson, Berger, Bersier, Cobb, Covino,
+  Cucchiara, {de Ugarte Postigo}, Fox, Gal-Yam, Goldoni, Gorosabel, Kaper,
+  Kr{\"{u}}hler, Karjalainen, Osborne, Pian, S{\'{a}}nchez-Ram{\'{i}}rez,
+  Schmidt, Skillen, Tagliaferri, Th{\"{o}}ne, Vaduvescu, Wijers, \&
+  Zauderer}]{Levan2013}
+Levan, A.~J., Tanvir, N.~R., Starling, R. L.~C., {et~al.} 2013, ApJ, 781, 13
+
+\bibitem[{Levesque {et~al.}(2010)Levesque, Kewley, Graham, \&
+  Fruchter}]{Levesque2010}
+Levesque, E.~M., Kewley, L.~J., Graham, J.~F., \& Fruchter, A.~S. 2010, ApJ,
+  712, L26
+
+\bibitem[{Lien {et~al.}(2016)Lien, Sakamoto, Barthelmy, Baumgartner, Cannizzo,
+  Chen, Collins, Cummings, Gehrels, Krimm, Markwardt, Palmer, Stamatikos,
+  Troja, \& Ukwatta}]{Lien2016}
+Lien, A., Sakamoto, T., Barthelmy, S.~D., {et~al.} 2016, ApJ, 829, 7
+
+\bibitem[{Lien {et~al.}(2014)Lien, Sakamoto, Gehrels, Palmer, Barthelmy,
+  Graziani, \& Cannizzo}]{Lien2014}
+Lien, A., Sakamoto, T., Gehrels, N., {et~al.} 2014, ApJ, 783, 24
+
+\bibitem[{{LIGO Scientific Collaboration} {et~al.}(2017){LIGO Scientific
+  Collaboration}, {Virgo Collaboration}, GBM, INTEGRAL, Collaboration, Team,
+  Collaboration, Collaboration, Collaboration, Collaboration, Team, Team,
+  Collaboration, Collaboration, Collaboration, GRAWITA, :, TeAm, Collaboration,
+  ATCA, :, Array, ASKAP, :, Pathfinder, Group, OzGrav, DWF, AST3,
+  Collaborations, Collaboration, Collaboration, J-GEM, GROWTH, JAGWAR, NRAO,
+  TTU-NRAO, Collaborations, Pan-STARRS, Team, Consortium, Collaboration,
+  Telescope, EPESSTO, GROND, University, Group, TOROS, :, Collaboration,
+  Collaboration, MWA, :, Array, Collaboration, Collaboration, Collaboration,
+  Collaboration, LWA, :, Array, Collaboration, Collaboration, Collaboration,
+  Team, Collaboration, University, DFN, :, Network, ATLAS, Survey, RIMAS,
+  RATIR, \& Africa/MeerKAT}]{LIGOScientificCollaboration2017}
+{LIGO Scientific Collaboration}, {Virgo Collaboration}, GBM, F., {et~al.} 2017,
+  Astrophys. J. Lett., 848, L12
+
+\bibitem[{Littlejohns {et~al.}(2013)Littlejohns, Tanvir, Willingale, Evans,
+  O'Brien, \& Levan}]{Littlejohns2013a}
+Littlejohns, O.~M., Tanvir, N.~R., Willingale, R., {et~al.} 2013, MNRAS, 436,
+  3640
+
+\bibitem[{L{\'{o}}pez {et~al.}(2016)L{\'{o}}pez, D'Odorico, Ellison, Becker,
+  Christensen, Cupani, Denney, P{\^{a}}ris, Worseck, Berg, Cristiani,
+  Dessauges-Zavadsky, Haehnelt, Hamann, Hennawi, Ir{\v{s}}i{\v{c}}, Kim,
+  L{\'{o}}pez, {Lund Saust}, M{\'{e}}nard, Perrotta, Prochaska,
+  S{\'{a}}nchez-Ram{\'{i}}rez, Vestergaard, Viel, \& Wisotzki}]{Lopez2016}
+L{\'{o}}pez, S., D'Odorico, V., Ellison, S.~L., {et~al.} 2016, A{\&}A, 594, A91
+
+\bibitem[{Lyman {et~al.}(2017)Lyman, Levan, Tanvir, Fynbo, McGuire, Perley,
+  Angus, Bloom, Conselice, Fruchter, Hjorth, Jakobsson, \&
+  Starling}]{Lyman2017}
+Lyman, J.~D., Levan, A.~J., Tanvir, N.~R., {et~al.} 2017, MNRAS, 1817, stx220
+
+\bibitem[{{Malesani} {et~al.}(2009{\natexlab{a}}){Malesani}, {Fynbo},
+  {Christensen}, {de Ugarte Postigo}, {Milvang-Jensen}, \& {Covino}}]{GCN.9761}
+{Malesani}, D., {Fynbo}, J.~P.~U., {Christensen}, L., {et~al.}
+  2009{\natexlab{a}}, GRB Coordinates Network, 9761
+
+\bibitem[{{Malesani} {et~al.}(2009{\natexlab{b}}){Malesani}, {Goldoni},
+  {Fynbo}, {D'Elia}, {Covino}, {Flores}, {Levan}, {Vergani}, \&
+  {Wiersema}}]{GCN.9942}
+{Malesani}, D., {Goldoni}, P., {Fynbo}, J.~P.~U., {et~al.} 2009{\natexlab{b}},
+  GRB Coordinates Network, 9942
+
+\bibitem[{{Malesani} {et~al.}(2016){Malesani}, {Kr\"uhler}, {Heintz}, \&
+  {Fynbo}}]{GCN20180}
+{Malesani}, D., {Kr\"uhler}, T., {Heintz}, K.~E., \& {Fynbo}, J.~P.~U. 2016,
+  GRB Coordinates Network, Circular Service, No.~20180, \#1 (2016), 20180
+
+\bibitem[{{Malesani} {et~al.}(2013{\natexlab{a}}){Malesani}, {Kr\"uhler},
+  {Perley}, {Fynbo}, {Xu}, {Milvang-Jensen}, {Goldoni}, \&
+  {Schulze}}]{GCN14225}
+{Malesani}, D., {Kr\"uhler}, T., {Perley}, D., {et~al.} 2013{\natexlab{a}}, GRB
+  Coordinates Network, Circular Service, No.~14225, \#1 (2013), 14225
+
+\bibitem[{{Malesani} {et~al.}(2015{\natexlab{a}}){Malesani}, {Kr\"uhler}, {Xu},
+  {Pugliese}, {Watson}, {Fynbo}, {Milvang-Jensen}, {de Ugarte Postigo},
+  {Tanvir}, {D'Elia}, {Wiersema}, {Greiner}, \& {Japelj}}]{GCN17755}
+{Malesani}, D., {Kr\"uhler}, T., {Xu}, D., {et~al.} 2015{\natexlab{a}}, GRB
+  Coordinates Network, Circular Service, No.~17755, \#1 (2015), 17755
+
+\bibitem[{{Malesani} \& {Palazzi}(2010)}]{GCN10631}
+{Malesani}, D. \& {Palazzi}, E. 2010, GRB Coordinates Network, Circular
+  Service, No.~10631, \#1 (2010), 10631
+
+\bibitem[{{Malesani} {et~al.}(2012){Malesani}, {Schulze}, {de Ugarte Postigo},
+  {Xu}, {D'Elia}, {Fynbo}, \& {Tanvir}}]{GCN13649}
+{Malesani}, D., {Schulze}, S., {de Ugarte Postigo}, A., {et~al.} 2012, GRB
+  Coordinates Network, Circular Service, No.~13649, \#1 (2012), 13649
+
+\bibitem[{{Malesani} {et~al.}(2015{\natexlab{b}}){Malesani}, {Tanvir},
+  {Kr\"uhler}, {de Ugarte Postigo}, {Flores}, {Xu}, \& {Fynbo}}]{GCN18540}
+{Malesani}, D., {Tanvir}, N.~R., {Kr\"uhler}, T., {et~al.} 2015{\natexlab{b}},
+  GRB Coordinates Network, Circular Service, No.~18540, \#1 (2015), 18540
+
+\bibitem[{{Malesani} {et~al.}(2013{\natexlab{b}}){Malesani}, {Xu}, {Fynbo},
+  {Kr\"uhler}, {Perley}, {Vergani}, \& {Goldoni}}]{GCN14291}
+{Malesani}, D., {Xu}, D., {Fynbo}, J.~P.~U., {et~al.} 2013{\natexlab{b}}, GRB
+  Coordinates Network, Circular Service, No.~14291, \#1 (2013), 14291
+
+\bibitem[{{Markwardt} {et~al.}(2016){Markwardt}, {Barthelmy}, {Cummings},
+  {Gehrels}, {Krimm}, {Lien}, {Norris}, {Page}, {Palmer}, {Sakamoto},
+  {Stamatikos}, \& {Ukwatta}}]{GCN19974}
+{Markwardt}, C.~B., {Barthelmy}, S.~D., {Cummings}, J.~R., {et~al.} 2016, GRB
+  Coordinates Network, Circular Service, No.~19974, \#1 (2016), 19974
+
+\bibitem[{Maselli {et~al.}(2014)Maselli, Melandri, Nava, Mundell, Kawai,
+  Campana, Covino, Cummings, Cusumano, Evans, Ghirlanda, Ghisellini, Guidorzi,
+  Kobayashi, Kuin, {La Parola}, Mangano, Oates, Sakamoto, Serino, Virgili,
+  Zhang, Barthelmy, Beardmore, Bernardini, Bersier, Burrows, Calderone,
+  Capalbi, Chiang, D'Avanzo, D'Elia, {De Pasquale}, Fugazza, Gehrels, Gomboc,
+  Harrison, Hanayama, Japelj, Kennea, Kopac, Kouveliotou, Kuroda, Levan,
+  Malesani, Marshall, Nousek, O'Brien, Osborne, Pagani, Page, Page, Perri,
+  Pritchard, Romano, Saito, Sbarufatti, Salvaterra, Steele, Tanvir, Vianello,
+  Wiegand, Wiersema, Yatsu, Yoshii, \& Tagliaferri}]{Maselli2014}
+Maselli, A., Melandri, A., Nava, L., {et~al.} 2014, Sci, 343, 48
+
+\bibitem[{Meegan {et~al.}(1992)Meegan, Fishman, Wilson, Horack, Brock,
+  Paciesas, Pendleton, \& Kouveliotou}]{Meegan1992}
+Meegan, C.~A., Fishman, G.~J., Wilson, R.~B., {et~al.} 1992, Nature, 355, 143
+
+\bibitem[{Melandri {et~al.}(2015)Melandri, Bernardini, D'Avanzo,
+  S{\'{a}}nchez-Ram{\'{i}}rez, Nappo, Nava, Japelj, {de Ugarte Postigo}, Oates,
+  Campana, Covino, D'Elia, Ghirlanda, Gafton, Ghisellini, Gnedin, Goldoni,
+  Gorosabel, Libbrecht, Malesani, Salvaterra, Th{\"{o}}ne, Vergani, Xu, \&
+  Tagliaferri}]{Melandri2015}
+Melandri, A., Bernardini, M.~G., D'Avanzo, P., {et~al.} 2015, A{\&}A, 581, A86
+
+\bibitem[{Melandri {et~al.}(2012)Melandri, Sbarufatti, D'Avanzo, Salvaterra,
+  Campana, Covino, Vergani, Nava, Ghisellini, Ghirlanda, Fugazza, Mangano,
+  Capalbi, \& Tagliaferri}]{Melandri2012}
+Melandri, A., Sbarufatti, B., D'Avanzo, P., {et~al.} 2012, MNRAS, 421, 1265
+
+\bibitem[{Micha{\l}owski {et~al.}(2016)Micha{\l}owski, Xu, Stevens, Levan,
+  Yang, Paragi, Kamble, Dannerbauer, van~der Horst, Shao, Crosby, Gentile,
+  Stanway, Wiersema, Fynbo, Tanvir, Kamphuis, \& Garrett}]{Michaowski2016}
+Micha{\l}owski, M.~J., Xu, D., Stevens, J., {et~al.} 2016, arXiv
+  [\eprint[arXiv]{1610.06928}]
+
+\bibitem[{Micol {et~al.}(2016)Micol, Arnaboldi, Delmotte, Mascetti, \&
+  Retzlaff}]{Micol2016}
+Micol, A., Arnaboldi, M., Delmotte, N. A.~R., Mascetti, L., \& Retzlaff, J.
+  2016, in Obs. Oper. Strateg. Process. Syst. VI, ed. A.~B. Peck, R.~L. Seaman,
+  \& C.~R. Benn, Vol. 9910 (International Society for Optics and Photonics),
+  991030
+
+\bibitem[{{Milvang-Jensen} {et~al.}(2010){Milvang-Jensen}, {Goldoni}, {Tanvir},
+  {Wiersema}, {Malesani}, {de Ugarte Postigo}, {D'Elia}, {Vergani}, {Fynbo},
+  {Kaper}, {Sollerman}, {Updike}, {Greiner}, \& {Kr\"uhler}}]{GCN10876}
+{Milvang-Jensen}, B., {Goldoni}, P., {Tanvir}, N.~R., {et~al.} 2010, GRB
+  Coordinates Network, Circular Service, No.~10876, \#1 (2010), 10876
+
+\bibitem[{Modigliani {et~al.}(2010)Modigliani, Goldoni, Royer, Haigron,
+  Guglielmi, Fran{\c{c}}ois, Horrobin, Bristow, Vernet, Moehler, Kerber,
+  Ballester, Mason, \& Christensen}]{Modigliani2010}
+Modigliani, A., Goldoni, P., Royer, F., {et~al.} 2010, SPIE Astron. Telesc. +
+  Instrum., 7737, 773728
+
+\bibitem[{Moffat(1969)}]{Moffat1969}
+Moffat, A. F.~J. 1969, A{\&}A, 3, 455
+
+\bibitem[{Molinari {et~al.}(2007)Molinari, Vergani, Malesani, Covino, D'Avanzo,
+  Chincarini, Zerbi, Antonelli, Conconi, Testa, Tosti, Vitali, D'Alessio,
+  Malaspina, Nicastro, Palazzi, Guetta, Campana, Goldoni, Masetti, Meurs,
+  Monfardini, Norci, Pian, Piranomonte, Rizzuto, Stefanon, Stella, Tagliaferri,
+  Ward, Ihle, Gonzalez, Pizarro, Sinclaire, \& Valenzuela}]{Molinari2007}
+Molinari, E., Vergani, S.~D., Malesani, D., {et~al.} 2007, A{\&}A, 469, L13
+
+\bibitem[{Morgan {et~al.}(2014)Morgan, Perley, Cenko, Bloom, Cucchiara,
+  Richards, Filippenko, Haislip, LaCluyze, Corsi, Melandri, Cobb, Gomboc,
+  Horesh, James, Li, Mundell, Reichart, \& Steele}]{Morgan2014a}
+Morgan, A.~N., Perley, D.~A., Cenko, S.~B., {et~al.} 2014, MNRAS, 440, 1810
+
+\bibitem[{Noll {et~al.}(2012)Noll, Kausch, Barden, Jones, Szyszka, Kimeswenger,
+  \& Vinther}]{Noll2012}
+Noll, S., Kausch, W., Barden, M., {et~al.} 2012, A{\&}A, 543, A92
+
+\bibitem[{Noterdaeme {et~al.}(2012)Noterdaeme, Petitjean, Carithers,
+  P{\^{a}}ris, Font-Ribera, Bailey, Aubourg, Bizyaev, Ebelke, Finley, Ge,
+  Malanushenko, Malanushenko, Miralda-Escud{\'{e}}, Myers, Oravetz, Pan, Pieri,
+  Ross, Schneider, Simmons, \& York}]{Noterdaeme2012b}
+Noterdaeme, P., Petitjean, P., Carithers, W.~C., {et~al.} 2012, A{\&}A, 547, L1
+
+\bibitem[{Nysewander {et~al.}(2009)Nysewander, Fruchter, \&
+  Pe'er}]{Nysewander2009}
+Nysewander, M., Fruchter, A.~S., \& Pe'er, A. 2009, ApJ, 701, 824
+
+\bibitem[{Oesch {et~al.}(2016)Oesch, Brammer, van Dokkum, Illingworth, Bouwens,
+  Labbe, Franx, Momcheva, Ashby, Fazio, Gonzalez, Holden, Magee, Skelton, Smit,
+  Spitler, Trenti, \& Willner}]{Oesch2016}
+Oesch, P.~A., Brammer, G., van Dokkum, P.~G., {et~al.} 2016, ApJ, 819, 129
+
+\bibitem[{Oliphant(2007)}]{scipy}
+Oliphant, T.~E. 2007, CSE, 9, 10
+
+\bibitem[{{Olivares E.} {et~al.}(2015){Olivares E.}, Greiner, Schady, Klose,
+  Kr{\"{u}}hler, Rau, Savaglio, Kann, Pignata, Elliott, Rossi, Nardini, Afonso,
+  Filgas, {Nicuesa Guelbenzu}, Schmidl, \& Sudilovsky}]{Olivares2015}
+{Olivares E.}, F., Greiner, J., Schady, P., {et~al.} 2015, A{\&}A, 577, A44
+
+\bibitem[{{Olivares E.} {et~al.}(2012){Olivares E.}, Greiner, Schady, Rau,
+  Klose, Kr{\"{u}}hler, Afonso, Updike, Nardini, Filgas, {Nicuesa Guelbenzu},
+  Clemens, Elliott, Kann, Rossi, \& Sudilovsky}]{Olivares2011}
+{Olivares E.}, F., Greiner, J., Schady, P., {et~al.} 2012, A{\&}A, 539, A76
+
+\bibitem[{{Osborne} {et~al.}(2016){Osborne}, {Beardmore}, {Evans}, \&
+  {Goad}}]{GCN19969}
+{Osborne}, J.~P., {Beardmore}, A.~P., {Evans}, P.~A., \& {Goad}, M.~R. 2016,
+  GRB Coordinates Network, Circular Service, No.~19969, \#1 (2016), 19969
+
+\bibitem[{Pagnini \& Mainardi(2010)}]{pagnini2010}
+Pagnini, G. \& Mainardi, F. 2010, JCoAM, 233, 1590
+
+\bibitem[{{Palmerio} {et~al.}(2017){Palmerio}, {Kr\"uhler}, {Malesani}, \&
+  {Fynbo}}]{GCN20589}
+{Palmerio}, J., {Kr\"uhler}, T., {Malesani}, D., \& {Fynbo}, J.~P.~U. 2017, GRB
+  Coordinates Network, Circular Service, No.~20589, \#1 (2017), 20589
+
+\bibitem[{{Perley} {et~al.}(2010){Perley}, {Bloom}, {Cenko}, {Cobb}, {Morgan},
+  {Miller}, \& {Klein}}]{GCN10399}
+{Perley}, D.~A., {Bloom}, J.~S., {Cenko}, S.~B., {et~al.} 2010, GRB Coordinates
+  Network, Circular Service, No.~10399, \#1 (2010), 10399
+
+\bibitem[{Perley {et~al.}(2009)Perley, Cenko, Bloom, Chen, Butler, Kocevski,
+  Prochaska, Brodwin, Glazebrook, Kasliwal, Kulkarni, Lopez, Ofek, Pettini,
+  Soderberg, \& Starr}]{Perley2009}
+Perley, D.~A., Cenko, S.~B., Bloom, J.~S., {et~al.} 2009, AJ, 138, 1690
+
+\bibitem[{Perley {et~al.}(2014)Perley, Cenko, Corsi, Tanvir, Levan, Kann,
+  Sonbas, Wiersema, Zheng, Zhao, Bai, Bremer, Castro-Tirado, Chang, Clubb,
+  Frail, Fruchter, G{\"{o}}ǧ{\"{u}}ş, Greiner, G{\"{u}}ver, Horesh,
+  Filippenko, Klose, Mao, Morgan, Pozanenko, Schmidl, Stecklum, Tanga, Volnova,
+  Volvach, Wang, Winters, \& Xin}]{Perley2014}
+Perley, D.~A., Cenko, S.~B., Corsi, A., {et~al.} 2014, ApJ, 781, 37
+
+\bibitem[{Perley {et~al.}(2017)Perley, Kr{\"{u}}hler, Schady, Micha{\l}owski,
+  Th{\"{o}}ne, Petry, Graham, Greiner, Klose, Schulze, \& Kim}]{Perley2017}
+Perley, D.~A., Kr{\"{u}}hler, T., Schady, P., {et~al.} 2017, Mon. Not. R.
+  Astron. Soc. Lett., 465, L89
+
+\bibitem[{Perley {et~al.}(2016{\natexlab{a}})Perley, Kr{\"{u}}hler, Schulze,
+  {de Ugarte Postigo}, Hjorth, Berger, Cenko, Chary, Cucchiara, Ellis, Fong,
+  Fynbo, Gorosabel, Greiner, Jakobsson, Kim, Laskar, Levan, Micha{\l}owski,
+  Milvang-Jensen, Tanvir, Th{\"{o}}ne, \& Wiersema}]{Perley2016a}
+Perley, D.~A., Kr{\"{u}}hler, T., Schulze, S., {et~al.} 2016{\natexlab{a}},
+  ApJ, 817, 7
+
+\bibitem[{Perley {et~al.}(2013)Perley, Levan, Tanvir, Cenko, Bloom, Hjorth,
+  Kr{\"{u}}hler, Filippenko, Fruchter, Fynbo, Jakobsson, Kalirai,
+  Milvang-Jensen, Morgan, Prochaska, \& Silverman}]{Perley2013b}
+Perley, D.~A., Levan, A.~J., Tanvir, N.~R., {et~al.} 2013, ApJ, 778, 128
+
+\bibitem[{Perley {et~al.}(2011)Perley, Morgan, Updike, Yuan, Akerlof, Miller,
+  Bloom, Cenko, Li, Filippenko, Prochaska, Kann, Tanvir, Levan, Butler,
+  Christian, Hartmann, Milne, Rykoff, Rujopakarn, Wheeler, \&
+  Williams}]{Perley2011}
+Perley, D.~A., Morgan, A.~N., Updike, A., {et~al.} 2011, AJ, 141, 36
+
+\bibitem[{Perley {et~al.}(2015)Perley, Perley, Hjorth, Micha{\l}owski, Cenko,
+  Jakobsson, Kr{\"{u}}hler, Levan, Malesani, \& Tanvir}]{Perley2015b}
+Perley, D.~A., Perley, R.~A., Hjorth, J., {et~al.} 2015, ApJ, 801, 102
+
+\bibitem[{Perley {et~al.}(2016{\natexlab{b}})Perley, Tanvir, Hjorth, Laskar,
+  Berger, Chary, Postigo, Fynbo, Kr{\"{u}}hler, Levan, Micha{\l}owski, \&
+  Schulze}]{Perley2016b}
+Perley, D.~A., Tanvir, N.~R., Hjorth, J., {et~al.} 2016{\natexlab{b}}, ApJ,
+  817, 8
+
+\bibitem[{Pescalli {et~al.}(2015)Pescalli, Ghirlanda, Salvaterra, Ghisellini,
+  Vergani, Nappo, Salafia, Melandri, Covino, \& G{\"{o}}tz}]{Pescalli2016}
+Pescalli, A., Ghirlanda, G., Salvaterra, R., {et~al.} 2015, A{\&}A, 587, A40
+
+\bibitem[{Piran(2005)}]{Piran2005}
+Piran, T. 2005, RvMP, 76, 1143
+
+\bibitem[{{Piranomonte} {et~al.}(2011){Piranomonte}, {Vergani}, {Malesani},
+  {Fynbo}, {Wiersema}, \& {Kaper}}]{GCN12164}
+{Piranomonte}, S., {Vergani}, S.~D., {Malesani}, D., {et~al.} 2011, GRB
+  Coordinates Network, Circular Service, No.~12164, \#1 (2011), 12164
+
+\bibitem[{{Planck Collaboration} {et~al.}(2016){Planck Collaboration}, Ade,
+  Aghanim, Arnaud, Ashdown, Aumont, Baccigalupi, Banday, Barreiro, Bartlett,
+  Bartolo, Battaner, Battye, Benabed, Benoit, Benoit-Levy, Bernard, Bersanelli,
+  Bielewicz, Bonaldi, Bonavera, Bond, Borrill, Bouchet, Boulanger, Bucher,
+  Burigana, Butler, Calabrese, Cardoso, Catalano, Challinor, Chamballu, Chary,
+  Chiang, Chluba, Christensen, Church, Clements, Colombi, Colombo, Combet,
+  Coulais, Crill, Curto, Cuttaia, Danese, Davies, Davis, de~Bernardis, de~Rosa,
+  de~Zotti, Delabrouille, Desert, {Di Valentino}, Dickinson, Diego, Dolag,
+  Dole, Donzelli, Dore, Douspis, Ducout, Dunkley, Dupac, Efstathiou, Elsner,
+  Ensslin, Eriksen, Farhang, Fergusson, Finelli, Forni, Frailis, Fraisse,
+  Franceschi, Frejsel, Galeotta, Galli, Ganga, Gauthier, Gerbino, Ghosh, Giard,
+  Giraud-Heraud, Giusarma, Gjerlow, Gonzalez-Nuevo, Gorski, Gratton, Gregorio,
+  Gruppuso, Gudmundsson, Hamann, Hansen, Hanson, Harrison, Helou,
+  Henrot-Versille, Hernandez-Monteagudo, Herranz, Hildebrandt, Hivon, Hobson,
+  Holmes, Hornstrup, Hovest, Huang, Huffenberger, Hurier, Jaffe, Jaffe, Jones,
+  Juvela, Keihanen, Keskitalo, Kisner, Kneissl, Knoche, Knox, Kunz,
+  Kurki-Suonio, Lagache, Lahteenmaki, Lamarre, Lasenby, Lattanzi, Lawrence,
+  Leahy, Leonardi, Lesgourgues, Levrier, Lewis, Liguori, Lilje, Linden-Vornle,
+  Lopez-Caniego, Lubin, Macias-Perez, Maggio, Maino, Mandolesi, Mangilli,
+  Marchini, Martin, Martinelli, Martinez-Gonzalez, Masi, Matarrese, Mazzotta,
+  McGehee, Meinhold, Melchiorri, Melin, Mendes, Mennella, Migliaccio, Millea,
+  Mitra, Miville-Deschenes, Moneti, Montier, Morgante, Mortlock, Moss, Munshi,
+  Murphy, Naselsky, Nati, Natoli, Netterfield, Norgaard-Nielsen, Noviello,
+  Novikov, Novikov, Oxborrow, Paci, Pagano, Pajot, Paladini, Paoletti,
+  Partridge, Pasian, Patanchon, Pearson, Perdereau, Perotto, Perrotta,
+  Pettorino, Piacentini, Piat, Pierpaoli, Pietrobon, Plaszczynski,
+  Pointecouteau, Polenta, Popa, Pratt, Prezeau, Prunet, Puget, Rachen, Reach,
+  Rebolo, Reinecke, Remazeilles, Renault, Renzi, Ristorcelli, Rocha, Rosset,
+  Rossetti, Roudier, Rouille~d'Orfeuil, Rowan-Robinson, Rubino-Martin,
+  Rusholme, Said, Salvatelli, Salvati, Sandri, Santos, Savelainen, Savini,
+  Scott, Seiffert, Serra, Shellard, Spencer, Spinelli, Stolyarov, Stompor,
+  Sudiwala, Sunyaev, Sutton, Suur-Uski, Sygnet, Tauber, Terenzi, Toffolatti,
+  Tomasi, Tristram, Trombetti, Tucci, Tuovinen, Turler, Umana, Valenziano,
+  Valiviita, {Van Tent}, Vielva, Villa, Wade, Wandelt, Wehus, White, White,
+  Wilkinson, Yvon, Zacchei, \& Zonca}]{Planck2015}
+{Planck Collaboration}, Ade, P. A.~R., Aghanim, N., {et~al.} 2016, A{\&}A, 594,
+  A13
+
+\bibitem[{{Pozanenko} {et~al.}(2015){Pozanenko}, {Mazaeva}, {Sergeev}, {Reva},
+  {Volnova}, {Klunko}, \& {Korobtsev}}]{GCN17903}
+{Pozanenko}, A., {Mazaeva}, E., {Sergeev}, A., {et~al.} 2015, GRB Coordinates
+  Network, Circular Service, No.~17903, \#1 (2015), 17903
+
+\bibitem[{Prochaska {et~al.}(2007)Prochaska, Chen, Dessauges-Zavadsky, \&
+  Bloom}]{Prochaska2007}
+Prochaska, J.~X., Chen, H.-W., Dessauges-Zavadsky, M., \& Bloom, J.~S. 2007,
+  ApJ, 666, 267
+
+\bibitem[{Prochaska {et~al.}(2009)Prochaska, Sheffer, Perley, Bloom, Lopez,
+  Dessauges-Zavadsky, Chen, Filippenko, Ganeshalingam, Li, Miller, \&
+  Starr}]{Prochaska2009}
+Prochaska, J.~X., Sheffer, Y., Perley, D.~A., {et~al.} 2009, ApJ, 691, L27
+
+\bibitem[{{Pugliese} {et~al.}(2016){Pugliese}, {Covino}, {Kr\"uhler}, {Xu}, \&
+  {Tanvir}}]{GCN18982}
+{Pugliese}, G., {Covino}, S., {Kr\"uhler}, T., {Xu}, D., \& {Tanvir}, N.~R.
+  2016, GRB Coordinates Network, Circular Service, No.~18982, \#1 (2016), 18982
+
+\bibitem[{{Pugliese} {et~al.}(2015){Pugliese}, {Xu}, {Tanvir}, {Wiersema},
+  {Fynbo}, {Milvang-Jensen}, \& {D'Elia}}]{GCN17672}
+{Pugliese}, V., {Xu}, D., {Tanvir}, N.~R., {et~al.} 2015, GRB Coordinates
+  Network, Circular Service, No.~17672, \#1 (2015), 17672
+
+\bibitem[{{Rau} {et~al.}(2013){Rau}, {Kr\"uhler}, \& {Greiner}}]{GCN15330}
+{Rau}, A., {Kr\"uhler}, T., \& {Greiner}, J. 2013, GRB Coordinates Network,
+  Circular Service, No.~15330, \#1 (2013), 15330
+
+\bibitem[{Ricker \& Team(2004)}]{Ricker2004}
+Ricker, G.~R. \& Team, H.~S. 2004, Am. Astron. Soc. HEAD Meet. {\#}8, id.18.06;
+  Bull. Am. Astron. Soc. Vol. 36, p.942, 36, 942
+
+\bibitem[{Rol {et~al.}(2005)Rol, Wijers, Kouveliotou, Kaper, \&
+  Kaneko}]{Rol2005}
+Rol, E., Wijers, R. A. M.~J., Kouveliotou, C., Kaper, L., \& Kaneko, Y. 2005,
+  ApJ, 624, 868
+
+\bibitem[{Roming {et~al.}(2005)Roming, Kennedy, Mason, Nousek, Ahr, Bingham,
+  Broos, Carter, Hancock, Huckle, Hunsberger, Kawakami, Killough, Koch,
+  McLelland, Smith, Smith, Soto, Boyd, Breeveld, Holland, Ivanushkina, Pryzby,
+  Still, \& Stock}]{Roming2005}
+Roming, P.~W., Kennedy, T.~E., Mason, K.~O., {et~al.} 2005, SSRv, 120, 95
+
+\bibitem[{Rossi {et~al.}(2012)Rossi, Klose, Ferrero, Greiner, Arnold,
+  Gonsalves, Hartmann, Updike, Kann, Kr{\"{u}}hler, Palazzi, Savaglio, Schulze,
+  Afonso, Amati, Castro-Tirado, Clemens, Filgas, Gorosabel, Hunt,
+  {K{\"{u}}pc{\"{u}} Yoldaş}, Masetti, Nardini, {Nicuesa Guelbenzu}, Olivares,
+  Pian, Rau, Schady, Schmidl, Yoldaş, \& {de Ugarte Postigo}}]{Rossi2012}
+Rossi, A., Klose, S., Ferrero, P., {et~al.} 2012, A{\&}A, 545, A77
+
+\bibitem[{Rossi {et~al.}(2014)Rossi, Piranomonte, Savaglio, Palazzi,
+  Micha{\l}owski, Klose, Hunt, \& Amati}]{Rossi2014}
+Rossi, A., Piranomonte, S., Savaglio, S., {et~al.} 2014, A{\&}A, 47, 1
+
+\bibitem[{Rowlinson {et~al.}(2017)Rowlinson, Patruno, \&
+  O'Brien}]{Rowlinson2017}
+Rowlinson, A., Patruno, A., \& O'Brien, P.~T. 2017, MNRAS, 472, 1152
+
+\bibitem[{{Sakamoto} {et~al.}(2016){Sakamoto}, {Barthelmy}, {Cummings},
+  {Gehrels}, {Gibson}, {Krimm}, {Lien}, {Markwardt}, {Norris}, {Palmer},
+  {Stamatikos}, \& {Ukwatta}}]{GCN19276}
+{Sakamoto}, T., {Barthelmy}, S.~D., {Cummings}, J.~R., {et~al.} 2016, GRB
+  Coordinates Network, Circular Service, No.~19276, \#1 (2016), 19276
+
+\bibitem[{Salvaterra {et~al.}(2012)Salvaterra, Campana, Vergani, Covino,
+  D'Avanzo, Fugazza, Ghirlanda, Ghisellini, Melandri, Nava, Sbarufatti, Flores,
+  Piranomonte, \& Tagliaferri}]{Salvaterra2012}
+Salvaterra, R., Campana, S., Vergani, S.~D., {et~al.} 2012, ApJ, 749, 68
+
+\bibitem[{Salvaterra {et~al.}(2009)Salvaterra, Valle, Campana, Chincarini,
+  Covino, Davanzo, Fern{\'{a}}ndez-Soto, Guidorzi, Mannucci, Margutti,
+  Th{\"{o}}ne, Antonelli, Barthelmy, {De Pasquale}, Delia, Fiore, Fugazza,
+  Hunt, Maiorano, Marinoni, Marshall, Molinari, Nousek, Pian, Racusin, Stella,
+  Amati, Andreuzzi, Cusumano, Fenimore, Ferrero, Giommi, Guetta, Holland,
+  Hurley, Israel, Mao, Markwardt, Masetti, Pagani, Palazzi, Palmer,
+  Piranomonte, Tagliaferri, \& Testa}]{Salvaterra2009a}
+Salvaterra, R., Valle, M.~D., Campana, S., {et~al.} 2009, Nature, 461, 1258
+
+\bibitem[{{Sanchez-Ramirez} {et~al.}(2012){Sanchez-Ramirez}, {de Ugarte
+  Postigo}, {Kr\"uhler}, {Milvang-Jensen}, {Fynbo}, {Tanvir}, {Malesani},
+  {Schulze}, {Kaper}, \& {Flores}}]{GCN14035}
+{Sanchez-Ramirez}, R., {de Ugarte Postigo}, A., {Kr\"uhler}, T., {et~al.} 2012,
+  GRB Coordinates Network, Circular Service, No.~14035, \#1 (2012), 14035
+
+\bibitem[{S{\'{a}}nchez-Ram{\'{i}}rez
+  {et~al.}(2017)S{\'{a}}nchez-Ram{\'{i}}rez, Hancock, J{\'{o}}hannesson,
+  Murphy, {de Ugarte Postigo}, Gorosabel, Kann, Kr{\"{u}}hler, Oates, Japelj,
+  Th{\"{o}}ne, Lundgren, Perley, Malesani, {de Gregorio Monsalvo},
+  Castro-Tirado, D'Elia, Fynbo, Garcia-Appadoo, Goldoni, Greiner, Hu,
+  Jel{\'{i}}nek, Jeong, Kamble, Klose, Kuin, Llorente, Mart{\'{i}}n, {Nicuesa
+  Guelbenzu}, Rossi, Schady, Sparre, Sudilovsky, Tello, Updike, Wiersema, \&
+  Zhang}]{Sanchez-Ramirez2017}
+S{\'{a}}nchez-Ram{\'{i}}rez, R., Hancock, P.~J., J{\'{o}}hannesson, G.,
+  {et~al.} 2017, MNRAS, 464, 4624
+
+\bibitem[{Savaglio(2006)}]{Savaglio2006}
+Savaglio, S. 2006, NJPh, 8, 195
+
+\bibitem[{Schady {et~al.}(2015)Schady, Kr{\"{u}}hler, Greiner, Graham, Kann,
+  Bolmer, Delvaux, Elliott, Klose, Knust, {Nicuesa Guelbenzu}, Rau, Rossi,
+  Savaglio, Schmidl, Schweyer, Sudilovsky, Tanga, Tanvir, Varela, \&
+  Wiseman}]{Schady2015}
+Schady, P., Kr{\"{u}}hler, T., Greiner, J., {et~al.} 2015, A{\&}A, 579, A126
+
+\bibitem[{Schlafly \& Finkbeiner(2011)}]{Schlafly2011}
+Schlafly, E.~F. \& Finkbeiner, D.~P. 2011, ApJ, 737, 103
+
+\bibitem[{Schlegel {et~al.}(1998)Schlegel, Finkbeiner, \& Davis}]{Schlegel1998}
+Schlegel, D.~J., Finkbeiner, D.~P., \& Davis, M. 1998, ApJ, 500, 525
+
+\bibitem[{Schulze {et~al.}(2015)Schulze, Chapman, Hjorth, Levan, Jakobsson,
+  Bj{\"{o}}rnsson, Perley, Kr{\"{u}}hler, Gorosabel, Tanvir, Postigo, Fynbo,
+  Milvang-Jensen, M{\O}ller, \& Watson}]{Schulze2015}
+Schulze, S., Chapman, R., Hjorth, J., {et~al.} 2015, ApJ, 808, 73
+
+\bibitem[{{Schulze} {et~al.}(2011){Schulze}, {Covino}, {Flores}, {Fynbo},
+  {Milvang-Jensen}, {Sollerman}, \& {Xu}}]{GCN12770}
+{Schulze}, S., {Covino}, S., {Flores}, H., {et~al.} 2011, GRB Coordinates
+  Network, Circular Service, No.~12770, \#1 (2011), 12770
+
+\bibitem[{{Schulze} {et~al.}(2012){Schulze}, {Levan}, {Malesani}, {Fynbo},
+  {Tanvir}, {Milvang-Jensen}, {de Ugarte Postigo}, {D'Elia}, {Sollerman}, \&
+  {Hjorth}}]{GCN13257}
+{Schulze}, S., {Levan}, A.~J., {Malesani}, D., {et~al.} 2012, GRB Coordinates
+  Network, Circular Service, No.~13257, \#1 (2012), 13257
+
+\bibitem[{Schulze {et~al.}(2014)Schulze, Malesani, Cucchiara, Tanvir,
+  Kr{\"{u}}hler, Postigo, \& Leloudas}]{Schulze2014}
+Schulze, S., Malesani, D., Cucchiara, A., {et~al.} 2014, A{\&}A, 102, 1
+
+\bibitem[{{Schulze} {et~al.}(2014){Schulze}, {Wiersema}, {Xu}, \&
+  {Fynbo}}]{GCN15831}
+{Schulze}, S., {Wiersema}, K., {Xu}, D., \& {Fynbo}, J.~P.~U. 2014, GRB
+  Coordinates Network, Circular Service, No.~15831, \#1 (2014), 15831
+
+\bibitem[{Selsing {et~al.}(2015)Selsing, Fynbo, Christensen, \&
+  Krogager}]{Selsing2015}
+Selsing, J., Fynbo, J. P.~U., Christensen, L., \& Krogager, J.-K. 2015, A{\&}A,
+  87, 14
+
+\bibitem[{{Selsing} {et~al.}(2016{\natexlab{a}}){Selsing}, {Heintz},
+  {Malesani}, {Xu}, {de Ugarte Postigo}, {Tanvir}, {Wiersema}, \&
+  {Fynbo}}]{GCN20061}
+{Selsing}, J., {Heintz}, K.~E., {Malesani}, D., {et~al.} 2016{\natexlab{a}},
+  GRB Coordinates Network, Circular Service, No.~20061, \#1 (2016), 20061
+
+\bibitem[{Selsing {et~al.}(2018)Selsing, Kr{\"{u}}hler, Malesani, D'Avanzo,
+  Schulze, Palmerio, Vergani, Japelj, Milvang-Jensen, Watson, Jakobsson,
+  Bolmer, Cano, Covino, Christensen, D'Elia, Postigo, Fynbo, Gomboc, Heintz,
+  Kaper, Levan, Piranomonte, Pugliese, S{\'{a}}nchez-Ram{\'{i}}rez, Sparre,
+  Tanvir, Th{\"{o}}ne, \& Wiersema}]{Selsing2017}
+Selsing, J., Kr{\"{u}}hler, T., Malesani, D., {et~al.} 2018, arXiv, 1
+
+\bibitem[{{Selsing} {et~al.}(2016{\natexlab{b}}){Selsing}, {Vreeswijk},
+  {Japelj}, {D'Elia}, {de Ugarte Postigo}, {Pugliese}, {Xu}, {Malesani},
+  {Kr\"uhler}, \& {Fynbo}}]{GCN19274}
+{Selsing}, J., {Vreeswijk}, P.~M., {Japelj}, J., {et~al.} 2016{\natexlab{b}},
+  GRB Coordinates Network, Circular Service, No.~19274, \#1 (2016), 19274
+
+\bibitem[{Sheffer {et~al.}(2009)Sheffer, Prochaska, Draine, Perley, \&
+  Bloom}]{Sheffer2009}
+Sheffer, Y., Prochaska, J.~X., Draine, B.~T., Perley, D.~A., \& Bloom, J.~S.
+  2009, ApJ, 701, L63
+
+\bibitem[{Smette {et~al.}(2015)Smette, Sana, Noll, Horst, Kausch, Kimeswenger,
+  Barden, Szyszka, Jones, Gallenne, Vinther, Ballester, \& Taylor}]{Smette2015}
+Smette, A., Sana, H., Noll, S., {et~al.} 2015, A{\&}A, 576, A77
+
+\bibitem[{{Sparre} {et~al.}(2011){Sparre}, {de Ugarte Postigo}, {Fynbo},
+  {Malesani}, {Milvang-Jensen}, {Vergani}, {Flores}, {Goldoni}, \&
+  {Tanvir}}]{GCN11607}
+{Sparre}, M., {de Ugarte Postigo}, A., {Fynbo}, J.~P.~U., {et~al.} 2011, GRB
+  Coordinates Network, Circular Service, No.~11607, \#1 (2011), 11607
+
+\bibitem[{Sparre {et~al.}(2014)Sparre, Hartoog, Kr{\"{u}}hler, Fynbo, Watson,
+  Wiersema, D'Elia, Zafar, Afonso, Covino, {De Ugarte Postigo}, Flores,
+  Goldoni, Greiner, Hjorth, Jakobsson, Kaper, Klose, Levan, Malesani,
+  Milvang-Jensen, Nardini, Piranomonte, Sollerman, S{\'{a}}nchez-Ram{\'{i}}rez,
+  Schulze, Tanvir, Vergani, \& Wijers}]{Sparre2014}
+Sparre, M., Hartoog, O.~E., Kr{\"{u}}hler, T., {et~al.} 2014, ApJ, 785, 150
+
+\bibitem[{Sparre {et~al.}(2011)Sparre, Sollerman, Fynbo, Malesani, Goldoni, {de
+  Ugarte Postigo}, Covino, D'Elia, Flores, Hammer, Hjorth, Jakobsson, Kaper,
+  Leloudas, Levan, Milvang-Jensen, Schulze, Tagliaferri, Tanvir, Watson,
+  Wiersema, \& Wijers}]{Sparre2011}
+Sparre, M., Sollerman, J., Fynbo, J. P.~U., {et~al.} 2011, ApJ, 735, L24
+
+\bibitem[{Starling {et~al.}(2011)Starling, Wiersema, Levan, Sakamoto, Bersier,
+  Goldoni, Oates, Rowlinson, Campana, Sollerman, Tanvir, Malesani, Fynbo,
+  Covino, D'Avanzo, O'Brien, Page, Osborne, Vergani, Barthelmy, Burrows, Cano,
+  Curran, {De Pasquale}, D'Elia, Evans, Flores, Fruchter, Garnavich, Gehrels,
+  Gorosabel, Hjorth, Holland, van~der Horst, Hurkett, Jakobsson, Kamble,
+  Kouveliotou, Kuin, Kaper, Mazzali, Nugent, Pian, Stamatikos, Th{\"{o}}ne, \&
+  Woosley}]{Starling2011}
+Starling, R. L.~C., Wiersema, K., Levan, A.~J., {et~al.} 2011, MNRAS, 411, 2792
+
+\bibitem[{{Sudilovsky} {et~al.}(2013){Sudilovsky}, {Kann}, {Schady}, {Klose},
+  {Greiner}, \& {Kr\"uhler}}]{GCN15250}
+{Sudilovsky}, V., {Kann}, D.~A., {Schady}, P., {et~al.} 2013, GRB Coordinates
+  Network, Circular Service, No.~15250, \#1 (2013), 15250
+
+\bibitem[{Tanvir {et~al.}(2009)Tanvir, Fox, Levan, Berger, Wiersema, Fynbo,
+  Cucchiara, Kr{\"{u}}hler, Gehrels, Bloom, Greiner, Evans, Rol, Olivares,
+  Hjorth, Jakobsson, Farihi, Willingale, Starling, Cenko, Perley, Maund, Duke,
+  Wijers, Adamson, Allan, Bremer, Burrows, Castro-Tirado, Cavanagh, {de Ugarte
+  Postigo}, Dopita, Fatkhullin, Fruchter, Foley, Gorosabel, Kennea, Kerr,
+  Klose, Krimm, Komarova, Kulkarni, Moskvitin, Mundell, Naylor, Page, Penprase,
+  Perri, Podsiadlowski, Roth, Rutledge, Sakamoto, Schady, Schmidt, Soderberg,
+  Sollerman, Stephens, Stratta, Ukwatta, Watson, Westra, Wold, \&
+  Wolf}]{Tanvir2009b}
+Tanvir, N.~R., Fox, D.~B., Levan, A.~J., {et~al.} 2009, Nature, 461, 1254
+
+\bibitem[{{Tanvir} {et~al.}(2012){Tanvir}, {Fynbo}, {Melandri}, {Levan}, {Xu},
+  \& {D'Elia}}]{GCN13890}
+{Tanvir}, N.~R., {Fynbo}, J.~P.~U., {Melandri}, A., {et~al.} 2012, GRB
+  Coordinates Network, Circular Service, No.~13890, \#1 (2012), 13890
+
+\bibitem[{{Tanvir} {et~al.}(2016{\natexlab{a}}){Tanvir}, {Kr\"uhler}, {De Cia},
+  {Wiersema}, {Xu}, \& {Malesani}}]{GCN20104}
+{Tanvir}, N.~R., {Kr\"uhler}, T., {De Cia}, A., {et~al.} 2016{\natexlab{a}},
+  GRB Coordinates Network, Circular Service, No.~20104, \#1 (2016), 20104
+
+\bibitem[{{Tanvir} {et~al.}(2015{\natexlab{a}}){Tanvir}, {Kr\"uhler},
+  {Malesani}, {Xu}, {de Ugarte Postigo}, \& {Pugliese}}]{GCN18524}
+{Tanvir}, N.~R., {Kr\"uhler}, T., {Malesani}, D., {et~al.} 2015{\natexlab{a}},
+  GRB Coordinates Network, Circular Service, No.~18524, \#1 (2015), 18524
+
+\bibitem[{{Tanvir} {et~al.}(2016{\natexlab{b}}){Tanvir}, {Kr\"uhler},
+  {Wiersema}, {Xu}, {Malesani}, {Milvang-Jensen}, \& {Fynbo}}]{GCN20321}
+{Tanvir}, N.~R., {Kr\"uhler}, T., {Wiersema}, K., {et~al.} 2016{\natexlab{b}},
+  GRB Coordinates Network, Circular Service, No.~20321, \#1 (2016), 20321
+
+\bibitem[{Tanvir {et~al.}(2017)Tanvir, Laskar, Levan, Perley, Zabl, Fynbo,
+  Rhoads, Cenko, Greiner, Wiersema, Hjorth, Cucchiara, Berger, Bremer, Cano,
+  Cobb, Covino, D'Elia, Fong, Fruchter, Goldoni, Hammer, Heintz, Jakobsson,
+  Kann, Kaper, Klose, Knust, Kruehler, Malesani, Misra, Guelbenzu, Pugliese,
+  Sanchez-Ramirez, Schulze, Stanway, Postigo, Watson, Wijers, \&
+  Xu}]{Tanvir2017a}
+Tanvir, N.~R., Laskar, T., Levan, A.~J., {et~al.} 2017, arXiv
+  [\eprint[arXiv]{1703.09052}]
+
+\bibitem[{Tanvir {et~al.}(2013)Tanvir, Levan, Fruchter, Hjorth, Hounsell,
+  Wiersema, \& Tunnicliffe}]{Tanvir2013a}
+Tanvir, N.~R., Levan, A.~J., Fruchter, A.~S., {et~al.} 2013, Nature, 500, 547
+
+\bibitem[{{Tanvir} {et~al.}(2010){Tanvir}, {Vergani}, {Hjorth}, {Fynbo},
+  {Milvang-Jensen}, {Malesani}, {Wiersema}, {Vreeswijk}, {Levan}, {Goldoni}, \&
+  {Covino}}]{GCN11123}
+{Tanvir}, N.~R., {Vergani}, S., {Hjorth}, J., {et~al.} 2010, GRB Coordinates
+  Network, Circular Service, No.~11123, \#1 (2010), 11123
+
+\bibitem[{{Tanvir} {et~al.}(2013){Tanvir}, {Wiersema}, {Xu}, \&
+  {Fynbo}}]{GCN14882}
+{Tanvir}, N.~R., {Wiersema}, K., {Xu}, D., \& {Fynbo}, J.~P.~U. 2013, GRB
+  Coordinates Network, Circular Service, No.~14882, \#1 (2013), 14882
+
+\bibitem[{{Tanvir} {et~al.}(2016{\natexlab{c}}){Tanvir}, {Xu}, {Kr\"uhler},
+  {Malesani}, {Fynbo}, {Pugliese}, {Levan}, \& {Cano}}]{GCN19350}
+{Tanvir}, N.~R., {Xu}, D., {Kr\"uhler}, T., {et~al.} 2016{\natexlab{c}}, GRB
+  Coordinates Network, Circular Service, No.~19350, \#1 (2016), 19350
+
+\bibitem[{{Tanvir} {et~al.}(2015{\natexlab{b}}){Tanvir}, {Xu}, {Zafar},
+  {Covino}, \& {Schulze}}]{GCN18080}
+{Tanvir}, N.~R., {Xu}, D., {Zafar}, T., {Covino}, S., \& {Schulze}, S.
+  2015{\natexlab{b}}, GRB Coordinates Network, Circular Service, No.~18080, \#1
+  (2015), 18080
+
+\bibitem[{{Tepper Garc{\'{i}}a}(2006)}]{TepperGarcia2006}
+{Tepper Garc{\'{i}}a}, T. 2006, MNRAS, 369, 2025
+
+\bibitem[{{The Astropy Collaboration} {et~al.}(2013){The Astropy
+  Collaboration}, Robitaille, Tollerud, Greenfield, Droettboom, Bray, Aldcroft,
+  Davis, Ginsburg, Price-Whelan, Kerzendorf, Conley, Crighton, Barbary, Muna,
+  Ferguson, Grollier, Parikh, Nair, G{\"{u}}nther, Deil, Woillez, Conseil,
+  Kramer, Turner, Singer, Fox, Weaver, Zabalza, Edwards, Bostroem, Burke,
+  Casey, Crawford, Dencheva, Ely, Jenness, Labrie, Lim, Pierfederici, Pontzen,
+  Ptak, Refsdal, Servillat, \& Streicher}]{TheAstropyCollaboration2013}
+{The Astropy Collaboration}, Robitaille, T.~P., Tollerud, E.~J., {et~al.} 2013,
+  A{\&}A, 558, A33
+
+\bibitem[{{Th\"one} {et~al.}(2010){Th\"one}, {de Ugarte Postigo}, {Vreeswijk},
+  {D'Avanzo}, {Covino}, {Fynbo}, \& {Tanvir}}]{GCN10971}
+{Th\"one}, C.~C., {de Ugarte Postigo}, A., {Vreeswijk}, P., {et~al.} 2010, GRB
+  Coordinates Network, Circular Service, No.~10971, \#1 (2010), 10971
+
+\bibitem[{Th{\"{o}}ne {et~al.}(2013)Th{\"{o}}ne, Fynbo, Goldoni, de~Ugarte,
+  Campana, Vergani, Covino, Kruhler, Kaper, Tanvir, Zafar, D'Elia, Gorosabel,
+  Greiner, Groot, Hammer, Jakobsson, Klose, Levan, Milvang-Jensen, Nicuesa,
+  Palazzi, Piranomonte, Tagliaferri, Watson, Wiersema, \& Wijers}]{Thone2013}
+Th{\"{o}}ne, C.~C., Fynbo, J. P.~U., Goldoni, P., {et~al.} 2013, MNRAS, 428,
+  3590
+
+\bibitem[{{Th\"one} {et~al.}(2009){Th\"one}, {Goldoni}, {Covino}, {Antonelli},
+  {Malesani}, {Fynbo}, {Levan}, {Jakobsson}, {Flores}, {Milvang-Jensen},
+  {Hjorth}, {Watson}, {Wiersema}, {Tanvir}, \& {de Ugarte Postigo}}]{GCN10233}
+{Th\"one}, C.~C., {Goldoni}, P., {Covino}, S., {et~al.} 2009, GRB Coordinates
+  Network, Circular Service, No.~10233, \#1 (2009), 10233
+
+\bibitem[{Th{\"{o}}ne {et~al.}(2007)Th{\"{o}}ne, Greiner, Savaglio, \&
+  Jehin}]{Thone2007}
+Th{\"{o}}ne, C.~C., Greiner, J., Savaglio, S., \& Jehin, E. 2007, ApJ, 671, 628
+
+\bibitem[{Troja {et~al.}(2017)Troja, Lipunov, Mundell, Butler, Watson,
+  Kobayashi, Cenko, Marshall, Ricci, Fruchter, Wieringa, Gorbovskoy, Kornilov,
+  Kutyrev, Lee, Toy, Tyurina, Budnev, Buckley, Gonz{\'{a}}lez, Gress, Horesh,
+  Panasyuk, Prochaska, Ramirez-Ruiz, {Rebolo Lopez}, Richer,
+  Rom{\'{a}}n-Z{\'{u}}{\~{n}}iga, Serra-Ricart, Yurkov, \& Gehrels}]{Troja2017}
+Troja, E., Lipunov, V.~M., Mundell, C.~G., {et~al.} 2017, Nature, 547, 425
+
+\bibitem[{Trujillo {et~al.}(2001)Trujillo, Aguerri, Cepa, \&
+  Guti{\'{e}}rrez}]{Trujillo2001}
+Trujillo, I., Aguerri, J. A.~L., Cepa, J., \& Guti{\'{e}}rrez, C.~M. 2001,
+  MNRAS, 328, 977
+
+\bibitem[{{Ukwatta} {et~al.}(2016){Ukwatta}, {Barthelmy}, {Beardmore},
+  {Cummings}, {Gehrels}, {Krimm}, {Lien}, {Markwardt}, {Norris}, {Palmer},
+  {Sakamoto}, \& {Stamatikos}}]{GCN19148}
+{Ukwatta}, T.~N., {Barthelmy}, S.~D., {Beardmore}, A.~P., {et~al.} 2016, GRB
+  Coordinates Network, Circular Service, No.~19148, \#1 (2016), 19148
+
+\bibitem[{Ukwatta \& W{\'{o}}zniak(2016)}]{Ukwatta2016}
+Ukwatta, T.~N. \& W{\'{o}}zniak, P.~R. 2016, MNRAS, 455, 703
+
+\bibitem[{van~der Horst {et~al.}(2009)van~der Horst, Kouveliotou, Gehrels, Rol,
+  Wijers, Cannizzo, Racusin, \& Burrows}]{VanderHorst2009}
+van~der Horst, A.~J., Kouveliotou, C., Gehrels, N., {et~al.} 2009, ApJ, 699,
+  1087
+
+\bibitem[{{Van Der Walt} {et~al.}(2011){Van Der Walt}, Colbert, \&
+  Varoquaux}]{VanderWalt2011}
+{Van Der Walt}, S., Colbert, S.~C., \& Varoquaux, G. 2011, Comput. Sci. Eng.,
+  13, 22
+
+\bibitem[{van Dokkum(2001)}]{VanDokkum2001}
+van Dokkum, P.~G. 2001, PASP, 113, 1420
+
+\bibitem[{van Paradijs {et~al.}(2000)van Paradijs, Kouveliotou, \&
+  Wijers}]{Paradijs2000}
+van Paradijs, J., Kouveliotou, C., \& Wijers, R. A. M.~J. 2000, ARA{\&}A, 38,
+  379
+
+\bibitem[{{Vergani} {et~al.}(2010{\natexlab{a}}){Vergani}, {D'Avanzo}, {Levan},
+  {Covino}, {Malesani}, {Hjorth}, \& {Antonelli}}]{GCN10512}
+{Vergani}, S.~D., {D'Avanzo}, P., {Levan}, A.~J., {et~al.} 2010{\natexlab{a}},
+  GRB Coordinates Network, Circular Service, No.~10512, \#1 (2010), 10512
+
+\bibitem[{{Vergani} {et~al.}(2010{\natexlab{b}}){Vergani}, {D'Avanzo},
+  {Malesani}, {Fynbo}, {Hjorth}, {Levan}, {Flores}, {Tanvir}, {Goldoni}, \&
+  {Antonelli}}]{GCN10495}
+{Vergani}, S.~D., {D'Avanzo}, P., {Malesani}, D., {et~al.} 2010{\natexlab{b}},
+  GRB Coordinates Network, Circular Service, No.~10495, \#1 (2010), 10495
+
+\bibitem[{Vergani {et~al.}(2011)Vergani, Flores, Covino, Fugazza, Gorosabel,
+  Levan, Puech, Salvaterra, Tello, {de Ugarte Postigo}, D'Avanzo, D'Elia,
+  Fern{\'{a}}ndez, Fynbo, Ghirlanda, Jel{\'{i}}nek, Lundgren, Malesani,
+  Palazzi, Piranomonte, Rodrigues, Sanchez-Ramirez, Terr{\'{o}}n, Th{\"{o}}ne,
+  Antonelli, Campana, Castro-Tirado, Goldoni, Hammer, Hjorth, Jakobsson, Kaper,
+  Melandri, Milvang-Jensen, Sollerman, Tagliaferri, Tanvir, Wiersema, \&
+  Wijers}]{Vergani2011}
+Vergani, S.~D., Flores, H., Covino, S., {et~al.} 2011, A{\&}A, 535, A127
+
+\bibitem[{{Vergani} {et~al.}(2010{\natexlab{c}}){Vergani}, {Levan}, {D'Avanzo},
+  {Covino}, {Malesani}, {Hjorth}, {Tanvir}, \& {Antonelli}}]{GCN10513}
+{Vergani}, S.~D., {Levan}, A.~J., {D'Avanzo}, P., {et~al.} 2010{\natexlab{c}},
+  GRB Coordinates Network, Circular Service, No.~10513, \#1 (2010), 10513
+
+\bibitem[{Vergani {et~al.}(2009)Vergani, Petitjean, Ledoux, Vreeswijk, Smette,
+  \& Meurs}]{Vergani2009}
+Vergani, S.~D., Petitjean, P., Ledoux, C., {et~al.} 2009, A{\&}A, 503, 771
+
+\bibitem[{{Vergani} {et~al.}(2011){Vergani}, {Piranomonte}, {Hartoog},
+  {D'Elia}, {Cupani}, {de Ugarte Postigo}, {Kr\"uhler}, {Fynbo},
+  {Milvang-Jensen}, {Malesani}, {Vreeswijk}, {Tanvir}, \& {Kaper}}]{GCN12677}
+{Vergani}, S.~D., {Piranomonte}, S., {Hartoog}, O.~E., {et~al.} 2011, GRB
+  Coordinates Network, Circular Service, No.~12677, \#1 (2011), 12677
+
+\bibitem[{Vergani {et~al.}(2015)Vergani, Salvaterra, Japelj, {Le Floc'h},
+  D'Avanzo, Fernandez-Soto, Kr{\"{u}}hler, Melandri, Boissier, Covino, Puech,
+  Greiner, Hunt, Perley, Petitjean, Vinci, Hammer, Levan, Mannucci, Campana,
+  Flores, Gomboc, \& Tagliaferri}]{Vergani2015}
+Vergani, S.~D., Salvaterra, R., Japelj, J., {et~al.} 2015, A{\&}A, 581, A102
+
+\bibitem[{Vernet {et~al.}(2011)Vernet, Dekker, D'Odorico, Kaper, Kjaergaard,
+  Hammer, Randich, Zerbi, Groot, Hjorth, Guinouard, Navarro, Adolfse, Albers,
+  Amans, Andersen, Andersen, Binetruy, Bristow, Castillo, Chemla, Christensen,
+  Conconi, Conzelmann, Dam, {De Caprio}, {De Ugarte Postigo}, Delabre, {Di
+  Marcantonio}, Downing, Elswijk, Finger, Fischer, Flores, Fran{\c{c}}ois,
+  Goldoni, Guglielmi, Haigron, Hanenburg, Hendriks, Horrobin, Horville, Jessen,
+  Kerber, Kern, Kiekebusch, Kleszcz, Klougart, Kragt, Larsen, Lizon, Lucuix,
+  Mainieri, Manuputy, Martayan, Mason, Mazzoleni, Michaelsen, Modigliani,
+  Moehler, M{\o}ller, {Norup S{\o}rensen}, N{\o}rregaard, P{\'{e}}roux, Patat,
+  Pena, Pragt, Reinero, Rigal, Riva, Roelfsema, Royer, Sacco, Santin,
+  Schoenmaker, Spano, Sweers, {Ter Horst}, Tintori, Tromp, van Dael, van~der
+  Vliet, Venema, Vidali, Vinther, Vola, Winters, Wistisen, Wulterkens, \&
+  Zacchei}]{Vernet2011}
+Vernet, J., Dekker, H., D'Odorico, S., {et~al.} 2011, A{\&}A, 536, A105
+
+\bibitem[{Vernet {et~al.}(2009)Vernet, Kerber, Mainieri, Rauch, Saitta,
+  D'Odorico, Bohlin, Ivanov, Lidman, Mason, Smette, Walsh, Fosbury, Goldoni,
+  Groot, Hammer, Kaper, Horrobin, Kjaergaard-Rasmussen, \& Royer}]{Vernet2010}
+Vernet, J., Kerber, F., Mainieri, V., {et~al.} 2009, Proc. Int. Astron. Union,
+  5, 535
+
+\bibitem[{{Vreeswijk} {et~al.}(2011){Vreeswijk}, {Fynbo}, \&
+  {Melandri}}]{GCN12648}
+{Vreeswijk}, P., {Fynbo}, J., \& {Melandri}, A. 2011, GRB Coordinates Network,
+  Circular Service, No.~12648, \#1 (2011), 12648
+
+\bibitem[{Vreeswijk {et~al.}(2010)Vreeswijk, Kaufer, Spyromilio, Schmutzer,
+  Ledoux, Smette, \& {De Cia}}]{Vreeswijk2010}
+Vreeswijk, P.~M., Kaufer, A., Spyromilio, J., {et~al.} 2010, {The VLT
+  Rapid-Response Mode: implementation and scientific results}
+
+\bibitem[{Vreeswijk {et~al.}(2013)Vreeswijk, Ledoux, Raassen, Smette, {De Cia},
+  Wo?niak, Fox, Vestrand, \& Jakobsson}]{Vreeswijk2013}
+Vreeswijk, P.~M., Ledoux, C., Raassen, A. J.~J., {et~al.} 2013, A{\&}A, 549,
+  A22
+
+\bibitem[{Vreeswijk {et~al.}(2007)Vreeswijk, Ledoux, Smette, Ellison, Jaunsen,
+  Andersen, Fruchter, Fynbo, Hjorth, Kaufer, M{\o}ller, Petitjean, Savaglio, \&
+  Wijers}]{Vreeswijk2007}
+Vreeswijk, P.~M., Ledoux, C., Smette, A., {et~al.} 2007, A{\&}A, 468, 83
+
+\bibitem[{Watson \& Jakobsson(2012)}]{Watson2012}
+Watson, D. \& Jakobsson, P. 2012, ApJ, 754, 89
+
+\bibitem[{Watson {et~al.}(2013)Watson, Zafar, Andersen, Fynbo, Gorosabel,
+  Hjorth, Jakobsson, Kr{\"{u}}hler, Laursen, Leloudas, \&
+  Malesani}]{Watson2013}
+Watson, D., Zafar, T., Andersen, A.~C., {et~al.} 2013, ApJ, 768, 23
+
+\bibitem[{Wiersema {et~al.}(2012)Wiersema, Curran, Kr{\"{u}}hler, Melandri,
+  Rol, Starling, Tanvir, van~der Horst, Covino, Fynbo, Goldoni, Gorosabel,
+  Hjorth, Klose, Mundell, O'Brien, Palazzi, Wijers, D'Elia, Evans, Filgas,
+  Gomboc, Greiner, Guidorzi, Kaper, Kobayashi, Kouveliotou, Levan, Rossi,
+  Rowlinson, Steele, {de Ugarte Postigo}, \& Vergani}]{Wiersema2012}
+Wiersema, K., Curran, P.~A., Kr{\"{u}}hler, T., {et~al.} 2012, MNRAS, 426, 2
+
+\bibitem[{{Wiersema} {et~al.}(2011){Wiersema}, {Flores}, {D'Elia}, {Goldoni},
+  {Malesani}, {Vergani}, {de Ugarte Postigo}, {Levan}, {Milvang-Jensen}, \&
+  {Fynbo}}]{GCN12431}
+{Wiersema}, K., {Flores}, H., {D'Elia}, V., {et~al.} 2011, GRB Coordinates
+  Network, Circular Service, No.~12431, \#1 (2011), 12431
+
+\bibitem[{{Wiersema} {et~al.}(2012){Wiersema}, {Goldoni}, {Fynbo}, {Tanvir},
+  {Malesani}, {de Ugarte Postigo}, {Vergani}, {Covino}, \& {Flores}}]{GCN12991}
+{Wiersema}, K., {Goldoni}, P., {Fynbo}, J.~P.~U., {et~al.} 2012, GRB
+  Coordinates Network, Circular Service, No.~12991, \#1 (2012), 12991
+
+\bibitem[{Wijers {et~al.}(1998)Wijers, Bloom, Bagla, \& Natarajan}]{Wijers1998}
+Wijers, R. A. M.~J., Bloom, J.~S., Bagla, J.~S., \& Natarajan, P. 1998, MNRAS,
+  294, L13
+
+\bibitem[{Xu {et~al.}(2013)Xu, {De Ugarte Postigo}, Leloudas, Kruhler, Cano,
+  Hjorth, Malesani, Fynbo, Th??ne, S??nchez-Ram??rez, Schulze, Jakobsson,
+  Kaper, Sollerman, Watson, Cabrera-Lavers, Cao, Covino, Flores, Geier,
+  Gorosabel, Hu, Milvang-Jensen, Sparre, Xin, Zhang, Zheng, \& Zou}]{Xu2013b}
+Xu, D., {De Ugarte Postigo}, A., Leloudas, G., {et~al.} 2013, ApJ, 776
+  [\eprint[arXiv]{arXiv:1305.6832v2}]
+
+\bibitem[{{Xu} {et~al.}(2013{\natexlab{a}}){Xu}, {de Ugarte Postigo},
+  {Malesani}, {Schulze}, {Fynbo}, {Watson}, {D'Elia}, {Goldoni}, \&
+  {Vestergaard}}]{GCN14757}
+{Xu}, D., {de Ugarte Postigo}, A., {Malesani}, D., {et~al.} 2013{\natexlab{a}},
+  GRB Coordinates Network, Circular Service, No.~14757, \#1 (2013), 14757
+
+\bibitem[{{Xu} {et~al.}(2013{\natexlab{b}}){Xu}, {de Ugarte Postigo},
+  {Malesani}, {Vreeswijk}, {D'Elia}, {Fynbo}, {Milvang-Jensen}, {Flores},
+  {Hartoog}, {Goldoni}, {Kaper}, \& {Vergani}}]{GCN14956}
+{Xu}, D., {de Ugarte Postigo}, A., {Malesani}, D., {et~al.} 2013{\natexlab{b}},
+  GRB Coordinates Network, Circular Service, No.~14956, \#1 (2013), 14956
+
+\bibitem[{{Xu} {et~al.}(2012){Xu}, {Fynbo}, {D'Elia}, \& {Tanvir}}]{GCN13460}
+{Xu}, D., {Fynbo}, J.~P.~U., {D'Elia}, V., \& {Tanvir}, N.~R. 2012, GRB
+  Coordinates Network, Circular Service, No.~13460, \#1 (2012), 13460
+
+\bibitem[{{Xu} {et~al.}(2017){Xu}, {Heintz}, {Malesani}, \& {Fynbo}}]{GCN20458}
+{Xu}, D., {Heintz}, K.~E., {Malesani}, D., \& {Fynbo}, J.~P.~U. 2017, GRB
+  Coordinates Network, Circular Service, No.~20458, \#1 (2017), 20458
+
+\bibitem[{{Xu} {et~al.}(2016{\natexlab{a}}){Xu}, {Heintz}, {Malesani},
+  {Wiersema}, \& {Fynbo}}]{GCN19773}
+{Xu}, D., {Heintz}, K.~E., {Malesani}, D., {Wiersema}, K., \& {Fynbo}, J.~P.~U.
+  2016{\natexlab{a}}, GRB Coordinates Network, Circular Service, No.~19773, \#1
+  (2016), 19773
+
+\bibitem[{{Xu} {et~al.}(2015{\natexlab{a}}){Xu}, {Levan}, {de Ugarte Postigo},
+  {Tanvir}, {Malesani}, \& {Fynbo}}]{GCN17832}
+{Xu}, D., {Levan}, A.~J., {de Ugarte Postigo}, A., {et~al.} 2015{\natexlab{a}},
+  GRB Coordinates Network, Circular Service, No.~17832, \#1 (2015), 17832
+
+\bibitem[{{Xu} {et~al.}(2014{\natexlab{a}}){Xu}, {Levan}, {Fynbo}, {Tanvir},
+  {D'Elia}, \& {Malesani}}]{GCN16983}
+{Xu}, D., {Levan}, A.~J., {Fynbo}, J.~P.~U., {et~al.} 2014{\natexlab{a}}, GRB
+  Coordinates Network, Circular Service, No.~16983, \#1 (2014), 16983
+
+\bibitem[{{Xu} {et~al.}(2016{\natexlab{b}}){Xu}, {Malesani}, {Fynbo}, {Tanvir},
+  {Levan}, \& {Perley}}]{GCN19600}
+{Xu}, D., {Malesani}, D., {Fynbo}, J.~P.~U., {et~al.} 2016{\natexlab{b}}, GRB
+  Coordinates Network, Circular Service, No.~19600, \#1 (2016), 19600
+
+\bibitem[{{Xu} {et~al.}(2013{\natexlab{c}}){Xu}, {Malesani}, {Kr\"uhler},
+  {Fynbo}, {Perley}, {Goldoni}, {Kaper}, {de Ugarte Postigo}, \&
+  {Tanvir}}]{GCN14273}
+{Xu}, D., {Malesani}, D., {Kr\"uhler}, T., {et~al.} 2013{\natexlab{c}}, GRB
+  Coordinates Network, Circular Service, No.~14273, \#1 (2013), 14273
+
+\bibitem[{{Xu} {et~al.}(2013{\natexlab{d}}){Xu}, {Malesani}, {Schulze}, {de
+  Ugarte Postigo}, {Jakobsson}, {Cano}, {Tanvir}, {Fynbo}, {Watson}, {Goldoni},
+  {Vergani}, \& {Wijers}}]{GCN15451}
+{Xu}, D., {Malesani}, D., {Schulze}, S., {et~al.} 2013{\natexlab{d}}, GRB
+  Coordinates Network, Circular Service, No.~15451, \#1 (2013), 15451
+
+\bibitem[{{Xu} {et~al.}(2013{\natexlab{e}}){Xu}, {Malesani}, {Schulze},
+  {Fynbo}, {D'Elia}, {Goldoni}, {Hartoog}, {Hjorth}, {Kaper}, {Kr\"uhler},
+  {Levan}, {Milvang-Jensen}, {Tanvir}, \& {Wiersema}}]{GCN14816}
+{Xu}, D., {Malesani}, D., {Schulze}, S., {et~al.} 2013{\natexlab{e}}, GRB
+  Coordinates Network, Circular Service, No.~14816, \#1 (2013), 14816
+
+\bibitem[{{Xu} {et~al.}(2013{\natexlab{f}}){Xu}, {Malesani}, {Tanvir},
+  {Kr\"uhler}, \& {Fynbo}}]{GCN15450}
+{Xu}, D., {Malesani}, D., {Tanvir}, N., {Kr\"uhler}, T., \& {Fynbo}, J.
+  2013{\natexlab{f}}, GRB Coordinates Network, Circular Service, No.~15450, \#1
+  (2013), 15450
+
+\bibitem[{{Xu} {et~al.}(2014{\natexlab{b}}){Xu}, {Malesani}, {Tanvir},
+  {D'Elia}, {de Ugarte Postigo}, {Kr\"uhler}, \& {Fynbo}}]{GCN15645}
+{Xu}, D., {Malesani}, D., {Tanvir}, N.~R., {et~al.} 2014{\natexlab{b}}, GRB
+  Coordinates Network, Circular Service, No.~15645, \#1 (2014), 15645
+
+\bibitem[{{Xu} {et~al.}(2015{\natexlab{b}}){Xu}, {Tanvir}, {Malesani}, \&
+  {Fynbo}}]{GCN18506}
+{Xu}, D., {Tanvir}, N.~R., {Malesani}, D., \& {Fynbo}, J.~P.~U.
+  2015{\natexlab{b}}, GRB Coordinates Network, Circular Service, No.~18506, \#1
+  (2015), 18506
+
+\bibitem[{{Xu} {et~al.}(2014{\natexlab{c}}){Xu}, {Vreeswijk}, {Fynbo},
+  {D'Elia}, {Wiersema}, {Tanvir}, {de Ugarte Postigo}, \& {Covino}}]{GCN17040}
+{Xu}, D., {Vreeswijk}, P.~M., {Fynbo}, J.~P.~U., {et~al.} 2014{\natexlab{c}},
+  GRB Coordinates Network, Circular Service, No.~17040, \#1 (2014), 17040
+
+\bibitem[{{Zheng} {et~al.}(2015){Zheng}, {Filippenko}, {Yuk}, {Zhu}, \&
+  {Perley}}]{GCN18273}
+{Zheng}, W., {Filippenko}, A.~V., {Yuk}, H., {Zhu}, Y., \& {Perley}, D.~A.
+  2015, GRB Coordinates Network, Circular Service, No.~18273, \#1 (2015), 18273
+
+\bibitem[{Zitrin {et~al.}(2015)Zitrin, Labb{\'{e}}, Belli, Bouwens, Ellis,
+  Roberts-Borsani, Stark, Oesch, \& Smit}]{Zitrin2015}
+Zitrin, A., Labb{\'{e}}, I., Belli, S., {et~al.} 2015, Astrophys. J. Lett.,
+  810, L12
+
+\end{thebibliography}
