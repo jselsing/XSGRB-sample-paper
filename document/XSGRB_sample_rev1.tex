@@ -869,18 +869,18 @@ where they are marked as such if the difference between the estimated continuum
 and the observed spectrum is larger than 3 - 5 times the associated error
 spectrum. All regions marked as affected are then masked.
 
-Using the masked spectrum, the entire process is then repeated 500 times where
-the final continuum estimate is the mean of the continuum realizations and the
-associated error estimate is the standard deviation. This error reflects the
-stability of the algorithm across the spectrum. An example of the performance is
-shown in Fig. \ref{fig:spectrum}. In the \lya~forest, where there is very little
-flux at the continuum level, the performance of the normalization algorithm
-depends on the continuum coverage redwards of the \lya~line. In some cases, very
-little continuum is contained in a single arm and a manual continuum estimate is
-provided, similar to what is done in \citet{Lopez2016}. In these cases the
-continuum error is set to 10 per cent. The code for the continuum estimate is
-released along with the paper at
-\url{https://github.com/jselsing/XSGRB-sample-paper}.
+%Using the masked spectrum, the entire process is then repeated 500 times where
+%the final continuum estimate is the mean of the continuum realizations and the
+%associated error estimate is the standard deviation. This error reflects the
+%stability of the algorithm across the spectrum. An example of the performance is
+%shown in Fig. \ref{fig:spectrum}. In the \lya~forest, where there is very little
+%flux at the continuum level, the performance of the normalization algorithm
+%depends on the continuum coverage redwards of the \lya~line. In some cases, very
+%little continuum is contained in a single arm and a manual continuum estimate is
+%provided, similar to what is done in \citet{Lopez2016}. In these cases the
+%continuum error is set to 10 per cent. The code for the continuum estimate is
+%released along with the paper at
+%\url{https://github.com/jselsing/XSGRB-sample-paper}.
                                                                                            
 
 
@@ -893,12 +893,13 @@ the target observations is less than the seeing PSF. This means that a fraction
 of the incoming light is lost outside the slit. As an example, for atmospheric
 conditions delivering a seeing PSF with a FWHM of 0\farc9 observed with a
 0\farc9 slit, only 76.1 per cent of the light will enter the slit. This slitloss
-is not corrected by the
-flux calibration, as flux standard stars are always observed with a 5 \arcsec
-slit. As a consequence, almost all spectra will, without slitloss correction,
-underestimate the flux by some fraction. Additionally, slitlosses are wavelength
-dependent due to the wavelength dependence of seeing \citep{Boyd1978} and as the
-seeing changes across the slit in wavelength, so does the slitloss.
+is not corrected by the flux calibration, as flux standard stars are always
+observed with a 5~\arcsec slit. As a consequence, almost all spectra will,
+without slitloss correction, underestimate the flux by some fraction.
+Additionally, slitlosses are wavelength dependent due to the wavelength
+dependence of seeing \citep{Boyd1978} and as the seeing changes across the slit
+in wavelength, so does the slitloss. This artificially introduces a change in
+continuum slope.
 
 To correct for the slitlosses, we develop an algorithm that can, based on the
 atmospheric conditions at time of observation and the wavelength dependence of
@@ -906,23 +907,31 @@ seeing, estimate the losses at each wavelength bin. We start with the DIMM
 seeing \citep{Sarazin1990}, which measures the seeing FWHM at zenith. We correct
 the zenith seeing by the airmass of the observational sightline, which gives us
 the effective seeing, delivered outside the slit at 5000 \AA. We can then use
-that the seeing $\sim \lambda^(1/5)$ to obtain a measure of the seeing across
-the entire wavelength coverage of X-shooter. At each wavelength bin of the
-spectra, we simulate a synthetic 2D seeing PSF based on a normalised, 2D Moffat
-profile which we integrate over the used slit width. The inverse of the fraction
-of the light that enters the slit, can then be used to correct for the estimated
-slit losses at each wavelength bin. 
+that the seeing scales as $\sim \lambda^{-1/5}$ to obtain a measure of the
+seeing across the entire wavelength coverage of X-shooter. At each wavelength
+bin of the spectra, we simulate a synthetic 2D seeing PSF based on a normalised,
+2D Moffat profile which we integrate over the used slit width. The inverse of
+the fraction of the light that enters the slit, can then be used to correct for
+the estimated slit losses at each wavelength bin.
 
 To assess the accuracy of the flux-calibration, after the slit loss correction,
 we compare a subset of afterglow spectra with photometry derived from the
 acquisition camera. The acquisition camera takes a short image before
-integration and this the delay between the image and the spectroscopic
-integration is negligible. We select GRBs at DEC > 30~$^\circ$ to ensure
-SDSS coverage, which allows good calibration of the photometric zero point,
-acquisition camera magnitude brighter than 21.5 mag, and delay-time between GRB
-trigger and spectroscopic observation < 15 hours. These cuts leaves 27
-afterglow spectra covering the entire temporal span of the programme. Using this
-set we can make a test of the final flux-calibration accuracy. 
+integration causing the delay between the image and the spectroscopic
+integration is negligible. The acquisition camera suffer from varying imaging
+quality, lacking calibration files, and regions of reduced thoughput due to
+contaminants on the CCD. The derived photometry therefore suffers from
+systematics that can be hard to correct for. Because the afterglow brightness
+changes rapidly with time, no other imaging are sufficiently close in time to
+use.
+
+We select all GRBs for which the aquisition camera used a Sloan filter
+\citep{Gunn1998} and is covered by either SDSS \citep{Abolfathi2018} or
+Pan-STARRS \citep{Chambers2016}. Additionally we select acquisition camera
+magnitude brighter than 21.5 mag, and delay-time between GRB trigger and
+spectroscopic observation < 10 hours. These cuts leaves 7 afterglow spectra, for
+which a decent calibration of the photometric zero point can be derived. Using
+this set we can make a test of the final flux-calibration accuracy.
 
 To compare the acquisition camera photometry with the spectra, we calculate the
 synthetic magnitude of the spectrum, in the used passband, along with the

@@ -84,7 +84,7 @@ This is certainly true, when comparing QSO DLAs to GRB DLA. To accounted for the
 # reason, the redshifts provided should be seen as upper limits. 
 # 
 
-
+ 
 
 # 
 # Other Concerns: 
