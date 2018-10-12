@@ -1,4 +1,4 @@
-\begin{thebibliography}{320}
+\begin{thebibliography}{321}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Abbott {et~al.}(2017)Abbott, Abbott, Abbott, Acernese, Ackley, Adams,
@@ -445,6 +445,13 @@ Christensen, L., Vergani, S.~D., Schulze, S., {et~al.} 2017, A{\&}A, 608, A84
 \bibitem[{Cobb {et~al.}(2010)Cobb, Bloom, Perley, Morgan, Cenko, \&
   Filippenko}]{Cobb2010}
 Cobb, B.~E., Bloom, J.~S., Perley, D.~A., {et~al.} 2010, ApJ, 718, L150
+
+\bibitem[{{Coulter} {et~al.}(2017){Coulter}, {Foley}, {Kilpatrick}, {Drout},
+  {Piro}, {Shappee}, {Siebert}, {Simon}, {Ulloa}, {Kasen}, {Madore},
+  {Murguia-Berthier}, {Pan}, {Prochaska}, {Ramirez-Ruiz}, {Rest}, \&
+  {Rojas-Bravo}}]{2017Sci...358.1556C}
+{Coulter}, D.~A., {Foley}, R.~J., {Kilpatrick}, C.~D., {et~al.} 2017, Science,
+  358, 1556
 
 \bibitem[{Covino {et~al.}(2013{\natexlab{a}})Covino, Melandri, Salvaterra,
   Campana, Vergani, Bernardini, D'Avanzo, D'Elia, Fugazza, Ghirlanda,
