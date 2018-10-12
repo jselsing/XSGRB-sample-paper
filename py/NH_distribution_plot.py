@@ -10,7 +10,7 @@ import matplotlib as mpl
 from astropy.io import fits
 import pandas as pd
 # import matplotlib.pyplot as pl
-import healpy as hp
+# import healpy as hp
 # import seaborn as sns; sns.set_style('ticks')
 import numpy as np
 from scipy import stats
@@ -43,7 +43,7 @@ def main():
 
     # Read in GRB NH
     burst_table = pd.read_csv("../data/Burst list - HI columns.csv")
-    name, z, NH, NHe, pub = np.array([ii[3:] for ii in burst_table["GRB"].values]), burst_table["z"].values, burst_table["N_H"].values, burst_table["N_H_err"].values, burst_table["Sample"].values
+    name, z, NH, NHe, pub = np.array([ii[3:] for ii in burst_table["GRB"].values]), burst_table["z"].values, burst_table["N_H"].values+ np.log10(2), burst_table["N_H_err"].values, burst_table["Sample"].values
     XSGRB = (pub == "Selsing2017")
     # print(np.sum((~XSGRB).astype("int")))
     # print(len(name))

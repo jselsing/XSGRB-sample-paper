@@ -1,4 +1,4 @@
-\begin{thebibliography}{300}
+\begin{thebibliography}{320}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Abbott {et~al.}(2017)Abbott, Abbott, Abbott, Acernese, Ackley, Adams,
@@ -250,6 +250,11 @@ Amati, L., Guidorzi, C., Frontera, F., {et~al.} 2008, MNRAS, 391, 577
   Postigo}, \& Vergani}]{Arabsalmani2018}
 Arabsalmani, M., M{\o}ller, P., Perley, D.~A., {et~al.} 2018, MNRAS, 473, 3312
 
+\bibitem[{{Arcavi} {et~al.}(2017){Arcavi}, {Hosseinzadeh}, {Howell}, {McCully},
+  {Poznanski}, {Kasen}, {Barnes}, {Zaltzman}, {Vasylyev}, {Maoz}, \&
+  {Valenti}}]{2017Natur.551...64A}
+{Arcavi}, I., {Hosseinzadeh}, G., {Howell}, D.~A., {et~al.} 2017, \nat, 551, 64
+
 \bibitem[{Ashall {et~al.}(2017)Ashall, Pian, Mazzali, Palazzi, Prentice,
   Kobayashi, Levan, Perley, Bufano, Filippenko, Fynbo, Melandri, D'Avanzo, {De
   Pasquale}, Emery, Fruchter, Hurley, Malesani, Moller, Nomoto, Tanaka, Tanvir,
@@ -417,6 +422,14 @@ Castro-Tirado, A.~J., M{\o}ller, P., Garc{\'{i}}a-Segura, G., {et~al.} 2010,
 {Chornock}, R. \& {Berger}, E. 2011, GRB Coordinates Network, Circular Service,
   No.~11518, \#1 (2011), 11518
 
+\bibitem[{{Chornock} {et~al.}(2017){Chornock}, {Berger}, {Kasen},
+  {Cowperthwaite}, {Nicholl}, {Villar}, {Alexander}, {Blanchard}, {Eftekhari},
+  {Fong}, {Margutti}, {Williams}, {Annis}, {Brout}, {Brown}, {Chen}, {Drout},
+  {Farr}, {Foley}, {Frieman}, {Fryer}, {Herner}, {Holz}, {Kessler}, {Matheson},
+  {Metzger}, {Quataert}, {Rest}, {Sako}, {Scolnic}, {Smith}, \&
+  {Soares-Santos}}]{2017ApJ...848L..19C}
+{Chornock}, R., {Berger}, E., {Kasen}, D., {et~al.} 2017, \apj, 848, L19
+
 \bibitem[{Christensen {et~al.}(2011)Christensen, Fynbo, Prochaska, Th{\"{o}}ne,
   {de Ugarte Postigo}, \& Jakobsson}]{Christensen2011a}
 Christensen, L., Fynbo, J. P.~U., Prochaska, J.~X., {et~al.} 2011, ApJ, 727, 73
@@ -450,6 +463,32 @@ Covino, S., Melandri, A., Salvaterra, R., {et~al.} 2013{\natexlab{b}}, MNRAS,
 \bibitem[{Coward {et~al.}(2013)Coward, Howell, Branchesi, Stratta, Guetta,
   Gendre, \& Macpherson}]{Coward2013a}
 Coward, D.~M., Howell, E.~J., Branchesi, M., {et~al.} 2013, MNRAS, 432, 2141
+
+\bibitem[{{Cowperthwaite} {et~al.}(2017){Cowperthwaite}, {Berger}, {Villar},
+  {Metzger}, {Nicholl}, {Chornock}, {Blanchard}, {Fong}, {Margutti},
+  {Soares-Santos}, {Alexander}, {Allam}, {Annis}, {Brout}, {Brown}, {Butler},
+  {Chen}, {Diehl}, {Doctor}, {Drout}, {Eftekhari}, {Farr}, {Finley}, {Foley},
+  {Frieman}, {Fryer}, {Garc{\'\i}a-Bellido}, {Gill}, {Guillochon}, {Herner},
+  {Holz}, {Kasen}, {Kessler}, {Marriner}, {Matheson}, {Neilsen}, {Quataert},
+  {Palmese}, {Rest}, {Sako}, {Scolnic}, {Smith}, {Tucker}, {Williams},
+  {Balbinot}, {Carlin}, {Cook}, {Durret}, {Li}, {Lopes}, {Louren{\c{c}}o},
+  {Marshall}, {Medina}, {Muir}, {Mu{\~n}oz}, {Sauseda}, {Schlegel}, {Secco},
+  {Vivas}, {Wester}, {Zenteno}, {Zhang}, {Abbott}, {Banerji}, {Bechtol},
+  {Benoit-L{\'e}vy}, {Bertin}, {Buckley-Geer}, {Burke}, {Capozzi}, {Carnero
+  Rosell}, {Carrasco Kind}, {Castander}, {Crocce}, {Cunha}, {D'Andrea}, {da
+  Costa}, {Davis}, {DePoy}, {Desai}, {Dietrich}, {Drlica-Wagner}, {Eifler},
+  {Evrard}, {Fernandez}, {Flaugher}, {Fosalba}, {Gaztanaga}, {Gerdes},
+  {Giannantonio}, {Goldstein}, {Gruen}, {Gruendl}, {Gutierrez}, {Honscheid},
+  {Jain}, {James}, {Jeltema}, {Johnson}, {Johnson}, {Kent}, {Krause}, {Kron},
+  {Kuehn}, {Nuropatkin}, {Lahav}, {Lima}, {Lin}, {Maia}, {March}, {Martini},
+  {McMahon}, {Menanteau}, {Miller}, {Miquel}, {Mohr}, {Neilsen}, {Nichol},
+  {Ogando}, {Plazas}, {Roe}, {Romer}, {Roodman}, {Rykoff}, {Sanchez},
+  {Scarpine}, {Schindler}, {Schubnell}, {Sevilla-Noarbe}, {Smith}, {Smith},
+  {Sobreira}, {Suchyta}, {Swanson}, {Tarle}, {Thomas}, {Thomas}, {Troxel},
+  {Vikram}, {Walker}, {Wechsler}, {Weller}, {Yanny}, \&
+  {Zuntz}}]{2017ApJ...848L..17C}
+{Cowperthwaite}, P.~S., {Berger}, E., {Villar}, V.~A., {et~al.} 2017, \apj,
+  848, L17
 
 \bibitem[{Cucchiara {et~al.}(2015)Cucchiara, Fumagalli, Rafelski, Kocevski,
   Prochaska, Cooke, \& Becker}]{Cucchiara2015}
@@ -726,6 +765,13 @@ Fynbo, J. P.~U., Jakobsson, P., Prochaska, J.~X., {et~al.} 2009, ApJS, 185, 175
   Zafar}]{Fynbo2014}
 Fynbo, J. P.~U., Kr{\"{u}}hler, T., Leighly, K., {et~al.} 2014, A{\&}A, 12, 1
 
+\bibitem[{{Fynbo} {et~al.}(2010){Fynbo}, {Laursen}, {Ledoux}, {M{\o}ller},
+  {Durgapal}, {Goldoni}, {Gullberg}, {Kaper}, {Maund}, {Noterdaeme},
+  {{\"O}stlin}, {Strandet}, {Toft}, {Vreeswijk}, \&
+  {Zafar}}]{2010MNRAS.408.2128F}
+{Fynbo}, J.~P.~U., {Laursen}, P., {Ledoux}, C., {et~al.} 2010, \mnras, 408,
+  2128
+
 \bibitem[{{Fynbo} {et~al.}(2012{\natexlab{b}}){Fynbo}, {Tanvir}, {D'Elia}, {de
   Ugarte Postigo}, {Malesani}, {Hartoog}, {Xu}, {Flores}, {Levan}, \&
   {Milvang-Jensen}}]{GCN14120}
@@ -748,6 +794,9 @@ Fynbo, J. P.~U., Kr{\"{u}}hler, T., Leighly, K., {et~al.} 2014, A{\&}A, 12, 1
   Guidorzi, Goldsten, Hurley, Mazets, McClanahan, Montanari, Starr, \&
   Trombka}]{Fynbo2001}
 Fynbo, J.~U., Jensen, B.~L., Gorosabel, J., {et~al.} 2001, A{\&}A, 369, 373
+
+\bibitem[{{Galama} \& {Wijers}(2001)}]{2001ApJ...549L.209G}
+{Galama}, T.~J. \& {Wijers}, R.~A.~M.~J. 2001, \apjl, 549, L209
 
 \bibitem[{Gehrels {et~al.}(2009)Gehrels, Ramirez-Ruiz, \& Fox}]{Gehrels2009}
 Gehrels, N., Ramirez-Ruiz, E., \& Fox, D. 2009, ARA{\&}A, 47, 567
@@ -789,6 +838,14 @@ Ginsburg, A., Parikh, M., Woillez, J., {et~al.} 2016, {Astroquery V0.3.1}
   Blanc, Vernet, Modigliani, \& Larsen}]{Goldoni2006}
 Goldoni, P., Royer, F., Fran{\c{c}}ois, P., {et~al.} 2006, Ground-based
   Airborne Instrum. Astron. Ed. by McLean, 6269, 80
+
+\bibitem[{{Goldstein} {et~al.}(2017){Goldstein}, {Veres}, {Burns}, {Briggs},
+  {Hamburg}, {Kocevski}, {Wilson-Hodge}, {Preece}, {Poolakkil}, {Roberts},
+  {Hui}, {Connaughton}, {Racusin}, {von Kienlin}, {Dal Canton}, {Christensen},
+  {Littenberg}, {Siellez}, {Blackburn}, {Broida}, {Bissaldi}, {Cleveland},
+  {Gibby}, {Giles}, {Kippen}, {McBreen}, {McEnery}, {Meegan}, {Paciesas}, \&
+  {Stanbro}}]{2017ApJ...848L..14G}
+{Goldstein}, A., {Veres}, P., {Burns}, E., {et~al.} 2017, \apj, 848, L14
 
 \bibitem[{Graff {et~al.}(2016)Graff, Lien, Baker, \& Sakamoto}]{Graff2016}
 Graff, P.~B., Lien, A.~Y., Baker, J.~G., \& Sakamoto, T. 2016, ApJ, 818, 55
@@ -833,15 +890,6 @@ Greiner, J., Yu, H.-F., Kr{\"{u}}hler, T., {et~al.} 2014, A{\&}A, 568, A75
   Lehnert, Kuijken, Hoekstra, Metcalfe, Howk, Conselice, Telting, Rutten,
   Rhoads, Cole, Pisano, Naber, \& Schwarz}]{Groot1998}
 Groot, P.~J., Galama, T.~J., van Paradijs, J., {et~al.} 1998, ApJ, 493, L27
-
-\bibitem[{{Gunn} {et~al.}(1998){Gunn}, {Carr}, {Rockosi}, {Sekiguchi}, {Berry},
-  {Elms}, {de Haas}, {Ivezi{\'c}}, {Knapp}, {Lupton}, {Pauls}, {Simcoe},
-  {Hirsch}, {Sanford}, {Wang}, {York}, {Harris}, {Annis}, {Bartozek},
-  {Boroski}, {Bakken}, {Haldeman}, {Kent}, {Holm}, {Holmgren}, {Petravick},
-  {Prosapio}, {Rechenmacher}, {Doi}, {Fukugita}, {Shimasaku}, {Okada}, {Hull},
-  {Siegmund}, {Mannery}, {Blouke}, {Heidtman}, {Schneider}, {Lucinio}, \&
-  {Brinkman}}]{Gunn1998}
-{Gunn}, J.~E., {Carr}, M., {Rockosi}, C., {et~al.} 1998, \aj, 116, 3040
 
 \bibitem[{Hamuy {et~al.}(1994)Hamuy, Suntzeff, Heathcote, Walker, Gigoux, \&
   Phillips}]{Hamuy1994}
@@ -960,6 +1008,13 @@ Kann, D.~A., Schady, P., E., F.~O., {et~al.} 2017, arXiv
 \bibitem[{Kausch {et~al.}(2015)Kausch, Noll, Smette, Kimeswenger, Barden,
   Szyszka, Jones, Sana, Horst, \& Kerber}]{Kausch2015}
 Kausch, W., Noll, S., Smette, A., {et~al.} 2015, A{\&}A, 576, A78
+
+\bibitem[{{Kilpatrick} {et~al.}(2017){Kilpatrick}, {Foley}, {Kasen}, {Murguia-
+  Berthier}, {Ramirez-Ruiz}, {Coulter}, {Drout}, {Piro}, {Shappee}, {Boutsia},
+  {Contreras}, {Di Mille}, {Madore}, {Morrell}, {Pan}, {Prochaska}, {Rest},
+  {Rojas-Bravo}, {Siebert}, {Simon}, \& {Ulloa}}]{2017Sci...358.1583K}
+{Kilpatrick}, C.~D., {Foley}, R.~J., {Kasen}, D., {et~al.} 2017, Science, 358,
+  1583
 
 \bibitem[{{Knust} {et~al.}(2015){Knust}, {Kann}, {Kr\"uhler}, \&
   {Greiner}}]{GCN17767}
@@ -1090,10 +1145,27 @@ Lien, A., Sakamoto, T., Gehrels, N., {et~al.} 2014, ApJ, 783, 24
 {LIGO Scientific Collaboration}, {Virgo Collaboration}, GBM, F., {et~al.} 2017,
   Astrophys. J. Lett., 848, L12
 
+\bibitem[{{Lipunov} {et~al.}(2017){Lipunov}, {Gorbovskoy}, {Kornilov}, {.
+  Tyurina}, {Balanutsa}, {Kuznetsov}, {Vlasenko}, {Kuvshinov}, {Gorbunov},
+  {Buckley}, {Krylov}, {Podesta}, {Lopez}, {Podesta}, {Levato}, {Saffe},
+  {Mallamachi}, {Potter}, {Budnev}, {Gress}, {Ishmuhametova}, {Vladimirov},
+  {Zimnukhov}, {Yurkov}, {Sergienko}, {Gabovich}, {Rebolo}, {Serra-Ricart},
+  {Israelyan}, {Chazov}, {Wang}, {Tlatov}, \&
+  {Panchenko}}]{2017ApJ...850L...1L}
+{Lipunov}, V.~M., {Gorbovskoy}, E., {Kornilov}, V.~G., {et~al.} 2017, \apj,
+  850, L1
+
 \bibitem[{Littlejohns {et~al.}(2013)Littlejohns, Tanvir, Willingale, Evans,
   O'Brien, \& Levan}]{Littlejohns2013a}
 Littlejohns, O.~M., Tanvir, N.~R., Willingale, R., {et~al.} 2013, MNRAS, 436,
   3640
+
+\bibitem[{L{\'{o}}pez {et~al.}(2016)L{\'{o}}pez, D'Odorico, Ellison, Becker,
+  Christensen, Cupani, Denney, P{\^{a}}ris, Worseck, Berg, Cristiani,
+  Dessauges-Zavadsky, Haehnelt, Hamann, Hennawi, Ir{\v{s}}i{\v{c}}, Kim,
+  L{\'{o}}pez, {Lund Saust}, M{\'{e}}nard, Perrotta, Prochaska,
+  S{\'{a}}nchez-Ram{\'{i}}rez, Vestergaard, Viel, \& Wisotzki}]{Lopez2016}
+L{\'{o}}pez, S., D'Odorico, V., Ellison, S.~L., {et~al.} 2016, A{\&}A, 594, A91
 
 \bibitem[{Lyman {et~al.}(2017)Lyman, Levan, Tanvir, Fynbo, McGuire, Perley,
   Angus, Bloom, Conselice, Fruchter, Hjorth, Jakobsson, \&
@@ -1214,10 +1286,26 @@ Moffat, A. F.~J. 1969, A{\&}A, 3, 455
   Ward, Ihle, Gonzalez, Pizarro, Sinclaire, \& Valenzuela}]{Molinari2007}
 Molinari, E., Vergani, S.~D., Malesani, D., {et~al.} 2007, A{\&}A, 469, L13
 
+\bibitem[{{Monet} {et~al.}(2003){Monet}, {Levine}, {Canzian}, {Ables}, {Bird},
+  {Dahn}, {Guetter}, {Harris}, {Henden}, {Leggett}, {Levison}, {Luginbuhl},
+  {Martini}, {Monet}, {Munn}, {Pier}, {Rhodes}, {Riepe}, {Sell}, {Stone},
+  {Vrba}, {Walker}, {Westerhout}, {Brucato}, {Reid}, {Schoening}, {Hartley},
+  {Read}, \& {Tritton}}]{Monet2003}
+{Monet}, D.~G., {Levine}, S.~E., {Canzian}, B., {et~al.} 2003, \aj, 125, 984
+
 \bibitem[{Morgan {et~al.}(2014)Morgan, Perley, Cenko, Bloom, Cucchiara,
   Richards, Filippenko, Haislip, LaCluyze, Corsi, Melandri, Cobb, Gomboc,
   Horesh, James, Li, Mundell, Reichart, \& Steele}]{Morgan2014a}
 Morgan, A.~N., Perley, D.~A., Cenko, S.~B., {et~al.} 2014, MNRAS, 440, 1810
+
+\bibitem[{{Nicholl} {et~al.}(2017){Nicholl}, {Berger}, {Kasen}, {Metzger},
+  {Elias}, {Brice{\~n}o}, {Alexander}, {Blanchard}, {Chornock},
+  {Cowperthwaite}, {Eftekhari}, {Fong}, {Margutti}, {Villar}, {Williams},
+  {Brown}, {Annis}, {Bahramian}, {Brout}, {Brown}, {Chen}, {Clemens},
+  {Dennihy}, {Dunlap}, {Holz}, {Marchesini}, {Massaro}, {Moskowitz},
+  {Pelisoli}, {Rest}, {Ricci}, {Sako}, {Soares-Santos}, \&
+  {Strader}}]{2017ApJ...848L..18N}
+{Nicholl}, M., {Berger}, E., {Kasen}, D., {et~al.} 2017, \apj, 848, L18
 
 \bibitem[{Noll {et~al.}(2012)Noll, Kausch, Barden, Jones, Szyszka, Kimeswenger,
   \& Vinther}]{Noll2012}
@@ -1281,10 +1369,16 @@ Perley, D.~A., Cenko, S.~B., Bloom, J.~S., {et~al.} 2009, AJ, 138, 1690
   Volvach, Wang, Winters, \& Xin}]{Perley2014}
 Perley, D.~A., Cenko, S.~B., Corsi, A., {et~al.} 2014, ApJ, 781, 37
 
-\bibitem[{Perley {et~al.}(2017)Perley, Kr{\"{u}}hler, Schady, Micha{\l}owski,
-  Th{\"{o}}ne, Petry, Graham, Greiner, Klose, Schulze, \& Kim}]{Perley2017}
-Perley, D.~A., Kr{\"{u}}hler, T., Schady, P., {et~al.} 2017, Mon. Not. R.
-  Astron. Soc. Lett., 465, L89
+\bibitem[{Perley {et~al.}(2017{\natexlab{a}})Perley, Hjorth, Tanvir, \&
+  Perley}]{Perley2017a}
+Perley, D.~A., Hjorth, J., Tanvir, N.~R., \& Perley, R.~A. 2017{\natexlab{a}},
+  MNRAS, 465, 970
+
+\bibitem[{Perley {et~al.}(2017{\natexlab{b}})Perley, Kr{\"{u}}hler, Schady,
+  Micha{\l}owski, Th{\"{o}}ne, Petry, Graham, Greiner, Klose, Schulze, \&
+  Kim}]{Perley2017}
+Perley, D.~A., Kr{\"{u}}hler, T., Schady, P., {et~al.} 2017{\natexlab{b}}, Mon.
+  Not. R. Astron. Soc. Lett., 465, L89
 
 \bibitem[{Perley {et~al.}(2016{\natexlab{a}})Perley, Kr{\"{u}}hler, Schulze,
   {de Ugarte Postigo}, Hjorth, Berger, Cenko, Chary, Cucchiara, Ellis, Fong,
@@ -1297,6 +1391,13 @@ Perley, D.~A., Kr{\"{u}}hler, T., Schulze, S., {et~al.} 2016{\natexlab{a}},
   Kr{\"{u}}hler, Filippenko, Fruchter, Fynbo, Jakobsson, Kalirai,
   Milvang-Jensen, Morgan, Prochaska, \& Silverman}]{Perley2013b}
 Perley, D.~A., Levan, A.~J., Tanvir, N.~R., {et~al.} 2013, ApJ, 778, 128
+
+\bibitem[{{Perley} {et~al.}(2008){Perley}, {Li}, {Chornock}, {Prochaska},
+  {Butler}, {Chandra}, {Pollack}, {Bloom}, {Filippenko}, {Swan}, {Yuan},
+  {Akerlof}, {Auger}, {Cenko}, {Chen}, {Fassnacht}, {Fox}, {Frail},
+  {Johansson}, {McKay}, {Le Mignant}, {Modjaz}, {Rujopakarn}, {Russel},
+  {Skinner}, {Smith}, {Smith}, {van Dam}, \& {Yost}}]{2008ApJ...688..470P}
+{Perley}, D.~A., {Li}, W., {Chornock}, R., {et~al.} 2008, \apj, 688, 470
 
 \bibitem[{Perley {et~al.}(2011)Perley, Morgan, Updike, Yuan, Akerlof, Miller,
   Bloom, Cenko, Li, Filippenko, Prochaska, Kann, Tanvir, Levan, Butler,
@@ -1317,6 +1418,22 @@ Perley, D.~A., Tanvir, N.~R., Hjorth, J., {et~al.} 2016{\natexlab{b}}, ApJ,
 \bibitem[{Pescalli {et~al.}(2015)Pescalli, Ghirlanda, Salvaterra, Ghisellini,
   Vergani, Nappo, Salafia, Melandri, Covino, \& G{\"{o}}tz}]{Pescalli2016}
 Pescalli, A., Ghirlanda, G., Salvaterra, R., {et~al.} 2015, A{\&}A, 587, A40
+
+\bibitem[{{Pian} {et~al.}(2017){Pian}, {D'Avanzo}, {Benetti}, {Branchesi},
+  {Brocato}, {Campana}, {Cappellaro}, {Covino}, {D'Elia}, {Fynbo}, {Getman},
+  {Ghirlanda}, {Ghisellini}, {Grado}, {Greco}, {Hjorth}, {Kouveliotou},
+  {Levan}, {Limatola}, {Malesani}, {Mazzali}, {Melandri}, {M{\o}ller},
+  {Nicastro}, {Palazzi}, {Piranomonte}, {Rossi}, {Salafia}, {Selsing},
+  {Stratta}, {Tanaka}, {Tanvir}, {Tomasella}, {Watson}, {Yang}, {Amati},
+  {Antonelli}, {Ascenzi}, {Bernardini}, {Bo{\"e}r}, {Bufano}, {Bulgarelli},
+  {Capaccioli}, {Casella}, {Castro-Tirado}, {Chassande-Mottin}, {Ciolfi},
+  {Copperwheat}, {Dadina}, {De Cesare}, {di Paola}, {Fan}, {Gendre},
+  {Giuffrida}, {Giunta}, {Hunt}, {Israel}, {Jin}, {Kasliwal}, {Klose}, {Lisi},
+  {Longo}, {Maiorano}, {Mapelli}, {Masetti}, {Nava}, {Patricelli}, {Perley},
+  {Pescalli}, {Piran}, {Possenti}, {Pulone}, {Razzano}, {Salvaterra},
+  {Schipani}, {Spera}, {Stamerra}, {Stella}, {Tagliaferri}, {Testa}, {Troja},
+  {Turatto}, {Vergani}, \& {Vergani}}]{2017Natur.551...67P}
+{Pian}, E., {D'Avanzo}, P., {Benetti}, S., {et~al.} 2017, \nat, 551, 67
 
 \bibitem[{Piran(2005)}]{Piran2005}
 Piran, T. 2005, RvMP, 76, 1143
@@ -1369,10 +1486,19 @@ Piran, T. 2005, RvMP, 76, 1143
 {Pozanenko}, A., {Mazaeva}, E., {Sergeev}, A., {et~al.} 2015, GRB Coordinates
   Network, Circular Service, No.~17903, \#1 (2015), 17903
 
+\bibitem[{{Prochaska} {et~al.}(2006){Prochaska}, {Chen}, \&
+  {Bloom}}]{2006ApJ...648...95P}
+{Prochaska}, J.~X., {Chen}, H.-W., \& {Bloom}, J.~S. 2006, \apj, 648, 95
+
 \bibitem[{Prochaska {et~al.}(2007)Prochaska, Chen, Dessauges-Zavadsky, \&
   Bloom}]{Prochaska2007}
 Prochaska, J.~X., Chen, H.-W., Dessauges-Zavadsky, M., \& Bloom, J.~S. 2007,
   ApJ, 666, 267
+
+\bibitem[{{Prochaska} {et~al.}(2008){Prochaska}, {Chen}, {Wolfe},
+  {Dessauges-Zavadsky}, \& {Bloom}}]{Prochaska2008}
+{Prochaska}, J.~X., {Chen}, H.-W., {Wolfe}, A.~M., {Dessauges-Zavadsky}, M., \&
+  {Bloom}, J.~S. 2008, \apj, 672, 59
 
 \bibitem[{Prochaska {et~al.}(2009)Prochaska, Sheffer, Perley, Bloom, Lopez,
   Dessauges-Zavadsky, Chen, Filippenko, Ganeshalingam, Li, Miller, \&
@@ -1466,6 +1592,13 @@ S{\'{a}}nchez-Ram{\'{i}}rez, R., Hancock, P.~J., J{\'{o}}hannesson, G.,
 \bibitem[{Savaglio(2006)}]{Savaglio2006}
 Savaglio, S. 2006, NJPh, 8, 195
 
+\bibitem[{{Savchenko} {et~al.}(2017){Savchenko}, {Ferrigno}, {Kuulkers},
+  {Bazzano}, {Bozzo}, {Brandt}, {Chenevez}, {Courvoisier}, {Diehl}, {Domingo},
+  {Hanlon}, {Jourdain}, {von Kienlin}, {Laurent}, {Lebrun}, {Lutovinov},
+  {Martin- Carrillo}, {Mereghetti}, {Natalucci}, {Rodi}, {Roques}, {Sunyaev},
+  \& {Ubertini}}]{2017ApJ...848L..15S}
+{Savchenko}, V., {Ferrigno}, C., {Kuulkers}, E., {et~al.} 2017, \apj, 848, L15
+
 \bibitem[{Schady {et~al.}(2015)Schady, Kr{\"{u}}hler, Greiner, Graham, Kann,
   Bolmer, Delvaux, Elliott, Klose, Knust, {Nicuesa Guelbenzu}, Rau, Rossi,
   Savaglio, Schmidl, Schweyer, Sudilovsky, Tanga, Tanvir, Varela, \&
@@ -1532,9 +1665,57 @@ Selsing, J., Kr{\"{u}}hler, T., Malesani, D., {et~al.} 2018, arXiv, 1
 Sheffer, Y., Prochaska, J.~X., Draine, B.~T., Perley, D.~A., \& Bloom, J.~S.
   2009, ApJ, 701, L63
 
+\bibitem[{{Smartt} {et~al.}(2017){Smartt}, {Chen}, {Jerkstrand}, {Coughlin},
+  {Kankare}, {Sim}, {Fraser}, {Inserra}, {Maguire}, {Chambers}, {Huber},
+  {Kr{\"u}hler}, {Leloudas}, {Magee}, {Shingles}, {Smith}, {Young}, {Tonry},
+  {Kotak}, {Gal-Yam}, {Lyman}, {Homan}, {Agliozzo}, {Anderson}, {Angus},
+  {Ashall}, {Barbarino}, {Bauer}, {Berton}, {Botticella}, {Bulla}, {Bulger},
+  {Cannizzaro}, {Cano}, {Cartier}, {Cikota}, {Clark}, {De Cia}, {Della Valle},
+  {Denneau}, {Dennefeld}, {Dessart}, {Dimitriadis}, {Elias-Rosa}, {Firth},
+  {Flewelling}, {Fl{\"o}rs}, {Franckowiak}, {Frohmaier}, {Galbany},
+  {Gonz{\'a}lez-Gait{\'a}n}, {Greiner}, {Gromadzki}, {Guelbenzu},
+  {Guti{\'e}rrez}, {Hamanowicz}, {Hanlon}, {Harmanen}, {Heintz}, {Heinze},
+  {Hernandez}, {Hodgkin}, {Hook}, {Izzo}, {James}, {Jonker}, {Kerzendorf},
+  {Klose}, {Kostrzewa- Rutkowska}, {Kowalski}, {Kromer}, {Kuncarayakti},
+  {Lawrence}, {Lowe}, {Magnier}, {Manulis}, {Martin-Carrillo}, {Mattila},
+  {McBrien}, {M{\"u}ller}, {Nordin}, {O'Neill}, {Onori}, {Palmerio},
+  {Pastorello}, {Patat}, {Pignata}, {Podsiadlowski}, {Pumo}, {Prentice}, {Rau},
+  {Razza}, {Rest}, {Reynolds}, {Roy}, {Ruiter}, {Rybicki}, {Salmon}, {Schady},
+  {Schultz}, {Schweyer}, {Seitenzahl}, {Smith}, {Sollerman}, {Stalder},
+  {Stubbs}, {Sullivan}, {Szegedi}, {Taddia}, {Taubenberger}, {Terreran}, {van
+  Soelen}, {Vos}, {Wainscoat}, {Walton}, {Waters}, {Weiland}, {Willman},
+  {Wiseman}, {Wright}, {Wyrzykowski}, \& {Yaron}}]{2017Natur.551...75S}
+{Smartt}, S.~J., {Chen}, T.~W., {Jerkstrand}, A., {et~al.} 2017, \nat, 551, 75
+
 \bibitem[{Smette {et~al.}(2015)Smette, Sana, Noll, Horst, Kausch, Kimeswenger,
   Barden, Szyszka, Jones, Gallenne, Vinther, Ballester, \& Taylor}]{Smette2015}
 Smette, A., Sana, H., Noll, S., {et~al.} 2015, A{\&}A, 576, A77
+
+\bibitem[{{Soares-Santos} {et~al.}(2017){Soares-Santos}, {Holz}, {Annis},
+  {Chornock}, {Herner}, {Berger}, {Brout}, {Chen}, {Kessler}, {Sako}, {Allam},
+  {Tucker}, {Butler}, {Palmese}, {Doctor}, {Diehl}, {Frieman}, {Yanny}, {Lin},
+  {Scolnic}, {Cowperthwaite}, {Neilsen}, {Marriner}, {Kuropatkin}, {Hartley},
+  {Paz-Chinch{\'o}n}, {Alexander}, {Balbinot}, {Blanchard}, {Brown}, {Carlin},
+  {Conselice}, {Cook}, {Drlica-Wagner}, {Drout}, {Durret}, {Eftekhari}, {Farr},
+  {Finley}, {Foley}, {Fong}, {Fryer}, {Garc{\'\i}a-Bellido}, {Gill}, {Gruendl},
+  {Hanna}, {Kasen}, {Li}, {Lopes}, {Louren{\c{c}}o}, {Margutti}, {Marshall},
+  {Matheson}, {Medina}, {Metzger}, {Mu{\~n}oz}, {Muir}, {Nicholl}, {Quataert},
+  {Rest}, {Sauseda}, {Schlegel}, {Secco}, {Sobreira}, {Stebbins}, {Villar},
+  {Vivas}, {Walker}, {Wester}, {Williams}, {Zenteno}, {Zhang}, {Abbott},
+  {Abdalla}, {Banerji}, {Bechtol}, {Benoit-L{\'e}vy}, {Bertin}, {Brooks},
+  {Buckley-Geer}, {Burke}, {Carnero Rosell}, {Carrasco Kind}, {Carretero},
+  {Castander}, {Crocce}, {Cunha}, {D'Andrea}, {da Costa}, {Davis}, {Desai},
+  {Dietrich}, {Doel}, {Eifler}, {Fernandez}, {Flaugher}, {Fosalba},
+  {Gaztanaga}, {Gerdes}, {Giannantonio}, {Goldstein}, {Gruen}, {Gschwend},
+  {Gutierrez}, {Honscheid}, {Jain}, {James}, {Jeltema}, {Johnson}, {Johnson},
+  {Kent}, {Krause}, {Kron}, {Kuehn}, {Kuhlmann}, {Lahav}, {Lima}, {Maia},
+  {March}, {McMahon}, {Menanteau}, {Miquel}, {Mohr}, {Nichol}, {Nord},
+  {Ogando}, {Petravick}, {Plazas}, {Romer}, {Roodman}, {Rykoff}, {Sanchez},
+  {Scarpine}, {Schubnell}, {Sevilla-Noarbe}, {Smith}, {Smith}, {Suchyta},
+  {Swanson}, {Tarle}, {Thomas}, {Thomas}, {Troxel}, {Vikram}, {Wechsler},
+  {Weller}, {Dark Energy Survey}, \& {Dark Energy Camera GW-EM
+  Collaboration}}]{2017ApJ...848L..16S}
+{Soares-Santos}, M., {Holz}, D.~E., {Annis}, J., {et~al.} 2017, \apj, 848, L16
 
 \bibitem[{{Sparre} {et~al.}(2011){Sparre}, {de Ugarte Postigo}, {Fynbo},
   {Malesani}, {Milvang-Jensen}, {Vergani}, {Flores}, {Goldoni}, \&
@@ -1612,6 +1793,19 @@ Tanvir, N.~R., Laskar, T., Levan, A.~J., {et~al.} 2017, arXiv
   Wiersema, \& Tunnicliffe}]{Tanvir2013a}
 Tanvir, N.~R., Levan, A.~J., Fruchter, A.~S., {et~al.} 2013, Nature, 500, 547
 
+\bibitem[{{Tanvir} {et~al.}(2017){Tanvir}, {Levan},
+  {Gonz{\'a}lez-Fern{\'a}ndez}, {Korobkin}, {Mandel}, {Rosswog}, {Hjorth},
+  {D'Avanzo}, {Fruchter}, {Fryer}, {Kangas}, {Milvang-Jensen}, {Rosetti},
+  {Steeghs}, {Wollaeger}, {Cano}, {Copperwheat}, {Covino}, {D'Elia}, {de Ugarte
+  Postigo}, {Evans}, {Even}, {Fairhurst}, {Figuera Jaimes}, {Fontes}, {Fujii},
+  {Fynbo}, {Gompertz}, {Greiner}, {Hodosan}, {Irwin}, {Jakobsson},
+  {J{\o}rgensen}, {Kann}, {Lyman}, {Malesani}, {McMahon}, {Melandri},
+  {O'Brien}, {Osborne}, {Palazzi}, {Perley}, {Pian}, {Piranomonte}, {Rabus},
+  {Rol}, {Rowlinson}, {Schulze}, {Sutton}, {Th{\"o}ne}, {Ulaczyk}, {Watson},
+  {Wiersema}, \& {Wijers}}]{2017ApJ...848L..27T}
+{Tanvir}, N.~R., {Levan}, A.~J., {Gonz{\'a}lez-Fern{\'a}ndez}, C., {et~al.}
+  2017, \apj, 848, L27
+
 \bibitem[{{Tanvir} {et~al.}(2010){Tanvir}, {Vergani}, {Hjorth}, {Fynbo},
   {Milvang-Jensen}, {Malesani}, {Wiersema}, {Vreeswijk}, {Levan}, {Goldoni}, \&
   {Covino}}]{GCN11123}
@@ -1675,6 +1869,14 @@ Th{\"{o}}ne, C.~C., Greiner, J., Savaglio, S., \& Jehin, E. 2007, ApJ, 671, 628
   Panasyuk, Prochaska, Ramirez-Ruiz, {Rebolo Lopez}, Richer,
   Rom{\'{a}}n-Z{\'{u}}{\~{n}}iga, Serra-Ricart, Yurkov, \& Gehrels}]{Troja2017}
 Troja, E., Lipunov, V.~M., Mundell, C.~G., {et~al.} 2017, Nature, 547, 425
+
+\bibitem[{{Troja} {et~al.}(2017){Troja}, {Piro}, {van Eerten}, {Wollaeger},
+  {Im}, {Fox}, {Butler}, {Cenko}, {Sakamoto}, {Fryer}, {Ricci}, {Lien}, {Ryan},
+  {Korobkin}, {Lee}, {Burgess}, {Lee}, {Watson}, {Choi}, {Covino}, {D'Avanzo},
+  {Fontes}, {Gonz{\'a}lez}, {Khandrika}, {Kim}, {Kim}, {Lee}, {Lee}, {Kutyrev},
+  {Lim}, {S{\'a}nchez-Ram{\'\i}rez}, {Veilleux}, {Wieringa}, \&
+  {Yoon}}]{2017Natur.551...71T}
+{Troja}, E., {Piro}, L., {van Eerten}, H., {et~al.} 2017, \nat, 551, 71
 
 \bibitem[{Trujillo {et~al.}(2001)Trujillo, Aguerri, Cepa, \&
   Guti{\'{e}}rrez}]{Trujillo2001}

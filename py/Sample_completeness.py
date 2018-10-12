@@ -246,7 +246,7 @@ def main():
         # ax.set_ylim(0, 1)
 
 
-
+    ax1.set_ylabel("Cumulative Fraction")
     ax1.set_xlabel(r"$\log(15-150~\mathrm{keV}~\mathrm{Fluence}/\mathrm{erg}~\mathrm{cm}^{-2})$")
     ax2.set_xlabel(r"$\log(0.3-10~\mathrm{keV}~\mathrm{Flux}/\mathrm{erg}~\mathrm{cm}^{-2}~\mathrm{s}^{-1})$")
     ax3.set_xlabel(r"$\log(N_{\mathrm{H, X}}/\mathrm{cm}^{-2})$")

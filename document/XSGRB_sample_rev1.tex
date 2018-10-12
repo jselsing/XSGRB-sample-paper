@@ -39,6 +39,9 @@
 % Manually specified definitions
 \input{definitions.tex}
 
+\usepackage{caption}
+
+
 \usepackage{xcolor}
 \newcommand\todo[1]{\textbf{(#1)}}
 
@@ -124,7 +127,7 @@ collaboration has been facilitated by the open data access policy of the {\it
 electromagnetic  follow-up campaigns continue to be immensely rewarding, as
 recently highlighted by the simultaneous detection of gravitational waves and
 light from the neutron star merger in the shape of GW170817/GRB170817A/AT2017gfo
-\citep{LIGOScientificCollaboration2017a, LIGOScientificCollaboration2017}.
+\citep{2017ApJ...848L..14G, 2017ApJ...848L..15S, 2017ApJ...848L..16S, 2017ApJ...848L..17C, 2017ApJ...848L..18N, 2017ApJ...848L..19C, 2017ApJ...848L..27T, 2017ApJ...850L...1L, 2017Natur.551...64A, 2017Natur.551...67P, 2017Natur.551...71T, 2017Natur.551...75S, 2017Sci...358.1583K, LIGOScientificCollaboration2017a, LIGOScientificCollaboration2017}.
 
 In the beginning of the {\it Swift} era most of the follow-up afterglow
 spectroscopy was secured using low-resolution spectrographs \citep[typically
@@ -336,7 +339,7 @@ fulfills the following criteria:
 	%    \item No limit on declination.
 	%    \item No constraint on Moon phase or distance.
 	\item The elevation of the source in the sky is $> 22^\circ$ (both at trigger time and 15 min after).
-	\item The Sun elevation from Paranl is $< -12^\circ$ (both at trigger time and 15 min after).
+	\item The Sun elevation from Paranal is $< -12^\circ$ (both at trigger time and 15 min after).
 	\item Galactic $A_V \leq 1.0$~mag according to the maps of \citet{Schlegel1998}.
 	\item The \swift-circulated tags: KNOWN\_SOURCE, COSMIC\_RAY, DEF\_NOT\_GRB are set to false (PROB\_NOT\_GRB can be true)\footnote{These tags are distributed as part of the GCN notices. Explanations for all tags are \href{https://gcn.gsfc.nasa.gov/sock_pkt_def_doc.html}{available online}.}.
 \end{enumerate}
@@ -348,8 +351,8 @@ triggers.
 
 The use of RRM is unique as it allows to sample a long logarithmic time span in
 the GRB lifetime, and it exploits the extreme brightness of early afterglows. A
-pivotal exampl is the study of temporal variability of GRB afterglow absorption
-systems due to effect of the GRB itself on the sorrounding medium \citep[e.g.,
+pivotal example is the study of temporal variability of GRB afterglow absorption
+systems due to effect of the GRB itself on the surrounding medium \citep[e.g.,
 see][]{Dessauges-Zavadsky2006, Vreeswijk2007, DElia2009, Vreeswijk2013}.
 
 There are nine GRBs that have been observed with X-shooter in RRM mode. One of
@@ -778,6 +781,70 @@ added to the bad pixel map.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Slit loss correction and flux calibration accuracy} \label{fluxes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+For the majority of the observations presented in this sample, the slit width of
+the target observations is less than the seeing PSF. This means that a fraction
+of the incoming light is lost outside the slit. As an example, for atmospheric
+conditions delivering a seeing PSF with a FWHM of 0\farc9 observed with a
+0\farc9 slit, only 76.1 per cent of the light will enter the slit. This slit loss
+is not corrected by the flux calibration, as flux standard stars are always
+observed with a 5\arcsec{} slit. As a consequence, almost all spectra will,
+without slit loss correction, underestimate the flux by some fraction.
+Additionally, slit losses are wavelength dependent due to the wavelength
+dependence of seeing \citep{Boyd1978} and as the seeing changes across the slit
+in wavelength, so does the slit loss. This artificially introduces a change in
+continuum slope.
+
+\begin{figure}[!t]
+	\centerline{\includegraphics[width=\columnwidth]{figures/flux_accuracy}}
+\caption{The left panel shows the acquisition camera magnitudes as a function
+	of synthetic photometry derived from the spectra. The blue, dashed line
+	represent equality between the two measures. The right panel shows a histogram
+	of the differences between the two. The vertical lines in the histogram
+	indicates the 16th, 50th, and 84th percentiles of the distribution ($\Delta
+	\mathrm{mag} = 0.07 ^{+0.51} _{-0.45} $). This shows the accuracy of the flux
+	calibration. The colouring of the data-points shows the photometric
+	passband used by the acquisition camera, as indicated by the labels. The $R$- and $I$- band magnitudes have been calibrated against the USNO-B1 catalog,
+	which has a poor photometric accuracy; this contributes significantly to the  observed scatter, and for this reason we indicate these data with a light color.} \label{fig:flux_acq}
+\end{figure}
+
+To correct for the slitlosses, we develop an algorithm that can, based on the
+atmospheric conditions at time of observation and the wavelength dependence of
+seeing, estimate the losses at each wavelength bin. We start with the DIMM
+seeing \citep{Sarazin1990}, which measures the seeing FWHM at zenith. We correct
+the zenith seeing for the airmass of the observational sightline, which gives us
+the effective seeing, delivered outside the slit at 5000 \AA. We can then use
+that the seeing scales as $\sim \lambda^{-1/5}$ to obtain a measure of the
+seeing across the entire wavelength coverage of X-shooter. At each wavelength
+bin of the spectra, we simulate a synthetic 2D seeing PSF based on a normalised,
+2D Moffat profile which we integrate over the used slit width. This can be used to correct for the estimated slit losses at each wavelength bin.
+
+To assess the accuracy of the flux-calibration, after the slit loss correction,
+we compare a subset of afterglow spectra with photometry derived from the
+acquisition camera. The acquisition camera takes a short image just before
+the spectroscopic integration, which only introduces a minimal delay and allows us to secure photometry for the vast majority of events. As photometric flux standards are rarely acquired, we resort to sky surveys such as the USNO catalog (for the $R$ and $I$ bands; \citealt{Monet2003}) or SDSS and Pan-STARRS ($griz$; \citealt{Abolfathi2018,Chambers2016}), where available.
+
+To compare the photometry with the spectral flux calibration,
+we calculate synthetic magnitudes from the spectrum, in the used passbands,
+along with the associated error. Using this set we can make a test of the final flux-calibration accuracy, which
+we show in Fig.~\ref{fig:flux_acq}. As can be seen, there is a general agreement
+between the flux-calibration and the derived acquisition magnitudes, although
+with significant scatter. The right panel in Fig.~\ref{fig:flux_acq} shows a
+histogram of the differences, which can be summarized with $\Delta \mathrm{mag}
+= 0.07 ^{+0.51} _{-0.45} $, where the errors are the 16th and 84th percentiles of
+the distribution. The scatter is smaller if we exclude measurements calibrated against the USNO catalog, which is known to have a poor accuracy, also because, given the small field-of-view, we often need to rely of faint reference stars.
+
+Similar to what is found in \citet{Lopez2016}, there is in some cases a mismatch
+in the flux-calibration between the spectroscopic arms. It is outside the scope
+of this work to correct for these offsets on an individual burst basis.The flux
+calibration of the spectra presented here shows a general good agreement with
+photometry although with some scatter. The spectral shape within the
+individual arms is correct, but the absolute scaling might in some cases be
+discrepant.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Telluric correction} \label{tell_corr}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -817,21 +884,20 @@ telluric absorption.
 
 
 \begin{figure*}
-	\centerline{\includegraphics[width=\linewidth]{figures/GRB121024A.pdf}}
-\caption{Telluric corrected, normalized spectrum of GRB~121024A at $z = 2.300$
-	that illustrates the typical data quality. The continuum estimate is shown in
-	dashed red and the error spectrum in solid blue. The acquisition magnitude is
-	$R$ = 20, meaning it is in the brighter end of the sample presented here, but
-	not the brightest. The spectrum is rich in absorption and emission lines, including
-	absorption from molecular $\mathrm{H_2}$. The absorption trough visible at
-	$\sim$ 4000 $\AA$ is due to \lya~in the host. We have marked the most prominent
-	lines seen in GRB afterglows from \citet{Christensen2011a}. The regions of most
-	severe telluric absorption are highlighted by grey-shading the background.
-	Additionally, three intervening systems are seen in this sightline. This
-	spectrum has been analyzed in detail in \citet{Friis2015}.}
-\label{fig:spectrum}
+	\centerline{\includegraphics[width=0.85\linewidth]{figures/GRB121024A.pdf}}
+	\caption{Telluric corrected, normalized spectrum of GRB~121024A at $z = 2.300$
+		that illustrates the typical data quality. The continuum estimate is shown in
+		dashed red and the error spectrum in solid blue. The acquisition magnitude is
+		$R$ = 20, meaning it is in the brighter end of the sample presented here, but
+		not the brightest. The spectrum is rich in absorption and emission lines, including
+		absorption from molecular $\mathrm{H_2}$. The absorption trough visible at
+		$\sim$ 4000 $\AA$ is due to \lya~in the host. We have marked the most prominent
+		lines seen in GRB afterglows from \citet{Christensen2011a}. The regions of most
+		severe telluric absorption are highlighted by grey-shading the background.
+		Additionally, three intervening systems are seen in this sightline. This
+		spectrum has been analyzed in detail in \citet{Friis2015}.}
+	\label{fig:spectrum}
 \end{figure*}
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -884,59 +950,6 @@ spectrum. All regions marked as affected are then masked.
                                                                                            
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Slitloss correction and flux calibration accuracy} \label{fluxes}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-For the majority of the observation presented in this sample, the slit width of
-the target observations is less than the seeing PSF. This means that a fraction
-of the incoming light is lost outside the slit. As an example, for atmospheric
-conditions delivering a seeing PSF with a FWHM of 0\farc9 observed with a
-0\farc9 slit, only 76.1 per cent of the light will enter the slit. This slitloss
-is not corrected by the flux calibration, as flux standard stars are always
-observed with a 5~\arcsec slit. As a consequence, almost all spectra will,
-without slitloss correction, underestimate the flux by some fraction.
-Additionally, slitlosses are wavelength dependent due to the wavelength
-dependence of seeing \citep{Boyd1978} and as the seeing changes across the slit
-in wavelength, so does the slitloss. This artificially introduces a change in
-continuum slope.
-
-To correct for the slitlosses, we develop an algorithm that can, based on the
-atmospheric conditions at time of observation and the wavelength dependence of
-seeing, estimate the losses at each wavelength bin. We start with the DIMM
-seeing \citep{Sarazin1990}, which measures the seeing FWHM at zenith. We correct
-the zenith seeing by the airmass of the observational sightline, which gives us
-the effective seeing, delivered outside the slit at 5000 \AA. We can then use
-that the seeing scales as $\sim \lambda^{-1/5}$ to obtain a measure of the
-seeing across the entire wavelength coverage of X-shooter. At each wavelength
-bin of the spectra, we simulate a synthetic 2D seeing PSF based on a normalised,
-2D Moffat profile which we integrate over the used slit width. The inverse of
-the fraction of the light that enters the slit, can then be used to correct for
-the estimated slit losses at each wavelength bin.
-
-To assess the accuracy of the flux-calibration, after the slit loss correction,
-we compare a subset of afterglow spectra with photometry derived from the
-acquisition camera. The acquisition camera takes a short image before
-integration causing the delay between the image and the spectroscopic
-integration is negligible. The acquisition camera suffer from varying imaging
-quality, lacking calibration files, and regions of reduced thoughput due to
-contaminants on the CCD. The derived photometry therefore suffers from
-systematics that can be hard to correct for. Because the afterglow brightness
-changes rapidly with time, no other imaging are sufficiently close in time to
-use.
-
-We select all GRBs for which the aquisition camera used a Sloan filter
-\citep{Gunn1998} and is covered by either SDSS \citep{Abolfathi2018} or
-Pan-STARRS \citep{Chambers2016}. Additionally we select acquisition camera
-magnitude brighter than 21.5 mag, and delay-time between GRB trigger and
-spectroscopic observation < 10 hours. These cuts leaves 7 afterglow spectra, for
-which a decent calibration of the photometric zero point can be derived. Using
-this set we can make a test of the final flux-calibration accuracy.
-
-To compare the acquisition camera photometry with the spectra, we calculate the
-synthetic magnitude of the spectrum, in the used passband, along with the
-associated error. These two measures should be the same, modulo systematic
-differences affecting the spectra - i.e. bag pixels/regions etc. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -995,6 +1008,9 @@ Each file contains 7 columns with the following contents and descriptions:
 \end{itemize}
 
 
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results} \label{results}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1007,7 +1023,7 @@ important note is that here we provide a release for \textit{all} GRBs after
 constitutes our \textit{statistical} sample. The statistical sample is based on
 the selection criteria described in Sect. \ref{samplecrit}. Some bursts not
 fulfilling the sample criteria have been followed up due to interesting
-characteristics, e.g., curios properties of their light curves, their
+characteristics, e.g., curious properties of their light curves, their
 brightness, etc. These bursts are not discussed as part of the investigation of
 the statistical properties of the GRB population. A prime example of a
 spectacular burst outside the statistical sample is the bright \textit{INTEGRAL}
@@ -1165,6 +1181,41 @@ ensure that the GRBs entering our homogeneously selected sample, fairly represen
 underlying population. The redshift distribution of such a sample holds valuable
 information about the occurrence of GRBs through cosmic time
 \citep{Jakobsson2012, Perley2016a}.
+
+A possible complication is that a large fraction of the redshifts are 
+measured from absorption systems, which in principle only provide lower 
+limits to the GRB redshift. While for individual systems we cannot rule 
+out a low-column density host which is missed, especially in low S/N 
+spectra (see for example the discussion by 
+\citealt{2008ApJ...688..470P, Perley2017a}), we argue that this issue is very 
+unlikely to affect significantly our sample. 
+
+First, numerous works, including this one, have found that GRB 
+absorption systems have much higher column densities than randomly 
+selected sight lines 
+\citep{2001ApJ...549L.209G,Prochaska2007, Fynbo2009}. 
+This fact itself shows that the bulk of GRB absorption lines are not due 
+to random intervening systems, but are peculiar to the GRB host. One 
+second line of evidence comes from the systematic detection of nebular 
+emission lines at the same redshift as the absorption system. 
+\citet{Kruhler2015} report a 94\% detection rate of emission 
+lines at $z < 1$ (where sensitivity is not an issue, even in the 
+presence of a bright afterglow), always in agreement with absorption. 
+Besides, it is extremely rare to detect emission from QSO intervening 
+systems (see e.g. \citealt{2010MNRAS.408.2128F} for a discussion), which 
+again indicates that GRB absorption systems are native to their hosts. 
+An even more direct determination comes from the detection, in several 
+cases, of fine-structure and metastable lines (for example from Fe and 
+Ni), which are exclusively detected in GRB environments (and have been 
+directly connected to the UV field generated by the GRB itself; e.g. 
+\citealt{2006ApJ...648...95P, Vreeswijk2007, DElia2009}). 
+Finally, at $z \gtrsim 2$ (where Ly$\alpha$ enters the observed range) 
+the onset of the Ly$\alpha$ forest also provides an \textit{upper} limit 
+on the GRB redshift, which again is always consistent with the 
+absorption line redshift. The whole set of these arguments indicates 
+that in only very few cases, if any at all, is a misidentification of 
+the redshift with the intervening system a concrete possibility. 
+
 
 \input{tables/redshift_comparison}
 
@@ -1425,7 +1476,7 @@ fact that GRBs are systematically located behind the highest \nh, previously
 noted \citep[e.g.,][]{Prochaska2007, Fynbo2009}, is very clear in this
 figure. The reason for this is that quasar sample sight-lines through galaxies
 that are cross-section selected, whereas GRB sight-lines probe the dense,
-star-forming regions in their hosts.
+star-forming regions in their hosts. When comparing the GRB DLAs and and QSO DLAs we correct for the fact that, on average, the GRB light only goes though half the DLA. In Fig. \ref{fig:NH_dist}, we have therefore multiplied the inferred $N_{\mathrm{HI}}$ values by 2 \citep{Prochaska2008}. 
 
 \begin{figure}[!t]
 	\centering \includegraphics[width=\columnwidth]{figures/NH_dist.pdf}
@@ -1437,7 +1488,7 @@ star-forming regions in their hosts.
 	this work. The marginal distributions for the three samples are also shown
 	along the left side and on the top, where the different environments probed are
 	clearly visible in the hydrogen column densities, as previously also noted in
-	\citet{Fynbo2009}.} \label{fig:NH_dist}
+	\citet{Fynbo2009}. To correct for geometric differences between GRB DLAs and QSO DLAs, we have multiplied the inferred GRB DLA $N_{\mathrm{HI}}$ by 2.} \label{fig:NH_dist}
 \end{figure}
 
 
@@ -1578,7 +1629,7 @@ packages.
 
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=1, width=\linewidth]{figures/HI_measurements.pdf}
+	\includegraphics[page=1, width=0.85\linewidth]{figures/HI_measurements.pdf}
 	\caption{Measurements of the hydrogen column densities for all bursts with a
 		clear Lyman alpha absorption system. In solid black is shown the spectrum with
 		black dotted giving the corresponding 1-$\sigma$ error. The black dashed line shows zero
@@ -1590,35 +1641,35 @@ packages.
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=2, width=\linewidth]{figures/HI_measurements.pdf}
+	\includegraphics[page=2, width=0.85\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI2}
 \end{figure*}
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=3, width=\linewidth]{figures/HI_measurements.pdf}
+	\includegraphics[page=3, width=0.85\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI3}
 \end{figure*}
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=4, width=\linewidth]{figures/HI_measurements.pdf}
+	\includegraphics[page=4, width=0.85\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI4}
 \end{figure*}
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=5, width=\linewidth]{figures/HI_measurements.pdf}
+	\includegraphics[page=5, width=0.85\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI5}
 \end{figure*}
 \clearpage
 \begin{figure*}[!h]
 	\centering
-	\includegraphics[page=6, width=\linewidth]{figures/HI_measurements.pdf}
+	\includegraphics[page=6, width=0.85\linewidth]{figures/HI_measurements.pdf}
 	\caption*{Fig. \ref{fig:HI1}. continued.}
 	\label{fig:HI6}
 \end{figure*}
@@ -1632,7 +1683,7 @@ packages.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{The complex error function and the Voigt profile} \label{voigt}
+\section{The complex error function and the spectral PSF} \label{voigt}
 When modeling the spectral PSF, we need to evaluate the Voigt-profile. The Voigt profile, which is the convolution of the Gaussian and Lorentzian profiles, can, centered at zero, be written as \citep{pagnini2010} 
 \begin{equation} 
 \begin{split}
@@ -1694,17 +1745,17 @@ enter into the statistical sample.
 
 \subsection{GRB~090530 (z = 1.266)}\label{090530}
 
-Observed during paranalization of the instrument, these data forms the basis of
+Observed during the verification of the instrument, these data forms the basis of
 GCN 15571 \citep{GCN15571}, but are not published elsewhere. Observations began
 20.6 hours after the BAT trigger and 4.8 ks spectroscopic integration in all
 three arms reveals the absorption signature for a host at $z = 1.266$ from the
 detection of \mgii, \mgi, \SIii, \feii, \aliii. Because this burst was observed
-before the instrument was science-verified, it does not enter into the
+before the instrument was finished completely, it does not enter into the
 statistical sample.
 
 \subsection{GRB~090809 (z = 2.737)} \label{090809}
 
-Observed during the first science verification period and was reported in GCN
+Observed during the first instrument testing period and was reported in GCN
 9761 \citep{GCN.9761} and is additionally used as the basis for the master
 thesis by \'Asa Sk\'ulad\'ottir (2010). 7.2 ks integration starting 10.2 hours
 after the GRB trigger yields a clear afterglow continuum in all arms. The
@@ -1715,27 +1766,25 @@ was science-verified, it does not enter into the statistical sample.
 
 \subsection{GRB~090926A (z = 2.106)} \label{090926}
 
-Obtained during the second science
-verification period, this dataset forms the basis of GCN 9942 \citep{GCN.9942} and is
-additionally published in \citet{DElia2010}. Spectroscopic integration started
-22 hours after the BAT trigger and from the acquisition camera the optical
-afterglow is measured to R = 17.9 mag at the beginning of the observations which
-causes a strong continuum to be seen in all arms. An absorption trough due to
-\lya~is clearly visible along with numerous metal resonance lines \civ, \SIii,
-\SIii$^*$ \feii, \mgii, all at $z = 2.106$. Because this burst was observed
-before the instrument was science-verified, it does not enter into the
-statistical sample.
+Obtained during the second instrument testing period, this dataset forms the
+basis of GCN 9942 \citep{GCN.9942} and is additionally published in
+\citet{DElia2010}. Spectroscopic integration started 22 hours after the BAT
+trigger and from the acquisition camera the optical afterglow is measured to R =
+17.9 mag at the beginning of the observations which causes a strong continuum to
+be seen in all arms. An absorption trough due to \lya~is clearly visible along
+with numerous metal resonance lines \civ, \SIii, \SIii$^*$ \feii, \mgii, all at
+$z = 2.106$. Because this burst was observed before the instrument was
+science-verified, it does not enter into the statistical sample.
 
 \subsection{GRB~091018 (z = 0.971)}\label{091018}
 
-The first burst observed during normal operation after science verification was
-completed and the first burst that enters the statistical sample. These data are
-the basis for GCN 10042 \citep{GCN10042} and is published in
-\citet{Wiersema2012}. With a bright afterglow and a rapid follow-up, this
-spectrum is of pristine quality. The afterglow continuum is bright throughout
-all spectroscopic arms which allows the ready detection of \alii, \aliii, \feii,
-\mnii, \mgii, \mgi, and \caii~- all located at $z = 0.971$, setting it as the
-redshift of the GRB.
+The first burst observed during normal operation and the first burst that enters
+the statistical sample. These data are the basis for GCN 10042 \citep{GCN10042}
+and is published in \citet{Wiersema2012}. With a bright afterglow and a rapid
+follow-up, this spectrum is of pristine quality. The afterglow continuum is
+bright throughout all spectroscopic arms which allows the ready detection of
+\alii, \aliii, \feii, \mnii, \mgii, \mgi, and \caii~- all located at $z =
+0.971$, setting it as the redshift of the GRB.
 
 \subsection{GRB~091127 (z = 0.490)} \label{091127}
 
