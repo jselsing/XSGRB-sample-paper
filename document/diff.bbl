@@ -1,4 +1,4 @@
-\begin{thebibliography}{323}
+\begin{thebibliography}{321}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Abbott {et~al.}(2017)Abbott, Abbott, Abbott, Acernese, Ackley, Adams,
@@ -324,13 +324,6 @@ Berger, E., Kulkarni, S., \& Frail, D. 2003, ApJ, 590, 379
 \bibitem[{Bloom {et~al.}(2002)Bloom, Kulkarni, \& Djorgovski}]{Bloom2002}
 Bloom, J.~S., Kulkarni, S.~R., \& Djorgovski, S.~G. 2002, AJ, 123, 1111
 
-\bibitem[{{Bolmer} {et~al.}(2018){Bolmer}, {Ledoux}, {Wiseman}, {De Cia},
-  {Selsing}, {Schady}, {Greiner}, {Savaglio}, {Burgess}, {D'Elia}, {Fynbo},
-  {Goldoni}, {Hartmann}, {Heintz}, {Jakobsson}, {Japelj}, {Kaper}, {Tanvir},
-  {Vreeswijk}, \& {Zafar}}]{Bolmer2018}
-{Bolmer}, J., {Ledoux}, C., {Wiseman}, P., {et~al.} 2018, ArXiv e-prints,
-  arXiv:1810.06403
-
 \bibitem[{Bouwens {et~al.}(2015)Bouwens, Illingworth, Oesch, Trenti,
   Labb{\'{e}}, Bradley, Carollo, {Van Dokkum}, Gonzalez, Holwerda, Franx,
   Spitler, Smit, \& Magee}]{Bouwens2015}
@@ -359,11 +352,6 @@ Briggs, M.~S., Paciesas, W.~S., Pendleton, G.~N., {et~al.} 1996, ApJ, 459, 40
   Mirabel, M{\o}ller, Nomoto, Palazzi, Piranomonte, Salvaterra, Stratta,
   Tagliaferri, Tanaka, Tanvir, \& Wijers}]{Bufano2012}
 Bufano, F., Pian, E., Sollerman, J., {et~al.} 2012, ApJ, 753, 67
-
-\bibitem[{{Burgess} {et~al.}(2017){Burgess}, {Greiner}, {Begue}, {Giannios},
-  {Berlato}, \& {Lipunov}}]{Burgess2017}
-{Burgess}, J.~M., {Greiner}, J., {Begue}, D., {et~al.} 2017, ArXiv e-prints,
-  arXiv:1710.05823
 
 \bibitem[{Burrows {et~al.}(2005)Burrows, Hill, Nousek, Kennea, Wells, Osborne,
   Abbey, Beardmore, Mukerjee, Short, Chincarini, Campana, Citterio, Moretti,

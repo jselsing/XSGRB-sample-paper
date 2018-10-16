@@ -1,6 +1,6 @@
-# 
+#
 # ------------------- Referee report
-# 
+#
 # This report presents a review of the article "The X-shooter GRB
 # afterglow legacy sample (XS-GRB)" by Selsing and collaborators. The
 # authors present and make available to the community a complete sample
@@ -12,11 +12,11 @@
 # below. These concerns need to be addressed before the paper can be
 # considered for publication. More details on these points together with
 # other comments are provided below.
-# 
-# # 
-# # # 
+#
+# #
+# # #
 # Major Concerns:
-# 
+#
 # - One aspect of these data that needs more emphasis is the intervening
 # absorbers. The data presented in this paper present a remarkable
 # number of metal and HI intervening absorbers as can be judged from
@@ -25,8 +25,8 @@
 # available, metal lines detected, etc. A figure with their redshift
 # distribution would also be very welcome. In addition, it would be
 # interesting to compare the properties of this population with the
-# absorbers towards background quasars. 
-# 
+# absorbers towards background quasars.
+#
 
 This paper is meant as a general introduction of the XSGRB legacy sample
 and constitutes the first in a series of papers. While we certainly
@@ -34,7 +34,7 @@ agree that the issue of intervening absorbers is an interesting one, we
 feel that it is best treated in a dedicated publication, which we have
 already published Christensen et al., A&A, 608A, 84C, 2017,
 (arXiv:1709.01084) and are working on de Ugarte Postigo et al. in
-prep.). This paper will contain the complete list of intervening
+prep.). These papers contain the complete list of intervening
 systems, as well as linelists, redshifts, EWs, etc..
 
 # - The manuscript states that the sample is homogeneous which is a bit
@@ -43,7 +43,7 @@ systems, as well as linelists, redshifts, EWs, etc..
 # the source and time of observations after the burst) and the
 # rest-frame wavelength coverage vary enormously. While remarkable in
 # many respects, it is not appropriate to qualify this sample as
-# homogeneous. 
+# homogeneous.
 
 The referee is correct here. Our statement about homogeneity concerns
 only the selection, not the outcome of our observations. We have
@@ -57,8 +57,7 @@ the resulting S/N homogeneity in paragraph §2.1.
 # determination. How does the improvement translate into the redshift
 # determination accuracy? Similarly, for the telluric correction. What
 # is the impact of this on the final science? Conversely, a description
-# of the flux calibration error estimate would have been welcome. 
-
+# of the flux calibration error estimate would have been welcome.
 
 Concerning the wavelength calibration improvement, we have quantified
 the magnitude of the improvement, and explained its relevance (§3.2). We
@@ -77,74 +76,75 @@ significantly benefited from this suggestion.
 # the burst event takes place at a random position in the host galaxy
 # and in fact, on average, the column density will measure over only
 # half of the system. This geometric effect should be taken into
-# account. 
- 
+# account.
 
 This is certainly true, when comparing QSO DLAs to GRB DLA. We have
 updated the figure and text surrounding Fig. 10 to reflect this. For
 Fig. 9, where we are comparing GRB DLAs to GRB DLA, we have retained the
 original values for N_HI.
 
-
 # - Another concern is to do with using absorption features to measure
 # the redshift. Indeed, one cannot exclude that the absorption is not at
 # the position of host galaxy but lying in front of it. For this reason,
-# the redshifts provided should be seen as upper limits. 
-# 
-# 
-# 
-# 
-# # 
+# the redshifts provided should be seen as upper limits.
+
+We agree with the referee that, in principle, our values should be
+considered as lower limits. We contend, though, that in the large
+majority of cases the values we measured correspond to the actual
+redshift of the GRB. We have added a paragraph in the text explaining
+why this is.
+
+# #
 # Other Concerns:
-# 
+#
 # - the links to the actual data seem to be inactive. It is important to
 # be able to review the material which is made available to the
-# community. 
+# community.
 
 Completely true. These are now active. Especially the ESO phase 3
 material have taken some time to get through. Apologies.
 
-# - caption of Fig. 3 is cut-out  
+# - caption of Fig. 3 is cut-out
 
 This is now fixed.
 
 
-# - Fig. 5: please label the y-axis 
+# - Fig. 5: please label the y-axis
 
 Done, thanks.
 
-# - Fig. 10: caption is cut-out again 
+# - Fig. 10: caption is cut-out again
 
 Fixed, thanks.
 
-# GRB150403A: could the continuum be lower? 
+# GRB150403A: could the continuum be lower?
 
 We have remeasured the N_HI for this burst. It does not change the
 inferred N_HI value, but the continuum now better matches the
-measurement. 
- 
-# GRB150915A: is this fit significant? 
+measurement.
+
+# GRB150915A: is this fit significant?
 
 We agree this could be misinterpreted. This bursts has Lyman alpha
 emission in the trough, as indicated in Tab. 4. We have now marked all
 the bursts affect by Lyman alpha emission.
 
-# - appendix A: refer to the spectral PSF in the title? 
+# - appendix A: refer to the spectral PSF in the title?
 
 This has now been reworded.
 
 # - appendix B: science-verified, Paranalization: perhaps avoid this ESO
-# jargon? 
+# jargon?
 
 We have tried to weed out the use of these types of words.
 
 # typos: - pt. 4 p. 3: Paranl - p. 3: exampl - p. 3: sorrounding - p. 9:
 # curios - there are numerous typos in the appendix which I will not
-# review here. Please make sure to double check spelling there. 
+# review here. Please make sure to double check spelling there.
 
 Thanks for noting these. They have been fixed.
 
 # I would be happy to review an updated version of the manuscript where
 # the above comments are taken into account.
-# 
-# ----------------------- 
+#
+# -----------------------
