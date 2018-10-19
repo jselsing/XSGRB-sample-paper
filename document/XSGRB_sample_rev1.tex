@@ -286,7 +286,7 @@ completeness of the sample in Sect. \ref{completeness}.
 We remark, however, that while the selection of the afterglows has been carried
 out in a homogeneous way, the resulting quality of the spectra is not uniform.
 Individual bursts vary significantly in brightness, due to intrinsic
-differences in luminosity, dust extinction, and time of observation. The covered
+differences in luminosity, dust extinction, time of observation, etc. The covered
 rest-frame wavelength range is also different for each case. Given that our
 observations are targets-of-opportunity, this leads to a varying S/N, and in
 particular the sensitivity limit to detecting absorption features varies greatly
@@ -470,7 +470,7 @@ resolution in Sect. \ref{resolution}.
 Due to a mechanical failure, the atmospheric dispersion corrector (ADC) was
 disabled from 1st of August 2012 until the end of this program. Only GRB~100728B
 was affected by the failing ADC prior to disablement, resulting in a
-lower-than-nominal throughput. To avoid chromatic slit losses due to atmospheric
+lower-than-nominal throughput. To avoid chromatic slit-loss due to atmospheric
 dispersion, nearly all subsequent observations have been carried out at
 parallactic angle. A consequence of this is that for all observations following
 1st of August 2012, the centroid of the trace of the source changes position
@@ -786,36 +786,36 @@ added to the bad pixel map.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Slit loss correction and flux calibration accuracy} \label{fluxes}
+\subsection{Slit-loss correction and flux calibration accuracy} \label{fluxes}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 For the majority of the observations presented in this sample, the slit width of
 the target observations is less than the seeing PSF. This means that a fraction
-of the incoming light is lost outside the slit. As an example, for atmospheric
-conditions delivering a seeing PSF with a FWHM of 0\farc9 observed with a
-0\farc9 slit, only 76.1 per cent of the light will enter the slit. This slit loss
-is not corrected by the flux calibration, as flux standard stars are always
-observed with a 5\arcsec{} slit. As a consequence, almost all spectra will,
-without slit loss correction, underestimate the flux by some fraction.
-Additionally, slit losses are wavelength dependent due to the wavelength
-dependence of seeing \citep{Boyd1978} and as the seeing changes across the slit
-in wavelength, so does the slit loss. This artificially introduces a change in
-continuum slope.
+of the incoming light is lost outside the slit. This slit-loss is not corrected
+by the flux calibration, as flux standard stars are always observed with a
+5\arcsec{} slit. As a consequence, almost all spectra will, without slit-loss
+correction, underestimate the flux by some fraction. Additionally, slit-loss
+is wavelength dependent due to the wavelength dependence of seeing
+\citep{Boyd1978} and as the seeing changes across the slit in wavelength, so
+does the slit-loss. This artificially introduces a change in continuum slope.
 
 \begin{figure}[!t]
 	\centerline{\includegraphics[width=\columnwidth]{figures/flux_accuracy}}
 \caption{The left panel shows the acquisition camera magnitudes as a function
 	of synthetic photometry derived from the spectra. The blue, dashed line
-	represent equality between the two measures. The right panel shows a histogram
-	of the differences between the two. The vertical lines in the histogram
-	indicates the 16th, 50th, and 84th percentiles of the distribution ($\Delta
-	\mathrm{mag} = 0.07 ^{+0.51} _{-0.45} $). This shows the accuracy of the flux
-	calibration. The colouring of the data-points shows the photometric
-	passband used by the acquisition camera, as indicated by the labels. The $R$- and $I$- band magnitudes have been calibrated against the USNO-B1 catalog,
-	which has a poor photometric accuracy; this contributes significantly to the  observed scatter, and for this reason we indicate these data with a light color.} \label{fig:flux_acq}
+	represent equality between the two measures. The colouring of the data-points
+	shows the photometric passband used by the acquisition camera, as indicated by
+	the labels. The $R$- and $I$- band magnitudes have been calibrated against the
+	USNO-B1 catalog, which has a poor photometric accuracy; this contributes
+	significantly to the observed scatter, and for this reason we indicate these
+	data with a light color.  The right panel shows a histogram of the differences
+	between the two. The vertical lines in the histogram indicates the 16th, 50th,
+	and 84th percentiles of the distribution ($\Delta \mathrm{mag} = 0.07 ^{+0.51}
+	_{-0.45} $). This shows the accuracy of the flux calibration.}
+\label{fig:flux_acq}
 \end{figure}
 
-To correct for the slitlosses, we develop an algorithm that can, based on the
+To correct for the slit-loss, we develop an algorithm that can, based on the
 atmospheric conditions at time of observation and the wavelength dependence of
 seeing, estimate the losses at each wavelength bin. We start with the DIMM
 seeing \citep{Sarazin1990}, which measures the seeing FWHM at zenith. We correct
@@ -824,12 +824,18 @@ the effective seeing, delivered outside the slit at 5000 \AA. We can then use
 that the seeing scales as $\sim \lambda^{-1/5}$ to obtain a measure of the
 seeing across the entire wavelength coverage of X-shooter. At each wavelength
 bin of the spectra, we simulate a synthetic 2D seeing PSF based on a normalised,
-2D Moffat profile which we integrate over the used slit width. This can be used to correct for the estimated slit losses at each wavelength bin.
+2D Moffat profile which we integrate over the used slit width. This can be used to correct for the estimated slit-loss at each wavelength bin.
 
-To assess the accuracy of the flux-calibration, after the slit loss correction,
+To assess the accuracy of the flux-calibration, after the slit-loss correction,
 we compare a subset of afterglow spectra with photometry derived from the
-acquisition camera. The acquisition camera takes a short image just before
-the spectroscopic integration, which only introduces a minimal delay and allows us to secure photometry for the vast majority of events. As photometric flux standards are rarely acquired, we resort to sky surveys such as the USNO catalog (for the $R$ and $I$ bands; \citealt{Monet2003}) or SDSS and Pan-STARRS ($griz$; \citealt{Abolfathi2018,Chambers2016}), where available.
+acquisition camera. The acquisition camera takes a short image just before the
+spectroscopic integration, which only introduces a minimal delay and allows us
+to secure photometry for the vast majority of events. As photometric flux
+standards are rarely acquired, we resort to sky surveys such as the USNO catalog
+(for the $R$ and $I$ bands; \citealt{Monet2003}), SDSS, or Pan-STARRS ($griz$;
+\citealt{Abolfathi2018,Chambers2016}), where available. The acquisition camera
+is equipped with similar filters, so we can avoid transformation between filter
+curves when comparing catalogues.
 
 To compare the photometry with the spectral flux calibration,
 we calculate synthetic magnitudes from the spectrum, in the used passbands,
@@ -883,9 +889,9 @@ region. In the red and near-infrared areas, it allows to identify features in a
 credible manner. which would be otherwise hidden among or blended with
 atmospheric features. The telluric correction allows us to reliably recover the
 continuum level even in regions of moderately low atmospheric transmission (see,
-e.g., the A- and B-bands in Fig.~\ref{fig:spectrum}). We urge however to use
-caution when fitting lines in regions significantly affected by
-telluric absorption.
+e.g., the A- and B-bands in Fig.~\ref{fig:spectrum}). Nonetheless, we recommend
+caution when fitting lines in regions significantly affected by telluric
+absorption.
 
 
 \begin{figure*}
@@ -1195,31 +1201,28 @@ spectra (see for example the discussion by
 \citealt{2008ApJ...688..470P, Perley2017a}), we argue that this issue is very 
 unlikely to affect significantly our sample. 
 
-First, numerous works, including this one, have found that GRB 
-absorption systems have much higher column densities than randomly 
-selected sight lines 
-\citep{2001ApJ...549L.209G,Prochaska2007, Fynbo2009}. 
-This fact itself shows that the bulk of GRB absorption lines are not due 
-to random intervening systems, but are peculiar to the GRB host. One 
-second line of evidence comes from the systematic detection of nebular 
-emission lines at the same redshift as the absorption system. 
-\citet{Kruhler2015} report a 94\% detection rate of emission 
-lines at $z < 1$ (where sensitivity is not an issue, even in the 
-presence of a bright afterglow), always in agreement with absorption. 
-Besides, it is extremely rare to detect emission from QSO intervening 
-systems (see e.g. \citealt{2010MNRAS.408.2128F} for a discussion), which 
-again indicates that GRB absorption systems are native to their hosts. 
-An even more direct determination comes from the detection, in several 
-cases, of fine-structure and metastable lines (for example from Fe and 
-Ni), which are exclusively detected in GRB environments (and have been 
-directly connected to the UV field generated by the GRB itself; e.g. 
-\citealt{2006ApJ...648...95P, Vreeswijk2007, DElia2009}). 
-Finally, at $z \gtrsim 2$ (where Ly$\alpha$ enters the observed range) 
-the onset of the Ly$\alpha$ forest also provides an \textit{upper} limit 
-on the GRB redshift, which again is always consistent with the 
-absorption line redshift. The whole set of these arguments indicates 
-that in only very few cases, if any at all, is a misidentification of 
-the redshift with the intervening system a concrete possibility. 
+First, numerous works, including this one, have found that GRB absorption
+systems have much higher column densities than randomly selected sight lines
+\citep{2001ApJ...549L.209G, Savaglio2003,  Prochaska2007, Fynbo2009}. This fact
+itself shows that the bulk of GRB absorption lines are not due to random
+intervening systems, but are peculiar to the GRB host. A second line of evidence
+comes from the systematic detection of nebular emission lines at the same
+redshift as the absorption system. \citet{Kruhler2015} report a 94\% detection
+rate of emission lines at $z < 1$ (where sensitivity is not an issue, even in
+the presence of a bright afterglow), always in agreement with absorption.
+Besides, it is rare to detect emission from QSO intervening systems
+(see e.g. \citealt{2010MNRAS.408.2128F} for a discussion), which again indicates
+that GRB absorption systems are native to their hosts. An even more direct
+determination comes from the detection, in several cases, of fine-structure and
+metastable lines (for example from Fe and Ni), which are exclusively detected in
+GRB environments (and have been directly connected to the UV field generated by
+the GRB itself; e.g. \citealt{2006ApJ...648...95P, Vreeswijk2007, DElia2009}).
+Finally, at $z \gtrsim 2$ (where Ly$\alpha$ enters the observed range) the onset
+of the Ly$\alpha$ forest also provides an \textit{upper} limit on the GRB
+redshift, which again is always consistent with the absorption line redshift.
+The whole set of these arguments indicates that in only very few cases, if any
+at all, is a misidentification of the redshift with the intervening system a
+concrete possibility.
 
 
 \input{tables/redshift_comparison}
@@ -1459,7 +1462,7 @@ column densities in Table~\ref{tab:HI}.
 12 of the $N_{\mathrm{HI}}$ measurements for these spectra have previously been
 presented in \citet{Cucchiara2015} (See Table \ref{tab:HI}). We provide new
 measurements here for completeness. In the compilation of $N_{\mathrm{HI}}$
-measurements towards GRBs in Tanvir et al. (submitted) there are 93 published
+measurements towards GRBs in \citet{Tanvir2017} there are 93 published
 $N_{\mathrm{HI}}$ values, excluding the measurements provided here. We here
 provide 30 new neutral hydrogen column density measurements -- an increase of
 the number of optically derived hydrogen column densities of $\sim$ 33 per cent.
@@ -1475,20 +1478,23 @@ Because the bursts that have measurements of the hydrogen column density are
 selected solely based on our ability to infer a column, it is difficult to make
 any strong conclusions about the population statistics in terms of gas content.
 
-In Fig. \ref{fig:NH_dist}, we also show the column density distribution
-for the 12081 quasar absorbers with \nh~$> 20$ from \citet{Noterdaeme2012b}. The
-fact that GRBs are systematically located behind the highest \nh, previously
-noted \citep[e.g.,][]{Prochaska2007, Fynbo2009}, is very clear in this
-figure. The reason for this is that quasar sample sight-lines through galaxies
-that are cross-section selected, whereas GRB sight-lines probe the dense,
-star-forming regions in their hosts. When comparing the GRB DLAs and and QSO DLAs we correct for the fact that, on average, the GRB light only goes though half the DLA. In Fig. \ref{fig:NH_dist}, we have therefore multiplied the inferred $N_{\mathrm{HI}}$ values by 2 \citep{Prochaska2008}. 
+In Fig. \ref{fig:NH_dist}, we also show the column density distribution for the
+12081 quasar absorbers with \nh~$> 20$ from \citet{Noterdaeme2012b}. The fact
+that GRBs are systematically located behind the highest \nh, previously noted
+\citep[e.g.,][]{Prochaska2007, Fynbo2009}, is very clear in this figure. The
+reason for this is that quasar sample sight-lines through galaxies that are
+cross-section selected, whereas GRB sight-lines probe the dense, star-forming
+regions in their hosts. When comparing the GRB DLAs and QSO DLAs we correct for
+the fact that, on average the GRB light only goes through half of the full ISM
+gas column. In Fig. \ref{fig:NH_dist}, we have therefore multiplied the inferred
+$N_{\mathrm{HI}}$ values by 2 \citep{Prochaska2008}.
 
 \begin{figure}[!t]
 	\centering \includegraphics[width=\columnwidth]{figures/NH_dist.pdf}
 \caption{Distributions of hydrogen column densities for absorbers found in
 	quasar absorption lines, from \citet{Noterdaeme2012b} in blue. Overplotted in
 	green is the kernel density estimate of absorbers in GRB sightlines. Values are
-	taken from the compilation in Tanvir et al. (submitted), along with the new
+	taken from the compilation in \citet{Tanvir2017}, along with the new
 	values presented in this sample. We also show in the red the values derived in
 	this work. The marginal distributions for the three samples are also shown
 	along the left side and on the top, where the different environments probed are
@@ -1516,9 +1522,9 @@ publicly available in the reduced form used in this paper.
 
 Our sample serves the purpose to further characterize the environments of GRBs
 that was also much advanced by the previous surveys based primarily on
-lower-resolution spectroscopy. GRB afterglow sight-lines are unique in the
-sense that only after observing more than 12000 damped Lyman-$\alpha$ absorbers
-(DLAs) towards about 10$^5$ quasars, a handful systems with \nh~$ > 22$ have been
+lower-resolution spectroscopy. GRB afterglow sight-lines are unique in the sense
+that only after observing more than 12000 damped Lyman-$\alpha$ absorbers (DLAs)
+towards about 10$^5$ quasars, a handful systems with \nh~$ > 22$ have been
 identified \citep[e.g., five in][]{Noterdaeme2012b}. Long GRB afterglow spectra,
 by contrast, reveal such systems routinely \citep[][and this
 work]{Jakobsson2006b, Fynbo2009, Cucchiara2015}. With afterglow spectroscopy
@@ -1531,13 +1537,14 @@ of our sample such as extinction curves (\citealt{Japelj2015}, Zafar et al.
 submitted, see also \citealt{Fynbo2014, Heintz2017a}), emission lines from the
 underlying host galaxies \citep{Kruhler2015}, the frequency of intervening
 \mgii~ absorbers \citep{Christensen2017}, \citet{Arabsalmani2018} on the
-metallicity-scaling relations, and escape of ionizing radiation (Tanvir et al.,
-submitted). A number of additional companion papers are also planned,
+metallicity-scaling relations, and escape of ionizing radiation
+\citep{Tanvir2017} . A number of additional companion papers are also planned,
 investigating the detailed properties of the sample presented here, including
 equivalent width distributions (de Ugarte Postigo et al., in preparation),
 metallicities and kinematics (Th{\"o}ne et al., in preparation), high ionization
-lines (Heintz et al., in submitted), molecular lines \citep{Bolmer2018}, fine-structure lines (Vreeswijk et al., in preparation), and
-composite GRB afterglow spectrum (Selsing et al., in preparation).
+lines (Heintz et al., in submitted), molecular lines \citep{Bolmer2018},
+fine-structure lines (Vreeswijk et al., in preparation), and composite GRB
+afterglow spectrum (Selsing et al., in preparation).
 
 The potential of using GRB sightlines as probes is far from fully harvested. The
 sample of sightlines probed by our spectra are not representative for all GRB
@@ -2302,13 +2309,13 @@ corresponding fine-structure lines (\feii$^*$, \SIii$^*$, \oi$^*$, \oi$^**$,
 
 \subsection{GRB~120923A (z = 7.84)} \label{120923}
 
-This spectrum has previously been published in \citet{Tanvir2017a}. Starting
+This spectrum has previously been published in \citet{Tanvir2018}. Starting
 18.5 hours after the BAT trigger, the final spectrum is based on $2 \times 4
 \times 1200$ s spectroscopic integration for a total of 160 minutes. Nothing is
 immediately visible in the 2D-spectra, however after severe binning in the
 dispersion direction, a faint trace shows up in the NIR arm, suggesting a very
 high redshift. We here adopt the redshift ($z = 7.84$) suggested by
-\citet{Tanvir2017a}.
+\citet{Tanvir2018}.
 
 \subsection{GRB~121024A (z = 2.300)} \label{121024}
 

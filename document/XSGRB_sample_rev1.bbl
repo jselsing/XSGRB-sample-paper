@@ -1,4 +1,4 @@
-\begin{thebibliography}{323}
+\begin{thebibliography}{325}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Abbott {et~al.}(2017)Abbott, Abbott, Abbott, Acernese, Ackley, Adams,
@@ -1611,6 +1611,10 @@ S{\'{a}}nchez-Ram{\'{i}}rez, R., Hancock, P.~J., J{\'{o}}hannesson, G.,
 \bibitem[{Savaglio(2006)}]{Savaglio2006}
 Savaglio, S. 2006, NJPh, 8, 195
 
+\bibitem[{{Savaglio} {et~al.}(2003){Savaglio}, {Fall}, \&
+  {Fiore}}]{Savaglio2003}
+{Savaglio}, S., {Fall}, S.~M., \& {Fiore}, F. 2003, \apj, 585, 638
+
 \bibitem[{{Savchenko} {et~al.}(2017){Savchenko}, {Ferrigno}, {Kuulkers},
   {Bazzano}, {Bozzo}, {Brandt}, {Chenevez}, {Courvoisier}, {Diehl}, {Domingo},
   {Hanlon}, {Jourdain}, {von Kienlin}, {Laurent}, {Lebrun}, {Lutovinov},
@@ -1780,6 +1784,16 @@ Starling, R. L.~C., Wiersema, K., Levan, A.~J., {et~al.} 2011, MNRAS, 411, 2792
   Wolf}]{Tanvir2009b}
 Tanvir, N.~R., Fox, D.~B., Levan, A.~J., {et~al.} 2009, Nature, 461, 1254
 
+\bibitem[{{Tanvir} {et~al.}(2018{\natexlab{a}}){Tanvir}, {Fynbo}, {de Ugarte
+  Postigo}, {Japelj}, {Wiersema}, {Malesani}, {Perley}, {Levan}, {Selsing},
+  {Cenko}, {Kann}, {Milvang-Jensen}, {Berger}, {Cano}, {Chornock}, {Covino},
+  {Cucchiara}, {D'Elia}, {Goldoni}, {Gomboc}, {Heintz}, {Hjorth}, {Izzo},
+  {Jakobsson}, {Kaper}, {Kruehler}, {Laskar}, {Myers}, {Piranomonte},
+  {Pugliese}, {Sanchez-Ramirez}, {Schulze}, {Sparre}, {Stanway}, {Tagliaferri},
+  {Thoene}, {Vergani}, {Vreeswijk}, {Wijers}, {Watson}, \& {Xu}}]{Tanvir2017}
+{Tanvir}, N.~R., {Fynbo}, J.~P.~U., {de Ugarte Postigo}, A., {et~al.}
+  2018{\natexlab{a}}, ArXiv e-prints, arXiv:1805.07318
+
 \bibitem[{{Tanvir} {et~al.}(2012){Tanvir}, {Fynbo}, {Melandri}, {Levan}, {Xu},
   \& {D'Elia}}]{GCN13890}
 {Tanvir}, N.~R., {Fynbo}, J.~P.~U., {Melandri}, A., {et~al.} 2012, GRB
@@ -1800,13 +1814,16 @@ Tanvir, N.~R., Fox, D.~B., Levan, A.~J., {et~al.} 2009, Nature, 461, 1254
 {Tanvir}, N.~R., {Kr\"uhler}, T., {Wiersema}, K., {et~al.} 2016{\natexlab{b}},
   GRB Coordinates Network, Circular Service, No.~20321, \#1 (2016), 20321
 
-\bibitem[{Tanvir {et~al.}(2017)Tanvir, Laskar, Levan, Perley, Zabl, Fynbo,
-  Rhoads, Cenko, Greiner, Wiersema, Hjorth, Cucchiara, Berger, Bremer, Cano,
-  Cobb, Covino, D'Elia, Fong, Fruchter, Goldoni, Hammer, Heintz, Jakobsson,
-  Kann, Kaper, Klose, Knust, Kruehler, Malesani, Misra, Guelbenzu, Pugliese,
-  Sanchez-Ramirez, Schulze, Stanway, Postigo, Watson, Wijers, \&
-  Xu}]{Tanvir2017a}
-Tanvir, N.~R., Laskar, T., Levan, A.~J., {et~al.} 2017, arXiv
+\bibitem[{{Tanvir} {et~al.}(2018{\natexlab{b}}){Tanvir}, {Laskar}, {Levan},
+  {Perley}, {Zabl}, {Fynbo}, {Rhoads}, {Cenko}, {Greiner}, {Wiersema},
+  {Hjorth}, {Cucchiara}, {Berger}, {Bremer}, {Cano}, {Cobb}, {Covino},
+  {D{\textquoteright}Elia}, {Fong}, {Fruchter}, {Goldoni}, {Hammer}, {Heintz},
+  {Jakobsson}, {Kann}, {Kaper}, {Klose}, {Knust}, {Kr{\"u}hler}, {Malesani},
+  {Misra}, {Nicuesa Guelbenzu}, {Pugliese}, {S{\'a}nchez-Ram{\'\i}rez},
+  {Schulze}, {Stanway}, {de Ugarte Postigo}, {Watson}, {Wijers}, \&
+  {Xu}}]{Tanvir2018}
+{Tanvir}, N.~R., {Laskar}, T., {Levan}, A.~J., {et~al.} 2018{\natexlab{b}},
+  \apj, 865, 107
 
 \bibitem[{Tanvir {et~al.}(2013)Tanvir, Levan, Fruchter, Hjorth, Hounsell,
   Wiersema, \& Tunnicliffe}]{Tanvir2013a}
