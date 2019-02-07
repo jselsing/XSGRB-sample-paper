@@ -16,7 +16,7 @@ def timediff(t1, t2):
 
 if __name__ == '__main__':
 
-    t_trigger = "2018:04:04T00:45:35"
-    t_obs = "2018:04:04T01:01:33"
+    t_trigger = "2019:01:14T20:57:03"
+    t_obs = "2019:01;18T00:59:27.051"
 
     print(timediff(t_trigger, t_obs))

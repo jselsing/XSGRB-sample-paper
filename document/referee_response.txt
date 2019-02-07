@@ -102,7 +102,7 @@ why this is.
 # community.
 
 Completely true. These are now active. Especially the ESO phase 3
-material have taken some time to get through. Apologies.
+material has taken some time to get through. Apologies.
 
 # - caption of Fig. 3 is cut-out
 
@@ -127,7 +127,7 @@ measurement.
 
 We agree this could be misinterpreted. This bursts has Lyman alpha
 emission in the trough, as indicated in Tab. 4. We have now marked all
-the bursts affect by Lyman alpha emission.
+the bursts affected by Lyman alpha emission.
 
 # - appendix A: refer to the spectral PSF in the title?
 

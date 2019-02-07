@@ -100,3 +100,6 @@ ENV/
 
 *.out
 
+document/.DS_Store
+.DS_Store
+document/.DS_Store

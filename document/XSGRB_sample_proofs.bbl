@@ -1,4 +1,4 @@
-\begin{thebibliography}{326}
+\begin{thebibliography}{331}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Abbott {et~al.}(2017)Abbott, Abbott, Abbott, Acernese, Ackley, Adams,
@@ -609,6 +609,18 @@ Cucchiara, A., Fumagalli, M., Rafelski, M., {et~al.} 2015, ApJ, 804, 51
   2015{\natexlab{b}}, GRB Coordinates Network, Circular Service, No.~18274, \#1
   (2015), 18274
 
+\bibitem[{{de Ugarte Postigo} {et~al.}(2018){de Ugarte Postigo}, {Th{\"o}ne},
+  {Bolmer}, {Schulze}, {Mart{\'\i}n}, {Kann}, {D'Elia}, {Selsing},
+  {Martin-Carrillo}, {Perley}, {Kim}, {Izzo}, {S{\'a}nchez- Ram{\'\i}rez},
+  {Guidorzi}, {Klotz}, {Wiersema}, {Bauer}, {Bensch}, {Campana}, {Cano},
+  {Covino}, {Coward}, {De Cia}, {de Gregorio-Monsalvo}, {De Pasquale}, {Fynbo},
+  {Greiner}, {Gomboc}, {Hanlon}, {Hansen}, {Hartmann}, {Heintz}, {Jakobsson},
+  {Kobayashi}, {Malesani}, {Martone}, {Meintjes}, {Micha{\l}owski}, {Mundell},
+  {Murphy}, {Oates}, {Salmon}, {van Soelen}, {Tanvir}, {Turpin}, {Xu}, \&
+  {Zafar}}]{2018A&A...620A.119D}
+{de Ugarte Postigo}, A., {Th{\"o}ne}, C.~C., {Bolmer}, J., {et~al.} 2018, \aap,
+  620, A119
+
 \bibitem[{{De Ugarte Postigo} {et~al.}(2011){De Ugarte Postigo}, Th{\"{o}}ne,
   Goldoni, \& Fynbo}]{DeUgartePostigo2011}
 {De Ugarte Postigo}, A., Th{\"{o}}ne, C.~C., Goldoni, P., \& Fynbo, J. P.~U.
@@ -957,6 +969,14 @@ Heintz, K.~E., Fynbo, J. P.~U., Jakobsson, P., {et~al.} 2017, A{\&}A, 601, A83
   Postigo}, Vergani, \& Watson}]{Heintz2017b}
 Heintz, K.~E., Malesani, D., Wiersema, K., {et~al.} 2018, MNRAS, 474, 2738
 
+\bibitem[{{Heintz} {et~al.}(2018){Heintz}, {Watson}, {Jakobsson}, {Fynbo},
+  {Bolmer}, {Arabsalmani}, {Cano}, {Covino}, {D'Elia}, {Gomboc}, {Japelj},
+  {Kaper}, {Krogager}, {Pugliese}, {S{\'a}nchez-Ram{\'\i}rez}, {Selsing},
+  {Sparre}, {Tanvir}, {Th{\"o}ne}, {de Ugarte Postigo}, \&
+  {Vergani}}]{2018MNRAS.479.3456H}
+{Heintz}, K.~E., {Watson}, D., {Jakobsson}, P., {et~al.} 2018, \mnras, 479,
+  3456
+
 \bibitem[{Hjorth \& Bloom(2011)}]{HjorthBloom2012}
 Hjorth, J. \& Bloom, J.~S. 2011, in Gamma-Ray Bursts, ed. C.~Kouveliotou, R.~A.
   M.~J. Wijers, \& S.~Woosley No. 1973 (Cambridge: Cambridge University Press),
@@ -1034,6 +1054,13 @@ Kausch, W., Noll, S., Smette, A., {et~al.} 2015, A{\&}A, 576, A78
   {Rojas-Bravo}, {Siebert}, {Simon}, \& {Ulloa}}]{2017Sci...358.1583K}
 {Kilpatrick}, C.~D., {Foley}, R.~J., {Kasen}, D., {et~al.} 2017, Science, 358,
   1583
+
+\bibitem[{{Klose} {et~al.}(2018){Klose}, {Schmidl}, {Kann}, {Nicuesa
+  Guelbenzu}, {Schulze}, {Greiner}, {Olivares}, {Kruehler}, {Schady}, {Afonso},
+  {Filgas}, {Fynbo}, {Perley}, {Rau}, {Rossi}, {Takats}, {Tanga}, {Updike}, \&
+  {Varela}}]{2018arXiv180802710K}
+{Klose}, S., {Schmidl}, S., {Kann}, D.~A., {et~al.} 2018, arXiv e-prints,
+  arXiv:1808.02710
 
 \bibitem[{{Knust} {et~al.}(2015){Knust}, {Kann}, {Kr\"uhler}, \&
   {Greiner}}]{GCN17767}
@@ -2153,6 +2180,20 @@ Xu, D., {De Ugarte Postigo}, A., Leloudas, G., {et~al.} 2013, ApJ, 776
   {D'Elia}, {Wiersema}, {Tanvir}, {de Ugarte Postigo}, \& {Covino}}]{GCN17040}
 {Xu}, D., {Vreeswijk}, P.~M., {Fynbo}, J.~P.~U., {et~al.} 2014{\natexlab{c}},
   GRB Coordinates Network, Circular Service, No.~17040, \#1 (2014), 17040
+
+\bibitem[{{Zafar} {et~al.}(2018{\natexlab{a}}){Zafar}, {M{\o}ller}, {Watson},
+  {Lattanzio}, {Hopkins}, {Karakas}, {Fynbo}, {Tanvir}, {Selsing}, {Jakobsson},
+  {Heintz}, {Kann}, {Groves}, {Kulkarni}, {Covino}, {D'Elia}, {Japelj},
+  {Corre}, \& {Vergani}}]{2018MNRAS.480..108Z}
+{Zafar}, T., {M{\o}ller}, P., {Watson}, D., {et~al.} 2018{\natexlab{a}},
+  \mnras, 480, 108
+
+\bibitem[{{Zafar} {et~al.}(2018{\natexlab{b}}){Zafar}, {Watson}, {M{\o}ller},
+  {Selsing}, {Fynbo}, {Schady}, {Wiersema}, {Levan}, {Heintz}, {de Ugarte
+  Postigo}, {D'Elia}, {Jakobsson}, {Bolmer}, {Japelj}, {Covino}, {Gomboc}, \&
+  {Cano}}]{2018MNRAS.479.1542Z}
+{Zafar}, T., {Watson}, D., {M{\o}ller}, P., {et~al.} 2018{\natexlab{b}},
+  \mnras, 479, 1542
 
 \bibitem[{{Zheng} {et~al.}(2015){Zheng}, {Filippenko}, {Yuk}, {Zhu}, \&
   {Perley}}]{GCN18273}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{321}
+\begin{thebibliography}{326}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Abbott {et~al.}(2017)Abbott, Abbott, Abbott, Acernese, Ackley, Adams,
@@ -324,6 +324,13 @@ Berger, E., Kulkarni, S., \& Frail, D. 2003, ApJ, 590, 379
 \bibitem[{Bloom {et~al.}(2002)Bloom, Kulkarni, \& Djorgovski}]{Bloom2002}
 Bloom, J.~S., Kulkarni, S.~R., \& Djorgovski, S.~G. 2002, AJ, 123, 1111
 
+\bibitem[{{Bolmer} {et~al.}(2018){Bolmer}, {Ledoux}, {Wiseman}, {De Cia},
+  {Selsing}, {Schady}, {Greiner}, {Savaglio}, {Burgess}, {D'Elia}, {Fynbo},
+  {Goldoni}, {Hartmann}, {Heintz}, {Jakobsson}, {Japelj}, {Kaper}, {Tanvir},
+  {Vreeswijk}, \& {Zafar}}]{Bolmer2018}
+{Bolmer}, J., {Ledoux}, C., {Wiseman}, P., {et~al.} 2018, ArXiv e-prints,
+  arXiv:1810.06403
+
 \bibitem[{Bouwens {et~al.}(2015)Bouwens, Illingworth, Oesch, Trenti,
   Labb{\'{e}}, Bradley, Carollo, {Van Dokkum}, Gonzalez, Holwerda, Franx,
   Spitler, Smit, \& Magee}]{Bouwens2015}
@@ -352,6 +359,11 @@ Briggs, M.~S., Paciesas, W.~S., Pendleton, G.~N., {et~al.} 1996, ApJ, 459, 40
   Mirabel, M{\o}ller, Nomoto, Palazzi, Piranomonte, Salvaterra, Stratta,
   Tagliaferri, Tanaka, Tanvir, \& Wijers}]{Bufano2012}
 Bufano, F., Pian, E., Sollerman, J., {et~al.} 2012, ApJ, 753, 67
+
+\bibitem[{{Burgess} {et~al.}(2017){Burgess}, {Greiner}, {Begue}, {Giannios},
+  {Berlato}, \& {Lipunov}}]{Burgess2017}
+{Burgess}, J.~M., {Greiner}, J., {Begue}, D., {et~al.} 2017, ArXiv e-prints,
+  arXiv:1710.05823
 
 \bibitem[{Burrows {et~al.}(2005)Burrows, Hill, Nousek, Kennea, Wells, Osborne,
   Abbey, Beardmore, Mukerjee, Short, Chincarini, Campana, Citterio, Moretti,
@@ -1599,6 +1611,10 @@ S{\'{a}}nchez-Ram{\'{i}}rez, R., Hancock, P.~J., J{\'{o}}hannesson, G.,
 \bibitem[{Savaglio(2006)}]{Savaglio2006}
 Savaglio, S. 2006, NJPh, 8, 195
 
+\bibitem[{{Savaglio} {et~al.}(2003){Savaglio}, {Fall}, \&
+  {Fiore}}]{Savaglio2003}
+{Savaglio}, S., {Fall}, S.~M., \& {Fiore}, F. 2003, \apj, 585, 638
+
 \bibitem[{{Savchenko} {et~al.}(2017){Savchenko}, {Ferrigno}, {Kuulkers},
   {Bazzano}, {Bozzo}, {Brandt}, {Chenevez}, {Courvoisier}, {Diehl}, {Domingo},
   {Hanlon}, {Jourdain}, {von Kienlin}, {Laurent}, {Lebrun}, {Lutovinov},
@@ -1768,6 +1784,16 @@ Starling, R. L.~C., Wiersema, K., Levan, A.~J., {et~al.} 2011, MNRAS, 411, 2792
   Wolf}]{Tanvir2009b}
 Tanvir, N.~R., Fox, D.~B., Levan, A.~J., {et~al.} 2009, Nature, 461, 1254
 
+\bibitem[{{Tanvir} {et~al.}(2018{\natexlab{a}}){Tanvir}, {Fynbo}, {de Ugarte
+  Postigo}, {Japelj}, {Wiersema}, {Malesani}, {Perley}, {Levan}, {Selsing},
+  {Cenko}, {Kann}, {Milvang-Jensen}, {Berger}, {Cano}, {Chornock}, {Covino},
+  {Cucchiara}, {D'Elia}, {Goldoni}, {Gomboc}, {Heintz}, {Hjorth}, {Izzo},
+  {Jakobsson}, {Kaper}, {Kruehler}, {Laskar}, {Myers}, {Piranomonte},
+  {Pugliese}, {Sanchez-Ramirez}, {Schulze}, {Sparre}, {Stanway}, {Tagliaferri},
+  {Thoene}, {Vergani}, {Vreeswijk}, {Wijers}, {Watson}, \& {Xu}}]{Tanvir2017}
+{Tanvir}, N.~R., {Fynbo}, J.~P.~U., {de Ugarte Postigo}, A., {et~al.}
+  2018{\natexlab{a}}, ArXiv e-prints, arXiv:1805.07318
+
 \bibitem[{{Tanvir} {et~al.}(2012){Tanvir}, {Fynbo}, {Melandri}, {Levan}, {Xu},
   \& {D'Elia}}]{GCN13890}
 {Tanvir}, N.~R., {Fynbo}, J.~P.~U., {Melandri}, A., {et~al.} 2012, GRB
@@ -1788,13 +1814,16 @@ Tanvir, N.~R., Fox, D.~B., Levan, A.~J., {et~al.} 2009, Nature, 461, 1254
 {Tanvir}, N.~R., {Kr\"uhler}, T., {Wiersema}, K., {et~al.} 2016{\natexlab{b}},
   GRB Coordinates Network, Circular Service, No.~20321, \#1 (2016), 20321
 
-\bibitem[{Tanvir {et~al.}(2017)Tanvir, Laskar, Levan, Perley, Zabl, Fynbo,
-  Rhoads, Cenko, Greiner, Wiersema, Hjorth, Cucchiara, Berger, Bremer, Cano,
-  Cobb, Covino, D'Elia, Fong, Fruchter, Goldoni, Hammer, Heintz, Jakobsson,
-  Kann, Kaper, Klose, Knust, Kruehler, Malesani, Misra, Guelbenzu, Pugliese,
-  Sanchez-Ramirez, Schulze, Stanway, Postigo, Watson, Wijers, \&
-  Xu}]{Tanvir2017a}
-Tanvir, N.~R., Laskar, T., Levan, A.~J., {et~al.} 2017, arXiv
+\bibitem[{{Tanvir} {et~al.}(2018{\natexlab{b}}){Tanvir}, {Laskar}, {Levan},
+  {Perley}, {Zabl}, {Fynbo}, {Rhoads}, {Cenko}, {Greiner}, {Wiersema},
+  {Hjorth}, {Cucchiara}, {Berger}, {Bremer}, {Cano}, {Cobb}, {Covino},
+  {D{\textquoteright}Elia}, {Fong}, {Fruchter}, {Goldoni}, {Hammer}, {Heintz},
+  {Jakobsson}, {Kann}, {Kaper}, {Klose}, {Knust}, {Kr{\"u}hler}, {Malesani},
+  {Misra}, {Nicuesa Guelbenzu}, {Pugliese}, {S{\'a}nchez-Ram{\'\i}rez},
+  {Schulze}, {Stanway}, {de Ugarte Postigo}, {Watson}, {Wijers}, \&
+  {Xu}}]{Tanvir2018}
+{Tanvir}, N.~R., {Laskar}, T., {Levan}, A.~J., {et~al.} 2018{\natexlab{b}},
+  \apj, 865, 107
 
 \bibitem[{Tanvir {et~al.}(2013)Tanvir, Levan, Fruchter, Hjorth, Hounsell,
   Wiersema, \& Tunnicliffe}]{Tanvir2013a}
@@ -2028,6 +2057,15 @@ Wiersema, K., Curran, P.~A., Kr{\"{u}}hler, T., {et~al.} 2012, MNRAS, 426, 2
 \bibitem[{Wijers {et~al.}(1998)Wijers, Bloom, Bagla, \& Natarajan}]{Wijers1998}
 Wijers, R. A. M.~J., Bloom, J.~S., Bagla, J.~S., \& Natarajan, P. 1998, MNRAS,
   294, L13
+
+\bibitem[{{Wright} {et~al.}(2010){Wright}, {Eisenhardt}, {Mainzer}, {Ressler},
+  {Cutri}, {Jarrett}, {Kirkpatrick}, {Padgett}, {McMillan}, {Skrutskie},
+  {Stanford}, {Cohen}, {Walker}, {Mather}, {Leisawitz}, {Gautier}, {McLean},
+  {Benford}, {Lonsdale}, {Blain}, {Mendez}, {Irace}, {Duval}, {Liu}, {Royer},
+  {Heinrichsen}, {Howard}, {Shannon}, {Kendall}, {Walsh}, {Larsen}, {Cardon},
+  {Schick}, {Schwalm}, {Abid}, {Fabinsky}, {Naes}, \& {Tsai}}]{Wright2010}
+{Wright}, E.~L., {Eisenhardt}, P. R.~M., {Mainzer}, A.~K., {et~al.} 2010, \aj,
+  140, 1868
 
 \bibitem[{Xu {et~al.}(2013)Xu, {De Ugarte Postigo}, Leloudas, Kruhler, Cano,
   Hjorth, Malesani, Fynbo, Th??ne, S??nchez-Ram??rez, Schulze, Jakobsson,
